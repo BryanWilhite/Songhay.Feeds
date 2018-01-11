@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "command": "dotnet",
+            "label": "build Songhay.Feeds",
+            "args": [
+                "build",
+                "Songhay.Feeds.sln"
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "command": "dotnet",
+            "label": "test Songhay.Feeds",
+            "args": [
+                "test",
+                "Songhay.Feeds.Tests.csproj"
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}/Songhay.Feeds.Tests"
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
