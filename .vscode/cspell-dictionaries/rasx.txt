@@ -1,6 +1,7 @@
 chocolatey
 codepen
 cors
+flickr
 gitignore
 mstest
 rasx
