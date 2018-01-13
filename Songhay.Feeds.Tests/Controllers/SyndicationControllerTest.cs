@@ -33,6 +33,30 @@ namespace Songhay.Feeds.Tests.Controllers
             this._server = new TestServer(builder);
         }
 
+        [TestMethod]
+        [TestProperty("pathTemplate", "api/syndication/info/{feed}")]
+        [TestProperty("feed", "studio")]
+        public async Task ShouldHaveFeed()
+        {
+            #region test properties:
+
+            var pathTemplate = new UriTemplate(this.TestContext.Properties["pathTemplate"].ToString());
+            var feed = this.TestContext.Properties["feed"].ToString();
+
+            #endregion
+
+            var path = pathTemplate.BindByPosition(feed);
+            var client = this._server.CreateClient();
+            var response = await client.GetAsync(path);
+
+            var content = response.Content.ReadAsStringAsync().Result;
+            if (string.IsNullOrEmpty(content)) Assert.Fail("The expected content in the response is not here.");
+
+            this.TestContext.WriteLine("raw content: {0}", content);
+
+            response.EnsureSuccessStatusCode();
+        }
+
         TestServer _server;
     }
 }
