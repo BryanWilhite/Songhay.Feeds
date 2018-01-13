@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore;
+﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
+using Songhay.Extensions;
+using Songhay.Models;
+using System;
+using System.IO;
+using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("Songhay.Feeds.Tests")]
 
 namespace Songhay.Feeds
 {
@@ -14,12 +15,26 @@ namespace Songhay.Feeds
     {
         public static void Main(string[] args)
         {
-            BuildWebHost(args).Run();
+            var builder = GetWebHostBuilder(args);
+            builder.Build().Run();
         }
 
-        public static IWebHost BuildWebHost(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
-                .Build();
+        internal static IWebHostBuilder GetWebHostBuilder(string[] args) => WebHost
+                    .CreateDefaultBuilder(args)
+                    .ConfigureAppConfiguration(configureDelegate: (builderContext, config) =>
+                    {
+                        if (args == null) return;
+
+                        var proArgs = new ProgramArgs(args);
+
+                        config.AddCommandLine(args);
+                        if (proArgs.HasArg(ProgramArgs.BasePath, requiresValue: true))
+                        {
+                            var basePath = proArgs.GetArgValue(ProgramArgs.BasePath);
+                            if (!Directory.Exists(basePath)) throw new ArgumentException($"{basePath} does not exist.");
+                            config.SetBasePath(basePath);
+                        }
+                    })
+                    .UseStartup<Startup>();
     }
 }
