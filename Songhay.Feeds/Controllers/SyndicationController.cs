@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.SyndicationFeed;
 using Microsoft.SyndicationFeed.Rss;
+using Songhay.Syndication;
 using System;
 using System.Collections.Generic;
 using System.Net;
@@ -51,7 +52,8 @@ namespace Songhay.Feeds.Controllers
                 }
             }
 
-            return this.Ok();
+            var feed = new SyndicationFeed(items);
+            return this.Ok(feed);
         }
 
         [Route("info/{feed}")]

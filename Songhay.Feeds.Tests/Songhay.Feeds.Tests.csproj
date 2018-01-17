@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Songhay.Feeds\Songhay.Feeds.csproj" />
+    <ProjectReference Include="..\Songhay.Syndication\Songhay.Syndication.csproj" />
   </ItemGroup>
 
 </Project>
