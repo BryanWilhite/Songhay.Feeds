@@ -18,19 +18,24 @@ namespace Songhay.Feeds.Tests.Controllers
         [TestInitialize]
         public void InitializeTest()
         {
-            var projectsDirectory = this.TestContext
-                            .ShouldGetAssemblyDirectoryInfo(this.GetType())
-                            ?.Parent
-                            ?.Parent
-                            ?.Parent
-                            ?.Parent.FullName;
-            this.TestContext.ShouldFindDirectory(projectsDirectory);
+            var basePath = this.TestContext.ShouldGetBasePath(this.GetType());
+            var builder = Program.GetWebHostBuilder(args: null);
+            Assert.IsNotNull(builder, "The expected Web Host builder is not here.");
 
-            var targetProjectName = string.Join('.', this.GetType().Namespace.Split('.').Take(2));
+            builder.ConfigureAppConfiguration((builderContext, configBuilder) =>
+            {
+                Assert.IsNotNull(builderContext, "The expected Web Host builder context is not here.");
 
-            var basePath = Path.Combine(projectsDirectory, targetProjectName);
-            var builder = Program.GetWebHostBuilder(new[] { ProgramArgs.BasePath, basePath });
+                var env = builderContext.HostingEnvironment;
+                Assert.IsNotNull(env, "The expected Hosting Environment is not here.");
+
+                env.ContentRootPath = basePath;
+                env.EnvironmentName = "Development";
+                env.WebRootPath = $"{basePath}{Path.DirectorySeparatorChar}wwwroot";
+            });
+
             this._server = new TestServer(builder);
+            Assert.IsNotNull(this._server, "The expected test server is not here.");
         }
 
         [TestMethod]
