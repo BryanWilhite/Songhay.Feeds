@@ -2,6 +2,10 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Songhay.Extensions;
+using Songhay.Models;
+using System;
+using System.IO;
 
 namespace Songhay.Feeds
 {
@@ -34,6 +38,21 @@ namespace Songhay.Feeds
             }
 
             app.UseMvc();
+        }
+
+        internal static void HandleAppConfiguration(string[] args, WebHostBuilderContext context, IConfigurationBuilder configurationBuilder)
+        {
+            if (args == null) return;
+
+            var proArgs = new ProgramArgs(args);
+
+            configurationBuilder.AddCommandLine(args);
+            if (proArgs.HasArg(ProgramArgs.BasePath, requiresValue: true))
+            {
+                var basePath = proArgs.GetArgValue(ProgramArgs.BasePath);
+                if (!Directory.Exists(basePath)) throw new ArgumentException($"{basePath} does not exist.");
+                configurationBuilder.SetBasePath(basePath);
+            }
         }
     }
 }
