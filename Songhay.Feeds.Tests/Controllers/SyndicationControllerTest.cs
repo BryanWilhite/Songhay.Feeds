@@ -1,10 +1,7 @@
 ﻿using Microsoft.AspNetCore.TestHost;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Songhay.Extensions;
-using Songhay.Models;
 using Songhay.Feeds.Tests.Extensions;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 using Tavis.UriTemplates;
 

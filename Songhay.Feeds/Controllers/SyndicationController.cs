@@ -19,8 +19,8 @@ namespace Songhay.Feeds.Controllers
             var configurationRoot = configuration as IConfigurationRoot;
             if (configurationRoot == null) throw new NullReferenceException("The expected configuration root is not here.");
 
-            this._feeds = configurationRoot.GetSection("feeds");
-            if (this._feeds == null) throw new NullReferenceException("The expected configuration section is not here.");
+            this._feeds = configurationRoot.GetSection(configSectionKey);
+            if (this._feeds?.Value == null) throw new NullReferenceException("The expected configuration section is not here.");
         }
 
         [Route("feed/{name}")]
@@ -67,6 +67,8 @@ namespace Songhay.Feeds.Controllers
             if (string.IsNullOrEmpty(feedLocation)) return this.NotFound($"The expected feed, {feed}, is not here.");
             return this.Ok(feedLocation);
         }
+
+        const string configSectionKey = "feeds";
 
         IConfigurationSection _feeds;
     }
