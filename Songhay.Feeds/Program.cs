@@ -14,8 +14,6 @@ namespace Songhay.Feeds
             builder.Build().Run();
         }
 
-        internal static IWebHostBuilder GetWebHostBuilder(string[] args) => WebHost.CreateDefaultBuilder(args)
-            .ConfigureAppConfiguration((builderContext, config) => Startup.HandleAppConfiguration(args, builderContext, config))
-            .UseStartup<Startup>();
+        internal static IWebHostBuilder GetWebHostBuilder(string[] args) => WebHost.CreateDefaultBuilder(args).UseStartup<Startup>();
     }
 }

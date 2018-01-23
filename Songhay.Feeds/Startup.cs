@@ -15,7 +15,6 @@ namespace Songhay.Feeds
         {
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
-                .AddEnvironmentVariables()
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
                 ;
@@ -39,21 +38,6 @@ namespace Songhay.Feeds
             }
 
             app.UseMvc();
-        }
-
-        internal static void HandleAppConfiguration(string[] args, WebHostBuilderContext context, IConfigurationBuilder configurationBuilder)
-        {
-            if (args == null) return;
-
-            var proArgs = new ProgramArgs(args);
-
-            configurationBuilder.AddCommandLine(args);
-            if (proArgs.HasArg(ProgramArgs.BasePath, requiresValue: true))
-            {
-                var basePath = proArgs.GetArgValue(ProgramArgs.BasePath);
-                if (!Directory.Exists(basePath)) throw new ArgumentException($"{basePath} does not exist.");
-                configurationBuilder.SetBasePath(basePath);
-            }
         }
     }
 }
