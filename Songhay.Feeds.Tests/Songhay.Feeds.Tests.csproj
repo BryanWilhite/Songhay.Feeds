@@ -12,7 +12,7 @@
     <PackageReference Include="Microsoft.SyndicationFeed.ReaderWriter" Version="1.0.2" />
     <PackageReference Include="MSTest.TestAdapter" Version="1.2.0" />
     <PackageReference Include="MSTest.TestFramework" Version="1.2.0" />
-    <PackageReference Include="SonghayCore" Version="2.5.4" />
+    <PackageReference Include="SonghayCore" Version="2.6.2" />
     <PackageReference Include="SonghayCore.MSTest" Version="2.3.1" />
     <PackageReference Include="Tavis.UriTemplates" Version="1.1.1" />
   </ItemGroup>
