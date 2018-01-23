@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 using Microsoft.SyndicationFeed;
 using Microsoft.SyndicationFeed.Rss;
+using Songhay.Feeds.Models;
 using Songhay.Syndication;
 using System;
 using System.Collections.Generic;
@@ -14,13 +16,9 @@ namespace Songhay.Feeds.Controllers
     [Route("api/syndication")]
     public class SyndicationController : Controller
     {
-        public SyndicationController(IConfiguration configuration)
+        public SyndicationController(IOptions<FeedsControllerMetadata> meta)
         {
-            var configurationRoot = configuration as IConfigurationRoot;
-            if (configurationRoot == null) throw new NullReferenceException("The expected configuration root is not here.");
-
-            this._feeds = configurationRoot.GetSection(configSectionKey);
-            if (this._feeds?.Value == null) throw new NullReferenceException("The expected configuration section is not here.");
+            this._meta = meta.Value;
         }
 
         [Route("feed/{name}")]
@@ -28,7 +26,7 @@ namespace Songhay.Feeds.Controllers
         {
             if (string.IsNullOrEmpty(name)) return this.BadRequest("The expected feed is not here.");
 
-            var feedLocation = this._feeds[name];
+            var feedLocation = this._meta.Feeds[name];
 
             if (string.IsNullOrEmpty(feedLocation)) return this.NotFound($"The expected feed, {name}, is not here.");
 
@@ -62,14 +60,12 @@ namespace Songhay.Feeds.Controllers
         {
             if (string.IsNullOrEmpty(feed)) return this.BadRequest("The expected feed is not here.");
 
-            var feedLocation = this._feeds[feed];
+            var feedLocation = this._meta.Feeds[feed];
 
             if (string.IsNullOrEmpty(feedLocation)) return this.NotFound($"The expected feed, {feed}, is not here.");
             return this.Ok(feedLocation);
         }
 
-        const string configSectionKey = "feeds";
-
-        IConfigurationSection _feeds;
+        FeedsControllerMetadata _meta;
     }
 }

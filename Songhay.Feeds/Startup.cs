@@ -2,10 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Songhay.Extensions;
-using Songhay.Models;
-using System;
-using System.IO;
+using Songhay.Feeds.Models;
 
 namespace Songhay.Feeds
 {
@@ -18,7 +15,7 @@ namespace Songhay.Feeds
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
                 ;
-            Configuration = builder.Build();
+            this.Configuration = builder.Build();
         }
 
         public IConfiguration Configuration { get; }
@@ -26,7 +23,10 @@ namespace Songhay.Feeds
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            services
+                .AddOptions()
+                .Configure<FeedsControllerMetadata>(this.Configuration.GetSection(nameof(FeedsControllerMetadata)))
+                .AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
