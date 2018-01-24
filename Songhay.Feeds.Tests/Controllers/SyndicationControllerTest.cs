@@ -16,7 +16,7 @@ namespace Songhay.Feeds.Tests.Controllers
         public void InitializeTest()
         {
             var basePath = this.TestContext.ShouldGetBasePath(this.GetType());
-            var builder = Program.GetWebHostBuilder(args: null);
+            var builder = Program.GetWebHostBuilder();
             Assert.IsNotNull(builder, "The expected Web Host builder is not here.");
 
             builder.ConfigureAppConfiguration((builderContext, configBuilder) =>
