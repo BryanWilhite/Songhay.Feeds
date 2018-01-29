@@ -1,11 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Microsoft.SyndicationFeed;
 using Microsoft.SyndicationFeed.Rss;
 using Songhay.Feeds.Models;
-using Songhay.Syndication;
-using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
