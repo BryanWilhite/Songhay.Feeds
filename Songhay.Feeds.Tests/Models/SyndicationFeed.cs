@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace Songhay.Syndication
+namespace Songhay.Feeds.Models
 {
     /// <summary>
     /// Represents a top-level feed object in Atom 1.0 and in RSS 2.0.
