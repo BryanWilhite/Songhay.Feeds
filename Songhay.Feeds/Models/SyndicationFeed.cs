@@ -36,21 +36,53 @@ namespace Songhay.Feeds.Models
         {
             if (title != null)
             {
-                this._title = new SyndicationContent(title);
+                this.Title = new SyndicationContent(title);
             }
             if (description != null)
             {
-                this._description = new SyndicationContent(description);
+                this.Description = new SyndicationContent(description);
             }
             if (feedAlternateLink != null)
             {
                 this.Links.Add(new SyndicationLink(feedAlternateLink, "alternate"));
             }
 
-            this.id = id;
-            this.lastUpdatedTime = lastUpdatedTime;
-            this._items = items;
+            this.Id = id;
+            this.LastUpdatedTime = lastUpdatedTime;
+            this.Items = items;
         }
+
+        /// <summary>
+        /// Gets or sets the description.
+        /// </summary>
+        /// <value>
+        /// The description.
+        /// </value>
+        public SyndicationContent Description { get => _description; set => _description = value; }
+
+        /// <summary>
+        /// Gets or sets the identifier.
+        /// </summary>
+        /// <value>
+        /// The identifier.
+        /// </value>
+        public string Id { get => id; set => id = value; }
+
+        /// <summary>
+        /// Gets or sets the items.
+        /// </summary>
+        /// <value>
+        /// The items.
+        /// </value>
+        public IEnumerable<SyndicationItem> Items { get => _items; set => _items = value; }
+
+        /// <summary>
+        /// Gets or sets the last updated time.
+        /// </summary>
+        /// <value>
+        /// The last updated time.
+        /// </value>
+        public DateTimeOffset LastUpdatedTime { get => lastUpdatedTime; set => lastUpdatedTime = value; }
 
         /// <summary>Gets the links associated with the feed.</summary>
         /// <returns>A collection of <see cref="T:System.ServiceModel.Syndication.SyndicationLink" /> objects.</returns>
@@ -66,13 +98,24 @@ namespace Songhay.Feeds.Models
             }
         }
 
-        string id;
-        DateTimeOffset lastUpdatedTime;
-
-        Collection<SyndicationLink> _links;
-        IEnumerable<SyndicationItem> _items;
+        /// <summary>
+        /// Gets or sets the title.
+        /// </summary>
+        /// <value>
+        /// The title.
+        /// </value>
+        public SyndicationContent Title { get => _title; set => _title = value; }
 
         SyndicationContent _description;
+
+        IEnumerable<SyndicationItem> _items;
+
+        Collection<SyndicationLink> _links;
+
         SyndicationContent _title;
+
+        string id;
+
+        DateTimeOffset lastUpdatedTime;
     }
 }
