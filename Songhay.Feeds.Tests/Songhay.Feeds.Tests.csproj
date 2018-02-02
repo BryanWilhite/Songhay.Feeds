@@ -21,4 +21,8 @@
     <ProjectReference Include="..\Songhay.Feeds\Songhay.Feeds.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="feeds\" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,376 @@
+<rss
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:admin="http://webns.net/mvcb/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+version="2.0">
+
+  <channel>
+
+    <title> CodePens from Bryan Wilhite</title>
+
+    <link>https://codepen.io/rasx/public</link>
+
+    <description/>
+
+    <dc:language>en</dc:language>
+
+    <dc:creator>nospam@codepen.io</dc:creator>
+
+    <dc:rights>Copyright 2018</dc:rights>
+
+      <dc:date>
+        2017-06-10T01:42:43-07:00
+      </dc:date>
+
+      <item>
+
+  <title>CSS: Drop-Down Menu</title>
+
+  <link>https://codepen.io/rasx/pen/CGbio</link>
+  <guid>https://codepen.io/rasx/pen/CGbio</guid>
+
+  <dc:creator>Bryan Wilhite</dc:creator>
+
+  <description>
+    <![CDATA[
+    <p>
+      <a href="https://codepen.io/rasx/pen/CGbio"><img width="1024" height="600" src="https://codepen.io/rasx/pen/CGbio/image/large.png"></a>
+    </p>
+    <p>
+      <a href="https://codepen.io/rasx/pen/CGbio">See the Code</a> -
+      <a href="https://codepen.io/rasx/full/CGbio">See it Full Page</a> -
+      <a href="https://codepen.io/rasx/details/CGbio">See Details</a>
+    </p>
+    <p>
+      Basic menu item.
+    </p>
+    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
+    ]]>
+  </description>
+
+  <dc:subject>CSS: Drop-Down Menu</dc:subject>
+
+  <dc:date>
+    2017-06-10T01:42:43-07:00
+  </dc:date>
+
+</item>
+
+      <item>
+
+  <title>jQuery: input form watermark</title>
+
+  <link>https://codepen.io/rasx/pen/GgRoxR</link>
+  <guid>https://codepen.io/rasx/pen/GgRoxR</guid>
+
+  <dc:creator>Bryan Wilhite</dc:creator>
+
+  <description>
+    <![CDATA[
+    <p>
+      <a href="https://codepen.io/rasx/pen/GgRoxR"><img width="1024" height="600" src="https://codepen.io/rasx/pen/GgRoxR/image/large.png"></a>
+    </p>
+    <p>
+      <a href="https://codepen.io/rasx/pen/GgRoxR">See the Code</a> -
+      <a href="https://codepen.io/rasx/full/GgRoxR">See it Full Page</a> -
+      <a href="https://codepen.io/rasx/details/GgRoxR">See Details</a>
+    </p>
+    <p>
+      
+    </p>
+    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
+    ]]>
+  </description>
+
+  <dc:subject>jQuery: input form watermark</dc:subject>
+
+  <dc:date>
+    2017-06-10T00:55:42-07:00
+  </dc:date>
+
+</item>
+
+      <item>
+
+  <title>CSS3: background-clip</title>
+
+  <link>https://codepen.io/rasx/pen/Jkevd</link>
+  <guid>https://codepen.io/rasx/pen/Jkevd</guid>
+
+  <dc:creator>Bryan Wilhite</dc:creator>
+
+  <description>
+    <![CDATA[
+    <p>
+      <a href="https://codepen.io/rasx/pen/Jkevd"><img width="1024" height="600" src="https://codepen.io/rasx/pen/Jkevd/image/large.png"></a>
+    </p>
+    <p>
+      <a href="https://codepen.io/rasx/pen/Jkevd">See the Code</a> -
+      <a href="https://codepen.io/rasx/full/Jkevd">See it Full Page</a> -
+      <a href="https://codepen.io/rasx/details/Jkevd">See Details</a>
+    </p>
+    <p>
+      http://www.hongkiat.com/blog/css-masking/
+    </p>
+    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
+    ]]>
+  </description>
+
+  <dc:subject>CSS3: background-clip</dc:subject>
+
+  <dc:date>
+    2017-06-06T21:31:28-07:00
+  </dc:date>
+
+</item>
+
+      <item>
+
+  <title>YouTube Data API video presentation</title>
+
+  <link>https://codepen.io/rasx/pen/JbXjmM</link>
+  <guid>https://codepen.io/rasx/pen/JbXjmM</guid>
+
+  <dc:creator>Bryan Wilhite</dc:creator>
+
+  <description>
+    <![CDATA[
+    <p>
+      <a href="https://codepen.io/rasx/pen/JbXjmM"><img width="1024" height="600" src="https://codepen.io/rasx/pen/JbXjmM/image/large.png"></a>
+    </p>
+    <p>
+      <a href="https://codepen.io/rasx/pen/JbXjmM">See the Code</a> -
+      <a href="https://codepen.io/rasx/full/JbXjmM">See it Full Page</a> -
+      <a href="https://codepen.io/rasx/details/JbXjmM">See Details</a>
+    </p>
+    <p>
+      video presentation for YouTube for kintespace.com
+    </p>
+    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
+    ]]>
+  </description>
+
+  <dc:subject>YouTube Data API video presentation</dc:subject>
+
+  <dc:date>
+    2017-01-03T21:01:09-07:00
+  </dc:date>
+
+</item>
+
+      <item>
+
+  <title>CodePen Logo in external SVG</title>
+
+  <link>https://codepen.io/rasx/pen/GNVZvO</link>
+  <guid>https://codepen.io/rasx/pen/GNVZvO</guid>
+
+  <dc:creator>Bryan Wilhite</dc:creator>
+
+  <description>
+    <![CDATA[
+    <p>
+      <a href="https://codepen.io/rasx/pen/GNVZvO"><img width="1024" height="600" src="https://codepen.io/rasx/pen/GNVZvO/image/large.png"></a>
+    </p>
+    <p>
+      <a href="https://codepen.io/rasx/pen/GNVZvO">See the Code</a> -
+      <a href="https://codepen.io/rasx/full/GNVZvO">See it Full Page</a> -
+      <a href="https://codepen.io/rasx/details/GNVZvO">See Details</a>
+    </p>
+    <p>
+      https://css-tricks.com/svg-use-external-source/
+
+https://css-tricks.com/svg-use-with-external-reference-take-2/
+    </p>
+    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
+    ]]>
+  </description>
+
+  <dc:subject>CodePen Logo in external SVG</dc:subject>
+
+  <dc:date>
+    2016-12-29T01:07:38-07:00
+  </dc:date>
+
+</item>
+
+      <item>
+
+  <title>CodePen Logo in SVG</title>
+
+  <link>https://codepen.io/rasx/pen/gLNdLr</link>
+  <guid>https://codepen.io/rasx/pen/gLNdLr</guid>
+
+  <dc:creator>Bryan Wilhite</dc:creator>
+
+  <description>
+    <![CDATA[
+    <p>
+      <a href="https://codepen.io/rasx/pen/gLNdLr"><img width="1024" height="600" src="https://codepen.io/rasx/pen/gLNdLr/image/large.png"></a>
+    </p>
+    <p>
+      <a href="https://codepen.io/rasx/pen/gLNdLr">See the Code</a> -
+      <a href="https://codepen.io/rasx/full/gLNdLr">See it Full Page</a> -
+      <a href="https://codepen.io/rasx/details/gLNdLr">See Details</a>
+    </p>
+    <p>
+      https://sarasoueidan.com/blog/svg-coordinate-systems/
+
+https://blog.codepen.io/documentation/brand-assets/logos/
+
+https://www.idrsolutions.com/online-pdf-to-svg-converter/
+    </p>
+    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
+    ]]>
+  </description>
+
+  <dc:subject>CodePen Logo in SVG</dc:subject>
+
+  <dc:date>
+    2016-12-28T23:25:43-07:00
+  </dc:date>
+
+</item>
+
+      <item>
+
+  <title>YouTube Data API Responsive Angular Directive</title>
+
+  <link>https://codepen.io/rasx/pen/gMpGWN</link>
+  <guid>https://codepen.io/rasx/pen/gMpGWN</guid>
+
+  <dc:creator>Bryan Wilhite</dc:creator>
+
+  <description>
+    <![CDATA[
+    <p>
+      <a href="https://codepen.io/rasx/pen/gMpGWN"><img width="1024" height="600" src="https://codepen.io/rasx/pen/gMpGWN/image/large.png"></a>
+    </p>
+    <p>
+      <a href="https://codepen.io/rasx/pen/gMpGWN">See the Code</a> -
+      <a href="https://codepen.io/rasx/full/gMpGWN">See it Full Page</a> -
+      <a href="https://codepen.io/rasx/details/gMpGWN">See Details</a>
+    </p>
+    <p>
+      using YouTube Data API JSON parsed and stored on Azure, served via ASP.NET Web API
+    </p>
+    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
+    ]]>
+  </description>
+
+  <dc:subject>YouTube Data API Responsive Angular Directive</dc:subject>
+
+  <dc:date>
+    2016-12-02T03:51:57-07:00
+  </dc:date>
+
+</item>
+
+      <item>
+
+  <title>b-roll progressive audio presentation API</title>
+
+  <link>https://codepen.io/rasx/pen/XXWWLz</link>
+  <guid>https://codepen.io/rasx/pen/XXWWLz</guid>
+
+  <dc:creator>Bryan Wilhite</dc:creator>
+
+  <description>
+    <![CDATA[
+    <p>
+      <a href="https://codepen.io/rasx/pen/XXWWLz"><img width="1024" height="600" src="https://codepen.io/rasx/pen/XXWWLz/image/large.png"></a>
+    </p>
+    <p>
+      <a href="https://codepen.io/rasx/pen/XXWWLz">See the Code</a> -
+      <a href="https://codepen.io/rasx/full/XXWWLz">See it Full Page</a> -
+      <a href="https://codepen.io/rasx/details/XXWWLz">See Details</a>
+    </p>
+    <p>
+      
+    </p>
+    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
+    ]]>
+  </description>
+
+  <dc:subject>b-roll progressive audio presentation API</dc:subject>
+
+  <dc:date>
+    2016-09-30T01:11:02-07:00
+  </dc:date>
+
+</item>
+
+      <item>
+
+  <title>Angular UI: pagination</title>
+
+  <link>https://codepen.io/rasx/pen/xGadEB</link>
+  <guid>https://codepen.io/rasx/pen/xGadEB</guid>
+
+  <dc:creator>Bryan Wilhite</dc:creator>
+
+  <description>
+    <![CDATA[
+    <p>
+      <a href="https://codepen.io/rasx/pen/xGadEB"><img width="1024" height="600" src="https://codepen.io/rasx/pen/xGadEB/image/large.png"></a>
+    </p>
+    <p>
+      <a href="https://codepen.io/rasx/pen/xGadEB">See the Code</a> -
+      <a href="https://codepen.io/rasx/full/xGadEB">See it Full Page</a> -
+      <a href="https://codepen.io/rasx/details/xGadEB">See Details</a>
+    </p>
+    <p>
+      https://github.com/angular-ui/bootstrap/tree/master/src/pagination/docs
+    </p>
+    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
+    ]]>
+  </description>
+
+  <dc:subject>Angular UI: pagination</dc:subject>
+
+  <dc:date>
+    2016-09-04T19:05:35-07:00
+  </dc:date>
+
+</item>
+
+      <item>
+
+  <title>Songhay Studio: Day Path Index Layout with Grouping</title>
+
+  <link>https://codepen.io/rasx/pen/rVMJVW</link>
+  <guid>https://codepen.io/rasx/pen/rVMJVW</guid>
+
+  <dc:creator>Bryan Wilhite</dc:creator>
+
+  <description>
+    <![CDATA[
+    <p>
+      <a href="https://codepen.io/rasx/pen/rVMJVW"><img width="1024" height="600" src="https://codepen.io/rasx/pen/rVMJVW/image/large.png"></a>
+    </p>
+    <p>
+      <a href="https://codepen.io/rasx/pen/rVMJVW">See the Code</a> -
+      <a href="https://codepen.io/rasx/full/rVMJVW">See it Full Page</a> -
+      <a href="https://codepen.io/rasx/details/rVMJVW">See Details</a>
+    </p>
+    <p>
+      
+    </p>
+    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
+    ]]>
+  </description>
+
+  <dc:subject>Songhay Studio: Day Path Index Layout with Grouping</dc:subject>
+
+  <dc:date>
+    2016-08-19T20:52:10-07:00
+  </dc:date>
+
+</item>
+
+
+  </channel>
+
+</rss>
