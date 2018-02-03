@@ -22,10 +22,11 @@ namespace Songhay.Feeds.Shell
             Console.WriteLine("Loading configuration...");
             var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("./appsettings.json");
+                .AddJsonFile("./appsettings.json", optional: false, reloadOnChange: false);
 
             Console.WriteLine("Building configuration...");
             var configuration = builder.Build();
+
             TraceSources.ConfiguredTraceSourceName = configuration[DeploymentEnvironment.DefaultTraceSourceNameConfigurationKey];
             using (var listener = new TextWriterTraceListener(Console.Out))
             {

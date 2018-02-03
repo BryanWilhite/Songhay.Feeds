@@ -2,9 +2,9 @@
 using Newtonsoft.Json.Linq;
 using Songhay.Extensions;
 using Songhay.Feeds.Models;
-using Songhay.Feeds.Tests.Extensions;
 using System;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Net.Http;
 
@@ -20,23 +20,30 @@ namespace Songhay.Feeds.Tests
         public void ShouldLoadFeedsMetadata()
         {
 
-            var projectDirectory = this.TestContext
-                .ShouldGetAssemblyDirectoryInfo(this.GetType()) // netcoreapp2.0
-                ?.Parent // Debug
-                ?.Parent // bin
-                ?.Parent.FullName;
-            this.TestContext.ShouldFindDirectory(projectDirectory);
+            var projectDirectoryInfo = this.TestContext
+                            .ShouldGetAssemblyDirectoryInfo(this.GetType())
+                            ?.Parent // netcoreapp2.0
+                            ?.Parent // Debug or Release
+                            ?.Parent // bin
+                            ?.Parent;
+            this.TestContext.ShouldFindDirectory(projectDirectoryInfo?.FullName);
+
+            var testProjectDirectory = projectDirectoryInfo.FullName;
+
+            var shellProjectDirectoryInfo = projectDirectoryInfo.Parent.GetDirectories().Single(i => i.Name.EndsWith("Shell"));
+            Assert.IsNotNull(shellProjectDirectoryInfo, "The expected Shell project directory is not here.");
+
+            var shellProjectDirectory = shellProjectDirectoryInfo.FullName;
 
             #region test properties:
 
             var feedsDirectory = this.TestContext.Properties["feedsDirectory"].ToString();
-            feedsDirectory = Path.Combine(projectDirectory, feedsDirectory);
+            feedsDirectory = Path.Combine(testProjectDirectory, feedsDirectory);
             this.TestContext.ShouldFindDirectory(feedsDirectory);
 
             #endregion
 
-            var basePath = this.TestContext.ShouldGetBasePath(this.GetType());
-            var settingsFile = Path.Combine(basePath, "appsettings.json");
+            var settingsFile = Path.Combine(shellProjectDirectory, "appsettings.json");
             this.TestContext.ShouldFindFile(settingsFile);
 
             var settingsJSON = File.ReadAllText(settingsFile);
