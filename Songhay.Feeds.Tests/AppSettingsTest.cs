@@ -17,7 +17,7 @@ namespace Songhay.Feeds.Tests
 
         [TestMethod]
         [TestProperty("feedsDirectory", "feeds")]
-        public void ShouldLoadFeedsControllerMetadata()
+        public void ShouldLoadFeedsMetadata()
         {
 
             var projectDirectory = this.TestContext
@@ -42,7 +42,7 @@ namespace Songhay.Feeds.Tests
             var settingsJSON = File.ReadAllText(settingsFile);
             var settingsJO = JObject.Parse(settingsJSON);
 
-            var meta = settingsJO[nameof(FeedsControllerMetadata)].ToObject<FeedsControllerMetadata>();
+            var meta = settingsJO[nameof(FeedsMetadata)].ToObject<FeedsMetadata>();
             Assert.IsNotNull(meta, "The expected meta data is not here.");
 
             meta.Feeds.ForEachInEnumerable(feed =>
