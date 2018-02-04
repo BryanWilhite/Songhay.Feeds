@@ -1,4 +1,5 @@
-﻿using Songhay.Diagnostics;
+﻿using Microsoft.Extensions.Configuration;
+using Songhay.Diagnostics;
 using Songhay.Extensions;
 using Songhay.Models;
 using System.Diagnostics;
@@ -6,7 +7,7 @@ using System.Linq;
 
 namespace Songhay.Feeds.Activities
 {
-    public class DownloadFeedsActivity : IActivity
+    public class DownloadFeedsActivity : IActivity, IActivityConfigurationSupport
     {
         static DownloadFeedsActivity() => traceSource = TraceSources
             .Instance
@@ -15,6 +16,11 @@ namespace Songhay.Feeds.Activities
             .EnsureTraceSource();
 
         static readonly TraceSource traceSource;
+
+        public void AddConfiguration(IConfigurationRoot configuration)
+        {
+            this._configuration = configuration;
+        }
 
         public string DisplayHelp(ProgramArgs args)
         {
@@ -32,6 +38,8 @@ namespace Songhay.Feeds.Activities
             var indentation = string.Join(string.Empty, Enumerable.Repeat(" ", 4).ToArray());
             args.HelpSet.Add(argDownloadFeeds, $"{argDownloadFeeds}{indentation}Downloads the configured Syndication feeds and converts them to static JSON.");
         }
+
+        IConfigurationRoot _configuration;
 
         const string argDownloadFeeds = "--download-feeds";
     }

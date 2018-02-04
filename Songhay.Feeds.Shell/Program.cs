@@ -81,7 +81,9 @@ namespace Songhay.Feeds.Shell
                     return;
                 }
 
-                activity.Start(getter.Args);
+                activity
+                    .WithConfiguration(configuration)
+                    .Start(getter.Args);
 
                 listener.Flush();
             }
