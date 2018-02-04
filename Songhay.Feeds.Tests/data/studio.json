@@ -1,6 +1,165 @@
 {
-  "?xml": {
-    "@version": "1.0",
-    "@encoding": "utf-8"
+  "rss": {
+    "@xmlns:a10": "http://www.w3.org/2005/Atom",
+    "@version": "2.0",
+    "channel": {
+      "@xml:base": "http://songhayblog.azurewebsites.net/",
+      "title": ">Day Path_",
+      "description": "one technical journal along the way…",
+      "managingEditor": "rasx@songhaysystem.com",
+      "generator": "Songhay.Blog.Models.BlogEntry:ISyndicatable",
+      "item": [
+        {
+          "guid": {
+            "@isPermaLink": "true",
+            "#text": "http://songhayblog.azurewebsites.net/#/entry/aurelia-logging-a-minimal-but-effective-logging-mechanism-and-other-twinks"
+          },
+          "link": "http://songhayblog.azurewebsites.net/#/entry/aurelia-logging-a-minimal-but-effective-logging-mechanism-and-other-twinks",
+          "author": "rasx@songhaysystem.com",
+          "title": "“aurelia/logging: A minimal but effective logging mechanism” and other Twinks…",
+          "description": "aurelia/logging: A minimal but effective logging mechanism with support for log levels and pluggable log appenders. [github.com] Static Inject vs @inject In Aurelia - I Like Kill Nerds [ilikekillnerds.com] Flow and TypeScript [javascript.tumblr.com] [red...",
+          "pubDate": "Thu, 01 Feb 2018 20:00:39 Z",
+          "a10:rights": {
+            "@type": "text",
+            "#text": "© 2018 Bryan D. Wilhite"
+          }
+        },
+        {
+          "guid": {
+            "@isPermaLink": "true",
+            "#text": "http://songhayblog.azurewebsites.net/#/entry/how-to-recreate-medium-s-article-layout-with-css-grid-and-other-twinks"
+          },
+          "link": "http://songhayblog.azurewebsites.net/#/entry/how-to-recreate-medium-s-article-layout-with-css-grid-and-other-twinks",
+          "author": "rasx@songhaysystem.com",
+          "title": "“How to recreate Medium’s article layout with CSS Grid” and other Twinks…",
+          "description": "\r\n                How to recreate Medium’s article layout with CSS Grid\r\n\r\n                Per Harald Borgen explains how to recreate the famous Medium… [twitter.com] Flexbox confusion that I see is usually one of two things.\r\n\r\n                1. Confusion over how Box Alignment works i...\r\n            ",
+          "pubDate": "Wed, 31 Jan 2018 00:32:01 Z",
+          "a10:rights": {
+            "@type": "text",
+            "#text": "© 2018 Bryan D. Wilhite"
+          }
+        },
+        {
+          "guid": {
+            "@isPermaLink": "true",
+            "#text": "http://songhayblog.azurewebsites.net/#/entry/suggestions-for-structuring-a-large-aurelia-application-and-other-twinks"
+          },
+          "link": "http://songhayblog.azurewebsites.net/#/entry/suggestions-for-structuring-a-large-aurelia-application-and-other-twinks",
+          "author": "rasx@songhaysystem.com",
+          "title": "“Suggestions for Structuring a Large Aurelia Application” and other Twinks…",
+          "description": "\r\n                Suggestions for Structuring a Large Aurelia Application [blog.ashleygrant.com] [much out of date except for “Source Code Structure”]\r\n                HTML Templates via JavaScript Template Literals [css-tricks.com] [npm lit-html]\r\n                Safari is the new IE [fab...\r\n            ",
+          "pubDate": "Tue, 16 Jan 2018 20:31:17 Z",
+          "a10:rights": {
+            "@type": "text",
+            "#text": "© 2018 Bryan D. Wilhite"
+          }
+        },
+        {
+          "guid": {
+            "@isPermaLink": "true",
+            "#text": "http://songhayblog.azurewebsites.net/#/entry/science-proves-flat-design-was-a-mistake-and-other-twinks"
+          },
+          "link": "http://songhayblog.azurewebsites.net/#/entry/science-proves-flat-design-was-a-mistake-and-other-twinks",
+          "author": "rasx@songhaysystem.com",
+          "title": "“Science proves Flat Design was a mistake” and other Twinks…",
+          "description": "\r\n                Science proves Flat Design was a mistake [mspoweruser.com] » @nazsharif Hisham's Blog - Razor Pages Conventions [hishambinateya.com] [PageConventionCollection]\r\n                Stockio: Free Photos, Videos, Icons, Illustrations, and Fonts For Your Projects [noupe...\r\n            ",
+          "pubDate": "Wed, 10 Jan 2018 22:24:23 Z",
+          "a10:rights": {
+            "@type": "text",
+            "#text": "© 2018 Bryan D. Wilhite"
+          }
+        },
+        {
+          "guid": {
+            "@isPermaLink": "true",
+            "#text": "http://songhayblog.azurewebsites.net/#/entry/swipe-tap-pinch-hammerjs-angular-animations-and-other-twinks"
+          },
+          "link": "http://songhayblog.azurewebsites.net/#/entry/swipe-tap-pinch-hammerjs-angular-animations-and-other-twinks",
+          "author": "rasx@songhaysystem.com",
+          "title": "“Swipe, Tap, Pinch - HammerJS + Angular Animations” and other Twinks…",
+          "description": "Swipe, Tap, Pinch - HammerJS + Angular Animations - YouTube [youtube.com] Three Ways to Test Angular Components – Angular [vsavkin.com] Testing Components • Unit Testing • Angular 5 [codecraft.tv]@jawache Composite UIs for Microservices - Client Composit...",
+          "pubDate": "Mon, 08 Jan 2018 19:56:21 Z",
+          "a10:rights": {
+            "@type": "text",
+            "#text": "© 2018 Bryan D. Wilhite"
+          }
+        },
+        {
+          "guid": {
+            "@isPermaLink": "true",
+            "#text": "http://songhayblog.azurewebsites.net/#/entry/ashish-singh-complete-angular2-guide-reactive-forms-in-depth-part-1-and-other-twinks"
+          },
+          "link": "http://songhayblog.azurewebsites.net/#/entry/ashish-singh-complete-angular2-guide-reactive-forms-in-depth-part-1-and-other-twinks",
+          "author": "rasx@songhaysystem.com",
+          "title": "“Ashish Singh: Complete Angular2 Guide: Reactive Forms in depth Part 1” and other Twinks…",
+          "description": "Ashish Singh: Complete Angular2 Guide: Reactive Forms in depth Part 1 [medium.com] Testing Angular components with @Input() – Aiko Klostermann – Medium [medium.com] to avoid breaking any RxJS dependency removed from your package the solution shown below ...",
+          "pubDate": "Fri, 05 Jan 2018 19:32:43 Z",
+          "a10:rights": {
+            "@type": "text",
+            "#text": "© 2018 Bryan D. Wilhite"
+          }
+        },
+        {
+          "guid": {
+            "@isPermaLink": "true",
+            "#text": "http://songhayblog.azurewebsites.net/#/entry/building-an-asp-net-core-website-with-xamarin-forms-xaml-and-ooui-and-other-twinks"
+          },
+          "link": "http://songhayblog.azurewebsites.net/#/entry/building-an-asp-net-core-website-with-xamarin-forms-xaml-and-ooui-and-other-twinks",
+          "author": "rasx@songhaysystem.com",
+          "title": "“Building an ASP.NET Core Website with Xamarin.Forms, XAML, and Ooui” and other Twinks…",
+          "description": "New Blog: Building an [asp.net] Core Website with Xamarin.Forms, XAML, and Ooui [ift.tt] So you need a CSS utility library? [css-tricks.com] Saving SVG with Space Around It from Illustrator [css-tricks.com] Reservations About TypeScript [daviesgeek.com] ...",
+          "pubDate": "Wed, 03 Jan 2018 21:51:34 Z",
+          "a10:rights": {
+            "@type": "text",
+            "#text": "© 2018 Bryan D. Wilhite"
+          }
+        },
+        {
+          "guid": {
+            "@isPermaLink": "true",
+            "#text": "http://songhayblog.azurewebsites.net/#/entry/svg-can-do-that-and-other-twinks"
+          },
+          "link": "http://songhayblog.azurewebsites.net/#/entry/svg-can-do-that-and-other-twinks",
+          "author": "rasx@songhaysystem.com",
+          "title": "“SVG can do that?” and other Twinks…",
+          "description": "SVG can do that? [slides.com] Nrwl Extensions for @Angular[nrwl.io] my first production-intended @angular application with its first, feature-complete view 🎁☂️💄🧐 &lt;= @Meligy… [twitter.com] WordPress is not [wordpress.com][wpisnotwp.com] Why Personal...",
+          "pubDate": "Tue, 02 Jan 2018 19:21:53 Z",
+          "a10:rights": {
+            "@type": "text",
+            "#text": "© 2018 Bryan D. Wilhite"
+          }
+        },
+        {
+          "guid": {
+            "@isPermaLink": "true",
+            "#text": "http://songhayblog.azurewebsites.net/#/entry/debugging-react-native-with-typescript-and-visual-studio-code-and-other-twinks"
+          },
+          "link": "http://songhayblog.azurewebsites.net/#/entry/debugging-react-native-with-typescript-and-visual-studio-code-and-other-twinks",
+          "author": "rasx@songhaysystem.com",
+          "title": "“Debugging React Native with Typescript and Visual Studio Code” and other Twinks…",
+          "description": "Debugging React Native with Typescript and Visual Studio Code | Adrian Hall [shellmonger.com] Is there a way to avoid the infamous that = this in typescript - Stack Overflow [stackoverflow.com] What’s new in Angular 4.2? | Ninja Squad [blog.ninja-squad.c...",
+          "pubDate": "Fri, 29 Dec 2017 23:05:09 Z",
+          "a10:rights": {
+            "@type": "text",
+            "#text": "© 2018 Bryan D. Wilhite"
+          }
+        },
+        {
+          "guid": {
+            "@isPermaLink": "true",
+            "#text": "http://songhayblog.azurewebsites.net/#/entry/implementing-a-log-inspired-logging-service-in-angular-2-rc-4-and-other-twinks"
+          },
+          "link": "http://songhayblog.azurewebsites.net/#/entry/implementing-a-log-inspired-logging-service-in-angular-2-rc-4-and-other-twinks",
+          "author": "rasx@songhaysystem.com",
+          "title": "“Implementing A $log-Inspired Logging Service In Angular 2 RC 4” and other Twinks…",
+          "description": "Implementing A $log-Inspired Logging Service In Angular 2 RC 4 [bennadel.com] A simple logging service for Angular 4 [robferguson.org] Browser Compatibility for CSS Grid Layouts with Simple Sass Mixins [css-tricks.com] Ask HN: Why is there no way to prev...",
+          "pubDate": "Thu, 28 Dec 2017 01:08:50 Z",
+          "a10:rights": {
+            "@type": "text",
+            "#text": "© 2018 Bryan D. Wilhite"
+          }
+        }
+      ]
+    }
   }
 }

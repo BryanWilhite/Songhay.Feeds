@@ -50,7 +50,7 @@ namespace Songhay.Feeds.Activities
                 var xml = File.ReadAllText(Path.Combine(rootDirectory, $"{feed.Key}.xml"));
                 var xmlDoc = new XmlDocument();
                 xmlDoc.LoadXml(xml);
-                var json = JsonConvert.SerializeXmlNode(xmlDoc.FirstChild, Newtonsoft.Json.Formatting.Indented);
+                var json = JsonConvert.SerializeXmlNode(xmlDoc.DocumentElement, Newtonsoft.Json.Formatting.Indented);
                 File.WriteAllText(Path.Combine(rootDirectory, $"{feed.Key}.json"), json);
             });
         }
