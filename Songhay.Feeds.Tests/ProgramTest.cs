@@ -13,7 +13,7 @@ namespace Songhay.Feeds.Tests
         {
             var shellProjectDirectoryInfo = this.TestContext.ShouldGetShellProjectDirectoryInfo(this.GetType());
             var configuration = Shell.Program.LoadConfiguration(shellProjectDirectoryInfo.FullName);
-            Assert.IsNotNull(configuration);
+            Assert.IsNotNull(configuration, "The expected configuration is not here.");
         }
     }
 }

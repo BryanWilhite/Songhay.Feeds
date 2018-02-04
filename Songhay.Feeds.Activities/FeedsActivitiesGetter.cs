@@ -1,6 +1,9 @@
 ﻿using Songhay.Models;
 using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("Songhay.Feeds.Tests")]
 
 namespace Songhay.Feeds.Activities
 {
