@@ -7,8 +7,10 @@ using Songhay.Models;
 using System;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Threading.Tasks;
 using System.Xml;
 
 namespace Songhay.Feeds.Activities
@@ -59,20 +61,25 @@ namespace Songhay.Feeds.Activities
 
             var rootDirectory = GetRootDirectory(args, meta);
 
-            meta.Feeds.ForEachInEnumerable(async feed =>
+            var tasks = meta.Feeds.Select(feed =>
             {
-                var uri = new Uri(feed.Value, UriKind.Absolute);
-                traceSource.TraceVerbose($"uri: {uri.OriginalString}");
-                var client = new HttpClient();
-                var request = new HttpRequestMessage() { RequestUri = uri, Method = HttpMethod.Get };
+                return Task.Run(async () =>
+                {
+                    var uri = new Uri(feed.Value, UriKind.Absolute);
+                    traceSource.TraceVerbose($"uri: {uri.OriginalString}");
+                    var client = new HttpClient();
+                    var request = new HttpRequestMessage() { RequestUri = uri, Method = HttpMethod.Get };
 
-                var response = await client.SendAsync(request);
-                if (response == null) throw new NullReferenceException("The expected response is not here.");
-                if (response.StatusCode != HttpStatusCode.OK) throw new HttpRequestException("The expected response status code is not here.");
+                    var response = await client.SendAsync(request);
+                    if (response == null) throw new NullReferenceException("The expected response is not here.");
+                    if (response.StatusCode != HttpStatusCode.OK) throw new HttpRequestException("The expected response status code is not here.");
 
-                var xml = await response.Content.ReadAsStringAsync();
-                File.WriteAllText(Path.Combine(rootDirectory, $"{feed.Key}.xml"), xml);
-            });
+                    var xml = await response.Content.ReadAsStringAsync();
+                    File.WriteAllText(Path.Combine(rootDirectory, $"{feed.Key}.xml"), xml);
+                });
+            }).ToArray();
+
+            Task.WaitAll(tasks);
         }
 
         internal FeedsMetadata GetFeedsMetadata()

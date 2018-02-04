@@ -42,5 +42,37 @@ namespace Songhay.Feeds.Tests.Activities
             var root = activity.GetRootDirectory(new ProgramArgs(args), meta);
             this.TestContext.WriteLine(root);
         }
+
+        [TestMethod]
+        public void ShouldConvertFeedsToJson()
+        {
+            var projectDirectoryInfo = this.TestContext.ShouldGetTestProjectDirectoryInfo(this.GetType());
+
+            var args = new[] { nameof(DownloadFeedsActivity), ProgramArgs.BasePath, projectDirectoryInfo.FullName };
+            var activity = this.TestContext.ShouldGetActivityWithConfiguration(this.GetType(), args) as DownloadFeedsActivity;
+            Assert.IsNotNull(activity, "The expected activity is not here.");
+
+            var meta = activity.GetFeedsMetadata();
+            Assert.IsNotNull(meta, "The expected metadata instance is not here.");
+            this.TestContext.WriteLine(meta.ToString());
+
+            activity.ConvertFeedsToJson(new ProgramArgs(args), meta);
+        }
+
+        [TestMethod]
+        public void ShouldDownloadFeeds()
+        {
+            var projectDirectoryInfo = this.TestContext.ShouldGetTestProjectDirectoryInfo(this.GetType());
+
+            var args = new[] { nameof(DownloadFeedsActivity), ProgramArgs.BasePath, projectDirectoryInfo.FullName };
+            var activity = this.TestContext.ShouldGetActivityWithConfiguration(this.GetType(), args) as DownloadFeedsActivity;
+            Assert.IsNotNull(activity, "The expected activity is not here.");
+
+            var meta = activity.GetFeedsMetadata();
+            Assert.IsNotNull(meta, "The expected metadata instance is not here.");
+            this.TestContext.WriteLine(meta.ToString());
+
+            activity.DownloadFeeds(new ProgramArgs(args), meta);
+        }
     }
 }
