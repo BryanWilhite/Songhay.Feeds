@@ -3,10 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Songhay.Feeds.Tests.Models
+namespace Songhay.Feeds.Tests.Activities
 {
     [TestClass]
-    public class FeedsMetadataTest
+    public class DownloadFeedsActivityTest
     {
         public TestContext TestContext { get; set; }
     }

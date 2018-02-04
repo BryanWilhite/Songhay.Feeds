@@ -5,5 +5,7 @@ namespace Songhay.Feeds.Models
     public class FeedsMetadata
     {
         public Dictionary<string, string> Feeds { get; set; }
+
+        public string FeedsDirectory { get; set; }
     }
 }
