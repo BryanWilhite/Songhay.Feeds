@@ -33,13 +33,13 @@ namespace Songhay.Feeds.Activities
         public void Start(ProgramArgs args)
         {
             var meta = this.GetFeedsMetadata();
-            this.DownloadFeeds(meta);
-            this.ConvertFeedsToJson(meta);
+            this.DownloadFeeds(args, meta);
+            this.ConvertFeedsToJson(args, meta);
         }
 
-        internal void ConvertFeedsToJson(FeedsMetadata meta)
+        internal void ConvertFeedsToJson(ProgramArgs args, FeedsMetadata meta)
         {
-            var rootDirectory = GetRootDirectory(meta);
+            var rootDirectory = GetRootDirectory(args, meta);
 
             meta.Feeds.ForEachInEnumerable(feed =>
             {
@@ -53,11 +53,11 @@ namespace Songhay.Feeds.Activities
             });
         }
 
-        internal void DownloadFeeds(FeedsMetadata meta)
+        internal void DownloadFeeds(ProgramArgs args, FeedsMetadata meta)
         {
             if (string.IsNullOrEmpty(meta.FeedsDirectory)) throw new NullReferenceException("The expected feeds directory is not configured.");
 
-            var rootDirectory = GetRootDirectory(meta);
+            var rootDirectory = GetRootDirectory(args, meta);
 
             meta.Feeds.ForEachInEnumerable(async feed =>
             {
@@ -85,10 +85,12 @@ namespace Songhay.Feeds.Activities
             return meta;
         }
 
-        internal string GetRootDirectory(FeedsMetadata meta)
+        internal string GetRootDirectory(ProgramArgs args, FeedsMetadata meta)
         {
+            var basePath = args.HasArg(ProgramArgs.BasePath, requiresValue: false) ? args.GetBasePathValue() : Directory.GetCurrentDirectory();
+
             var rootDirectory = meta.FeedsDirectory.StartsWith("./") ?
-                Path.Combine(Directory.GetCurrentDirectory(), meta.FeedsDirectory)
+                Path.GetFullPath(Path.Combine(basePath, meta.FeedsDirectory))
                 :
                 meta.FeedsDirectory;
 
