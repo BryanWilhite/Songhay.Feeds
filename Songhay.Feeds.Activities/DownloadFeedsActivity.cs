@@ -29,12 +29,7 @@ namespace Songhay.Feeds.Activities
             this._configuration = configuration;
         }
 
-        public string DisplayHelp(ProgramArgs args)
-        {
-            if (!args.HelpSet.Any()) this.SetupHelp(args);
-
-            return args.ToHelpDisplayText();
-        }
+        public string DisplayHelp(ProgramArgs args) => "Downloads the configured Syndication feeds and converts them to static JSON.";
 
         public void Start(ProgramArgs args)
         {
@@ -103,14 +98,6 @@ namespace Songhay.Feeds.Activities
             return rootDirectory;
         }
 
-        void SetupHelp(ProgramArgs args)
-        {
-            var indentation = string.Join(string.Empty, Enumerable.Repeat(" ", 4).ToArray());
-            args.HelpSet.Add(argDownloadFeeds, $"{argDownloadFeeds}{indentation}Downloads the configured Syndication feeds and converts them to static JSON.");
-        }
-
         IConfigurationRoot _configuration;
-
-        const string argDownloadFeeds = "--download-feeds";
     }
 }
