@@ -25,7 +25,6 @@ namespace Songhay.Feeds.Activities
 
         public void Start(ProgramArgs args)
         {
-            if (args.IsHelpRequest()) return;
         }
 
         void SetupHelp(ProgramArgs args)
