@@ -1,7 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Songhay.Extensions;
-using Songhay.Feeds.Activities;
-using Songhay.Feeds.Models;
 using Songhay.Models;
 using System;
 using System.IO;

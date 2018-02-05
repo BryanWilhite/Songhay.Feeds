@@ -8,6 +8,7 @@ namespace Songhay.Feeds.Tests
     {
         public TestContext TestContext { get; set; }
 
+        [TestCategory("Integration")]
         [TestMethod]
         public void ShouldLoadConfiguration()
         {
