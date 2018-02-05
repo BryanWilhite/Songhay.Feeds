@@ -30,7 +30,8 @@ namespace Songhay.Feeds.Activities
             this._configuration = configuration;
         }
 
-        public string DisplayHelp(ProgramArgs args) => "Downloads the configured Syndication feeds and converts them to static JSON.";
+        public string DisplayHelp(ProgramArgs args) => $@"Downloads the configured Syndication feeds to the configured path and converts them to static JSON.
+Use command-line argument {ProgramArgs.BasePath} to prepend a base path to a configured relative path (e.g. FeedsDirectory=""./my-path"").";
 
         public void Start(ProgramArgs args)
         {

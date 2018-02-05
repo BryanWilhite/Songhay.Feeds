@@ -15,6 +15,15 @@ namespace Songhay.Feeds.Tests.Activities
         public TestContext TestContext { get; set; }
 
         [TestMethod]
+        public void ShouldDisplayHelp()
+        {
+            var args = new[] { nameof(DownloadFeedsActivity) };
+            var activity = this.TestContext.ShouldGetActivityWithConfiguration(this.GetType(), args) as DownloadFeedsActivity;
+            Assert.IsNotNull(activity, "The expected activity is not here.");
+            this.TestContext.WriteLine(activity.DisplayHelp(new ProgramArgs(args)));
+        }
+
+        [TestMethod]
         public void ShouldGetFeedsMetadata()
         {
             var args = new[] { nameof(DownloadFeedsActivity) };
