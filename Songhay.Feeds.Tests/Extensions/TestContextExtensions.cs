@@ -37,10 +37,10 @@ namespace Songhay.Feeds.Tests.Extensions
         public static DirectoryInfo ShouldGetTestProjectDirectoryInfo(this TestContext context, Type type)
         {
             var projectDirectoryInfo = context
-                            .ShouldGetAssemblyDirectoryInfo(type) // netcoreapp2.0
-                            ?.Parent // Debug or Release
-                            ?.Parent // bin
-                            ?.Parent;
+                .ShouldGetAssemblyDirectoryInfo(type) // netcoreapp2.0
+                ?.Parent // Debug or Release
+                ?.Parent // bin
+                ?.Parent;
             context.ShouldFindDirectory(projectDirectoryInfo?.FullName);
 
             return projectDirectoryInfo;
