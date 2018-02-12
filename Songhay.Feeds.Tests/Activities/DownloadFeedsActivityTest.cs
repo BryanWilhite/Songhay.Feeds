@@ -2,10 +2,6 @@
 using Songhay.Feeds.Activities;
 using Songhay.Feeds.Tests.Extensions;
 using Songhay.Models;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
 
 namespace Songhay.Feeds.Tests.Activities
 {
@@ -14,6 +10,7 @@ namespace Songhay.Feeds.Tests.Activities
     {
         public TestContext TestContext { get; set; }
 
+        [TestCategory("Integration")]
         [TestMethod]
         public void ShouldDisplayHelp()
         {
@@ -23,6 +20,7 @@ namespace Songhay.Feeds.Tests.Activities
             this.TestContext.WriteLine(activity.DisplayHelp(new ProgramArgs(args)));
         }
 
+        [TestCategory("Integration")]
         [TestMethod]
         public void ShouldGetFeedsMetadata()
         {
@@ -35,6 +33,7 @@ namespace Songhay.Feeds.Tests.Activities
             this.TestContext.WriteLine(meta.ToString());
         }
 
+        [TestCategory("Integration")]
         [TestMethod]
         public void ShouldGetRootDirectory()
         {
@@ -52,6 +51,8 @@ namespace Songhay.Feeds.Tests.Activities
             this.TestContext.WriteLine(root);
         }
 
+        [Ignore("The build server should ignore this test because it depends on ShouldDownloadFeeds().")]
+        [TestCategory("Integration")]
         [TestMethod]
         public void ShouldConvertFeedsToJson()
         {
@@ -68,6 +69,7 @@ namespace Songhay.Feeds.Tests.Activities
             activity.ConvertFeedsToJson(new ProgramArgs(args), meta);
         }
 
+        [TestCategory("Integration")]
         [TestMethod]
         public void ShouldDownloadFeeds()
         {

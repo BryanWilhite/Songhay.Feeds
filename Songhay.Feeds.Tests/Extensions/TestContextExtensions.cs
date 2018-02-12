@@ -1,7 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Songhay.Extensions;
-using Songhay.Feeds.Activities;
-using Songhay.Feeds.Models;
 using Songhay.Models;
 using System;
 using System.IO;
@@ -39,10 +37,10 @@ namespace Songhay.Feeds.Tests.Extensions
         public static DirectoryInfo ShouldGetTestProjectDirectoryInfo(this TestContext context, Type type)
         {
             var projectDirectoryInfo = context
-                            .ShouldGetAssemblyDirectoryInfo(type) // netcoreapp2.0
-                            ?.Parent // Debug or Release
-                            ?.Parent // bin
-                            ?.Parent;
+                .ShouldGetAssemblyDirectoryInfo(type) // netcoreapp2.0
+                ?.Parent // Debug or Release
+                ?.Parent // bin
+                ?.Parent;
             context.ShouldFindDirectory(projectDirectoryInfo?.FullName);
 
             return projectDirectoryInfo;
