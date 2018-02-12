@@ -1,3 +1,3 @@
 ﻿Set-Location $PSScriptRoot
 
-dotnet run --configuration Release -- DownloadFeedsActivity --base-path "D:\home\site\wwwroot"
+dotnet DownloadFeedsActivity --base-path "D:\home\site\wwwroot\wwwroot"
