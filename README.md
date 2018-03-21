@@ -4,4 +4,6 @@
 
 Songhay Feeds are `Activities` around downloading Syndication feeds (in RSS or Atom) and converting them into static JSON files. This file format can be used to bind to display component for a “dashboard” view.
 
+Feeds `Activities` are intended to run in the cloud which, as of this writing, is [in Azure](https://docs.microsoft.com/en-us/azure/app-service/web-sites-create-web-jobs).
+
 @[BryanWilhite](https://twitter.com/bryanwilhite)
