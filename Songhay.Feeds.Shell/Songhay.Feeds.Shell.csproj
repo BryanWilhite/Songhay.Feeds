@@ -26,4 +26,10 @@
     <ProjectReference Include="..\Songhay.Feeds.Models\Songhay.Feeds.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="run.ps1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
