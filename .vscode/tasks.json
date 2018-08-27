@@ -2,27 +2,24 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "build",
             "command": "dotnet",
-            "label": "build Songhay.Feeds",
-            "args": [
-                "build",
-                "Songhay.Feeds.sln"
-            ],
-            "options": {
-                "cwd": "${workspaceRoot}"
-            },
+            "type": "process",
+            "args": ["build", "${workspaceFolder}/Songhay.Feeds.sln"],
             "problemMatcher": "$msCompile"
         },
         {
+            "label": "test [Songhay.Feeds.Tests]",
             "command": "dotnet",
-            "label": "test Songhay.Feeds",
+            "type": "shell",
             "args": [
                 "test",
-                "Songhay.Feeds.Tests.csproj"
+                "${workspaceFolder}/Songhay.Feeds.Tests/Songhay.Feeds.Tests.csproj",
+                "--results-directory",
+                "${workspaceFolder}/TestResults",
+                "--verbosity",
+                "normal"
             ],
-            "options": {
-                "cwd": "${workspaceRoot}/Songhay.Feeds.Tests"
-            },
             "problemMatcher": "$msCompile"
         }
     ]

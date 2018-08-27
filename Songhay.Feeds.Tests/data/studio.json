@@ -1,163 +1,122 @@
 {
   "rss": {
-    "@xmlns:a10": "http://www.w3.org/2005/Atom",
     "@version": "2.0",
     "channel": {
-      "@xml:base": "http://songhayblog.azurewebsites.net/",
-      "title": ">Day Path_",
-      "description": "one technical journal along the way…",
-      "managingEditor": "rasx@songhaysystem.com",
-      "generator": "Songhay.Blog.Models.BlogEntry:ISyndicatable",
+      "pubDate": "Fri, 10 Aug 2018 17:27:37 GMT",
+      "title": ">DayPath_",
+      "description": "The technical journey of @BryanWilhite.",
+      "copyright": "Bryan Wilhite, Songhay System 2018",
+      "link": "http://songhayblog.azurewebsites.net/",
       "item": [
         {
-          "guid": {
-            "@isPermaLink": "true",
-            "#text": "http://songhayblog.azurewebsites.net/#/entry/aurelia-logging-a-minimal-but-effective-logging-mechanism-and-other-twinks"
-          },
-          "link": "http://songhayblog.azurewebsites.net/#/entry/aurelia-logging-a-minimal-but-effective-logging-mechanism-and-other-twinks",
+          "title": "studio status report: 2018-08",
+          "link": "http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2018-08",
+          "description": "Going forward from here my passive-voice intention is to keep track of myself monthly. My work habits have always included keeping a private journal. In the “early years,” one Microsoft Word document per year was enough. As my software-development surfac...",
           "author": "rasx@songhaysystem.com",
-          "title": "“aurelia/logging: A minimal but effective logging mechanism” and other Twinks…",
-          "description": "aurelia/logging: A minimal but effective logging mechanism with support for log levels and pluggable log appenders. [github.com] Static Inject vs @inject In Aurelia - I Like Kill Nerds [ilikekillnerds.com] Flow and TypeScript [javascript.tumblr.com] [red...",
-          "pubDate": "Thu, 01 Feb 2018 20:00:39 Z",
-          "a10:rights": {
-            "@type": "text",
-            "#text": "© 2018 Bryan D. Wilhite"
-          }
+          "guid": {
+            "@isPermaLink": "false",
+            "#text": "studio-status-report-2018-08"
+          },
+          "pubDate": "Fri, 10 Aug 2018 17:25:50 GMT"
         },
         {
-          "guid": {
-            "@isPermaLink": "true",
-            "#text": "http://songhayblog.azurewebsites.net/#/entry/how-to-recreate-medium-s-article-layout-with-css-grid-and-other-twinks"
-          },
-          "link": "http://songhayblog.azurewebsites.net/#/entry/how-to-recreate-medium-s-article-layout-with-css-grid-and-other-twinks",
+          "title": "“How to make responsiveness super simple with CSS Variables” and other Tweeted links…",
+          "link": "http://songhayblog.azurewebsites.net/blog/entry/how-to-make-responsiveness-super-simple-with-css-variables-and-other-tweeted-links",
+          "description": "How to make responsiveness super simple with CSS Variables A quick tutorial on how to create responsive websites i…\r\n      [twitter.com] The 3.0 releases of our aXe\r\n      #a11y extensions are out! You can now test inside of Shadow DOM and with some new ...",
           "author": "rasx@songhaysystem.com",
-          "title": "“How to recreate Medium’s article layout with CSS Grid” and other Twinks…",
-          "description": "\r\n                How to recreate Medium’s article layout with CSS Grid\r\n\r\n                Per Harald Borgen explains how to recreate the famous Medium… [twitter.com] Flexbox confusion that I see is usually one of two things.\r\n\r\n                1. Confusion over how Box Alignment works i...\r\n            ",
-          "pubDate": "Wed, 31 Jan 2018 00:32:01 Z",
-          "a10:rights": {
-            "@type": "text",
-            "#text": "© 2018 Bryan D. Wilhite"
-          }
+          "guid": {
+            "@isPermaLink": "false",
+            "#text": "how-to-make-responsiveness-super-simple-with-css-variables-and-other-tweeted-links"
+          },
+          "pubDate": "Wed, 08 Aug 2018 17:41:02 GMT"
         },
         {
-          "guid": {
-            "@isPermaLink": "true",
-            "#text": "http://songhayblog.azurewebsites.net/#/entry/suggestions-for-structuring-a-large-aurelia-application-and-other-twinks"
-          },
-          "link": "http://songhayblog.azurewebsites.net/#/entry/suggestions-for-structuring-a-large-aurelia-application-and-other-twinks",
+          "title": "“Glide.js: A Dependency-Free ES6 Slider and Carousel” and other Tweeted links…",
+          "link": "http://songhayblog.azurewebsites.net/blog/entry/glide-js-a-dependency-free-es6-slider-and-carousel-and-other-tweeted-links",
+          "description": "Glide.js: A Dependency-Free ES6 Slider and Carousel -\r\n      [glidejs.com] (\"Designed to slide. No less, no more\" says the creator.) A Responsive Accessible Table\r\n      [adrianroselli.com] Since their “redesign”\r\n      @HSBC_UK online banking is now bar...",
           "author": "rasx@songhaysystem.com",
-          "title": "“Suggestions for Structuring a Large Aurelia Application” and other Twinks…",
-          "description": "\r\n                Suggestions for Structuring a Large Aurelia Application [blog.ashleygrant.com] [much out of date except for “Source Code Structure”]\r\n                HTML Templates via JavaScript Template Literals [css-tricks.com] [npm lit-html]\r\n                Safari is the new IE [fab...\r\n            ",
-          "pubDate": "Tue, 16 Jan 2018 20:31:17 Z",
-          "a10:rights": {
-            "@type": "text",
-            "#text": "© 2018 Bryan D. Wilhite"
-          }
+          "guid": {
+            "@isPermaLink": "false",
+            "#text": "glide-js-a-dependency-free-es6-slider-and-carousel-and-other-tweeted-links"
+          },
+          "pubDate": "Tue, 07 Aug 2018 16:59:20 GMT"
         },
         {
-          "guid": {
-            "@isPermaLink": "true",
-            "#text": "http://songhayblog.azurewebsites.net/#/entry/science-proves-flat-design-was-a-mistake-and-other-twinks"
-          },
-          "link": "http://songhayblog.azurewebsites.net/#/entry/science-proves-flat-design-was-a-mistake-and-other-twinks",
+          "title": "“SVG Polygon Generator” and other Tweeted links…",
+          "link": "http://songhayblog.azurewebsites.net/blog/entry/svg-polygon-generator-and-other-tweeted-links",
+          "description": "SVG Polygon Generator\r\n      [codepen.io] Design—and designers—seem perpetually threatened by democratization. -\r\n      [subtraction.com] -\r\n      [twitter.com] \"...among the eight most important qualities of Google’s top employees, STEM expertise comes ...",
           "author": "rasx@songhaysystem.com",
-          "title": "“Science proves Flat Design was a mistake” and other Twinks…",
-          "description": "\r\n                Science proves Flat Design was a mistake [mspoweruser.com] » @nazsharif Hisham's Blog - Razor Pages Conventions [hishambinateya.com] [PageConventionCollection]\r\n                Stockio: Free Photos, Videos, Icons, Illustrations, and Fonts For Your Projects [noupe...\r\n            ",
-          "pubDate": "Wed, 10 Jan 2018 22:24:23 Z",
-          "a10:rights": {
-            "@type": "text",
-            "#text": "© 2018 Bryan D. Wilhite"
-          }
+          "guid": {
+            "@isPermaLink": "false",
+            "#text": "svg-polygon-generator-and-other-tweeted-links"
+          },
+          "pubDate": "Mon, 06 Aug 2018 21:06:48 GMT"
         },
         {
-          "guid": {
-            "@isPermaLink": "true",
-            "#text": "http://songhayblog.azurewebsites.net/#/entry/swipe-tap-pinch-hammerjs-angular-animations-and-other-twinks"
-          },
-          "link": "http://songhayblog.azurewebsites.net/#/entry/swipe-tap-pinch-hammerjs-angular-animations-and-other-twinks",
+          "title": "“Implementing an Infinite Scroll with Vue.js” and other Tweeted links…",
+          "link": "http://songhayblog.azurewebsites.net/blog/entry/implementing-an-infinite-scroll-with-vue-js-and-other-tweeted-links",
+          "description": "Implementing an Infinite Scroll with Vue.js:\r\n      [alligator.io] Build a Basic CRUD App with Vue.js and Node by sitepointdotcom\r\n      [javascriptkicks.com]#javascript#vuejs#nodejs via JavaScriptKicks How\r\n      #CSS works: Parsing &amp; painting CSS i...",
           "author": "rasx@songhaysystem.com",
-          "title": "“Swipe, Tap, Pinch - HammerJS + Angular Animations” and other Twinks…",
-          "description": "Swipe, Tap, Pinch - HammerJS + Angular Animations - YouTube [youtube.com] Three Ways to Test Angular Components – Angular [vsavkin.com] Testing Components • Unit Testing • Angular 5 [codecraft.tv]@jawache Composite UIs for Microservices - Client Composit...",
-          "pubDate": "Mon, 08 Jan 2018 19:56:21 Z",
-          "a10:rights": {
-            "@type": "text",
-            "#text": "© 2018 Bryan D. Wilhite"
-          }
+          "guid": {
+            "@isPermaLink": "false",
+            "#text": "implementing-an-infinite-scroll-with-vue-js-and-other-tweeted-links"
+          },
+          "pubDate": "Sat, 04 Aug 2018 00:30:25 GMT"
         },
         {
-          "guid": {
-            "@isPermaLink": "true",
-            "#text": "http://songhayblog.azurewebsites.net/#/entry/ashish-singh-complete-angular2-guide-reactive-forms-in-depth-part-1-and-other-twinks"
-          },
-          "link": "http://songhayblog.azurewebsites.net/#/entry/ashish-singh-complete-angular2-guide-reactive-forms-in-depth-part-1-and-other-twinks",
+          "title": "“There are at least 🖐 five services that can process your static &lt;form&gt; for you” and other Tweeted links…",
+          "link": "http://songhayblog.azurewebsites.net/blog/entry/there-are-at-least-five-services-that-can-process-your-static-form-for-you-and-other-tweeted-links",
+          "description": "There are at least 🖐 five services that can process your static &lt;form&gt; for you: ①\r\n      [pageclip.co]\r\n\r\n      ②…\r\n      [twitter.com] A Practical Guide to Angular Elements:\r\n      [nitayneeman.com] People keep asking me about CSS Grid \"best prac...",
           "author": "rasx@songhaysystem.com",
-          "title": "“Ashish Singh: Complete Angular2 Guide: Reactive Forms in depth Part 1” and other Twinks…",
-          "description": "Ashish Singh: Complete Angular2 Guide: Reactive Forms in depth Part 1 [medium.com] Testing Angular components with @Input() – Aiko Klostermann – Medium [medium.com] to avoid breaking any RxJS dependency removed from your package the solution shown below ...",
-          "pubDate": "Fri, 05 Jan 2018 19:32:43 Z",
-          "a10:rights": {
-            "@type": "text",
-            "#text": "© 2018 Bryan D. Wilhite"
-          }
+          "guid": {
+            "@isPermaLink": "false",
+            "#text": "there-are-at-least-five-services-that-can-process-your-static-form-for-you-and-other-tweeted-links"
+          },
+          "pubDate": "Wed, 01 Aug 2018 15:48:27 GMT"
         },
         {
-          "guid": {
-            "@isPermaLink": "true",
-            "#text": "http://songhayblog.azurewebsites.net/#/entry/building-an-asp-net-core-website-with-xamarin-forms-xaml-and-ooui-and-other-twinks"
-          },
-          "link": "http://songhayblog.azurewebsites.net/#/entry/building-an-asp-net-core-website-with-xamarin-forms-xaml-and-ooui-and-other-twinks",
+          "title": "“Using Color Psychology for Better Website Results” and other Tweeted links…",
+          "link": "http://songhayblog.azurewebsites.net/blog/entry/using-color-psychology-for-better-website-results-and-other-tweeted-links",
+          "description": "Using Color Psychology for Better Website Results\r\n      [speckyboy.com] Creating smooth sequential animations with Sass\r\n      [glennmccomb.com]#webdevelopment “How we designed page previews for Wikipedia — and what could be done with them in the future...",
           "author": "rasx@songhaysystem.com",
-          "title": "“Building an ASP.NET Core Website with Xamarin.Forms, XAML, and Ooui” and other Twinks…",
-          "description": "New Blog: Building an [asp.net] Core Website with Xamarin.Forms, XAML, and Ooui [ift.tt] So you need a CSS utility library? [css-tricks.com] Saving SVG with Space Around It from Illustrator [css-tricks.com] Reservations About TypeScript [daviesgeek.com] ...",
-          "pubDate": "Wed, 03 Jan 2018 21:51:34 Z",
-          "a10:rights": {
-            "@type": "text",
-            "#text": "© 2018 Bryan D. Wilhite"
-          }
+          "guid": {
+            "@isPermaLink": "false",
+            "#text": "using-color-psychology-for-better-website-results-and-other-tweeted-links"
+          },
+          "pubDate": "Mon, 30 Jul 2018 23:30:53 GMT"
         },
         {
-          "guid": {
-            "@isPermaLink": "true",
-            "#text": "http://songhayblog.azurewebsites.net/#/entry/svg-can-do-that-and-other-twinks"
-          },
-          "link": "http://songhayblog.azurewebsites.net/#/entry/svg-can-do-that-and-other-twinks",
+          "title": "“Everything you need to know about change detection in Angular” and other Tweeted links…",
+          "link": "http://songhayblog.azurewebsites.net/blog/entry/everything-you-need-to-know-about-change-detection-in-angular-and-other-tweeted-links",
+          "description": "“Everything you need to know about change detection in Angular” by\r\n      @maxim_koretskyi[blog.angularindepth.com] 🔥 I hear *a lot* from people who would like to create native-like animations on the web, so I made a write-up &amp;&amp; de…\r\n      [twit...",
           "author": "rasx@songhaysystem.com",
-          "title": "“SVG can do that?” and other Twinks…",
-          "description": "SVG can do that? [slides.com] Nrwl Extensions for @Angular[nrwl.io] my first production-intended @angular application with its first, feature-complete view 🎁☂️💄🧐 &lt;= @Meligy… [twitter.com] WordPress is not [wordpress.com][wpisnotwp.com] Why Personal...",
-          "pubDate": "Tue, 02 Jan 2018 19:21:53 Z",
-          "a10:rights": {
-            "@type": "text",
-            "#text": "© 2018 Bryan D. Wilhite"
-          }
+          "guid": {
+            "@isPermaLink": "false",
+            "#text": "everything-you-need-to-know-about-change-detection-in-angular-and-other-tweeted-links"
+          },
+          "pubDate": "Thu, 26 Jul 2018 17:30:26 GMT"
         },
         {
-          "guid": {
-            "@isPermaLink": "true",
-            "#text": "http://songhayblog.azurewebsites.net/#/entry/debugging-react-native-with-typescript-and-visual-studio-code-and-other-twinks"
-          },
-          "link": "http://songhayblog.azurewebsites.net/#/entry/debugging-react-native-with-typescript-and-visual-studio-code-and-other-twinks",
+          "title": "“Gestalt Theory for #UX #Design” and other Tweeted links…",
+          "link": "http://songhayblog.azurewebsites.net/blog/entry/gestalt-theory-for-ux-design-and-other-tweeted-links",
+          "description": "Gestalt Theory for\r\n      #UX#Design: Principle of Proximity\r\n      [tubikstudio.com] Tabbed Interfaces\r\n      [inclusive-components.design] Simple Icon Generator\r\n      [prefinem.com]#UI ⚛️ Preact, a fast 3KB React alternative with the same API, has jus...",
           "author": "rasx@songhaysystem.com",
-          "title": "“Debugging React Native with Typescript and Visual Studio Code” and other Twinks…",
-          "description": "Debugging React Native with Typescript and Visual Studio Code | Adrian Hall [shellmonger.com] Is there a way to avoid the infamous that = this in typescript - Stack Overflow [stackoverflow.com] What’s new in Angular 4.2? | Ninja Squad [blog.ninja-squad.c...",
-          "pubDate": "Fri, 29 Dec 2017 23:05:09 Z",
-          "a10:rights": {
-            "@type": "text",
-            "#text": "© 2018 Bryan D. Wilhite"
-          }
+          "guid": {
+            "@isPermaLink": "false",
+            "#text": "gestalt-theory-for-ux-design-and-other-tweeted-links"
+          },
+          "pubDate": "Wed, 25 Jul 2018 17:39:00 GMT"
         },
         {
-          "guid": {
-            "@isPermaLink": "true",
-            "#text": "http://songhayblog.azurewebsites.net/#/entry/implementing-a-log-inspired-logging-service-in-angular-2-rc-4-and-other-twinks"
-          },
-          "link": "http://songhayblog.azurewebsites.net/#/entry/implementing-a-log-inspired-logging-service-in-angular-2-rc-4-and-other-twinks",
+          "title": "“Analyzing the Hamburger Menu in Web Design” and other Tweeted links…",
+          "link": "http://songhayblog.azurewebsites.net/blog/entry/analyzing-the-hamburger-menu-in-web-design-and-other-tweeted-links",
+          "description": "Analyzing the Hamburger Menu in Web Design\r\n      [speckyboy.com] Information Architecture. The Most Important Part of Design You’re Probably Overlooking.\r\n      [blog.prototypr.io] Getting Started with\r\n      #CSS Counters\r\n      [scotch.io] 24 Ways to ...",
           "author": "rasx@songhaysystem.com",
-          "title": "“Implementing A $log-Inspired Logging Service In Angular 2 RC 4” and other Twinks…",
-          "description": "Implementing A $log-Inspired Logging Service In Angular 2 RC 4 [bennadel.com] A simple logging service for Angular 4 [robferguson.org] Browser Compatibility for CSS Grid Layouts with Simple Sass Mixins [css-tricks.com] Ask HN: Why is there no way to prev...",
-          "pubDate": "Thu, 28 Dec 2017 01:08:50 Z",
-          "a10:rights": {
-            "@type": "text",
-            "#text": "© 2018 Bryan D. Wilhite"
-          }
+          "guid": {
+            "@isPermaLink": "false",
+            "#text": "analyzing-the-hamburger-menu-in-web-design-and-other-tweeted-links"
+          },
+          "pubDate": "Mon, 23 Jul 2018 16:03:29 GMT"
         }
       ]
     }

@@ -1,112 +1,115 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0">
-    <channel xml:base="http://songhayblog.azurewebsites.net/">
-        <title>&gt;Day Path_</title>
-        <description>one technical journal along the way…</description>
-        <managingEditor>rasx@songhaysystem.com</managingEditor>
-        <generator>Songhay.Blog.Models.BlogEntry:ISyndicatable</generator>
-        <item>
-            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/#/entry/aurelia-logging-a-minimal-but-effective-logging-mechanism-and-other-twinks</guid>
-            <link>http://songhayblog.azurewebsites.net/#/entry/aurelia-logging-a-minimal-but-effective-logging-mechanism-and-other-twinks</link>
-            <author>rasx@songhaysystem.com</author>
-            <title>“aurelia/logging: A minimal but effective logging mechanism” and other Twinks…</title>
-            <description>aurelia/logging: A minimal but effective logging mechanism with support for log levels and pluggable log appenders. [github.com] Static Inject vs @inject In Aurelia - I Like Kill Nerds [ilikekillnerds.com] Flow and TypeScript [javascript.tumblr.com] [red...</description>
-            <pubDate>Thu, 01 Feb 2018 20:00:39 Z</pubDate>
-            <a10:rights type="text">© 2018 Bryan D. Wilhite</a10:rights>
-        </item>
-        <item>
-            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/#/entry/how-to-recreate-medium-s-article-layout-with-css-grid-and-other-twinks</guid>
-            <link>http://songhayblog.azurewebsites.net/#/entry/how-to-recreate-medium-s-article-layout-with-css-grid-and-other-twinks</link>
-            <author>rasx@songhaysystem.com</author>
-            <title>“How to recreate Medium’s article layout with CSS Grid” and other Twinks…</title>
-            <description>
-                How to recreate Medium’s article layout with CSS Grid
+<rss version="2.0">
+  <channel><pubDate>Fri, 10 Aug 2018 17:27:37 GMT</pubDate>
+<title>&gt;DayPath_</title>
+<description>The technical journey of @BryanWilhite.</description>
+<copyright>Bryan Wilhite, Songhay System 2018</copyright>
+<link>http://songhayblog.azurewebsites.net/</link>
+<item>
+  <title>studio status report: 2018-08</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2018-08</link>
+  <description>Going forward from here my passive-voice intention is to keep track of myself monthly. My work habits have always included keeping a private journal. In the “early years,” one Microsoft Word document per year was enough. As my software-development surfac...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">studio-status-report-2018-08</guid>
+  <pubDate>Fri, 10 Aug 2018 17:25:50 GMT</pubDate>
+</item>
+<item>
+  <title>“How to make responsiveness super simple with CSS Variables” and other Tweeted links…</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/how-to-make-responsiveness-super-simple-with-css-variables-and-other-tweeted-links</link>
+  <description>How to make responsiveness super simple with CSS Variables A quick tutorial on how to create responsive websites i…
+      [twitter.com] The 3.0 releases of our aXe
+      #a11y extensions are out! You can now test inside of Shadow DOM and with some new ...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">how-to-make-responsiveness-super-simple-with-css-variables-and-other-tweeted-links</guid>
+  <pubDate>Wed, 08 Aug 2018 17:41:02 GMT</pubDate>
+</item>
+<item>
+  <title>“Glide.js: A Dependency-Free ES6 Slider and Carousel” and other Tweeted links…</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/glide-js-a-dependency-free-es6-slider-and-carousel-and-other-tweeted-links</link>
+  <description>Glide.js: A Dependency-Free ES6 Slider and Carousel -
+      [glidejs.com] ("Designed to slide. No less, no more" says the creator.) A Responsive Accessible Table
+      [adrianroselli.com] Since their “redesign”
+      @HSBC_UK online banking is now bar...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">glide-js-a-dependency-free-es6-slider-and-carousel-and-other-tweeted-links</guid>
+  <pubDate>Tue, 07 Aug 2018 16:59:20 GMT</pubDate>
+</item>
+<item>
+  <title>“SVG Polygon Generator” and other Tweeted links…</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/svg-polygon-generator-and-other-tweeted-links</link>
+  <description>SVG Polygon Generator
+      [codepen.io] Design—and designers—seem perpetually threatened by democratization. -
+      [subtraction.com] -
+      [twitter.com] "...among the eight most important qualities of Google’s top employees, STEM expertise comes ...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">svg-polygon-generator-and-other-tweeted-links</guid>
+  <pubDate>Mon, 06 Aug 2018 21:06:48 GMT</pubDate>
+</item>
+<item>
+  <title>“Implementing an Infinite Scroll with Vue.js” and other Tweeted links…</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/implementing-an-infinite-scroll-with-vue-js-and-other-tweeted-links</link>
+  <description>Implementing an Infinite Scroll with Vue.js:
+      [alligator.io] Build a Basic CRUD App with Vue.js and Node by sitepointdotcom
+      [javascriptkicks.com]#javascript#vuejs#nodejs via JavaScriptKicks How
+      #CSS works: Parsing &amp;amp; painting CSS i...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">implementing-an-infinite-scroll-with-vue-js-and-other-tweeted-links</guid>
+  <pubDate>Sat, 04 Aug 2018 00:30:25 GMT</pubDate>
+</item>
+<item>
+  <title>“There are at least 🖐 five services that can process your static &amp;lt;form&amp;gt; for you” and other Tweeted links…</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/there-are-at-least-five-services-that-can-process-your-static-form-for-you-and-other-tweeted-links</link>
+  <description>There are at least 🖐 five services that can process your static &amp;lt;form&amp;gt; for you: ①
+      [pageclip.co]
 
-                Per Harald Borgen explains how to recreate the famous Medium… [twitter.com] Flexbox confusion that I see is usually one of two things.
-
-                1. Confusion over how Box Alignment works i...
-            </description>
-            <pubDate>Wed, 31 Jan 2018 00:32:01 Z</pubDate>
-            <a10:rights type="text">© 2018 Bryan D. Wilhite</a10:rights>
-        </item>
-        <item>
-            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/#/entry/suggestions-for-structuring-a-large-aurelia-application-and-other-twinks</guid>
-            <link>http://songhayblog.azurewebsites.net/#/entry/suggestions-for-structuring-a-large-aurelia-application-and-other-twinks</link>
-            <author>rasx@songhaysystem.com</author>
-            <title>“Suggestions for Structuring a Large Aurelia Application” and other Twinks…</title>
-            <description>
-                Suggestions for Structuring a Large Aurelia Application [blog.ashleygrant.com] [much out of date except for “Source Code Structure”]
-                HTML Templates via JavaScript Template Literals [css-tricks.com] [npm lit-html]
-                Safari is the new IE [fab...
-            </description>
-            <pubDate>Tue, 16 Jan 2018 20:31:17 Z</pubDate>
-            <a10:rights type="text">© 2018 Bryan D. Wilhite</a10:rights>
-        </item>
-        <item>
-            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/#/entry/science-proves-flat-design-was-a-mistake-and-other-twinks</guid>
-            <link>http://songhayblog.azurewebsites.net/#/entry/science-proves-flat-design-was-a-mistake-and-other-twinks</link>
-            <author>rasx@songhaysystem.com</author>
-            <title>“Science proves Flat Design was a mistake” and other Twinks…</title>
-            <description>
-                Science proves Flat Design was a mistake [mspoweruser.com] » @nazsharif Hisham's Blog - Razor Pages Conventions [hishambinateya.com] [PageConventionCollection]
-                Stockio: Free Photos, Videos, Icons, Illustrations, and Fonts For Your Projects [noupe...
-            </description>
-            <pubDate>Wed, 10 Jan 2018 22:24:23 Z</pubDate>
-            <a10:rights type="text">© 2018 Bryan D. Wilhite</a10:rights>
-        </item>
-        <item>
-            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/#/entry/swipe-tap-pinch-hammerjs-angular-animations-and-other-twinks</guid>
-            <link>http://songhayblog.azurewebsites.net/#/entry/swipe-tap-pinch-hammerjs-angular-animations-and-other-twinks</link>
-            <author>rasx@songhaysystem.com</author>
-            <title>“Swipe, Tap, Pinch - HammerJS + Angular Animations” and other Twinks…</title>
-            <description>Swipe, Tap, Pinch - HammerJS + Angular Animations - YouTube [youtube.com] Three Ways to Test Angular Components – Angular [vsavkin.com] Testing Components • Unit Testing • Angular 5 [codecraft.tv]@jawache Composite UIs for Microservices - Client Composit...</description>
-            <pubDate>Mon, 08 Jan 2018 19:56:21 Z</pubDate>
-            <a10:rights type="text">© 2018 Bryan D. Wilhite</a10:rights>
-        </item>
-        <item>
-            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/#/entry/ashish-singh-complete-angular2-guide-reactive-forms-in-depth-part-1-and-other-twinks</guid>
-            <link>http://songhayblog.azurewebsites.net/#/entry/ashish-singh-complete-angular2-guide-reactive-forms-in-depth-part-1-and-other-twinks</link>
-            <author>rasx@songhaysystem.com</author>
-            <title>“Ashish Singh: Complete Angular2 Guide: Reactive Forms in depth Part 1” and other Twinks…</title>
-            <description>Ashish Singh: Complete Angular2 Guide: Reactive Forms in depth Part 1 [medium.com] Testing Angular components with @Input() – Aiko Klostermann – Medium [medium.com] to avoid breaking any RxJS dependency removed from your package the solution shown below ...</description>
-            <pubDate>Fri, 05 Jan 2018 19:32:43 Z</pubDate>
-            <a10:rights type="text">© 2018 Bryan D. Wilhite</a10:rights>
-        </item>
-        <item>
-            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/#/entry/building-an-asp-net-core-website-with-xamarin-forms-xaml-and-ooui-and-other-twinks</guid>
-            <link>http://songhayblog.azurewebsites.net/#/entry/building-an-asp-net-core-website-with-xamarin-forms-xaml-and-ooui-and-other-twinks</link>
-            <author>rasx@songhaysystem.com</author>
-            <title>“Building an ASP.NET Core Website with Xamarin.Forms, XAML, and Ooui” and other Twinks…</title>
-            <description>New Blog: Building an [asp.net] Core Website with Xamarin.Forms, XAML, and Ooui [ift.tt] So you need a CSS utility library? [css-tricks.com] Saving SVG with Space Around It from Illustrator [css-tricks.com] Reservations About TypeScript [daviesgeek.com] ...</description>
-            <pubDate>Wed, 03 Jan 2018 21:51:34 Z</pubDate>
-            <a10:rights type="text">© 2018 Bryan D. Wilhite</a10:rights>
-        </item>
-        <item>
-            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/#/entry/svg-can-do-that-and-other-twinks</guid>
-            <link>http://songhayblog.azurewebsites.net/#/entry/svg-can-do-that-and-other-twinks</link>
-            <author>rasx@songhaysystem.com</author>
-            <title>“SVG can do that?” and other Twinks…</title>
-            <description>SVG can do that? [slides.com] Nrwl Extensions for @Angular[nrwl.io] my first production-intended @angular application with its first, feature-complete view 🎁☂️💄🧐 &amp;lt;= @Meligy… [twitter.com] WordPress is not [wordpress.com][wpisnotwp.com] Why Personal...</description>
-            <pubDate>Tue, 02 Jan 2018 19:21:53 Z</pubDate>
-            <a10:rights type="text">© 2018 Bryan D. Wilhite</a10:rights>
-        </item>
-        <item>
-            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/#/entry/debugging-react-native-with-typescript-and-visual-studio-code-and-other-twinks</guid>
-            <link>http://songhayblog.azurewebsites.net/#/entry/debugging-react-native-with-typescript-and-visual-studio-code-and-other-twinks</link>
-            <author>rasx@songhaysystem.com</author>
-            <title>“Debugging React Native with Typescript and Visual Studio Code” and other Twinks…</title>
-            <description>Debugging React Native with Typescript and Visual Studio Code | Adrian Hall [shellmonger.com] Is there a way to avoid the infamous that = this in typescript - Stack Overflow [stackoverflow.com] What’s new in Angular 4.2? | Ninja Squad [blog.ninja-squad.c...</description>
-            <pubDate>Fri, 29 Dec 2017 23:05:09 Z</pubDate>
-            <a10:rights type="text">© 2018 Bryan D. Wilhite</a10:rights>
-        </item>
-        <item>
-            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/#/entry/implementing-a-log-inspired-logging-service-in-angular-2-rc-4-and-other-twinks</guid>
-            <link>http://songhayblog.azurewebsites.net/#/entry/implementing-a-log-inspired-logging-service-in-angular-2-rc-4-and-other-twinks</link>
-            <author>rasx@songhaysystem.com</author>
-            <title>“Implementing A $log-Inspired Logging Service In Angular 2 RC 4” and other Twinks…</title>
-            <description>Implementing A $log-Inspired Logging Service In Angular 2 RC 4 [bennadel.com] A simple logging service for Angular 4 [robferguson.org] Browser Compatibility for CSS Grid Layouts with Simple Sass Mixins [css-tricks.com] Ask HN: Why is there no way to prev...</description>
-            <pubDate>Thu, 28 Dec 2017 01:08:50 Z</pubDate>
-            <a10:rights type="text">© 2018 Bryan D. Wilhite</a10:rights>
-        </item>
-    </channel>
+      ②…
+      [twitter.com] A Practical Guide to Angular Elements:
+      [nitayneeman.com] People keep asking me about CSS Grid "best prac...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">there-are-at-least-five-services-that-can-process-your-static-form-for-you-and-other-tweeted-links</guid>
+  <pubDate>Wed, 01 Aug 2018 15:48:27 GMT</pubDate>
+</item>
+<item>
+  <title>“Using Color Psychology for Better Website Results” and other Tweeted links…</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/using-color-psychology-for-better-website-results-and-other-tweeted-links</link>
+  <description>Using Color Psychology for Better Website Results
+      [speckyboy.com] Creating smooth sequential animations with Sass
+      [glennmccomb.com]#webdevelopment “How we designed page previews for Wikipedia — and what could be done with them in the future...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">using-color-psychology-for-better-website-results-and-other-tweeted-links</guid>
+  <pubDate>Mon, 30 Jul 2018 23:30:53 GMT</pubDate>
+</item>
+<item>
+  <title>“Everything you need to know about change detection in Angular” and other Tweeted links…</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/everything-you-need-to-know-about-change-detection-in-angular-and-other-tweeted-links</link>
+  <description>“Everything you need to know about change detection in Angular” by
+      @maxim_koretskyi[blog.angularindepth.com] 🔥 I hear *a lot* from people who would like to create native-like animations on the web, so I made a write-up &amp;amp;&amp;amp; de…
+      [twit...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">everything-you-need-to-know-about-change-detection-in-angular-and-other-tweeted-links</guid>
+  <pubDate>Thu, 26 Jul 2018 17:30:26 GMT</pubDate>
+</item>
+<item>
+  <title>“Gestalt Theory for #UX #Design” and other Tweeted links…</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/gestalt-theory-for-ux-design-and-other-tweeted-links</link>
+  <description>Gestalt Theory for
+      #UX#Design: Principle of Proximity
+      [tubikstudio.com] Tabbed Interfaces
+      [inclusive-components.design] Simple Icon Generator
+      [prefinem.com]#UI ⚛️ Preact, a fast 3KB React alternative with the same API, has jus...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">gestalt-theory-for-ux-design-and-other-tweeted-links</guid>
+  <pubDate>Wed, 25 Jul 2018 17:39:00 GMT</pubDate>
+</item>
+<item>
+  <title>“Analyzing the Hamburger Menu in Web Design” and other Tweeted links…</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/analyzing-the-hamburger-menu-in-web-design-and-other-tweeted-links</link>
+  <description>Analyzing the Hamburger Menu in Web Design
+      [speckyboy.com] Information Architecture. The Most Important Part of Design You’re Probably Overlooking.
+      [blog.prototypr.io] Getting Started with
+      #CSS Counters
+      [scotch.io] 24 Ways to ...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">analyzing-the-hamburger-menu-in-web-design-and-other-tweeted-links</guid>
+  <pubDate>Mon, 23 Jul 2018 16:03:29 GMT</pubDate>
+</item></channel>
 </rss>
