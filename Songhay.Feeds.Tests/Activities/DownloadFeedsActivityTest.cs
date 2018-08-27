@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Songhay.Extensions;
 using Songhay.Feeds.Activities;
 using Songhay.Feeds.Tests.Extensions;
 using Songhay.Models;
@@ -37,7 +38,7 @@ namespace Songhay.Feeds.Tests.Activities
         [TestMethod]
         public void ShouldGetRootDirectory()
         {
-            var projectDirectoryInfo = this.TestContext.ShouldGetTestProjectDirectoryInfo(this.GetType());
+            var projectDirectoryInfo = this.TestContext.ShouldGetProjectDirectoryInfo(this.GetType());
 
             var args = new[] { nameof(DownloadFeedsActivity), ProgramArgs.BasePath, projectDirectoryInfo.FullName };
             var activity = this.TestContext.ShouldGetActivityWithConfiguration(this.GetType(), args) as DownloadFeedsActivity;
@@ -56,7 +57,7 @@ namespace Songhay.Feeds.Tests.Activities
         [TestMethod]
         public void ShouldConvertFeedsToJson()
         {
-            var projectDirectoryInfo = this.TestContext.ShouldGetTestProjectDirectoryInfo(this.GetType());
+            var projectDirectoryInfo = this.TestContext.ShouldGetProjectDirectoryInfo(this.GetType());
 
             var args = new[] { nameof(DownloadFeedsActivity), ProgramArgs.BasePath, projectDirectoryInfo.FullName };
             var activity = this.TestContext.ShouldGetActivityWithConfiguration(this.GetType(), args) as DownloadFeedsActivity;
@@ -73,7 +74,7 @@ namespace Songhay.Feeds.Tests.Activities
         [TestMethod]
         public void ShouldDownloadFeeds()
         {
-            var projectDirectoryInfo = this.TestContext.ShouldGetTestProjectDirectoryInfo(this.GetType());
+            var projectDirectoryInfo = this.TestContext.ShouldGetProjectDirectoryInfo(this.GetType());
 
             var args = new[] { nameof(DownloadFeedsActivity), ProgramArgs.BasePath, projectDirectoryInfo.FullName };
             var activity = this.TestContext.ShouldGetActivityWithConfiguration(this.GetType(), args) as DownloadFeedsActivity;
