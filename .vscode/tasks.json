@@ -15,10 +15,9 @@
             "args": [
                 "test",
                 "${workspaceFolder}/Songhay.Feeds.Tests/Songhay.Feeds.Tests.csproj",
-                "--results-directory",
-                "${workspaceFolder}/TestResults",
-                "--verbosity",
-                "normal"
+                "--logger:trx",
+                "--results-directory:${workspaceFolder}/TestResults",
+                "--verbosity:normal"
             ],
             "problemMatcher": "$msCompile"
         }
