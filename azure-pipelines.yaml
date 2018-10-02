@@ -37,7 +37,10 @@ steps:
   displayName: 'dotnet publish'
   inputs:
     command: publish
+    publishWebProjects: false
+    projects: '$(RepoName).Shell/*.csproj'
     arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    zipAfterPublish: true
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
