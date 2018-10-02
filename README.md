@@ -1,6 +1,6 @@
 # Songhay Feeds
 
-![build badge](https://songhay.visualstudio.com/_apis/public/build/definitions/e6de8b87-c501-478d-8af5-b564cbd966cc/2/badge)
+[![Build Status](https://songhay.visualstudio.com/SonghaySystem/_apis/build/status/songhay-system-job-feeds-yaml-build)](https://songhay.visualstudio.com/SonghaySystem/_build/latest?definitionId=9)
 
 Songhay Feeds are `Activities` around downloading Syndication feeds (in RSS or Atom) and converting them into static JSON files. This file format can be used to bind to display component for a “dashboard” view.
 
