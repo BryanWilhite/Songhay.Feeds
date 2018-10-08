@@ -2,12 +2,23 @@
   "rss": {
     "@version": "2.0",
     "channel": {
-      "pubDate": "Fri, 10 Aug 2018 17:27:37 GMT",
+      "pubDate": "Sun, 30 Sep 2018 23:00:11 GMT",
       "title": ">DayPath_",
       "description": "The technical journey of @BryanWilhite.",
       "copyright": "Bryan Wilhite, Songhay System 2018",
       "link": "http://songhayblog.azurewebsites.net/",
       "item": [
+        {
+          "title": "studio status report: 2018-09",
+          "link": "http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2018-09",
+          "description": "This report is a extremely late as this writing occurs on the last day of the month.the work on the new SonghaySystem.com continuesThe prime suspect for the lateness of this report is the work represented by Songhay.Dashboardissue #16. This single issue ...",
+          "author": "rasx@songhaysystem.com",
+          "guid": {
+            "@isPermaLink": "false",
+            "#text": "studio-status-report-2018-09"
+          },
+          "pubDate": "Sun, 30 Sep 2018 22:50:14 GMT"
+        },
         {
           "title": "studio status report: 2018-08",
           "link": "http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2018-08",
@@ -106,17 +117,6 @@
             "#text": "gestalt-theory-for-ux-design-and-other-tweeted-links"
           },
           "pubDate": "Wed, 25 Jul 2018 17:39:00 GMT"
-        },
-        {
-          "title": "“Analyzing the Hamburger Menu in Web Design” and other Tweeted links…",
-          "link": "http://songhayblog.azurewebsites.net/blog/entry/analyzing-the-hamburger-menu-in-web-design-and-other-tweeted-links",
-          "description": "Analyzing the Hamburger Menu in Web Design\r\n      [speckyboy.com] Information Architecture. The Most Important Part of Design You’re Probably Overlooking.\r\n      [blog.prototypr.io] Getting Started with\r\n      #CSS Counters\r\n      [scotch.io] 24 Ways to ...",
-          "author": "rasx@songhaysystem.com",
-          "guid": {
-            "@isPermaLink": "false",
-            "#text": "analyzing-the-hamburger-menu-in-web-design-and-other-tweeted-links"
-          },
-          "pubDate": "Mon, 23 Jul 2018 16:03:29 GMT"
         }
       ]
     }

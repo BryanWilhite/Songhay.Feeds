@@ -13,8 +13,19 @@
       "dc:language": "en",
       "dc:creator": "nospam@codepen.io",
       "dc:rights": "Copyright 2018",
-      "dc:date": "\n        2017-06-10T01:42:43-07:00\n      ",
+      "dc:date": "\n        2018-09-04T05:03:45-07:00\n      ",
       "item": [
+        {
+          "title": "responsive strip of fixed inline blocks",
+          "link": "https://codepen.io/rasx/pen/mEVdBy",
+          "guid": "https://codepen.io/rasx/pen/mEVdBy",
+          "dc:creator": "Bryan Wilhite",
+          "description": {
+            "#cdata-section": "\n    <p>\n      <a href=\"https://codepen.io/rasx/pen/mEVdBy\"><img width=\"1024\" height=\"600\" src=\"https://codepen.io/rasx/pen/mEVdBy/image/large.png\"></a>\n    </p>\n    <p>\n      <a href=\"https://codepen.io/rasx/pen/mEVdBy\">See the Code</a> -\n      <a href=\"https://codepen.io/rasx/full/mEVdBy\">See it Full Page</a> -\n      <a href=\"https://codepen.io/rasx/details/mEVdBy\">See Details</a>\n    </p>\n    <p>\n      \n    </p>\n    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>\n    "
+          },
+          "dc:subject": "responsive strip of fixed inline blocks",
+          "dc:date": "\n    2018-09-04T05:03:45-07:00\n  "
+        },
         {
           "title": "CSS: Drop-Down Menu",
           "link": "https://codepen.io/rasx/pen/CGbio",
@@ -113,17 +124,6 @@
           },
           "dc:subject": "Angular UI: pagination",
           "dc:date": "\n    2016-09-04T19:05:35-07:00\n  "
-        },
-        {
-          "title": "Songhay Studio: Day Path Index Layout with Grouping",
-          "link": "https://codepen.io/rasx/pen/rVMJVW",
-          "guid": "https://codepen.io/rasx/pen/rVMJVW",
-          "dc:creator": "Bryan Wilhite",
-          "description": {
-            "#cdata-section": "\n    <p>\n      <a href=\"https://codepen.io/rasx/pen/rVMJVW\"><img width=\"1024\" height=\"600\" src=\"https://codepen.io/rasx/pen/rVMJVW/image/large.png\"></a>\n    </p>\n    <p>\n      <a href=\"https://codepen.io/rasx/pen/rVMJVW\">See the Code</a> -\n      <a href=\"https://codepen.io/rasx/full/rVMJVW\">See it Full Page</a> -\n      <a href=\"https://codepen.io/rasx/details/rVMJVW\">See Details</a>\n    </p>\n    <p>\n      \n    </p>\n    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>\n    "
-          },
-          "dc:subject": "Songhay Studio: Day Path Index Layout with Grouping",
-          "dc:date": "\n    2016-08-19T20:52:10-07:00\n  "
         }
       ]
     }

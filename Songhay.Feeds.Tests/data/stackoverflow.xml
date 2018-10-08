@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">User rasx - Stack Overflow</title>
+    <link rel="self" href="https://stackoverflow.com/feeds/user/22944" type="application/atom+xml" />
+    <link rel="alternate" href="https://stackoverflow.com/users/22944" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2018-10-08T19:48:45Z</updated>
+    <id>https://stackoverflow.com/feeds/user/22944</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>https://stackoverflow.com/q/52214134</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">an Angular NPM package out there for `nativeElement: ElementRef` [like jQuery]?</title>
+            <category scheme="https://stackoverflow.com/tags" term="angular" />
+            <category scheme="https://stackoverflow.com/tags" term="typescript" />
+            <category scheme="https://stackoverflow.com/tags" term="dom" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/52214134/an-angular-npm-package-out-there-for-nativeelement-elementref-like-jquery" />
+        <published>2018-09-07T01:33:48Z</published>
+        <updated>2018-09-07T01:33:48Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am very tempted to re-factor the following &lt;code&gt;nativeElement&lt;/code&gt; handling in &lt;code&gt;ngAfterViewInit&lt;/code&gt; into a little Typescript class of static methods:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export class AnimationBuilderComponent implements AfterViewInit {
+    @ViewChild(&#39;photos&#39;) photosContainer: ElementRef;
+
+    constructor(private animationBuilder: AnimationBuilder) {}
+
+    ngAfterViewInit(): void {
+        const div = this.photosContainer.nativeElement as HTMLDivElement;
+        if (!div) {
+            console.warn(&#39;the expected div element is not here&#39;);
+            return;
+        }
+        const children = Array.from(div.children);
+        if (!children) {
+            console.warn(&#39;the expected div element children are not here&#39;);
+            return;
+        }
+        if (!children.length) {
+            console.warn(
+                &#39;the expected number of div element children is not here&#39;
+            );
+            return;
+        }
+        children.forEach(el =&amp;gt; {
+            if (el.nodeName !== &#39;img&#39;.toUpperCase()) {
+                return;
+            }
+            console.log(el.clientWidth);
+        });
+    }
+
+    animate(): void {
+        console.log(&#39;animate!&#39;);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Before I scurry off and do this, is there a NPM package out there that already does this? Effectively, I am looking for a tiny equivalent of jQuery that is aware of &lt;code&gt;ElementRef&lt;/code&gt;.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/52050067</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Does MSTEST on .NET Core support more --logger format than just TRX?</title>
+            <category scheme="https://stackoverflow.com/tags" term="visual-studio-code" />
+            <category scheme="https://stackoverflow.com/tags" term=".net-core" />
+            <category scheme="https://stackoverflow.com/tags" term="mstest" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/52050067/does-mstest-on-net-core-support-more-logger-format-than-just-trx" />
+        <published>2018-08-28T04:24:27Z</published>
+        <updated>2018-08-28T04:24:27Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;In Visual Studio Code, my test task uses the TRX logger:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+    &quot;label&quot;: &quot;test [Songhay.Feeds.Tests]&quot;,
+    &quot;command&quot;: &quot;dotnet&quot;,
+    &quot;type&quot;: &quot;shell&quot;,
+    &quot;args&quot;: [
+        &quot;test&quot;,
+        &quot;${workspaceFolder}/Songhay.Feeds.Tests/Songhay.Feeds.Tests.csproj&quot;
+        &quot;--logger:trx&quot;,
+        &quot;--results-directory:${workspaceFolder}/TestResults&quot;,
+        &quot;--verbosity:normal&quot;
+    ],
+    &quot;problemMatcher&quot;: &quot;$msCompile&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where &lt;code&gt;--logger&lt;/code&gt; &lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-test?tabs=netcore21#options&quot; rel=&quot;nofollow noreferrer&quot;&gt;is documented&lt;/a&gt; but no list of logger formats (for MSTEST) can be listed here and &lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest&quot; rel=&quot;nofollow noreferrer&quot;&gt;when MSTEST is covered in the docs&lt;/a&gt;, there is no mention of loggers. Is TRX the only logger for MSTEST on .NET Core? (And, BTW, is there a TRX viewer in the works for VSCode?)&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/51563534</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">is it possible to write CSS for all Angular &quot;hosts&quot; or do we have to select each host individually</title>
+            <category scheme="https://stackoverflow.com/tags" term="css" />
+            <category scheme="https://stackoverflow.com/tags" term="angular" />
+            <category scheme="https://stackoverflow.com/tags" term="css-selectors" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/51563534/is-it-possible-to-write-css-for-all-angular-hosts-or-do-we-have-to-select-each" />
+        <published>2018-07-27T18:22:57Z</published>
+        <updated>2018-07-27T19:41:47Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;The &lt;a href=&quot;https://angular.io/guide/component-styles#host&quot; rel=&quot;nofollow noreferrer&quot;&gt;Angular documentation&lt;/a&gt; for &lt;code&gt;:host&lt;/code&gt; does &lt;em&gt;not&lt;/em&gt; mention that we can style &lt;em&gt;all&lt;/em&gt; host elements at once. I have added this CSS at a “global” level:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;:host {
+    width: 100%;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but there was no effect. However, this works fine in the CSS at the component level:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;:host(app-search) {
+    width: 100%;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where &lt;code&gt;app-search&lt;/code&gt; is a component, &lt;code&gt;app-search.component.ts&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Is is possible to write a &lt;code&gt;:host&lt;/code&gt; selector for all components or must this be declared multiple times at the component level?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/51529003</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Is `dotnet run` is no different from `npm start` when using Microsoft.DotNet.Web.Spa.ProjectTemplates::2.0.0?</title>
+            <category scheme="https://stackoverflow.com/tags" term="asp.net-core" />
+            <category scheme="https://stackoverflow.com/tags" term="visual-studio-code" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/51529003/is-dotnet-run-is-no-different-from-npm-start-when-using-microsoft-dotnet-web" />
+        <published>2018-07-25T23:27:02Z</published>
+        <updated>2018-07-26T02:51:55Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;The &lt;code&gt;*.csproj&lt;/code&gt; file generated by &lt;code&gt;dotnet new angular&lt;/code&gt; from &lt;code&gt;Microsoft.DotNet.Web.Spa.ProjectTemplates::2.0.0&lt;/code&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/?view=aspnetcore-2.1#installation&quot; rel=&quot;nofollow noreferrer&quot;&gt; [docs]&lt;/a&gt; seems to render these commands as identical: &lt;code&gt;dotnet run&lt;/code&gt; and &lt;code&gt;npm start&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Whenever, I intend to run the SPA &lt;em&gt;and&lt;/em&gt; the ASP.NET Core backend from Visual Studio Code I need to launch (pressing F5). Running &lt;code&gt;dotnet run&lt;/code&gt; &lt;a href=&quot;https://github.com/BryanWilhite/Songhay.Blog/issues/18&quot; rel=&quot;nofollow noreferrer&quot;&gt;will not run both&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Is this situation by design? Should I not even bother using &lt;code&gt;dotnet run&lt;/code&gt; in VS Code?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/46477166</id>
+        <re:rank scheme="https://stackoverflow.com">1</re:rank>
+        <title type="text">VS2017 MSTEST Discovery Fails due to System.Runtime Binding in App.config</title>
+            <category scheme="https://stackoverflow.com/tags" term="visual-studio" />
+            <category scheme="https://stackoverflow.com/tags" term="nuget" />
+            <category scheme="https://stackoverflow.com/tags" term="mstest" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/46477166/vs2017-mstest-discovery-fails-due-to-system-runtime-binding-in-app-config" />
+        <published>2017-09-28T19:47:21Z</published>
+        <updated>2018-02-28T15:28:38Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;Whenever my &lt;a href=&quot;https://www.nuget.org/packages/MSTest.TestFramework/&quot; rel=&quot;nofollow noreferrer&quot;&gt;MSTEST&lt;/a&gt; projects have a &lt;code&gt;System.Runtime&lt;/code&gt; binding under the &lt;code&gt;runtime&lt;/code&gt; element in &lt;code&gt;app.config&lt;/code&gt;, test discovery in the &lt;a href=&quot;https://docs.microsoft.com/en-us/visualstudio/test/run-unit-tests-with-test-explorer&quot; rel=&quot;nofollow noreferrer&quot;&gt;Test Explorer&lt;/a&gt; fails. The Tests output in the Output Window looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[9/28/2017 12:37:17 PM Informational] ------ Discover test started ------
+[9/28/2017 12:37:18 PM Warning] The given assembly name or codebase was invalid. (Exception from HRESULT: 0x80131047)
+[9/28/2017 12:37:18 PM Informational] ========== Discover test finished: 3 found (0:00:00.8953713) ==========
+[9/28/2017 12:37:18 PM Informational] No tests found to run.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;System.Runtime&lt;/code&gt; binding looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;dependentAssembly&amp;gt;
+    &amp;lt;assemblyIdentity name=&quot;System.Runtime&quot; publicKeyToken=&quot;b03f5f7f11d50a3a&quot; culture=&quot;neutral&quot; /&amp;gt;
+    &amp;lt;bindingRedirect oldVersion=&quot;0.0.0.0-4.0.10.0&quot; newVersion=&quot;4.0.10.0&quot; /&amp;gt;
+&amp;lt;/dependentAssembly&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This binding is declared due to NuGet installs/updates.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/48413426</id>
+        <re:rank scheme="https://stackoverflow.com">1</re:rank>
+        <title type="text">Is there a Kestrel- or OWIN- related convention around exposing Program.IWebHost?</title>
+            <category scheme="https://stackoverflow.com/tags" term="asp.net-core" />
+            <category scheme="https://stackoverflow.com/tags" term="mstest" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/48413426/is-there-a-kestrel-or-owin-related-convention-around-exposing-program-iwebhost" />
+        <published>2018-01-24T01:17:25Z</published>
+        <updated>2018-01-24T01:17:25Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;In order to make my ASP.NET Core &lt;code&gt;Program&lt;/code&gt; more testable, I prefer to expose &lt;code&gt;IWebHostBuilder&lt;/code&gt; instead of the auto-generated &lt;code&gt;IWebHost&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Hosting;
+using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo(&quot;Songhay.Feeds.Tests&quot;)]
+
+namespace Songhay.Feeds
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var builder = GetWebHostBuilder(args);
+            builder.Build().Run();
+        }
+
+        internal static IWebHostBuilder GetWebHostBuilder(string[] args) =&amp;gt; WebHost.CreateDefaultBuilder(args).UseStartup&amp;lt;Startup&amp;gt;();
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is there a reason why &lt;code&gt;IWebHost&lt;/code&gt; is exposed by default? Did I just make the runtime lifetime of my code problematic?&lt;/p&gt;
+
+&lt;p&gt;By the way, from an old-school MSTEST perspective, my &lt;code&gt;TestInitialize&lt;/code&gt; looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    [TestInitialize]
+    public void InitializeTest()
+    {
+        var basePath = this.TestContext.ShouldGetBasePath(this.GetType());
+        var builder = Program.GetWebHostBuilder(args: null);
+        Assert.IsNotNull(builder, &quot;The expected Web Host builder is not here.&quot;);
+
+        builder.ConfigureAppConfiguration((builderContext, configBuilder) =&amp;gt;
+        {
+            Assert.IsNotNull(builderContext, &quot;The expected Web Host builder context is not here.&quot;);
+
+            var env = builderContext.HostingEnvironment;
+            Assert.IsNotNull(env, &quot;The expected Hosting Environment is not here.&quot;);
+
+            env.ContentRootPath = basePath;
+            env.EnvironmentName = &quot;Development&quot;;
+            env.WebRootPath = $&quot;{basePath}{Path.DirectorySeparatorChar}wwwroot&quot;;
+        });
+
+        this._server = new TestServer(builder);
+        Assert.IsNotNull(this._server, &quot;The expected test server is not here.&quot;);
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/48179573</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">clean conversion of Index Signature (dictionary) to Map?</title>
+            <category scheme="https://stackoverflow.com/tags" term="typescript" />
+            <category scheme="https://stackoverflow.com/tags" term="json.net" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/48179573/clean-conversion-of-index-signature-dictionary-to-map" />
+        <published>2018-01-10T02:46:49Z</published>
+        <updated>2018-01-10T04:58:05Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;As of today, this is the only way I know how to convert &lt;code&gt;Dictionary&amp;lt;K,V&amp;gt;&lt;/code&gt; (from, say, Json.NET) to &lt;code&gt;Map&amp;lt;K,V&amp;gt;&lt;/code&gt; in TypeScript:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;const json = &#39;{ &quot;1&quot;: &quot;one&quot;, &quot;2&quot;: &quot;two&quot;, &quot;3&quot;: &quot;three&quot;, &quot;4&quot;: &quot;four&quot; }&#39;;
+const dictionary = JSON.parse(json) as { [index: number]: string; };
+const parsedMap = new Map&amp;lt;number, string&amp;gt;();
+for (const i in dictionary) {
+    if (!dictionary.hasOwnProperty(i)) { continue; }
+    console.log(`dictionary[${i}]: ${dictionary[i]}`);
+    parsedMap.set(parseInt(i, 10), dictionary[i]);
+}
+console.log(`parsedMap.size: ${parsedMap.size}`);
+console.log(`parsedMap.get(4): ${parsedMap.get(4)}`);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is there something already baked into something else that makes this conversion cleaner? Is this too verbose?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/48122618</id>
+        <re:rank scheme="https://stackoverflow.com">1</re:rank>
+        <title type="text">Preventing the use of TypeScript &#39;interface-style&#39; field initializers on a class</title>
+            <category scheme="https://stackoverflow.com/tags" term="node.js" />
+            <category scheme="https://stackoverflow.com/tags" term="typescript" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/48122618/preventing-the-use-of-typescript-interface-style-field-initializers-on-a-class" />
+        <published>2018-01-05T23:16:46Z</published>
+        <updated>2018-01-06T22:00:38Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;Here is &lt;code&gt;MyClass&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export class MyClass {
+    one: string;
+    two: string;
+
+    constructor(init?: Partial&amp;lt;MyClass&amp;gt;) {
+        if (init) {
+            Object.assign(this, init);
+        } else {
+            this.one = &#39;first&#39;;
+            this.two = &#39;second&#39;;
+        }
+    }
+
+    getOneAndTwo(): string {
+        return `${this.one} and ${this.two}!`;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here are three ways to instantiate &lt;code&gt;MyClass&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import { MyClass } from &#39;./models/my-class&#39;;
+
+let mine = new MyClass();
+console.log(mine.getOneAndTwo());
+
+mine = new MyClass({
+    one: &#39;One&#39;,
+    two: &#39;Two&#39;
+});
+console.log(mine.getOneAndTwo());
+
+mine = {
+    one: &#39;Three&#39;,
+    two: &#39;Four&#39;
+} as MyClass;
+console.log(mine.getOneAndTwo());
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The last call to &lt;code&gt;getOneAndTwo()&lt;/code&gt; will throw an error that starts off like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;TypeError: mine.getOneAndTwo is not a function
+    at Object.&amp;lt;anonymous&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I assume that the TypeScript compiler allows this to compile because it assumes I am treating a TypeScript class like a TypeScript interface. Is there any way I can throw a warning or an error to prevent this assumption from happening?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/47917540</id>
+        <re:rank scheme="https://stackoverflow.com">2</re:rank>
+        <title type="text">RxJS and angular.io: an Observable&lt;Array&lt;T&gt;&gt; where T contains an observable array</title>
+            <category scheme="https://stackoverflow.com/tags" term="angular" />
+            <category scheme="https://stackoverflow.com/tags" term="typescript" />
+            <category scheme="https://stackoverflow.com/tags" term="rxjs" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/47917540/rxjs-and-angular-io-an-observablearrayt-where-t-contains-an-observable-arra" />
+        <published>2017-12-21T03:32:57Z</published>
+        <updated>2017-12-25T11:09:38Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;Indeed, I &lt;em&gt;did&lt;/em&gt; try to find a similar question to this one as I find it hard to accept that it has not been asked before (even though it might be of an anti-pattern). Let us start with this component:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Component({...})
+export class MyParent {
+    myGroups: Observable&amp;lt;Array&amp;lt;MyItemGroup&amp;gt;&amp;gt;;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where &lt;code&gt;MyItemGroup&lt;/code&gt; is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export class MyItemGroup {
+    groupDisplayName: string;
+    group: Observable&amp;lt;Array&amp;lt;MyGroupedItem&amp;gt;&amp;gt;;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;First of all, is this arrangement some kind anti-pattern? Is there another grouping design that is regarded as correct in angular.io? To avoid the classic answer, &quot;it depends,&quot; let us go further and see that:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export class MyGroupedItem {
+    title: string;
+    uri: string;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;At the &lt;code&gt;MyParent&lt;/code&gt; level, I would like to filter &lt;code&gt;MyGroupedItem&lt;/code&gt; by &lt;code&gt;title&lt;/code&gt; and, when this filter reduces the count of &lt;code&gt;MyItemGroup.group&lt;/code&gt; to zero, I would like to filter out &lt;code&gt;MyItemGroup&lt;/code&gt; entirely. This strongly suggests to me that I must add &lt;code&gt;mySubject&lt;/code&gt; to &lt;code&gt;MyParent&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Component({...})
+export class MyParent {
+    myGroups: Observable&amp;lt;Array&amp;lt;MyItemGroup&amp;gt;&amp;gt;;
+    mySubject: Subject&amp;lt;string&amp;gt; = new Subject&amp;lt;string&amp;gt;();
+
+    filterMyGroups(particle: string): void {
+        this.mySubject.next(particle);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It is here that I assume I need to go to town with RxJS, combining &lt;code&gt;myGroups&lt;/code&gt; and &lt;code&gt;mySubject&lt;/code&gt;. How does one do that? The UI would refer to &lt;code&gt;mySubject&lt;/code&gt; through this markup:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;input #myFilter (keyup)=&quot;filterMyGroups(myFilter.value)&quot; /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I can only hope the hope of the captive that my questions are understood and clear.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/47445703</id>
+        <re:rank scheme="https://stackoverflow.com">1</re:rank>
+        <title type="text">Using Jasmine to test an Angular Service that loads a static JSON file</title>
+            <category scheme="https://stackoverflow.com/tags" term="angular" />
+            <category scheme="https://stackoverflow.com/tags" term="karma-jasmine" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/47445703/using-jasmine-to-test-an-angular-service-that-loads-a-static-json-file" />
+        <published>2017-11-23T00:10:35Z</published>
+        <updated>2017-11-23T02:01:07Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have been slightly diverging from the guidance in &lt;a href=&quot;https://semaphoreci.com/community/tutorials/testing-services-in-angular-2&quot; rel=&quot;nofollow noreferrer&quot;&gt;Testing Services in Angular 2&lt;/a&gt; to test this method, &lt;code&gt;loadIndex()&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;loadIndex(): Promise&amp;lt;Response&amp;gt; {
+    this.index = null;
+    this.isLoaded = false;
+    this.isLoading = true;
+
+    const promise = this.client
+        .get(&#39;./src/assets/data/index.json&#39;) // TODO: inject this from config?
+        .toPromise();
+    promise
+        .catch(() =&amp;gt; {
+            this.isError = true;
+            this.isLoaded = false;
+        })
+        .then(responseOrVoid =&amp;gt; {
+            const response = &amp;lt;Response&amp;gt;responseOrVoid;
+            if (!response) {
+                return;
+            }
+
+            this.index = response.json().data as Array&amp;lt;BlogEntry&amp;gt;;
+            if (!this.index) {
+                return;
+            }
+
+            this.isLoaded = true;
+            this.isLoading = false;
+        });
+
+    return promise;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;with this test:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import { TestBed, async, getTestBed } from &#39;@angular/core/testing&#39;;
+import {
+    BaseRequestOptions,
+    Http,
+    Response,
+    ResponseOptions,
+    XHRBackend
+} from &#39;@angular/http&#39;;
+import { BlogEntriesService } from &#39;./songhay-blog-entries.service&#39;;
+import { BlogEntry } from &#39;../models/songhay-blog-entry&#39;;
+import { error } from &#39;util&#39;;
+
+describe(&#39;BlogEntriesService&#39;, () =&amp;gt; {
+    const testBed = getTestBed();
+    let service: BlogEntriesService;
+
+    beforeEach(() =&amp;gt; {
+        TestBed.configureTestingModule({
+            providers: [
+                BaseRequestOptions,
+                BlogEntriesService,
+                {
+                    deps: [BaseRequestOptions],
+                    provide: Http,
+                    useFactory: (
+                        backend: XHRBackend,
+                        defaultOptions: BaseRequestOptions
+                    ) =&amp;gt; new Http(backend, defaultOptions)
+                }
+            ]
+        });
+    });
+
+    it(&#39;should load index&#39;, done =&amp;gt; {
+        service = testBed.get(BlogEntriesService);
+        expect(service).toBeDefined();
+        expect(service).toBeTruthy();
+        service
+            .loadIndex()
+            .then(result =&amp;gt; {
+                expect(result).toBeDefined();
+            })
+            .catch(result =&amp;gt; expect(result).toBeUndefined())
+            .then(done);
+    });
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I have removed the &lt;code&gt;MockBackend&lt;/code&gt; code from my test because I think I do not need it because I am loading a local, static JSON file (not really a &lt;em&gt;unit&lt;/em&gt; test). So the error I am getting is this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;TypeError: Cannot read property &#39;merge&#39; of undefined
+
+at mergeOptions (http://localhost:9876/_karma_webpack_/webpack:/../angular.io-index-app/index-app/node_modules/@angular/http/@angular/http.es5.js:1824:1)
+    at Http.webpackJsonp.../../../http/@angular/http.es5.js.Http.get (http://localhost:9876/_karma_webpack_/webpack:/../angular.io-index-app/index-app/node_modules/@angular/http/@angular/http.es5.js:1924:1)
+    at BlogEntriesService.webpackJsonp.../../../../../src/app/services/songhay-blog-entries.service.ts.BlogEntriesService.loadIndex (http://localhost:9876/_karma_webpack_/webpack:/../angular.io-index-app/index-app/src/app/services/songhay-blog-entries.service.ts:78:14)
+    at Object.&amp;lt;anonymous&amp;gt; (http://localhost:9876/_karma_webpack_/webpack:/../angular.io-index-app/index-app/src/app/services/songhay-blog-entries.service.spec.ts:39:14)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/../angular.io-index-app/index-app/node_modules/zone.js/dist/zone.js:392:1)
+    at ProxyZoneSpec.webpackJsonp.../../../../zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/../angular.io-index-app/index-app/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp.../../../../zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/../angular.io-index-app/index-app/node_modules/zone.js/dist/zone.js:391:1)
+    at Zone.webpackJsonp.../../../../zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/../angular.io-index-app/index-app/node_modules/zone.js/dist/zone.js:142:1)
+    at Object.&amp;lt;anonymous&amp;gt; (http://localhost:9876/_karma_webpack_/webpack:/../angular.io-index-app/index-app/node_modules/zone.js/dist/jasmine-patch.js:102:1)
+    at attemptAsync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?da99c5b057693d025fad3d7685e1590600ca376d:3945:24)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is this issue here known? Should I just give up and build an e2e test?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/45925830</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">how does visual studio know which assemblies in a NuGet package to reference?</title>
+            <category scheme="https://stackoverflow.com/tags" term="visual-studio" />
+            <category scheme="https://stackoverflow.com/tags" term="nuget" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/45925830/how-does-visual-studio-know-which-assemblies-in-a-nuget-package-to-reference" />
+        <published>2017-08-28T19:09:53Z</published>
+        <updated>2017-08-29T08:01:41Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;A NuGet package is published with many, many assemblies. Not all assemblies in a NuGet package need to be referenced in the &lt;code&gt;*.csproj&lt;/code&gt; in Visual Studio. How does Visual Studio determine which assembly to reference? Is the logic for this in nuget.exe or is it in some NuGet API?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/1892099</id>
+        <re:rank scheme="https://stackoverflow.com">3</re:rank>
+        <title type="text">Capturing WPF Runtime BindingExpression errors</title>
+            <category scheme="https://stackoverflow.com/tags" term="wpf" />
+            <category scheme="https://stackoverflow.com/tags" term="events" />
+            <category scheme="https://stackoverflow.com/tags" term="xaml" />
+            <category scheme="https://stackoverflow.com/tags" term="binding" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/1892099/capturing-wpf-runtime-bindingexpression-errors" />
+        <published>2009-12-12T02:52:55Z</published>
+        <updated>2017-05-03T21:37:07Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;We can all see Runtime &lt;code&gt;BindingExpression&lt;/code&gt; errors in the Visual Studio Output Window. But can we capture these events in the running app itself? I&#39;m hearing about WPF tracing... does this have something to do with this facility? Also, the &lt;code&gt;System.Windows.Data&lt;/code&gt; namespace contains no documented events (like a &lt;code&gt;BindingExpression&lt;/code&gt; error event), why?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/24386657/-/43596663#43596663</id>
+        <re:rank scheme="https://stackoverflow.com">11</re:rank>
+        <title type="text">Answer by rasx for How to add a &quot;open git-bash here...&quot; context menu to the windows explorer?</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/24386657/how-to-add-a-open-git-bash-here-context-menu-to-the-windows-explorer/43596663#43596663" />
+        <published>2017-04-24T19:55:42Z</published>
+        <updated>2017-04-24T19:55:42Z</updated>
+        <summary type="html">&lt;p&gt;Here are the Registry exports (&lt;code&gt;*.reg&lt;/code&gt; files) for Git GUI and Git Bash directly from the &lt;a href=&quot;https://git-scm.com/downloads&quot; rel=&quot;noreferrer&quot;&gt;Windows installer&lt;/a&gt; —Git GUI:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\git_gui]
+@=&quot;Git &amp;amp;GUI Here&quot;
+&quot;Icon&quot;=&quot;C:\\Program Files\\Git\\cmd\\git-gui.exe&quot;
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\git_gui\command]
+@=&quot;\&quot;C:\\Program Files\\Git\\cmd\\git-gui.exe\&quot; \&quot;--working-dir\&quot; \&quot;%v.\&quot;&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Git bash:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\git_shell]
+@=&quot;Git Ba&amp;amp;sh Here&quot;
+&quot;Icon&quot;=&quot;C:\\Program Files\\Git\\git-bash.exe&quot;
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\git_shell\command]
+@=&quot;\&quot;C:\\Program Files\\Git\\git-bash.exe\&quot; \&quot;--cd=%v.\&quot;&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For detail about &lt;code&gt;*.reg&lt;/code&gt; files, see “&lt;a href=&quot;https://support.microsoft.com/en-us/help/310516/how-to-add,-modify,-or-delete-registry-subkeys-and-values-by-using-a-.reg-file&quot; rel=&quot;noreferrer&quot;&gt;How to add, modify, or delete registry subkeys and values by using a .reg file&lt;/a&gt;” from Microsoft.&lt;/p&gt;
+</summary>
+    </entry>    <entry>
+        <id>https://stackoverflow.com/q/43400589</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Am I using the Lambda Calculus term _combinator_ correctly?</title>
+            <category scheme="https://stackoverflow.com/tags" term="c#" />
+            <category scheme="https://stackoverflow.com/tags" term="linq" />
+            <category scheme="https://stackoverflow.com/tags" term="linqpad" />
+            <category scheme="https://stackoverflow.com/tags" term="lambda-calculus" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/43400589/am-i-using-the-lambda-calculus-term-combinator-correctly" />
+        <published>2017-04-13T19:48:00Z</published>
+        <updated>2017-04-13T19:48:00Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am OOP-heritage C# developer trying hard to respect the theory behind functional programming. In the following code sample below, am I using the Lambda Calculus term &lt;em&gt;combinator&lt;/em&gt; (in &lt;code&gt;FuncCombinator&lt;/code&gt;) correctly?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;Query Kind=&quot;Program&quot; /&amp;gt;
+
+public static class FuncExtensions
+{
+    public static Func&amp;lt;T, bool&amp;gt; And&amp;lt;T&amp;gt;(this Func&amp;lt;T, bool&amp;gt; thisPredicate, Func&amp;lt;T, bool&amp;gt; predicate)
+    {
+        return a =&amp;gt; thisPredicate(a) &amp;amp;&amp;amp; predicate(a);
+    }
+
+    public static Func&amp;lt;T, bool&amp;gt; AndNot&amp;lt;T&amp;gt;(this Func&amp;lt;T, bool&amp;gt; thisPredicate, Func&amp;lt;T, bool&amp;gt; predicate)
+    {
+        return a =&amp;gt; thisPredicate(a) &amp;amp;&amp;amp; !predicate(a);
+    }
+
+    public static Func&amp;lt;T, bool&amp;gt; Or&amp;lt;T&amp;gt;(this Func&amp;lt;T, bool&amp;gt; thisPredicate, Func&amp;lt;T, bool&amp;gt; predicate)
+    {
+        return a =&amp;gt; thisPredicate(a) || predicate(a);
+    }
+
+    public static Func&amp;lt;T, bool&amp;gt; OrNot&amp;lt;T&amp;gt;(this Func&amp;lt;T, bool&amp;gt; thisPredicate, Func&amp;lt;T, bool&amp;gt; predicate)
+    {
+        return a =&amp;gt; thisPredicate(a) || !predicate(a);
+    }
+}
+
+public static class FuncCombinator
+{
+    public static Func&amp;lt;T, bool&amp;gt; Combine&amp;lt;T&amp;gt;(bool @bool = true) { return f =&amp;gt; @bool; }
+}
+
+void Main()
+{
+    var data = new[] { 2, 4, 6, 8, 11, 43, 65 };
+    var greaterThanFourAndLessThanForty = FuncCombinator.Combine&amp;lt;int&amp;gt;()
+        .And&amp;lt;int&amp;gt;(i =&amp;gt; i &amp;gt; 4)
+        .And&amp;lt;int&amp;gt;(i =&amp;gt; i &amp;lt; 40);
+    data.Where(greaterThanFourAndLessThanForty).Dump(&quot;Greater Than Four and Less Than Forty&quot;);
+
+    var notGreaterThanFourAndLessThanForty = FuncCombinator.Combine&amp;lt;int&amp;gt;()
+        .AndNot(greaterThanFourAndLessThanForty);
+    data.Where(notGreaterThanFourAndLessThanForty).Dump(&quot;Not Greater Than Four and Less Than Forty&quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/1341829/-/1344552#1344552</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by rasx for Advice needed for multi-threading strategy for WPF application</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/1341829/advice-needed-for-multi-threading-strategy-for-wpf-application/1344552#1344552" />
+        <published>2009-08-28T01:15:17Z</published>
+        <updated>2017-03-27T14:48:14Z</updated>
+        <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.pixelingene.com/2007/01/wpf-multithreading-with-backgroundworker/&quot; rel=&quot;nofollow noreferrer&quot;&gt;WPF Multithreading with BackgroundWorker&lt;/a&gt; by Pavan Podila:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The good news is that you really don’t have to write such a component since one is available already: the &lt;code&gt;BackgroundWorker&lt;/code&gt; class introduced in .Net Framework 2.0. Programmers who are familiar with WinForms 2.0 may have already used this component. But &lt;code&gt;BackgroundWorker&lt;/code&gt; works equally well with WPF because it is completely agnostic to the threading model.&lt;/p&gt;
+&lt;/blockquote&gt;
+</summary>
+    </entry>    <entry>
+        <id>https://stackoverflow.com/q/42269255</id>
+        <re:rank scheme="https://stackoverflow.com">1</re:rank>
+        <title type="text">why does i.Parent.ReplaceWith(i) not throw an exception?</title>
+            <category scheme="https://stackoverflow.com/tags" term="c#" />
+            <category scheme="https://stackoverflow.com/tags" term="linq-to-xml" />
+            <category scheme="https://stackoverflow.com/tags" term="morelinq" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/42269255/why-does-i-parent-replacewithi-not-throw-an-exception" />
+        <published>2017-02-16T09:04:07Z</published>
+        <updated>2017-02-16T09:15:54Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;In these statements (running with &lt;code&gt;MoreLinq&lt;/code&gt;):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var xml = @&quot;
+&amp;lt;div&amp;gt;
+&amp;lt;p&amp;gt;
+    &amp;lt;h2&amp;gt;hey&amp;lt;/h2&amp;gt;
+&amp;lt;/p&amp;gt;
+&amp;lt;pre /&amp;gt;
+&amp;lt;h2 class=&quot;&quot;cool&quot;&quot; /&amp;gt;
+&amp;lt;p&amp;gt;
+    &amp;lt;h2&amp;gt;okay&amp;lt;/h2&amp;gt;
+&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&quot;.Trim();
+
+var div = XElement.Parse(xml);
+var h2Elements = div.Descendants(&quot;h2&quot;);
+h2Elements.ToList().ForEach(i =&amp;gt;
+{
+    if(i.Parent.Name != &quot;p&quot;) return;
+    i.Parent.ReplaceWith(i);
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I see that &lt;code&gt;i.Parent.ReplaceWith(i)&lt;/code&gt; does not throw an exception but this will throw a null-reference exception (using &lt;code&gt;ForEach&lt;/code&gt; from &lt;code&gt;MoreLinq&lt;/code&gt;):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;h2Elements.ForEach(i =&amp;gt;
+{
+    if(i.Parent.Name != &quot;p&quot;) return;
+    i.Parent.ReplaceWith(i);
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I understand that LINQ&#39;s &lt;code&gt;ToList()&lt;/code&gt; is making a copy of the list but would not the copy just throw an exception as well? Also, is there a memory leak happening here with some kind of orphaned references?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/3008704</id>
+        <re:rank scheme="https://stackoverflow.com">68</re:rank>
+        <title type="text">How to determine the current version of ASP.NET MVC?</title>
+            <category scheme="https://stackoverflow.com/tags" term="asp.net-mvc" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/3008704/how-to-determine-the-current-version-of-asp-net-mvc" />
+        <published>2010-06-09T18:27:39Z</published>
+        <updated>2017-02-14T09:25:40Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;Is there a way to get the current version of ASP.NET MVC in code? Reflecting on MVC assemblies is needed? Any new IIS server variables? Some property to read in HTTP context?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/38005957</id>
+        <re:rank scheme="https://stackoverflow.com">2</re:rank>
+        <title type="text">JToken is not a reference of JObject?</title>
+            <category scheme="https://stackoverflow.com/tags" term="json.net" />
+            <category scheme="https://stackoverflow.com/tags" term="linqpad" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/38005957/jtoken-is-not-a-reference-of-jobject" />
+        <published>2016-06-24T05:07:55Z</published>
+        <updated>2016-06-26T18:26:57Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have not yet noticed that James Newton King wrote or spoke about what &lt;code&gt;JToken&lt;/code&gt; &lt;em&gt;&lt;a href=&quot;http://www.newtonsoft.com/json/help/html/t_newtonsoft_json_linq_jtoken.htm&quot; rel=&quot;nofollow&quot;&gt;is&lt;/a&gt;&lt;/em&gt;. I have made the incorrect assumption that it somehow holds a reference to &lt;code&gt;JObject&lt;/code&gt;. This is not the case as the these LINQPad statements demonstrate:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var json = @&quot;
+{
+    &quot;&quot;item&quot;&quot;: {
+        &quot;&quot;foo&quot;&quot;: &quot;&quot;4&quot;&quot;,
+        &quot;&quot;bar&quot;&quot;: &quot;&quot;42&quot;&quot;
+    }
+}
+&quot;;
+
+var jO = JObject.Parse(json);
+var jToken = jO[&quot;item&quot;][&quot;foo&quot;];
+
+jToken = &quot;5&quot;;
+
+jO.ToString().Dump(&quot;jO&quot;);
+
+jToken.Dump(&quot;jToken&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The output:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;jO
+{
+  &quot;item&quot;: {
+    &quot;foo&quot;: &quot;4&quot;,
+    &quot;bar&quot;: &quot;42&quot;
+  }
+}
+
+jToken
+5 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Should not &lt;code&gt;jO[&quot;item&quot;][&quot;foo&quot;] == 5&lt;/code&gt;?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/15167069/-/30811949#30811949</id>
+        <re:rank scheme="https://stackoverflow.com">6</re:rank>
+        <title type="text">Answer by rasx for PowerShell: Create Local User Account</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/15167069/powershell-create-local-user-account/30811949#30811949" />
+        <published>2015-06-12T20:49:47Z</published>
+        <updated>2016-05-27T16:07:44Z</updated>
+        <summary type="html">&lt;p&gt;As of 2014, &lt;a href=&quot;https://blogs.technet.microsoft.com/heyscriptingguy/2014/10/02/use-powershell-to-create-local-groups/&quot; rel=&quot;nofollow&quot;&gt;here is a statement&lt;/a&gt; from a Microsoft representative (the Scripting Guy):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As much as we might hate to admit it, there are still no Windows
+  PowerShell cmdlets from Microsoft that permit creating local user
+  accounts or local user groups. We finally have a Desired State
+  Configuration (DSC ) provider that can do this—but to date, no
+  cmdlets.&lt;/p&gt;
+&lt;/blockquote&gt;
+</summary>
+    </entry>    <entry>
+        <id>https://stackoverflow.com/q/36633241</id>
+        <re:rank scheme="https://stackoverflow.com">2</re:rank>
+        <title type="text">Autofac WithKey Attribute not working as expected (multiple implementations)</title>
+            <category scheme="https://stackoverflow.com/tags" term="autofac" />
+            <category scheme="https://stackoverflow.com/tags" term="linqpad" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/36633241/autofac-withkey-attribute-not-working-as-expected-multiple-implementations" />
+        <published>2016-04-14T20:22:01Z</published>
+        <updated>2016-04-15T02:11:55Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I tried to reconstruct the problem in LinqPad:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/*
+    “Named and Keyed Services”
+    http://autofac.readthedocs.org/en/latest/advanced/keyed-services.html
+*/
+
+const string A = &quot;a&quot;;
+const string B = &quot;b&quot;;
+const string MyApp = &quot;MyApp&quot;;
+
+void Main()
+{
+    var builder = new ContainerBuilder();
+    builder
+        .RegisterType&amp;lt;MyClassA&amp;gt;()
+        .As&amp;lt;IMyInterface&amp;gt;()
+        .InstancePerLifetimeScope()
+        .Keyed&amp;lt;IMyInterface&amp;gt;(A);
+    builder
+        .RegisterType&amp;lt;MyClassB&amp;gt;()
+        .As&amp;lt;IMyInterface&amp;gt;()
+        .InstancePerLifetimeScope()
+        .Keyed&amp;lt;IMyInterface&amp;gt;(B);
+    builder
+        .RegisterType&amp;lt;MyAppDomain&amp;gt;()
+        .Named&amp;lt;MyAppDomain&amp;gt;(MyApp);
+
+    var container = builder.Build();
+
+    var instance = container.ResolveKeyed&amp;lt;IMyInterface&amp;gt;(A);
+    instance.AddTheNumbers().Dump();
+
+    var myApp = container.ResolveNamed&amp;lt;MyAppDomain&amp;gt;(MyApp);
+    myApp.Dump();
+}
+
+interface IMyInterface
+{
+    int AddTheNumbers();
+}
+
+class MyClassA : IMyInterface
+{
+    public int AddTheNumbers() { return 1 + 2; }
+}
+
+class MyClassB : IMyInterface
+{
+    public int AddTheNumbers() { return 3 + 4; }
+}
+
+class MyAppDomain
+{
+    public MyAppDomain([WithKey(A)]IMyInterface aInstance, [WithKey(B)]IMyInterface bInstance)
+    {
+        this.ANumber = aInstance.AddTheNumbers();
+        this.BNumber = bInstance.AddTheNumbers();
+    }
+
+    public int ANumber { get; private set; }
+
+    public int BNumber { get; private set; }
+
+    public override string ToString()
+    {
+        var sb = new StringBuilder();
+        sb.AppendFormat(&quot;ANumber: {0}&quot;, this.ANumber);
+        sb.AppendFormat(&quot;, BNumber: {0}&quot;, this.BNumber);
+        return sb.ToString();
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;when &lt;code&gt;MyApp&lt;/code&gt; is “dumped” I am seeing &lt;code&gt;ANumber: 7, BNumber: 7&lt;/code&gt; which tells me that &lt;code&gt;WithKey(A)&lt;/code&gt; is not returning the expected instance. What am I doing wrong here?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/165127</id>
+        <re:rank scheme="https://stackoverflow.com">3</re:rank>
+        <title type="text">Team Foundation Server Port 8080 ASMX Access Issue</title>
+            <category scheme="https://stackoverflow.com/tags" term="asp.net" />
+            <category scheme="https://stackoverflow.com/tags" term="visual-studio" />
+            <category scheme="https://stackoverflow.com/tags" term="tfs" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/165127/team-foundation-server-port-8080-asmx-access-issue" />
+        <published>2008-10-02T23:55:54Z</published>
+        <updated>2016-02-18T17:08:34Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;How come one user in the local Administrators Group has no problem hitting &lt;a href=&quot;http://localhost:8080/services/v1.0/Registration.asmx&quot; rel=&quot;nofollow noreferrer&quot;&gt;http://localhost:8080/services/v1.0/Registration.asmx&lt;/a&gt; while other users in the local Administrators Group get 403 (access denied) errors (with nothing in the Event log)?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/1890159</id>
+        <re:rank scheme="https://stackoverflow.com">6</re:rank>
+        <title type="text">WPF Warning with VSTS: Different checksum values given for &#39;*.g.cs&#39; Files</title>
+            <category scheme="https://stackoverflow.com/tags" term="wpf" />
+            <category scheme="https://stackoverflow.com/tags" term="xaml" />
+            <category scheme="https://stackoverflow.com/tags" term="visual-studio-2008" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/1890159/wpf-warning-with-vsts-different-checksum-values-given-for-g-cs-files" />
+        <published>2009-12-11T18:57:03Z</published>
+        <updated>2016-02-18T15:18:17Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;In Visual Studio 2008 Team System, this is my warning:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Different checksum values given for &#39;&amp;lt;some folder&amp;gt;&#39; ...\Visual Studio 2008\Projects\...
+\Debug\...\SomeFile.g.cs
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The offending line in the &lt;code&gt;SomeFile.g.cs&lt;/code&gt; file is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#pragma checksum &quot;..\..\..\..\..\..\...\SomeFile.xaml&quot; &quot;{406ea660-64cf-4c82-b6f0-42d48172a799}&quot; &quot;A18BC47B27EC4695C69B69F1831E3225&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I deleted &lt;em&gt;all&lt;/em&gt; of the &lt;code&gt;*.g.cs&lt;/code&gt; files in the Solution and rebuilt and &lt;em&gt;all&lt;/em&gt; of the warnings came back. What the hell is this?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/34667385</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Cannot update DocuSign top-level Account User information?</title>
+            <category scheme="https://stackoverflow.com/tags" term="rest" />
+            <category scheme="https://stackoverflow.com/tags" term="docusignapi" />
+            <category scheme="https://stackoverflow.com/tags" term="docusign" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/34667385/cannot-update-docusign-top-level-account-user-information" />
+        <published>2016-01-08T00:01:32Z</published>
+        <updated>2016-01-08T23:29:21Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am staring at the DocuSign REST API Guide and I see no request to update, say, User LastName. It looks like DocuSign may regard this top-level information as immutable for security/identity purposes. These are the PUT operations I am seeing related to users: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/accounts/{accountId}/users/{userId}/custom_settings 
+/accounts/{accountId}/users/{userId}/profile/image 
+/accounts/{accountId}/users/{userId}/settings 
+/accounts/{accountId}/users/{userId}/signatures/{signatureIdOrName} 
+/accounts/{accountId}/users/{userId}/signatures/{signatureIdOrName}/initials_image 
+/accounts/{accountId}/users/{userId}/signatures/{signatureIdOrName}/signature_image 
+/accounts/{accountId}/users/{userId}/social 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Yes, it looks like &lt;code&gt;/accounts/{accountId}/users/{userId}/settings&lt;/code&gt; is what I am looking for but this request covers only &lt;code&gt;userSettings&lt;/code&gt;, &lt;code&gt;signerEmailNotifications&lt;/code&gt; and &lt;code&gt;senderEmailNotifications&lt;/code&gt;. &lt;/p&gt;
+
+&lt;p&gt;Am I missing something? &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/987135/-/34403435#34403435</id>
+        <re:rank scheme="https://stackoverflow.com">4</re:rank>
+        <title type="text">Answer by rasx for How to remove all namespaces from XML with C#?</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/987135/how-to-remove-all-namespaces-from-xml-with-c/34403435#34403435" />
+        <published>2015-12-21T19:59:34Z</published>
+        <updated>2015-12-21T19:59:34Z</updated>
+        <summary type="html">&lt;p&gt;I really liked where &lt;a href=&quot;https://stackoverflow.com/users/918858/dexter-legaspi&quot;&gt;Dexter&lt;/a&gt; is going up there so I translated it into a “fluent” extension method:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/// &amp;lt;summary&amp;gt;
+/// Returns the specified &amp;lt;see cref=&quot;XElement&quot;/&amp;gt;
+/// without namespace qualifiers on elements and attributes.
+/// &amp;lt;/summary&amp;gt;
+/// &amp;lt;param name=&quot;element&quot;&amp;gt;The element&amp;lt;/param&amp;gt;
+public static XElement WithoutNamespaces(this XElement element)
+{
+    if (element == null) return null;
+
+    #region delegates:
+
+        Func&amp;lt;XNode, XNode&amp;gt; getChildNode = e =&amp;gt; (e.NodeType == XmlNodeType.Element) ? (e as XElement).WithoutNamespaces() : e;
+
+        Func&amp;lt;XElement, IEnumerable&amp;lt;XAttribute&amp;gt;&amp;gt; getAttributes = e =&amp;gt; (e.HasAttributes) ?
+            e.Attributes()
+                .Where(a =&amp;gt; !a.IsNamespaceDeclaration)
+                .Select(a =&amp;gt; new XAttribute(a.Name.LocalName, a.Value))
+            :
+            Enumerable.Empty&amp;lt;XAttribute&amp;gt;();
+
+        #endregion
+
+    return new XElement(element.Name.LocalName,
+        element.Nodes().Select(getChildNode),
+        getAttributes(element));
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The “fluent” approach allows me to do this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var xml = File.ReadAllText(presentationFile);
+var xDoc = XDocument.Parse(xml);
+var xRoot = xDoc.Root.WithoutNamespaces();
+&lt;/code&gt;&lt;/pre&gt;
+</summary>
+    </entry>    <entry>
+        <id>https://stackoverflow.com/q/33751770</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Converting XDocument to JSON with XHTML node using JSON.NET</title>
+            <category scheme="https://stackoverflow.com/tags" term="json" />
+            <category scheme="https://stackoverflow.com/tags" term="xhtml" />
+            <category scheme="https://stackoverflow.com/tags" term="json.net" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/33751770/converting-xdocument-to-json-with-xhtml-node-using-json-net" />
+        <published>2015-11-17T07:57:24Z</published>
+        <updated>2015-12-17T01:47:15Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;Is there a simpler way to do this? I am sincerely concerned that this LinqPad doodle might be too verbose:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var xml = @&quot;
+&amp;lt;root attr1=&quot;&quot;attribute one&quot;&quot; attr2=&quot;&quot;attribute two&quot;&quot;&amp;gt;
+    &amp;lt;title&amp;gt;this is the root&amp;lt;/title&amp;gt;
+    &amp;lt;xhtml&amp;gt;
+        &amp;lt;div id=&quot;&quot;wrapper&quot;&quot;&amp;gt;
+            &amp;lt;p style=&quot;&quot;first&quot;&quot;&amp;gt;&amp;lt;em&amp;gt;hello&amp;lt;/em&amp;gt; world!&amp;lt;/p&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/xhtml&amp;gt;
+&amp;lt;/root&amp;gt;
+&quot;;
+
+var xDoc = XDocument.Parse(xml);
+
+Func&amp;lt;XNode, string&amp;gt; getXhtml = node =&amp;gt;
+{
+    var s = string.Empty;
+    StringWriter wr = null;
+    try
+    {
+        wr = new StringWriter();
+        using(var jsonWriter = new JsonTextWriter(wr))
+        {
+            jsonWriter.StringEscapeHandling = StringEscapeHandling.EscapeHtml;
+            new JsonSerializer().Serialize(jsonWriter, node.ToString());
+        }
+        s = wr.ToString();
+    }
+    finally
+    {
+        if(wr != null) wr.Dispose();
+    }
+    return s;
+};
+
+var escaped_xhtml = getXhtml(xDoc.Root.Element(&quot;xhtml&quot;).Element(&quot;div&quot;));
+escaped_xhtml.Dump(&quot;escaped xhtml&quot;);
+
+var placeholder = &quot;@rx-xhtml&quot;;
+
+xDoc.Root.Element(&quot;xhtml&quot;).Value = placeholder;
+
+var json = JsonConvert.SerializeXNode(xDoc.Root, Newtonsoft.Json.Formatting.Indented);
+
+var json_final =json
+    .Replace(string.Format(@&quot;&quot;&quot;{0}&quot;&quot;&quot;,placeholder), escaped_xhtml);
+
+json_final.Dump(&quot;json with escaped xhtml&quot;);
+
+var jDoc = JObject.Parse(json_final);
+
+escaped_xhtml = (string)jDoc[&quot;root&quot;][&quot;xhtml&quot;];
+escaped_xhtml.Dump(&quot;decoded xhtml&quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It may be reasonable to assume that JSON.NET already has, say, the equivalent of my &lt;code&gt;getXhtml()&lt;/code&gt; routine. JSON.NET has so many great features I am concerned that I might be missing out.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/34010328</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Is this still the right way to read raw XML with ApiController?</title>
+            <category scheme="https://stackoverflow.com/tags" term="asp.net-web-api" />
+            <category scheme="https://stackoverflow.com/tags" term="owin" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/34010328/is-this-still-the-right-way-to-read-raw-xml-with-apicontroller" />
+        <published>2015-12-01T00:02:31Z</published>
+        <updated>2015-12-01T20:28:27Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;This &lt;a href=&quot;https://stackoverflow.com/a/14287314/22944&quot;&gt;answer from 2012&lt;/a&gt; gave me this solution to reading raw XML from a POST:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[HttpPost]
+[Route(&quot;raw&quot;)]
+public HttpResponseMessage ReadRaw(HttpRequestMessage rawRequest)
+{
+    var requestDocument = XDocument.Parse(rawRequest.Content.ReadAsStringAsync().Result);
+    var request = MyDBContext.GetStuffStaticMethod(requestDocument);
+    var responseDocument = request.GetResponseDocument(this._context);
+    var xml = responseDocument.ToString();
+    return new HttpResponseMessage
+    {
+        Content = new StringContent(xml, Encoding.UTF8, &quot;application/xml&quot;)
+    };
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is this still the way to go in the current time frame?&lt;/p&gt;
+
+&lt;p&gt;BTW: this was the request from my OWIN-based integration test:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;using (WebApp.Start&amp;lt;Startup&amp;gt;(url: baseUri))
+{
+    var client = new HttpClient();
+    HttpResponseMessage response = null;
+
+    Func&amp;lt;string, string&amp;gt; callOwin = i =&amp;gt;
+    {
+        var requestUri = baseUri + i;
+        this.TestContext.WriteLine(&quot;requestUri: {0}&quot;, requestUri);
+        response = client.PostAsync(requestUri,
+            new StringContent(requestDoc.ToString(SaveOptions.DisableFormatting), Encoding.UTF8, &quot;text/xml&quot;)).Result;
+        this.TestContext.WriteLine(&quot;response: {0}&quot;, response.ToString());
+        return response.Content.ReadAsStringAsync().Result;
+    };
+
+    var xml = callOwin(path);
+    Assert.IsNotNull(response, &quot;The expected response is not here.&quot;);
+    Assert.AreEqual(HttpStatusCode.OK, response.StatusCode, &quot;The expected response status code is not here.&quot;);
+
+    Assert.IsFalse(string.IsNullOrEmpty(xml), &quot;A response is expected.&quot;);
+    this.TestContext.WriteLine(&quot;xml: {0}&quot;, xml);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/34010328/-/34028520#34028520</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by rasx for Is this still the right way to read raw XML with ApiController?</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/34010328/is-this-still-the-right-way-to-read-raw-xml-with-apicontroller/34028520#34028520" />
+        <published>2015-12-01T19:29:50Z</published>
+        <updated>2015-12-01T20:28:27Z</updated>
+        <summary type="html">&lt;p&gt;Consider &lt;a href=&quot;http://bizcoder.com/posting-raw-json-to-web-api&quot; rel=&quot;nofollow&quot;&gt;this article from Microsoft evangelist Darrel Miller&lt;/a&gt;. He shows us that a combination of &lt;code&gt;[FromBody]&lt;/code&gt; and &lt;code&gt;XElement&lt;/code&gt; is the way to go:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[HttpPost]
+[Route(&quot;raw&quot;)]
+public IHttpActionResult ReadRaw([FromBody]XElement rootElement)
+{
+    var requestDocument = new XDocument(rootElement);
+    var request = MyDBContext.GetStuffStaticMethod(requestDocument);
+    var responseDocument = request.GetResponseDocument(this._context);
+    return this.Ok&amp;lt;XElement&amp;gt;(responseDocument.Root);
+}
+&lt;/code&gt;&lt;/pre&gt;
+</summary>
+    </entry>    <entry>
+        <id>https://stackoverflow.com/questions/2524804/-/33792337#33792337</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by rasx for How do I use XPath with a default namespace with no prefix?</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/2524804/how-do-i-use-xpath-with-a-default-namespace-with-no-prefix/33792337#33792337" />
+        <published>2015-11-18T23:13:56Z</published>
+        <updated>2015-11-18T23:13:56Z</updated>
+        <summary type="html">&lt;p&gt;I like @mads-hansen, his answer, so well that I wrote these general-purpose utility-class members:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    /// &amp;lt;summary&amp;gt;
+    /// Gets the &amp;lt;see cref=&quot;XNode&quot; /&amp;gt; into a &amp;lt;c&amp;gt;local-name()&amp;lt;/c&amp;gt;, XPath-predicate query.
+    /// &amp;lt;/summary&amp;gt;
+    /// &amp;lt;param name=&quot;childElementName&quot;&amp;gt;Name of the child element.&amp;lt;/param&amp;gt;
+    /// &amp;lt;returns&amp;gt;&amp;lt;/returns&amp;gt;
+    public static string GetLocalNameXPathQuery(string childElementName)
+    {
+        return GetLocalNameXPathQuery(namespacePrefixOrUri: null, childElementName: childElementName, childAttributeName: null);
+    }
+
+    /// &amp;lt;summary&amp;gt;
+    /// Gets the &amp;lt;see cref=&quot;XNode&quot; /&amp;gt; into a &amp;lt;c&amp;gt;local-name()&amp;lt;/c&amp;gt;, XPath-predicate query.
+    /// &amp;lt;/summary&amp;gt;
+    /// &amp;lt;param name=&quot;namespacePrefixOrUri&quot;&amp;gt;The namespace prefix or URI.&amp;lt;/param&amp;gt;
+    /// &amp;lt;param name=&quot;childElementName&quot;&amp;gt;Name of the child element.&amp;lt;/param&amp;gt;
+    /// &amp;lt;returns&amp;gt;&amp;lt;/returns&amp;gt;
+    public static string GetLocalNameXPathQuery(string namespacePrefixOrUri, string childElementName)
+    {
+        return GetLocalNameXPathQuery(namespacePrefixOrUri, childElementName, childAttributeName: null);
+    }
+
+    /// &amp;lt;summary&amp;gt;
+    /// Gets the &amp;lt;see cref=&quot;XNode&quot; /&amp;gt; into a &amp;lt;c&amp;gt;local-name()&amp;lt;/c&amp;gt;, XPath-predicate query.
+    /// &amp;lt;/summary&amp;gt;
+    /// &amp;lt;param name=&quot;namespacePrefixOrUri&quot;&amp;gt;The namespace prefix or URI.&amp;lt;/param&amp;gt;
+    /// &amp;lt;param name=&quot;childElementName&quot;&amp;gt;Name of the child element.&amp;lt;/param&amp;gt;
+    /// &amp;lt;param name=&quot;childAttributeName&quot;&amp;gt;Name of the child attribute.&amp;lt;/param&amp;gt;
+    /// &amp;lt;returns&amp;gt;&amp;lt;/returns&amp;gt;
+    /// &amp;lt;remarks&amp;gt;
+    /// This routine is useful when namespace-resolving is not desirable or available.
+    /// &amp;lt;/remarks&amp;gt;
+    public static string GetLocalNameXPathQuery(string namespacePrefixOrUri, string childElementName, string childAttributeName)
+    {
+        if (string.IsNullOrEmpty(childElementName)) return null;
+
+        if (string.IsNullOrEmpty(childAttributeName))
+        {
+            return string.IsNullOrEmpty(namespacePrefixOrUri) ?
+                string.Format(&quot;./*[local-name()=&#39;{0}&#39;]&quot;, childElementName)
+                :
+                string.Format(&quot;./*[namespace-uri()=&#39;{0}&#39; and local-name()=&#39;{1}&#39;]&quot;, namespacePrefixOrUri, childElementName);
+        }
+        else
+        {
+            return string.IsNullOrEmpty(namespacePrefixOrUri) ?
+                string.Format(&quot;./*[local-name()=&#39;{0}&#39;]/@{1}&quot;, childElementName, childAttributeName)
+                :
+                string.Format(&quot;./*[namespace-uri()=&#39;{0}&#39; and local-name()=&#39;{1}&#39;]/@{2}&quot;, namespacePrefixOrUri, childElementName, childAttributeName);
+        }
+    }
+&lt;/code&gt;&lt;/pre&gt;
+</summary>
+    </entry>    <entry>
+        <id>https://stackoverflow.com/questions/19516829/allow-loading-of-json-files-in-visual-studio-express-2013-for-web/30744012#30744012</id>
+        <re:rank scheme="https://stackoverflow.com">6</re:rank>
+        <title type="text">Answer by rasx for Allow loading of JSON files in Visual Studio Express 2013 for Web</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/19516829/allow-loading-of-json-files-in-visual-studio-express-2013-for-web/30744012#30744012" />
+        <published>2015-06-09T22:35:03Z</published>
+        <updated>2015-06-09T22:35:03Z</updated>
+        <summary type="html">&lt;p&gt;We may need to distinguish the Visual Studio development environment (with IIS Express) from local IIS and a remote server (like Azure WebSites). To specifically target IIS Express, for example, we edit &lt;code&gt;%USERPROFILE%\Documents\IISExpress\config\applicationhost.config&lt;/code&gt; under &lt;code&gt;system.webServer/staticContent&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/javascript&quot; /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I need to make this distinction because my local (intranet) IIS already has the JSON mime type defined. So when I deploy to Azure websites I use this transformation in &lt;code&gt;Web.Release.config&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;system.webServer&amp;gt;
+    &amp;lt;staticContent&amp;gt;
+        &amp;lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/javascript&quot; xdt:Transform=&quot;Insert&quot; /&amp;gt;
+    &amp;lt;/staticContent&amp;gt;
+&amp;lt;/system.webServer&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</summary>
+    </entry>    <entry>
+        <id>https://stackoverflow.com/questions/779146/-/779458#779458</id>
+        <re:rank scheme="https://stackoverflow.com">15</re:rank>
+        <title type="text">Answer by rasx for What are some clever uses of LINQ?</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/779146/what-are-some-clever-uses-of-linq/779458#779458" />
+        <published>2009-04-22T22:05:53Z</published>
+        <updated>2015-06-09T09:27:31Z</updated>
+        <summary type="html">&lt;p&gt;Robert Shelton of Microsoft was cool enough to list &lt;a href=&quot;http://web.archive.org/web/20131229055859/http://www.sheltonblog.com/archive/2008/07/11/list-of-linq-providers.aspx&quot; rel=&quot;nofollow noreferrer&quot;&gt;a few LINQ implementations&lt;/a&gt; for us:&lt;/p&gt;
+
+&lt;p&gt;As of month 7, 2008:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;LINQ to Amazon&lt;/li&gt;
+&lt;li&gt;LINQ to Active Directory&lt;/li&gt;
+&lt;li&gt;LINQ to Bindable Sources (SyncLINQ)&lt;/li&gt;
+&lt;li&gt;LINQ over C- project&lt;/li&gt;
+&lt;li&gt;LINQ to CRM&lt;/li&gt;
+&lt;li&gt;LINQ To Geo—Language Integrated Query for Geospatial Data&lt;/li&gt;
+&lt;li&gt;LINQ to Excel&lt;/li&gt;
+&lt;li&gt;LINQ to Expressions (MetaLinq)&lt;/li&gt;
+&lt;li&gt;LINQ Extender (Toolkit for building LINQ Providers)&lt;/li&gt;
+&lt;li&gt;LINQ to Flickr&lt;/li&gt;
+&lt;li&gt;LINQ to Google&lt;/li&gt;
+&lt;li&gt;LINQ to Indexes (LINQ and i40)&lt;/li&gt;
+&lt;li&gt;LINQ to IQueryable (Matt Warren on Providers)&lt;/li&gt;
+&lt;li&gt;LINQ to JSON&lt;/li&gt;
+&lt;li&gt;LINQ to NHibernate&lt;/li&gt;
+&lt;li&gt;LINQ to JavaScript&lt;/li&gt;
+&lt;li&gt;LINQ to LDAP&lt;/li&gt;
+&lt;li&gt;LINQ to LLBLGen Pro&lt;/li&gt;
+&lt;li&gt;LINQ to Lucene&lt;/li&gt;
+&lt;li&gt;LINQ to Metaweb(freebase)&lt;/li&gt;
+&lt;li&gt;LINQ to MySQL, Oracle and PostgreSql (DbLinq)&lt;/li&gt;
+&lt;li&gt;LINQ to NCover&lt;/li&gt;
+&lt;li&gt;LINQ to Opf3&lt;/li&gt;
+&lt;li&gt;LINQ to Parallel (PLINQ)&lt;/li&gt;
+&lt;li&gt;LINQ to RDF Files&lt;/li&gt;
+&lt;li&gt;LINQ to Sharepoint&lt;/li&gt;
+&lt;li&gt;LINQ to SimpleDB&lt;/li&gt;
+&lt;li&gt;LINQ to Streams&lt;/li&gt;
+&lt;li&gt;LINQ to WebQueries&lt;/li&gt;
+&lt;li&gt;LINQ to WMI&lt;/li&gt;
+&lt;li&gt;LINQ to XtraGrid&lt;/li&gt;
+&lt;/ul&gt;
+</summary>
+    </entry>    <entry>
+        <id>https://stackoverflow.com/questions/51563534/is-it-possible-to-write-css-for-all-angular-hosts-or-do-we-have-to-select-each/51564554?cid=90098166#51564554</id>
+        <title type="text">Comment by rasx on is it possible to write CSS for all Angular &quot;hosts&quot; or do we have to select each host individually</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/51563534/is-it-possible-to-write-css-for-all-angular-hosts-or-do-we-have-to-select-each/51564554#51564554" />
+        <published>2018-07-27T21:17:40Z</published>
+        <updated>2018-07-27T21:17:40Z</updated>
+        <summary type="html">i also see that i can write &lt;code&gt;:host { width: 100%; }&lt;/code&gt; to an external file and then use &lt;code&gt;@import&lt;/code&gt; on the component level</summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/51563534/is-it-possible-to-write-css-for-all-angular-hosts-or-do-we-have-to-select-each/51564554?cid=90098019#51564554</id>
+        <title type="text">Comment by rasx on is it possible to write CSS for all Angular &quot;hosts&quot; or do we have to select each host individually</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/51563534/is-it-possible-to-write-css-for-all-angular-hosts-or-do-we-have-to-select-each/51564554#51564554" />
+        <published>2018-07-27T21:10:43Z</published>
+        <updated>2018-07-27T21:10:43Z</updated>
+        <summary type="html">correct: “[I] don&amp;#39;t have any idea how shadow tree works” …will look at the docs referenced above :)</summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/51529003/is-dotnet-run-is-no-different-from-npm-start-when-using-microsoft-dotnet-web/51530307?cid=90029436#51530307</id>
+        <title type="text">Comment by rasx on Is `dotnet run` is no different from `npm start` when using Microsoft.DotNet.Web.Spa.ProjectTemplates::2.0.0?</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/51529003/is-dotnet-run-is-no-different-from-npm-start-when-using-microsoft-dotnet-web/51530307#51530307" />
+        <published>2018-07-26T04:01:11Z</published>
+        <updated>2018-07-26T04:01:11Z</updated>
+        <summary type="html">i see that after commenting out &lt;code&gt;spa.UseAngularCliServer(npmScript: &amp;quot;start&amp;quot;)&lt;/code&gt; it&amp;#39;s up to me to run &lt;code&gt;npm build&lt;/code&gt; before running &lt;code&gt;dotnet run&lt;/code&gt;---thx for yr help!</summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/48179573/clean-conversion-of-index-signature-dictionary-to-map/48179670?cid=83340514#48179670</id>
+        <title type="text">Comment by rasx on clean conversion of Index Signature (dictionary) to Map?</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/48179573/clean-conversion-of-index-signature-dictionary-to-map/48179670#48179670" />
+        <published>2018-01-10T04:24:34Z</published>
+        <updated>2018-01-10T04:24:34Z</updated>
+        <summary type="html">for the sake of typescript compilation: &lt;code&gt;.map(i =&amp;gt; [+i, dictionary[+i]] as [number, string])&lt;/code&gt;</summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/47917540/rxjs-and-angular-io-an-observablearrayt-where-t-contains-an-observable-arra/47960129?cid=82902582#47960129</id>
+        <title type="text">Comment by rasx on RxJS and angular.io: an Observable&lt;Array&lt;T&gt;&gt; where T contains an observable array</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/47917540/rxjs-and-angular-io-an-observablearrayt-where-t-contains-an-observable-arra/47960129#47960129" />
+        <published>2017-12-25T07:19:42Z</published>
+        <updated>2017-12-25T07:19:42Z</updated>
+        <summary type="html">So the answer to my fist question is clearly yes: attaching observables to plain-old JS objects is an anti-pattern in angular as Meligy clearly shows that &lt;code&gt;FormGroup&lt;/code&gt; and &lt;code&gt;FormControl&lt;/code&gt; turns an HTML form into a reactive subject, piping into an observable based on plain-old JS objects.</summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/47917540/rxjs-and-angular-io-an-observablearrayt-where-t-contains-an-observable-arra?cid=82870632</id>
+        <title type="text">Comment by rasx on RxJS and angular.io: an Observable&lt;Array&lt;T&gt;&gt; where T contains an observable array</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/47917540/rxjs-and-angular-io-an-observablearrayt-where-t-contains-an-observable-arra" />
+        <published>2017-12-23T07:16:49Z</published>
+        <updated>2017-12-23T07:16:49Z</updated>
+        <summary type="html">@estus here is my working (but flawed), real-world example: &lt;a href=&quot;https://github.com/BryanWilhite/angular.io-index-app/blob/master/index-app/src/app/components/app-index-groups/app-index-groups.component.ts&quot; rel=&quot;nofollow noreferrer&quot;&gt;github.com/BryanWilhite/angular.io-index-app/blob/master/&amp;hellip;&lt;/a&gt;</summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/47917540/rxjs-and-angular-io-an-observablearrayt-where-t-contains-an-observable-arra?cid=82811235</id>
+        <title type="text">Comment by rasx on RxJS and angular.io: an Observable&lt;Array&lt;T&gt;&gt; where T contains an observable array</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/47917540/rxjs-and-angular-io-an-observablearrayt-where-t-contains-an-observable-arra" />
+        <published>2017-12-21T09:32:17Z</published>
+        <updated>2017-12-21T09:32:17Z</updated>
+        <summary type="html">@Eliseo, yes, this answer is close: &lt;a href=&quot;https://stackoverflow.com/questions/36984059/rxjs-array-of-observable-to-array/36984559?stw=2#36984559&quot; title=&quot;rxjs array of observable to array&quot;&gt;stackoverflow.com/questions/36984059/&amp;hellip;&lt;/a&gt;</summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/47445703/using-jasmine-to-test-an-angular-service-that-loads-a-static-json-file/47446479?cid=81881335#47446479</id>
+        <title type="text">Comment by rasx on Using Jasmine to test an Angular Service that loads a static JSON file</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/47445703/using-jasmine-to-test-an-angular-service-that-loads-a-static-json-file/47446479#47446479" />
+        <published>2017-11-23T21:10:58Z</published>
+        <updated>2017-11-23T21:10:58Z</updated>
+        <summary type="html">I&amp;#39;ll take a look at the &lt;a href=&quot;http://plnkr.co/edit/9xEB6myPEtXMmLYMXpHu?p=preview&quot; rel=&quot;nofollow noreferrer&quot;&gt;Plunker&lt;/a&gt; you recommended and work my way toward my scenario as simply removing references to &lt;code&gt;Http&lt;/code&gt; breaks things in ways I currently do not understand.</summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/47445703/using-jasmine-to-test-an-angular-service-that-loads-a-static-json-file/47446479?cid=81849960#47446479</id>
+        <title type="text">Comment by rasx on Using Jasmine to test an Angular Service that loads a static JSON file</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/47445703/using-jasmine-to-test-an-angular-service-that-loads-a-static-json-file/47446479#47446479" />
+        <published>2017-11-23T04:04:37Z</published>
+        <updated>2017-11-23T04:04:37Z</updated>
+        <summary type="html">the corrected test is here: &lt;a href=&quot;https://github.com/BryanWilhite/angular.io-index-app/blob/master/index-app/src/app/services/songhay-blog-entries.service.spec.ts&quot; rel=&quot;nofollow noreferrer&quot;&gt;github.com/BryanWilhite/angular.io-index-app/blob/master/&amp;hellip;&lt;/a&gt;</summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/37249623/how-to-login-without-prompt/45899000?cid=81629835#45899000</id>
+        <title type="text">Comment by rasx on How to Login without prompt?</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/37249623/how-to-login-without-prompt/45899000#45899000" />
+        <published>2017-11-16T20:51:39Z</published>
+        <updated>2017-11-16T20:51:39Z</updated>
+        <summary type="html">Things have changed: &lt;code&gt;Save-AzureRmProfile -Force -Path &amp;quot;.\AzureProfile.json&amp;quot;&lt;/code&gt; and &lt;code&gt;Select-AzureRmProfile -Path &amp;quot;.\AzureProfile.json&amp;quot;&lt;/code&gt; instead of &lt;code&gt;Save-AzureRmContext&lt;/code&gt; and &lt;code&gt;Import-AzureRmContext&lt;/code&gt;, respectively. [&lt;a href=&quot;https://docs.microsoft.com/en-us/powershell/module/azurerm.profile/select-azurermprofile?view=azurermps-3.8.0]&quot; rel=&quot;nofollow noreferrer&quot;&gt;docs.microsoft.com/en-us/powershell/module/azurerm.profile/&amp;zwnj;&amp;#8203;&amp;hellip;&lt;/a&gt;</summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/45925830/how-does-visual-studio-know-which-assemblies-in-a-nuget-package-to-reference/45933740?cid=78862674#45933740</id>
+        <title type="text">Comment by rasx on how does visual studio know which assemblies in a NuGet package to reference?</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/45925830/how-does-visual-studio-know-which-assemblies-in-a-nuget-package-to-reference/45933740#45933740" />
+        <published>2017-08-30T05:06:36Z</published>
+        <updated>2017-08-30T05:06:36Z</updated>
+        <summary type="html">the scriptcs folks wrote this without Visual Studio concerns: &lt;a href=&quot;https://github.com/scriptcs/scriptcs/blob/76ec57b642be836eaa7fd2a9ffa10fb1f9a60eae/src/ScriptCs.Hosting/Package/NugetInstallationProvider.cs&quot; rel=&quot;nofollow noreferrer&quot;&gt;github.com/scriptcs/scriptcs/blob/&amp;hellip;&lt;/a&gt;</summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/45925830/how-does-visual-studio-know-which-assemblies-in-a-nuget-package-to-reference/45933740?cid=78849082#45933740</id>
+        <title type="text">Comment by rasx on how does visual studio know which assemblies in a NuGet package to reference?</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/45925830/how-does-visual-studio-know-which-assemblies-in-a-nuget-package-to-reference/45933740#45933740" />
+        <published>2017-08-29T17:46:58Z</published>
+        <updated>2017-08-29T17:46:58Z</updated>
+        <summary type="html">your answer has directed me here: &lt;a href=&quot;https://github.com/NuGet/Home/issues/3062&quot; rel=&quot;nofollow noreferrer&quot;&gt;github.com/NuGet/Home/issues/3062&lt;/a&gt;</summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/45925830/how-does-visual-studio-know-which-assemblies-in-a-nuget-package-to-reference?cid=78812407</id>
+        <title type="text">Comment by rasx on how does visual studio know which assemblies in a NuGet package to reference?</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/45925830/how-does-visual-studio-know-which-assemblies-in-a-nuget-package-to-reference" />
+        <published>2017-08-28T20:28:56Z</published>
+        <updated>2017-08-28T20:28:56Z</updated>
+        <summary type="html">@MartinUllrich I have edited the question for clarity.</summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/38005957/jtoken-is-not-a-reference-of-jobject/38016317?cid=63493078#38016317</id>
+        <title type="text">Comment by rasx on JToken is not a reference of JObject?</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/38005957/jtoken-is-not-a-reference-of-jobject/38016317#38016317" />
+        <published>2016-06-25T07:51:17Z</published>
+        <updated>2016-06-25T07:51:17Z</updated>
+        <summary type="html">James Newton King should use this documentation :)</summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/33751770/converting-xdocument-to-json-with-xhtml-node-using-json-net?cid=56387429</id>
+        <title type="text">Comment by rasx on Converting XDocument to JSON with XHTML node using JSON.NET</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/33751770/converting-xdocument-to-json-with-xhtml-node-using-json-net" />
+        <published>2015-12-16T21:55:24Z</published>
+        <updated>2015-12-16T21:55:24Z</updated>
+        <summary type="html">@dbc Can you write a routine that is simpler, less complicated than the one I have above?</summary>
+    </entry>
+</feed>
