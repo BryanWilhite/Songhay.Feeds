@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using Songhay.Diagnostics;
 using Songhay.Extensions;
+using Songhay.Feeds.Activities.Extensions;
 using Songhay.Feeds.Models;
 using Songhay.Models;
 using System;
@@ -27,7 +28,7 @@ namespace Songhay.Feeds.Activities
 
         public void AddConfiguration(IConfigurationRoot configuration)
         {
-            this._configuration = configuration;
+            this.Configuration = configuration;
         }
 
         public string DisplayHelp(ProgramArgs args) => $@"Downloads the configured Syndication feeds to the configured path and converts them to static JSON.
@@ -35,14 +36,16 @@ Use command-line argument {ProgramArgs.BasePath} to prepend a base path to a con
 
         public void Start(ProgramArgs args)
         {
-            var meta = this.GetFeedsMetadata();
+            var meta = this.Configuration.ToFeedsMetadata();
             this.DownloadFeeds(args, meta);
             this.ConvertFeedsToJson(args, meta);
         }
 
+        internal IConfigurationRoot Configuration { get; private set; }
+
         internal void ConvertFeedsToJson(ProgramArgs args, FeedsMetadata meta)
         {
-            var rootDirectory = GetRootDirectory(args, meta);
+            var rootDirectory = meta.ToRootDirectory(args);
 
             meta.Feeds.ForEachInEnumerable(feed =>
             {
@@ -60,7 +63,7 @@ Use command-line argument {ProgramArgs.BasePath} to prepend a base path to a con
         {
             if (string.IsNullOrEmpty(meta.FeedsDirectory)) throw new NullReferenceException("The expected feeds directory is not configured.");
 
-            var rootDirectory = GetRootDirectory(args, meta);
+            var rootDirectory = meta.ToRootDirectory(args);
 
             var tasks = meta.Feeds.Select(feed =>
             {
@@ -82,31 +85,5 @@ Use command-line argument {ProgramArgs.BasePath} to prepend a base path to a con
 
             Task.WaitAll(tasks);
         }
-
-        internal FeedsMetadata GetFeedsMetadata()
-        {
-            if (this._configuration == null) throw new NullReferenceException("The expected configuration is not here.");
-
-            var meta = new FeedsMetadata();
-            this._configuration.Bind(nameof(FeedsMetadata), meta);
-
-            return meta;
-        }
-
-        internal string GetRootDirectory(ProgramArgs args, FeedsMetadata meta)
-        {
-            var basePath = args.HasArg(ProgramArgs.BasePath, requiresValue: false) ? args.GetBasePathValue() : Directory.GetCurrentDirectory();
-
-            var rootDirectory = meta.FeedsDirectory.StartsWith("./") ?
-                Path.GetFullPath(Path.Combine(basePath, meta.FeedsDirectory))
-                :
-                meta.FeedsDirectory;
-
-            if (!Directory.Exists(rootDirectory)) throw new DirectoryNotFoundException("The expected root directory is not here.");
-
-            return rootDirectory;
-        }
-
-        IConfigurationRoot _configuration;
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Songhay.Extensions;
 using Songhay.Feeds.Activities;
+using Songhay.Feeds.Activities.Extensions;
 using Songhay.Feeds.Tests.Extensions;
 using Songhay.Models;
 
@@ -29,7 +30,7 @@ namespace Songhay.Feeds.Tests.Activities
             var activity = this.TestContext.ShouldGetActivityWithConfiguration(this.GetType(), args) as DownloadFeedsActivity;
             Assert.IsNotNull(activity, "The expected activity is not here.");
 
-            var meta = activity.GetFeedsMetadata();
+            var meta = activity.Configuration.ToFeedsMetadata();
             Assert.IsNotNull(meta, "The expected metadata instance is not here.");
             this.TestContext.WriteLine(meta.ToString());
         }
@@ -44,11 +45,11 @@ namespace Songhay.Feeds.Tests.Activities
             var activity = this.TestContext.ShouldGetActivityWithConfiguration(this.GetType(), args) as DownloadFeedsActivity;
             Assert.IsNotNull(activity, "The expected activity is not here.");
 
-            var meta = activity.GetFeedsMetadata();
+            var meta = activity.Configuration.ToFeedsMetadata();
             Assert.IsNotNull(meta, "The expected metadata instance is not here.");
             this.TestContext.WriteLine(meta.ToString());
 
-            var root = activity.GetRootDirectory(new ProgramArgs(args), meta);
+            var root = meta.ToRootDirectory(new ProgramArgs(args));
             this.TestContext.WriteLine(root);
         }
 
@@ -63,7 +64,7 @@ namespace Songhay.Feeds.Tests.Activities
             var activity = this.TestContext.ShouldGetActivityWithConfiguration(this.GetType(), args) as DownloadFeedsActivity;
             Assert.IsNotNull(activity, "The expected activity is not here.");
 
-            var meta = activity.GetFeedsMetadata();
+            var meta = activity.Configuration.ToFeedsMetadata();
             Assert.IsNotNull(meta, "The expected metadata instance is not here.");
             this.TestContext.WriteLine(meta.ToString());
 
@@ -80,7 +81,7 @@ namespace Songhay.Feeds.Tests.Activities
             var activity = this.TestContext.ShouldGetActivityWithConfiguration(this.GetType(), args) as DownloadFeedsActivity;
             Assert.IsNotNull(activity, "The expected activity is not here.");
 
-            var meta = activity.GetFeedsMetadata();
+            var meta = activity.Configuration.ToFeedsMetadata();
             Assert.IsNotNull(meta, "The expected metadata instance is not here.");
             this.TestContext.WriteLine(meta.ToString());
 

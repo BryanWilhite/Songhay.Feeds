@@ -27,7 +27,8 @@ namespace Songhay.Feeds.Shell
             Console.WriteLine("Loading configuration...");
             var builder = new ConfigurationBuilder()
                 .SetBasePath(basePath)
-                .AddJsonFile("./appsettings.json", optional: false, reloadOnChange: false);
+                .AddJsonFile("./appsettings.json", optional: false, reloadOnChange: false)
+                .AddJsonFile("./app-settings.songhay-system.json", optional: false, reloadOnChange: false);
 
             Console.WriteLine("Building configuration...");
             var configuration = builder.Build();

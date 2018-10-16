@@ -16,6 +16,10 @@ namespace Songhay.Feeds.Activities
                 {
                     nameof(DownloadFeedsActivity),
                     new Lazy<IActivity>(() => new DownloadFeedsActivity())
+                },
+                {
+                    nameof(StoreFeedsActivity),
+                    new Lazy<IActivity>(() => new StoreFeedsActivity())
                 }
             });
         }
