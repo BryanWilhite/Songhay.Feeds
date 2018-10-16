@@ -46,6 +46,7 @@ namespace Songhay.Feeds.Tests.Activities
             Assert.IsNotNull(account, "The expected cloud storage account is not here.");
         }
 
+        [Ignore("The build server should ignore this test because it depends on ShouldDownloadFeeds().")]
         [TestCategory("Integration")]
         [TestMethod]
         [TestProperty("cloudStorageSetName", "SonghayCloudStorage")]
