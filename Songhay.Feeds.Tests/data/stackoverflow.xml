@@ -5,10 +5,119 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/22944" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/22944" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2018-10-16T01:56:20Z</updated>
+    <updated>2018-10-19T23:58:20Z</updated>
     <id>https://stackoverflow.com/feeds/user/22944</id>
     <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
     <entry>
+        <id>https://stackoverflow.com/q/52883672</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">NUniteLite 3.11.0 throwing Null Reference Exception with AutoRun in LINQpad</title>
+            <category scheme="https://stackoverflow.com/tags" term="nunit" />
+            <category scheme="https://stackoverflow.com/tags" term="linqpad" />
+            <category scheme="https://stackoverflow.com/tags" term="nunit-3.0" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/52883672/nunitelite-3-11-0-throwing-null-reference-exception-with-autorun-in-linqpad" />
+        <published>2018-10-18T22:55:15Z</published>
+        <updated>2018-10-19T16:24:06Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;The following LINQPad query throws &lt;code&gt;NullReferenceException&lt;/code&gt; in the try-catch block:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;void Main()
+{
+    var specialFolder = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+    var workingFolder = $@&quot;{specialFolder}\NUnitLiteTestResults&quot;;
+    var args = new[]
+        {
+            &quot;--labels=All&quot;,
+            &quot;--nocolor&quot;,
+            &quot;--noheader&quot;,
+            $&quot;--work={workingFolder}&quot;
+        };
+
+    try
+    {
+        (new AutoRun()).Execute(args);
+    }
+    catch (NullReferenceException ex)
+    {
+        ex.Dump(&quot;why?&quot;);
+    }
+}
+
+public class Runner
+{
+    /*
+        public static int Main(string[] args) {
+            return new AutoRun(Assembly.GetCallingAssembly()).Execute(new String[] {&quot;--labels=All&quot;});
+        }
+    */
+    [TestFixture]
+    public class FooTest
+    {
+        [Test]
+        public void ShouldCheckBoolean()
+        {
+            Assert.IsTrue(true);
+        }
+
+        [Test]
+        public void ShouldCompareNumbers()
+        {
+            Assert.AreEqual(2, 2);
+        }
+
+        [Test]
+        public void ShouldCompareStrings()
+        {
+            Assert.AreEqual(&quot;abc&quot;, &quot;abc&quot;);
+        }
+
+        [Test]
+        public void TestCompareLists()
+        {
+            Assert.AreEqual(new int[] { 1, 2, 3 }, new int[] { 1, 2, 3 });
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Am I missing any setup code here?&lt;/p&gt;
+
+&lt;p&gt;Exception (there is no &lt;code&gt;C:\src\nunit&lt;/code&gt; folder on my machine): &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Object reference not set to an instance of an object.
+ at System.IO.TextWriter.Dispose()
+   at System.IO.TextWriter.Dispose()
+   at System.IO.TextWriter.SyncTextWriter.Dispose(Boolean disposing)
+   at System.IO.TextWriter.Dispose()
+   at NUnit.Common.ExtendedTextWrapper.Dispose(Boolean disposing) in C:\src\nunit\nunit\src\NUnitFramework\nunitlite\ExtendedTextWrapper.cs:line 83
+   at System.IO.TextWriter.Dispose()
+   at NUnitLite.TextRunner.Execute(String[] args) in C:\src\nunit\nunit\src\NUnitFramework\nunitlite\TextRunner.cs:line 149
+   at NUnitLite.AutoRun.Execute(String[] args) in C:\src\nunit\nunit\src\NUnitFramework\nunitlite\AutoRun.cs:line 82
+   at UserQuery.Main()
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/questions/52798462/-/52883930#52883930</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by rasx for Is it possible to use xUnit with LINQPad?</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/52798462/is-it-possible-to-use-xunit-with-linqpad/52883930#52883930" />
+        <published>2018-10-18T23:32:11Z</published>
+        <updated>2018-10-18T23:32:11Z</updated>
+        <summary type="html">&lt;p&gt;I just tried to open a LINQPad query file that tried to load the &lt;code&gt;xunit&lt;/code&gt; &lt;a href=&quot;https://www.nuget.org/packages/xunit&quot; rel=&quot;nofollow noreferrer&quot;&gt;package&lt;/a&gt; and got an error which has never happened to me in using LINQPad for years. So my answer is &lt;em&gt;no&lt;/em&gt;.&lt;/p&gt;
+</summary>
+    </entry>    <entry>
         <id>https://stackoverflow.com/q/52214134</id>
         <re:rank scheme="https://stackoverflow.com">0</re:rank>
         <title type="text">an Angular NPM package out there for `nativeElement: ElementRef` [like jQuery]?</title>
@@ -1326,80 +1435,18 @@ public IHttpActionResult ReadRaw([FromBody]XElement rootElement)
 &lt;/code&gt;&lt;/pre&gt;
 </summary>
     </entry>    <entry>
-        <id>https://stackoverflow.com/questions/19516829/allow-loading-of-json-files-in-visual-studio-express-2013-for-web/30744012#30744012</id>
-        <re:rank scheme="https://stackoverflow.com">6</re:rank>
-        <title type="text">Answer by rasx for Allow loading of JSON files in Visual Studio Express 2013 for Web</title>
+        <id>https://stackoverflow.com/questions/52883672/nunitelite-3-11-0-throwing-null-reference-exception-with-autorun-in-linqpad?cid=92705141</id>
+        <title type="text">Comment by rasx on NUniteLite 3.11.0 throwing Null Reference Exception with AutoRun in LINQpad</title>
         <author>
             <name>rasx</name>
             <uri>https://stackoverflow.com/users/22944</uri>
         </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/19516829/allow-loading-of-json-files-in-visual-studio-express-2013-for-web/30744012#30744012" />
-        <published>2015-06-09T22:35:03Z</published>
-        <updated>2015-06-09T22:35:03Z</updated>
-        <summary type="html">&lt;p&gt;We may need to distinguish the Visual Studio development environment (with IIS Express) from local IIS and a remote server (like Azure WebSites). To specifically target IIS Express, for example, we edit &lt;code&gt;%USERPROFILE%\Documents\IISExpress\config\applicationhost.config&lt;/code&gt; under &lt;code&gt;system.webServer/staticContent&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/javascript&quot; /&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I need to make this distinction because my local (intranet) IIS already has the JSON mime type defined. So when I deploy to Azure websites I use this transformation in &lt;code&gt;Web.Release.config&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;system.webServer&amp;gt;
-    &amp;lt;staticContent&amp;gt;
-        &amp;lt;mimeMap fileExtension=&quot;.json&quot; mimeType=&quot;application/javascript&quot; xdt:Transform=&quot;Insert&quot; /&amp;gt;
-    &amp;lt;/staticContent&amp;gt;
-&amp;lt;/system.webServer&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-</summary>
-    </entry>    <entry>
-        <id>https://stackoverflow.com/questions/779146/-/779458#779458</id>
-        <re:rank scheme="https://stackoverflow.com">15</re:rank>
-        <title type="text">Answer by rasx for What are some clever uses of LINQ?</title>
-        <author>
-            <name>rasx</name>
-            <uri>https://stackoverflow.com/users/22944</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/779146/what-are-some-clever-uses-of-linq/779458#779458" />
-        <published>2009-04-22T22:05:53Z</published>
-        <updated>2015-06-09T09:27:31Z</updated>
-        <summary type="html">&lt;p&gt;Robert Shelton of Microsoft was cool enough to list &lt;a href=&quot;http://web.archive.org/web/20131229055859/http://www.sheltonblog.com/archive/2008/07/11/list-of-linq-providers.aspx&quot; rel=&quot;nofollow noreferrer&quot;&gt;a few LINQ implementations&lt;/a&gt; for us:&lt;/p&gt;
-
-&lt;p&gt;As of month 7, 2008:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;LINQ to Amazon&lt;/li&gt;
-&lt;li&gt;LINQ to Active Directory&lt;/li&gt;
-&lt;li&gt;LINQ to Bindable Sources (SyncLINQ)&lt;/li&gt;
-&lt;li&gt;LINQ over C- project&lt;/li&gt;
-&lt;li&gt;LINQ to CRM&lt;/li&gt;
-&lt;li&gt;LINQ To Geo—Language Integrated Query for Geospatial Data&lt;/li&gt;
-&lt;li&gt;LINQ to Excel&lt;/li&gt;
-&lt;li&gt;LINQ to Expressions (MetaLinq)&lt;/li&gt;
-&lt;li&gt;LINQ Extender (Toolkit for building LINQ Providers)&lt;/li&gt;
-&lt;li&gt;LINQ to Flickr&lt;/li&gt;
-&lt;li&gt;LINQ to Google&lt;/li&gt;
-&lt;li&gt;LINQ to Indexes (LINQ and i40)&lt;/li&gt;
-&lt;li&gt;LINQ to IQueryable (Matt Warren on Providers)&lt;/li&gt;
-&lt;li&gt;LINQ to JSON&lt;/li&gt;
-&lt;li&gt;LINQ to NHibernate&lt;/li&gt;
-&lt;li&gt;LINQ to JavaScript&lt;/li&gt;
-&lt;li&gt;LINQ to LDAP&lt;/li&gt;
-&lt;li&gt;LINQ to LLBLGen Pro&lt;/li&gt;
-&lt;li&gt;LINQ to Lucene&lt;/li&gt;
-&lt;li&gt;LINQ to Metaweb(freebase)&lt;/li&gt;
-&lt;li&gt;LINQ to MySQL, Oracle and PostgreSql (DbLinq)&lt;/li&gt;
-&lt;li&gt;LINQ to NCover&lt;/li&gt;
-&lt;li&gt;LINQ to Opf3&lt;/li&gt;
-&lt;li&gt;LINQ to Parallel (PLINQ)&lt;/li&gt;
-&lt;li&gt;LINQ to RDF Files&lt;/li&gt;
-&lt;li&gt;LINQ to Sharepoint&lt;/li&gt;
-&lt;li&gt;LINQ to SimpleDB&lt;/li&gt;
-&lt;li&gt;LINQ to Streams&lt;/li&gt;
-&lt;li&gt;LINQ to WebQueries&lt;/li&gt;
-&lt;li&gt;LINQ to WMI&lt;/li&gt;
-&lt;li&gt;LINQ to XtraGrid&lt;/li&gt;
-&lt;/ul&gt;
-</summary>
-    </entry>    <entry>
+        <link rel="alternate" href="https://stackoverflow.com/questions/52883672/nunitelite-3-11-0-throwing-null-reference-exception-with-autorun-in-linqpad" />
+        <published>2018-10-19T16:19:46Z</published>
+        <updated>2018-10-19T16:19:46Z</updated>
+        <summary type="html">I have only added the &lt;code&gt;NUnitLite&lt;/code&gt; NuGet package via LINQPad.</summary>
+    </entry>
+    <entry>
         <id>https://stackoverflow.com/questions/51563534/is-it-possible-to-write-css-for-all-angular-hosts-or-do-we-have-to-select-each/51564554?cid=90098166#51564554</id>
         <title type="text">Comment by rasx on is it possible to write CSS for all Angular &quot;hosts&quot; or do we have to select each host individually</title>
         <author>
@@ -1566,17 +1613,5 @@ public IHttpActionResult ReadRaw([FromBody]XElement rootElement)
         <published>2016-06-25T07:51:17Z</published>
         <updated>2016-06-25T07:51:17Z</updated>
         <summary type="html">James Newton King should use this documentation :)</summary>
-    </entry>
-    <entry>
-        <id>https://stackoverflow.com/questions/33751770/converting-xdocument-to-json-with-xhtml-node-using-json-net?cid=56387429</id>
-        <title type="text">Comment by rasx on Converting XDocument to JSON with XHTML node using JSON.NET</title>
-        <author>
-            <name>rasx</name>
-            <uri>https://stackoverflow.com/users/22944</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/33751770/converting-xdocument-to-json-with-xhtml-node-using-json-net" />
-        <published>2015-12-16T21:55:24Z</published>
-        <updated>2015-12-16T21:55:24Z</updated>
-        <summary type="html">@dbc Can you write a routine that is simpler, less complicated than the one I have above?</summary>
     </entry>
 </feed>
