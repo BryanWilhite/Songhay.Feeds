@@ -4,13 +4,13 @@
   <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite"/>
   <link type="application/atom+xml" rel="self" href="https://github.com/BryanWilhite.atom"/>
   <title>BryanWilhite’s Activity</title>
-  <updated>2018-10-19T16:13:15Z</updated>
+  <updated>2018-10-26T23:04:05Z</updated>
   <entry>
-    <id>tag:github.com,2008:PushEvent/8450099827</id>
-    <published>2018-10-19T16:13:15Z</published>
-    <updated>2018-10-19T16:13:15Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/LinqPad/compare/617f964f9f...e472f15f57"/>
-    <title type="html">BryanWilhite pushed to master in BryanWilhite/LinqPad</title>
+    <id>tag:github.com,2008:PushEvent/8490189374</id>
+    <published>2018-10-26T23:04:05Z</published>
+    <updated>2018-10-26T23:04:05Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/jupyter-central/compare/13af16ecd9...a042355829"/>
+    <title type="html">BryanWilhite pushed to master in BryanWilhite/jupyter-central</title>
     <author>
       <name>BryanWilhite</name>
       <email></email>
@@ -29,17 +29,17 @@
       
       pushed to
 
-        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/LinqPad/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/jupyter-central/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
         in
 
-      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/LinqPad&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/LinqPad&lt;/a&gt;
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/jupyter-central&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/jupyter-central&lt;/a&gt;
       &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-        &lt;relative-time datetime=&quot;2018-10-19T16:13:15Z&quot;&gt;Oct 19, 2018&lt;/relative-time&gt;
+        &lt;relative-time datetime=&quot;2018-10-26T23:04:05Z&quot;&gt;Oct 26, 2018&lt;/relative-time&gt;
       &lt;/span&gt;
 
         &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
           &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/LinqPad/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/jupyter-central/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
 
           &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
             &lt;ul&gt;
@@ -47,10 +47,10 @@
                   &lt;span title=&quot;BryanWilhite&quot;&gt;
                     &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
                   &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/LinqPad/commit/e472f15f572f35a4557f47c769e684eddccd8d4a&quot; rel=&quot;noreferrer&quot;&gt;e472f15&lt;/a&gt;&lt;/code&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/jupyter-central/commit/a042355829e43d8155b886805acfe529ebdd2044&quot; rel=&quot;noreferrer&quot;&gt;a042355&lt;/a&gt;&lt;/code&gt;
                   &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
                     &lt;blockquote&gt;
-                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;pencil2&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png&quot;&gt;✏️&lt;/g-emoji&gt; corrections, corrections
+                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;pencil2&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png&quot;&gt;✏️&lt;/g-emoji&gt; &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;lipstick&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f484.png&quot;&gt;💄&lt;/g-emoji&gt; skiena excercises
                     &lt;/blockquote&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
@@ -65,11 +65,62 @@
 &lt;/div&gt;&lt;/div&gt;</content>
   </entry>
   <entry>
-    <id>tag:github.com,2008:PushEvent/8447157105</id>
-    <published>2018-10-19T06:58:30Z</published>
-    <updated>2018-10-19T06:58:30Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/LinqPad/compare/7b91422c2b...617f964f9f"/>
-    <title type="html">BryanWilhite pushed to master in BryanWilhite/LinqPad</title>
+    <id>tag:github.com,2008:IssuesEvent/8489911043</id>
+    <published>2018-10-26T21:40:46Z</published>
+    <updated>2018-10-26T21:40:46Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/issues/41"/>
+    <title type="html">BryanWilhite opened an issue in BryanWilhite/Songhay.Dashboard</title>
+    <author>
+      <name>BryanWilhite</name>
+      <email></email>
+      <uri>https://github.com/BryanWilhite</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_opened&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- issues --&gt;
+&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
+  &lt;span class=&quot;mr-3&quot;&gt;
+  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
+        &lt;div&gt;
+            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
+            
+            opened
+            an issue in
+            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Dashboard&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard&lt;/a&gt;
+          &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
+            &lt;relative-time datetime=&quot;2018-10-26T21:40:46Z&quot;&gt;Oct 26, 2018&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3&quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-opened open d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
+          &lt;a title=&quot;add draw.io to studio tools&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;add draw.io to studio tools&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/41&quot; rel=&quot;noreferrer&quot;&gt;add draw.io to studio tools&lt;/a&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#41&lt;/span&gt;
+          &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
+            &lt;p&gt;&lt;a href=&quot;https://materialdesignicons.com/icon/vector-curve&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://materialdesignicons.com/icon/vector-curve&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/8489892797</id>
+    <published>2018-10-26T21:36:03Z</published>
+    <updated>2018-10-26T21:36:03Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/jupyter-central/compare/a128df0ad4...13af16ecd9"/>
+    <title type="html">BryanWilhite pushed to master in BryanWilhite/jupyter-central</title>
     <author>
       <name>BryanWilhite</name>
       <email></email>
@@ -88,17 +139,17 @@
       
       pushed to
 
-        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/LinqPad/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/jupyter-central/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
         in
 
-      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/LinqPad&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/LinqPad&lt;/a&gt;
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/jupyter-central&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/jupyter-central&lt;/a&gt;
       &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-        &lt;relative-time datetime=&quot;2018-10-19T06:58:30Z&quot;&gt;Oct 19, 2018&lt;/relative-time&gt;
+        &lt;relative-time datetime=&quot;2018-10-26T21:36:03Z&quot;&gt;Oct 26, 2018&lt;/relative-time&gt;
       &lt;/span&gt;
 
         &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
           &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/LinqPad/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/jupyter-central/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
 
           &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
             &lt;ul&gt;
@@ -106,10 +157,10 @@
                   &lt;span title=&quot;BryanWilhite&quot;&gt;
                     &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
                   &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/LinqPad/commit/617f964f9fdcc0f7d2362392f7641e533cea232d&quot; rel=&quot;noreferrer&quot;&gt;617f964&lt;/a&gt;&lt;/code&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/jupyter-central/commit/13af16ecd9fc65b203aeafa0ef5d934917837548&quot; rel=&quot;noreferrer&quot;&gt;13af16e&lt;/a&gt;&lt;/code&gt;
                   &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
                     &lt;blockquote&gt;
-                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;hammer&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f528.png&quot;&gt;🔨&lt;/g-emoji&gt; re-factored to match Wikipedia algorithm
+                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;pencil2&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png&quot;&gt;✏️&lt;/g-emoji&gt; skiena entry and excercises
                     &lt;/blockquote&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
@@ -124,11 +175,11 @@
 &lt;/div&gt;&lt;/div&gt;</content>
   </entry>
   <entry>
-    <id>tag:github.com,2008:PushEvent/8446252366</id>
-    <published>2018-10-19T01:32:29Z</published>
-    <updated>2018-10-19T01:32:29Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/LinqPad/compare/ef76924798...7b91422c2b"/>
-    <title type="html">BryanWilhite pushed to master in BryanWilhite/LinqPad</title>
+    <id>tag:github.com,2008:PushEvent/8484670283</id>
+    <published>2018-10-26T03:56:29Z</published>
+    <updated>2018-10-26T03:56:29Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Olo.Pizzas/compare/202ae35152...fa422f464a"/>
+    <title type="html">BryanWilhite pushed to master in BryanWilhite/Olo.Pizzas</title>
     <author>
       <name>BryanWilhite</name>
       <email></email>
@@ -147,87 +198,17 @@
       
       pushed to
 
-        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/LinqPad/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Olo.Pizzas/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
         in
 
-      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/LinqPad&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/LinqPad&lt;/a&gt;
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Olo.Pizzas&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Olo.Pizzas&lt;/a&gt;
       &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-        &lt;relative-time datetime=&quot;2018-10-19T01:32:29Z&quot;&gt;Oct 19, 2018&lt;/relative-time&gt;
-      &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
-          &lt;span&gt;2 commits to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/LinqPad/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;BryanWilhite&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/LinqPad/commit/7b91422c2bf4b74a09e0c2cbfb53482c8b3012f9&quot; rel=&quot;noreferrer&quot;&gt;7b91422&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;snowflake&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/2744.png&quot;&gt;❄️&lt;/g-emoji&gt; ditto
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;BryanWilhite&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/LinqPad/commit/f0506f708d16af08b057a5116207420990966638&quot; rel=&quot;noreferrer&quot;&gt;f0506f7&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      removed surplus NAudio refs
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:PushEvent/8446155169</id>
-    <published>2018-10-19T00:57:29Z</published>
-    <updated>2018-10-19T00:57:29Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/ServiceTitan.Cloner/compare/52cb029455...56d89ab1ce"/>
-    <title type="html">BryanWilhite pushed to master in BryanWilhite/ServiceTitan.Cloner</title>
-    <author>
-      <name>BryanWilhite</name>
-      <email></email>
-      <uri>https://github.com/BryanWilhite</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
-  &lt;span class=&quot;mr-3&quot;&gt;
-  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
-      
-      pushed to
-
-        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/ServiceTitan.Cloner/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
-        in
-
-      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/ServiceTitan.Cloner&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/ServiceTitan.Cloner&lt;/a&gt;
-      &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-        &lt;relative-time datetime=&quot;2018-10-19T00:57:29Z&quot;&gt;Oct 19, 2018&lt;/relative-time&gt;
+        &lt;relative-time datetime=&quot;2018-10-26T03:56:29Z&quot;&gt;Oct 26, 2018&lt;/relative-time&gt;
       &lt;/span&gt;
 
         &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
           &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/ServiceTitan.Cloner/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Olo.Pizzas/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
 
           &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
             &lt;ul&gt;
@@ -235,7 +216,7 @@
                   &lt;span title=&quot;BryanWilhite&quot;&gt;
                     &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
                   &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/ServiceTitan.Cloner/commit/56d89ab1ce850520af302def4b490e335f0d1cec&quot; rel=&quot;noreferrer&quot;&gt;56d89ab&lt;/a&gt;&lt;/code&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Olo.Pizzas/commit/fa422f464a2e3e0982a4b4b4774e20f44dc39aed&quot; rel=&quot;noreferrer&quot;&gt;fa422f4&lt;/a&gt;&lt;/code&gt;
                   &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
                     &lt;blockquote&gt;
                       &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;tractor&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f69c.png&quot;&gt;🚜&lt;/g-emoji&gt; &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;sparkles&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/2728.png&quot;&gt;✨&lt;/g-emoji&gt;
@@ -253,11 +234,11 @@
 &lt;/div&gt;&lt;/div&gt;</content>
   </entry>
   <entry>
-    <id>tag:github.com,2008:CreateEvent/8446058469</id>
-    <published>2018-10-19T00:22:52Z</published>
-    <updated>2018-10-19T00:22:52Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/ServiceTitan.Cloner/compare/master"/>
-    <title type="html">BryanWilhite created a branch master in BryanWilhite/ServiceTitan.Cloner</title>
+    <id>tag:github.com,2008:CreateEvent/8484655339</id>
+    <published>2018-10-26T03:50:55Z</published>
+    <updated>2018-10-26T03:50:55Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Olo.Pizzas.Tests/compare/master"/>
+    <title type="html">BryanWilhite created a branch master in BryanWilhite/Olo.Pizzas</title>
     <author>
       <name>BryanWilhite</name>
       <email></email>
@@ -279,9 +260,9 @@
             created a
             branch
             in
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/ServiceTitan.Cloner&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/ServiceTitan.Cloner&lt;/a&gt;
+            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Olo.Pizzas&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Olo.Pizzas&lt;/a&gt;
             &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-              &lt;relative-time datetime=&quot;2018-10-19T00:22:52Z&quot;&gt;Oct 19, 2018&lt;/relative-time&gt;
+              &lt;relative-time datetime=&quot;2018-10-26T03:50:55Z&quot;&gt;Oct 26, 2018&lt;/relative-time&gt;
             &lt;/span&gt;
           &lt;/div&gt;
         &lt;/div&gt;
@@ -289,12 +270,12 @@
     &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
       &lt;div&gt;
         &lt;div class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
-            &lt;a class=&quot;css-truncate css-truncate-target branch-name v-align-middle&quot; title=&quot;master&quot; href=&quot;/BryanWilhite/ServiceTitan.Cloner/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt; in &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/ServiceTitan.Cloner&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/ServiceTitan.Cloner&lt;/a&gt;
+            &lt;a class=&quot;css-truncate css-truncate-target branch-name v-align-middle&quot; title=&quot;master&quot; href=&quot;/BryanWilhite/Olo.Pizzas/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt; in &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Olo.Pizzas&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Olo.Pizzas&lt;/a&gt;
         &lt;/div&gt;
 
 
           &lt;p class=&quot;f6 text-gray mt-2 mb-0&quot;&gt;
-            &lt;span&gt;Updated Oct 19&lt;/span&gt;
+            &lt;span&gt;Updated Oct 26&lt;/span&gt;
           &lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -303,11 +284,11 @@
 &lt;/div&gt;&lt;/div&gt;</content>
   </entry>
   <entry>
-    <id>tag:github.com,2008:CreateEvent/8446058415</id>
-    <published>2018-10-19T00:22:51Z</published>
-    <updated>2018-10-19T00:22:51Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/ServiceTitan.Cloner"/>
-    <title type="html">BryanWilhite created a repository BryanWilhite/ServiceTitan.Cloner</title>
+    <id>tag:github.com,2008:CreateEvent/8484655297</id>
+    <published>2018-10-26T03:50:54Z</published>
+    <updated>2018-10-26T03:50:54Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Olo.Pizzas.Tests"/>
+    <title type="html">BryanWilhite created a repository BryanWilhite/Olo.Pizzas.Tests</title>
     <author>
       <name>BryanWilhite</name>
       <email></email>
@@ -329,9 +310,9 @@
             created a
             repository
             
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/ServiceTitan.Cloner&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/ServiceTitan.Cloner&lt;/a&gt;
+            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Olo.Pizzas&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Olo.Pizzas&lt;/a&gt;
             &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-              &lt;relative-time datetime=&quot;2018-10-19T00:22:51Z&quot;&gt;Oct 19, 2018&lt;/relative-time&gt;
+              &lt;relative-time datetime=&quot;2018-10-26T03:50:54Z&quot;&gt;Oct 26, 2018&lt;/relative-time&gt;
             &lt;/span&gt;
           &lt;/div&gt;
         &lt;/div&gt;
@@ -339,15 +320,15 @@
     &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
       &lt;div&gt;
         &lt;div class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/ServiceTitan.Cloner&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/ServiceTitan.Cloner&lt;/a&gt;
+            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Olo.Pizzas&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Olo.Pizzas&lt;/a&gt;
         &lt;/div&gt;
 
           &lt;div class=&quot;dashboard-break-word text-gray mt-1 repo-description&quot;&gt;
-            &lt;p&gt;every miserable detail of an interview question via HackerRank&lt;/p&gt;
+            &lt;p&gt;a small unit of work prompted by Andrew Sidesinger&lt;/p&gt;
           &lt;/div&gt;
 
           &lt;p class=&quot;f6 text-gray mt-2 mb-0&quot;&gt;
-            &lt;span&gt;Updated Oct 19&lt;/span&gt;
+            &lt;span&gt;Updated Oct 26&lt;/span&gt;
           &lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -356,129 +337,11 @@
 &lt;/div&gt;&lt;/div&gt;</content>
   </entry>
   <entry>
-    <id>tag:github.com,2008:PushEvent/8445793633</id>
-    <published>2018-10-18T22:57:05Z</published>
-    <updated>2018-10-18T22:57:05Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/LinqPad/compare/ebe9f49ce0...ef76924798"/>
-    <title type="html">BryanWilhite pushed to master in BryanWilhite/LinqPad</title>
-    <author>
-      <name>BryanWilhite</name>
-      <email></email>
-      <uri>https://github.com/BryanWilhite</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
-  &lt;span class=&quot;mr-3&quot;&gt;
-  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
-      
-      pushed to
-
-        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/LinqPad/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
-        in
-
-      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/LinqPad&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/LinqPad&lt;/a&gt;
-      &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-        &lt;relative-time datetime=&quot;2018-10-18T22:57:05Z&quot;&gt;Oct 18, 2018&lt;/relative-time&gt;
-      &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/LinqPad/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;BryanWilhite&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/LinqPad/commit/ef76924798a20da961072c8f814d03c9c153bded&quot; rel=&quot;noreferrer&quot;&gt;ef76924&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      added NUnitLite experiment
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:PushEvent/8426207390</id>
-    <published>2018-10-16T06:45:54Z</published>
-    <updated>2018-10-16T06:45:54Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/compare/afb93c4410...0df8027048"/>
-    <title type="html">BryanWilhite pushed to master in BryanWilhite/Songhay.Dashboard</title>
-    <author>
-      <name>BryanWilhite</name>
-      <email></email>
-      <uri>https://github.com/BryanWilhite</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
-  &lt;span class=&quot;mr-3&quot;&gt;
-  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
-      
-      pushed to
-
-        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
-        in
-
-      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Dashboard&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard&lt;/a&gt;
-      &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-        &lt;relative-time datetime=&quot;2018-10-16T06:45:54Z&quot;&gt;Oct 16, 2018&lt;/relative-time&gt;
-      &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;BryanWilhite&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/commit/0df80270486ec25408e34c5494c1eee02570596e&quot; rel=&quot;noreferrer&quot;&gt;0df8027&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;memo&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png&quot;&gt;📝&lt;/g-emoji&gt; issue &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load issue title&quot; data-id=&quot;368779470&quot; data-permission-text=&quot;Issue title is private&quot; data-url=&quot;https://github.com/BryanWilhite/Songhay.Dashboard/issues/34&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/BryanWilhite/Songhay.Dashboard/issues/34/hovercard&quot; href=&quot;https://github.com/BryanWilhite/Songhay.Dashboard/issues/34&quot; rel=&quot;noreferrer&quot;&gt;#34&lt;/a&gt;
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:IssueCommentEvent/8426170145</id>
-    <published>2018-10-16T06:36:37Z</published>
-    <updated>2018-10-16T06:36:37Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/issues/34#issuecomment-430118304"/>
-    <title type="html">BryanWilhite commented on issue BryanWilhite/Songhay.Dashboard#34</title>
+    <id>tag:github.com,2008:IssueCommentEvent/8484649995</id>
+    <published>2018-10-26T03:49:07Z</published>
+    <updated>2018-10-26T03:49:07Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Blog/issues/40#issuecomment-433277451"/>
+    <title type="html">BryanWilhite commented on issue BryanWilhite/Songhay.Blog#40</title>
     <author>
       <name>BryanWilhite</name>
       <email></email>
@@ -499,28 +362,145 @@
           
           commented on
           issue
-          &lt;a class=&quot;link-gray-dark text-bold&quot; title=&quot;yt curated channels are not sorted correctly&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/34#issuecomment-430118304&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard#34&lt;/a&gt;
+          &lt;a class=&quot;link-gray-dark text-bold&quot; title=&quot;Azure DevOps Deployment: Error Code: ERROR_FILE_IN_USE&quot; href=&quot;/BryanWilhite/Songhay.Blog/issues/40#issuecomment-433277451&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Blog#40&lt;/a&gt;
           &lt;span class=&quot;f6 text-gray-light ml-1&quot;&gt;
-            &lt;relative-time datetime=&quot;2018-10-16T06:36:37Z&quot;&gt;Oct 16, 2018&lt;/relative-time&gt;
+            &lt;relative-time datetime=&quot;2018-10-26T03:49:07Z&quot;&gt;Oct 26, 2018&lt;/relative-time&gt;
           &lt;/span&gt;
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;div class=&quot;message markdown-body Box p-3&quot;&gt;
       &lt;div class=&quot;f6 mb-1&quot;&gt;
-        &lt;a title=&quot;yt curated channels are not sorted correctly&quot; class=&quot;link-gray&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/34#issuecomment-430118304&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt; &lt;span class=&quot;link-gray-dark text-bold&quot;&gt;BryanWilhite&lt;/span&gt; commented &lt;relative-time datetime=&quot;2018-10-16T06:36:37Z&quot;&gt;Oct 16, 2018&lt;/relative-time&gt;&lt;/a&gt;
+        &lt;a title=&quot;Azure DevOps Deployment: Error Code: ERROR_FILE_IN_USE&quot; class=&quot;link-gray&quot; href=&quot;/BryanWilhite/Songhay.Blog/issues/40#issuecomment-433277451&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt; &lt;span class=&quot;link-gray-dark text-bold&quot;&gt;BryanWilhite&lt;/span&gt; commented &lt;relative-time datetime=&quot;2018-10-26T03:49:07Z&quot;&gt;Oct 26, 2018&lt;/relative-time&gt;&lt;/a&gt;
       &lt;/div&gt;
-        &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/8996963/how-to-perform-case-insensitive-sorting-in-javascript&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://stackoverflow.com/questions/8996963/how-to-perform-case-insensitive-sorting-in-javascript&lt;/a&gt;
-[&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;Foo&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;bar&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;].&lt;span class=&quot;pl-c1&quot;&gt;sort&lt;/span&gt;(&lt;span class=&quot;pl-k&quot;&gt;function&lt;/span&gt; (&lt;span class=&quot;pl-smi&quot;&gt;a&lt;/span&gt;, &lt;span class=&quot;pl-smi&quot;&gt;b&lt;/span&gt;) { &lt;span class=&quot;pl-k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;a&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;to…&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;a class=&quot;user-mention&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/hovercards?user_id=20121508&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/vincentdass&quot; rel=&quot;noreferrer&quot;&gt;@vincentdass&lt;/a&gt;: okay, will do...&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/div&gt;</content>
   </entry>
   <entry>
-    <id>tag:github.com,2008:PushEvent/8426140754</id>
-    <published>2018-10-16T06:29:04Z</published>
-    <updated>2018-10-16T06:29:04Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Blog/compare/f9ddff23dc...4991dbb03d"/>
+    <id>tag:github.com,2008:PushEvent/8483633203</id>
+    <published>2018-10-25T22:18:36Z</published>
+    <updated>2018-10-25T22:18:36Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/jupyter-central/compare/ec50896399...a128df0ad4"/>
+    <title type="html">BryanWilhite pushed to master in BryanWilhite/jupyter-central</title>
+    <author>
+      <name>BryanWilhite</name>
+      <email></email>
+      <uri>https://github.com/BryanWilhite</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
+  &lt;span class=&quot;mr-3&quot;&gt;
+  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
+      
+      pushed to
+
+        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/jupyter-central/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+        in
+
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/jupyter-central&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/jupyter-central&lt;/a&gt;
+      &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
+        &lt;relative-time datetime=&quot;2018-10-25T22:18:36Z&quot;&gt;Oct 25, 2018&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/jupyter-central/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;BryanWilhite&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/jupyter-central/commit/a128df0ad40bd1d6b1fa81b56c215b67f918effc&quot; rel=&quot;noreferrer&quot;&gt;a128df0&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;pencil2&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png&quot;&gt;✏️&lt;/g-emoji&gt; skiena entry
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/8482244408</id>
+    <published>2018-10-25T17:59:41Z</published>
+    <updated>2018-10-25T17:59:41Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/jupyter-central/compare/4e58b31677...ec50896399"/>
+    <title type="html">BryanWilhite pushed to master in BryanWilhite/jupyter-central</title>
+    <author>
+      <name>BryanWilhite</name>
+      <email></email>
+      <uri>https://github.com/BryanWilhite</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
+  &lt;span class=&quot;mr-3&quot;&gt;
+  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
+      
+      pushed to
+
+        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/jupyter-central/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+        in
+
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/jupyter-central&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/jupyter-central&lt;/a&gt;
+      &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
+        &lt;relative-time datetime=&quot;2018-10-25T17:59:41Z&quot;&gt;Oct 25, 2018&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/jupyter-central/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;BryanWilhite&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/jupyter-central/commit/ec50896399f693c4b135123523d42b7131b3a7cb&quot; rel=&quot;noreferrer&quot;&gt;ec50896&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;pencil2&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png&quot;&gt;✏️&lt;/g-emoji&gt; skiena entry
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/8477846765</id>
+    <published>2018-10-25T05:27:51Z</published>
+    <updated>2018-10-25T05:27:51Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Blog/compare/7225b44d23...3b84050acd"/>
     <title type="html">BryanWilhite pushed to master in BryanWilhite/Songhay.Blog</title>
     <author>
       <name>BryanWilhite</name>
@@ -545,11 +525,11 @@
 
       &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Blog&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Blog&lt;/a&gt;
       &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-        &lt;relative-time datetime=&quot;2018-10-16T06:29:04Z&quot;&gt;Oct 16, 2018&lt;/relative-time&gt;
+        &lt;relative-time datetime=&quot;2018-10-25T05:27:51Z&quot;&gt;Oct 25, 2018&lt;/relative-time&gt;
       &lt;/span&gt;
 
         &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
-          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
           &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Blog/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
 
           &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
@@ -558,21 +538,10 @@
                   &lt;span title=&quot;BryanWilhite&quot;&gt;
                     &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
                   &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Blog/commit/4991dbb03d200afdd80650e875d751d9a7544814&quot; rel=&quot;noreferrer&quot;&gt;4991dbb&lt;/a&gt;&lt;/code&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Blog/commit/3b84050acd935b257a724df4a915bbb41f48db1c&quot; rel=&quot;noreferrer&quot;&gt;3b84050&lt;/a&gt;&lt;/code&gt;
                   &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
                     &lt;blockquote&gt;
-                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;memo&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png&quot;&gt;📝&lt;/g-emoji&gt; &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;microscope&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f52c.png&quot;&gt;🔬&lt;/g-emoji&gt; blog entry
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;BryanWilhite&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Blog/commit/8e33610e7f441ff70f6b42863223a5e197da921d&quot; rel=&quot;noreferrer&quot;&gt;8e33610&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;package&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f4e6.png&quot;&gt;📦&lt;/g-emoji&gt; &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;arrow_up&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/2b06.png&quot;&gt;⬆️&lt;/g-emoji&gt; NuGet up
+                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;pencil2&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png&quot;&gt;✏️&lt;/g-emoji&gt; blog entry
                     &lt;/blockquote&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
@@ -587,11 +556,54 @@
 &lt;/div&gt;&lt;/div&gt;</content>
   </entry>
   <entry>
-    <id>tag:github.com,2008:PushEvent/8425393755</id>
-    <published>2018-10-16T02:18:57Z</published>
-    <updated>2018-10-16T02:18:57Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/compare/c9d9ec25ef...afb93c4410"/>
-    <title type="html">BryanWilhite pushed to master in BryanWilhite/Songhay.Dashboard</title>
+    <id>tag:github.com,2008:IssueCommentEvent/8477194777</id>
+    <published>2018-10-25T01:42:54Z</published>
+    <updated>2018-10-25T01:42:54Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Feeds/issues/7#issuecomment-432884289"/>
+    <title type="html">BryanWilhite commented on issue BryanWilhite/Songhay.Feeds#7</title>
+    <author>
+      <name>BryanWilhite</name>
+      <email></email>
+      <uri>https://github.com/BryanWilhite</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_comment&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- issue_comment --&gt;
+&lt;div class=&quot;d-flex border-bottom border-gray py-3&quot;&gt;
+    &lt;span class=&quot;mr-3&quot;&gt;
+  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
+        &lt;div&gt;
+          &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
+          
+          commented on
+          issue
+          &lt;a class=&quot;link-gray-dark text-bold&quot; title=&quot;get Feeds Azure web job running&quot; href=&quot;/BryanWilhite/Songhay.Feeds/issues/7#issuecomment-432884289&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Feeds#7&lt;/a&gt;
+          &lt;span class=&quot;f6 text-gray-light ml-1&quot;&gt;
+            &lt;relative-time datetime=&quot;2018-10-25T01:42:54Z&quot;&gt;Oct 25, 2018&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;div class=&quot;message markdown-body Box p-3&quot;&gt;
+      &lt;div class=&quot;f6 mb-1&quot;&gt;
+        &lt;a title=&quot;get Feeds Azure web job running&quot; class=&quot;link-gray&quot; href=&quot;/BryanWilhite/Songhay.Feeds/issues/7#issuecomment-432884289&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt; &lt;span class=&quot;link-gray-dark text-bold&quot;&gt;BryanWilhite&lt;/span&gt; commented &lt;relative-time datetime=&quot;2018-10-25T01:42:54Z&quot;&gt;Oct 25, 2018&lt;/relative-time&gt;&lt;/a&gt;
+      &lt;/div&gt;
+        &lt;p&gt;the legacy deployment looks like this:
+&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&quot;https://user-images.githubusercontent.com/5226627/47470883-9b0dda80-d7bc-11e8-8450-edce0c5a0839.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/8476766667</id>
+    <published>2018-10-24T23:21:52Z</published>
+    <updated>2018-10-24T23:21:52Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/jupyter-central/compare/5c77d000ce...4e58b31677"/>
+    <title type="html">BryanWilhite pushed to master in BryanWilhite/jupyter-central</title>
     <author>
       <name>BryanWilhite</name>
       <email></email>
@@ -610,17 +622,17 @@
       
       pushed to
 
-        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/jupyter-central/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
         in
 
-      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Dashboard&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard&lt;/a&gt;
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/jupyter-central&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/jupyter-central&lt;/a&gt;
       &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-        &lt;relative-time datetime=&quot;2018-10-16T02:18:57Z&quot;&gt;Oct 16, 2018&lt;/relative-time&gt;
+        &lt;relative-time datetime=&quot;2018-10-24T23:21:52Z&quot;&gt;Oct 24, 2018&lt;/relative-time&gt;
       &lt;/span&gt;
 
         &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
           &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/jupyter-central/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
 
           &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
             &lt;ul&gt;
@@ -628,10 +640,10 @@
                   &lt;span title=&quot;BryanWilhite&quot;&gt;
                     &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
                   &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/commit/afb93c4410582896430a36438cd2df7ce2c60ce1&quot; rel=&quot;noreferrer&quot;&gt;afb93c4&lt;/a&gt;&lt;/code&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/jupyter-central/commit/4e58b316772bd172770ed67f7ff2c85982852d6f&quot; rel=&quot;noreferrer&quot;&gt;4e58b31&lt;/a&gt;&lt;/code&gt;
                   &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
                     &lt;blockquote&gt;
-                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;microscope&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f52c.png&quot;&gt;🔬&lt;/g-emoji&gt; ran ShouldGenerateAppData()
+                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;pencil2&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png&quot;&gt;✏️&lt;/g-emoji&gt; the knapsack problem
                     &lt;/blockquote&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
@@ -646,11 +658,11 @@
 &lt;/div&gt;&lt;/div&gt;</content>
   </entry>
   <entry>
-    <id>tag:github.com,2008:PushEvent/8425340450</id>
-    <published>2018-10-16T02:01:06Z</published>
-    <updated>2018-10-16T02:01:06Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Feeds/compare/8b68ca4751...f3bff4550d"/>
-    <title type="html">BryanWilhite pushed to master in BryanWilhite/Songhay.Feeds</title>
+    <id>tag:github.com,2008:PushEvent/8476634343</id>
+    <published>2018-10-24T22:45:07Z</published>
+    <updated>2018-10-24T22:45:07Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/jupyter-central/compare/2506ac3431...5c77d000ce"/>
+    <title type="html">BryanWilhite pushed to master in BryanWilhite/jupyter-central</title>
     <author>
       <name>BryanWilhite</name>
       <email></email>
@@ -669,17 +681,17 @@
       
       pushed to
 
-        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Feeds/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/jupyter-central/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
         in
 
-      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Feeds&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Feeds&lt;/a&gt;
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/jupyter-central&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/jupyter-central&lt;/a&gt;
       &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-        &lt;relative-time datetime=&quot;2018-10-16T02:01:06Z&quot;&gt;Oct 16, 2018&lt;/relative-time&gt;
+        &lt;relative-time datetime=&quot;2018-10-24T22:45:07Z&quot;&gt;Oct 24, 2018&lt;/relative-time&gt;
       &lt;/span&gt;
 
         &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
           &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Feeds/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/jupyter-central/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
 
           &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
             &lt;ul&gt;
@@ -687,10 +699,10 @@
                   &lt;span title=&quot;BryanWilhite&quot;&gt;
                     &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
                   &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Feeds/commit/f3bff4550d9c1cb8160bc8ebd01518d4fa8d2fa8&quot; rel=&quot;noreferrer&quot;&gt;f3bff45&lt;/a&gt;&lt;/code&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/jupyter-central/commit/5c77d000ce570dab844b7403bd0779605e19ad94&quot; rel=&quot;noreferrer&quot;&gt;5c77d00&lt;/a&gt;&lt;/code&gt;
                   &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
                     &lt;blockquote&gt;
-                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;umbrella&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/2614.png&quot;&gt;☔️&lt;/g-emoji&gt; recognized moved studio feed
+                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;tractor&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f69c.png&quot;&gt;🚜&lt;/g-emoji&gt; &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;pencil2&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png&quot;&gt;✏️&lt;/g-emoji&gt; skiena re-org and the knapsack problem
                     &lt;/blockquote&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
@@ -705,11 +717,11 @@
 &lt;/div&gt;&lt;/div&gt;</content>
   </entry>
   <entry>
-    <id>tag:github.com,2008:PushEvent/8425271163</id>
-    <published>2018-10-16T01:37:26Z</published>
-    <updated>2018-10-16T01:37:26Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Feeds/compare/27e33e9e34...8b68ca4751"/>
-    <title type="html">BryanWilhite pushed to master in BryanWilhite/Songhay.Feeds</title>
+    <id>tag:github.com,2008:PushEvent/8476207127</id>
+    <published>2018-10-24T21:11:00Z</published>
+    <updated>2018-10-24T21:11:00Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/jupyter-central/compare/b6e8b4e3e1...2506ac3431"/>
+    <title type="html">BryanWilhite pushed to master in BryanWilhite/jupyter-central</title>
     <author>
       <name>BryanWilhite</name>
       <email></email>
@@ -728,17 +740,17 @@
       
       pushed to
 
-        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Feeds/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/jupyter-central/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
         in
 
-      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Feeds&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Feeds&lt;/a&gt;
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/jupyter-central&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/jupyter-central&lt;/a&gt;
       &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-        &lt;relative-time datetime=&quot;2018-10-16T01:37:26Z&quot;&gt;Oct 16, 2018&lt;/relative-time&gt;
+        &lt;relative-time datetime=&quot;2018-10-24T21:11:00Z&quot;&gt;Oct 24, 2018&lt;/relative-time&gt;
       &lt;/span&gt;
 
         &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
           &lt;span&gt;2 commits to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Feeds/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/jupyter-central/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
 
           &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
             &lt;ul&gt;
@@ -746,10 +758,10 @@
                   &lt;span title=&quot;BryanWilhite&quot;&gt;
                     &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
                   &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Feeds/commit/8b68ca47515b7a12d2fb70c82cc33af672fe447e&quot; rel=&quot;noreferrer&quot;&gt;8b68ca4&lt;/a&gt;&lt;/code&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/jupyter-central/commit/2506ac343110e54195ef2828fe5c43ec4c031c3b&quot; rel=&quot;noreferrer&quot;&gt;2506ac3&lt;/a&gt;&lt;/code&gt;
                   &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
                     &lt;blockquote&gt;
-                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;umbrella&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/2614.png&quot;&gt;☔️&lt;/g-emoji&gt; &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;hammer&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f528.png&quot;&gt;🔨&lt;/g-emoji&gt; &lt;span class=&quot;issue-keyword tooltipped tooltipped-se&quot; aria-label=&quot;This commit closes issue #5.&quot;&gt;resolves&lt;/span&gt; &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load issue title&quot; data-id=&quot;368332501&quot; data-permission-text=&quot;Issue title is private&quot; data-url=&quot;https://github.com/BryanWilhite/Songhay.Feeds/issues/5&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/BryanWilhite/Songhay.Feeds/issues/5/hovercard&quot; href=&quot;https://github.com/BryanWilhite/Songhay.Feeds/issues/5&quot; rel=&quot;noreferrer&quot;&gt;#5&lt;/a&gt;
+                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;pencil2&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png&quot;&gt;✏️&lt;/g-emoji&gt; skiena entries
                     &lt;/blockquote&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
@@ -757,10 +769,10 @@
                   &lt;span title=&quot;BryanWilhite&quot;&gt;
                     &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
                   &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Feeds/commit/f502fc432dc7703498f9fda2633ebb1302a9ebb7&quot; rel=&quot;noreferrer&quot;&gt;f502fc4&lt;/a&gt;&lt;/code&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/jupyter-central/commit/5d533dc9439320adcc7d0949195b2f4dc2c0beb3&quot; rel=&quot;noreferrer&quot;&gt;5d533dc&lt;/a&gt;&lt;/code&gt;
                   &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
                     &lt;blockquote&gt;
-                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;package&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f4e6.png&quot;&gt;📦&lt;/g-emoji&gt; &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;arrow_up&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/2b06.png&quot;&gt;⬆️&lt;/g-emoji&gt; NuGet up
+                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;pencil2&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png&quot;&gt;✏️&lt;/g-emoji&gt; skiena entry
                     &lt;/blockquote&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
@@ -775,114 +787,11 @@
 &lt;/div&gt;&lt;/div&gt;</content>
   </entry>
   <entry>
-    <id>tag:github.com,2008:IssuesEvent/8425271146</id>
-    <published>2018-10-16T01:37:25Z</published>
-    <updated>2018-10-16T01:37:25Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Feeds/issues/5"/>
-    <title type="html">BryanWilhite closed an issue in BryanWilhite/Songhay.Feeds</title>
-    <author>
-      <name>BryanWilhite</name>
-      <email></email>
-      <uri>https://github.com/BryanWilhite</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_closed&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- issues --&gt;
-&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
-  &lt;span class=&quot;mr-3&quot;&gt;
-  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
-        &lt;div&gt;
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
-            
-            closed
-            an issue in
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Feeds&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Feeds&lt;/a&gt;
-          &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-            &lt;relative-time datetime=&quot;2018-10-16T01:37:25Z&quot;&gt;Oct 16, 2018&lt;/relative-time&gt;
-          &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;Box p-3&quot;&gt;
-      &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-closed closed d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-      &lt;div class=&quot;ml-4&quot;&gt;
-        &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
-          &lt;a title=&quot;send JSON to Azure Storage&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;send JSON to Azure Storage&quot; href=&quot;/BryanWilhite/Songhay.Feeds/issues/5&quot; rel=&quot;noreferrer&quot;&gt;send JSON to Azure Storage&lt;/a&gt;
-        &lt;/span&gt;
-        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#5&lt;/span&gt;
-          &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
-            &lt;p&gt;use Azure storage to make Feeds output accessible to other applications
-&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load issue title&quot; data-id=&quot;369984306&quot; data-permission-text=&quot;Issue title is private&quot; data-url=&quot;https://github.com/BryanWilhite/Songhay.Dashboard/issues/38&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/BryanWilhite/Songhay.Dashboard/issues/38/hovercard&quot; href=&quot;https://github.com/BryanWilhite/Songhay.Dashboard/issues/38&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard#38&lt;/a&gt; depends on this issue&lt;/p&gt;
-          &lt;/div&gt;
-
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:IssuesEvent/8425264601</id>
-    <published>2018-10-16T01:35:03Z</published>
-    <updated>2018-10-16T01:35:03Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Cloud.BlobStorage/issues/6"/>
-    <title type="html">BryanWilhite opened an issue in BryanWilhite/Songhay.Cloud.BlobStorage</title>
-    <author>
-      <name>BryanWilhite</name>
-      <email></email>
-      <uri>https://github.com/BryanWilhite</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_opened&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- issues --&gt;
-&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
-  &lt;span class=&quot;mr-3&quot;&gt;
-  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
-        &lt;div&gt;
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
-            
-            opened
-            an issue in
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Cloud.BlobStorage&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Cloud.BlobStorage&lt;/a&gt;
-          &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-            &lt;relative-time datetime=&quot;2018-10-16T01:35:03Z&quot;&gt;Oct 16, 2018&lt;/relative-time&gt;
-          &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;Box p-3&quot;&gt;
-      &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-opened open d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-      &lt;div class=&quot;ml-4&quot;&gt;
-        &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
-          &lt;a title=&quot;TODO: move this to an extension method in Cloud storage core&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;TODO: move this to an extension method in Cloud storage core&quot; href=&quot;/BryanWilhite/Songhay.Cloud.BlobStorage/issues/6&quot; rel=&quot;noreferrer&quot;&gt;TODO: move this to an extension method in Cloud storage core&lt;/a&gt;
-        &lt;/span&gt;
-        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#6&lt;/span&gt;
-          &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
-            &lt;p&gt;TODO item in &lt;code&gt;StoreFeedsActivity.cs&lt;/code&gt; in &lt;a href=&quot;https://github.com/BryanWilhite/Songhay.Feeds&quot; rel=&quot;noreferrer&quot;&gt;https://github.com/BryanWilhite/Songhay.Feeds&lt;/a&gt;&lt;/p&gt;
-          &lt;/div&gt;
-
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:PushEvent/8424712251</id>
-    <published>2018-10-15T22:37:36Z</published>
-    <updated>2018-10-15T22:37:36Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/compare/8816efc265...c9d9ec25ef"/>
-    <title type="html">BryanWilhite pushed to master in BryanWilhite/Songhay.Dashboard</title>
+    <id>tag:github.com,2008:PushEvent/8470534884</id>
+    <published>2018-10-24T04:54:05Z</published>
+    <updated>2018-10-24T04:54:05Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Blog/compare/878d626ff1...7225b44d23"/>
+    <title type="html">BryanWilhite pushed to master in BryanWilhite/Songhay.Blog</title>
     <author>
       <name>BryanWilhite</name>
       <email></email>
@@ -901,17 +810,17 @@
       
       pushed to
 
-        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Blog/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
         in
 
-      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Dashboard&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard&lt;/a&gt;
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Blog&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Blog&lt;/a&gt;
       &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-        &lt;relative-time datetime=&quot;2018-10-15T22:37:36Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;
+        &lt;relative-time datetime=&quot;2018-10-24T04:54:05Z&quot;&gt;Oct 24, 2018&lt;/relative-time&gt;
       &lt;/span&gt;
 
         &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
-          &lt;span&gt;2 commits to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Blog/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
 
           &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
             &lt;ul&gt;
@@ -919,29 +828,15 @@
                   &lt;span title=&quot;BryanWilhite&quot;&gt;
                     &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
                   &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/commit/c9d9ec25ef7772a6493e505256e3fa2e1aa74d3d&quot; rel=&quot;noreferrer&quot;&gt;c9d9ec2&lt;/a&gt;&lt;/code&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Blog/commit/7225b44d233f825384ea3bb122584f83d08b7c5f&quot; rel=&quot;noreferrer&quot;&gt;7225b44&lt;/a&gt;&lt;/code&gt;
                   &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
                     &lt;blockquote&gt;
-                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;microscope&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f52c.png&quot;&gt;🔬&lt;/g-emoji&gt; &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;hammer&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f528.png&quot;&gt;🔨&lt;/g-emoji&gt; ShouldGenerateAppData() passes, &lt;span class=&quot;issue-keyword tooltipped tooltipped-se&quot; aria-label=&quot;This commit closes issue #38.&quot;&gt;resolves&lt;/span&gt; &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load issue title&quot; data-id=&quot;369984306&quot; data-permission-text=&quot;Issue title is private&quot; data-url=&quot;https://github.com/BryanWilhite/Songhay.Dashboard/issues/38&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/BryanWilhite/Songhay.Dashboard/issues/38/hovercard&quot; href=&quot;https://github.com/BryanWilhite/Songhay.Dashboard/issues/38&quot; rel=&quot;noreferrer&quot;&gt;#38&lt;/a&gt;
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;BryanWilhite&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/commit/7d65cd6ed4f9ef2446cdd46309dc16431a5d601a&quot; rel=&quot;noreferrer&quot;&gt;7d65cd6&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;package&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f4e6.png&quot;&gt;📦&lt;/g-emoji&gt; &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;arrow_up&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/2b06.png&quot;&gt;⬆️&lt;/g-emoji&gt; NuGet up
+                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;pencil2&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png&quot;&gt;✏️&lt;/g-emoji&gt; entry
                     &lt;/blockquote&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
 
 
-                &lt;li class=&quot;f6 mt-2&quot;&gt;
-                  &lt;a class=&quot;link-gray&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/compare/8816efc265...c9d9ec25ef&quot; rel=&quot;noreferrer&quot;&gt;1 more commits »&lt;/a&gt;
-                &lt;/li&gt;
             &lt;/ul&gt;
           &lt;/div&gt;
         &lt;/div&gt;
@@ -951,61 +846,10 @@
 &lt;/div&gt;&lt;/div&gt;</content>
   </entry>
   <entry>
-    <id>tag:github.com,2008:IssuesEvent/8424712225</id>
-    <published>2018-10-15T22:37:36Z</published>
-    <updated>2018-10-15T22:37:36Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/issues/38"/>
-    <title type="html">BryanWilhite closed an issue in BryanWilhite/Songhay.Dashboard</title>
-    <author>
-      <name>BryanWilhite</name>
-      <email></email>
-      <uri>https://github.com/BryanWilhite</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_closed&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- issues --&gt;
-&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
-  &lt;span class=&quot;mr-3&quot;&gt;
-  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
-        &lt;div&gt;
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
-            
-            closed
-            an issue in
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Dashboard&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard&lt;/a&gt;
-          &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-            &lt;relative-time datetime=&quot;2018-10-15T22:37:36Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;
-          &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;Box p-3&quot;&gt;
-      &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-closed closed d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-      &lt;div class=&quot;ml-4&quot;&gt;
-        &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
-          &lt;a title=&quot;move app.json to the cloud&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;move app.json to the cloud&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/38&quot; rel=&quot;noreferrer&quot;&gt;move app.json to the cloud&lt;/a&gt;
-        &lt;/span&gt;
-        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#38&lt;/span&gt;
-          &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
-            &lt;p&gt;this issue depends on &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load issue title&quot; data-id=&quot;368332501&quot; data-permission-text=&quot;Issue title is private&quot; data-url=&quot;https://github.com/BryanWilhite/Songhay.Feeds/issues/5&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/BryanWilhite/Songhay.Feeds/issues/5/hovercard&quot; href=&quot;https://github.com/BryanWilhite/Songhay.Feeds/issues/5&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Feeds#5&lt;/a&gt;&lt;/p&gt;
-          &lt;/div&gt;
-
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:IssuesEvent/8424032073</id>
-    <published>2018-10-15T20:16:25Z</published>
-    <updated>2018-10-15T20:16:25Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Blog/issues/42"/>
+    <id>tag:github.com,2008:IssuesEvent/8470493293</id>
+    <published>2018-10-24T04:38:32Z</published>
+    <updated>2018-10-24T04:38:32Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Blog/issues/43"/>
     <title type="html">BryanWilhite opened an issue in BryanWilhite/Songhay.Blog</title>
     <author>
       <name>BryanWilhite</name>
@@ -1029,7 +873,7 @@
             an issue in
             &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Blog&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Blog&lt;/a&gt;
           &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-            &lt;relative-time datetime=&quot;2018-10-15T20:16:25Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;
+            &lt;relative-time datetime=&quot;2018-10-24T04:38:32Z&quot;&gt;Oct 24, 2018&lt;/relative-time&gt;
           &lt;/span&gt;
         &lt;/div&gt;
       &lt;/div&gt;
@@ -1039,11 +883,15 @@
       &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-opened open d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
       &lt;div class=&quot;ml-4&quot;&gt;
         &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
-          &lt;a title=&quot;replace ConfigurationBuilderExtensions with those from Songhay.Cloud.BlobStorage&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;replace ConfigurationBuilderExtensions with those from Songhay.Cloud.BlobStorage&quot; href=&quot;/BryanWilhite/Songhay.Blog/issues/42&quot; rel=&quot;noreferrer&quot;&gt;replace ConfigurationBuilderExtensions with those from Songhay.Cloud.BlobStorage&lt;/a&gt;
+          &lt;a title=&quot;Songhay.Blog.Shell.Tests\HttpWebRequestTest should find and replace characters&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;Songhay.Blog.Shell.Tests\HttpWebRequestTest should find and replace characters&quot; href=&quot;/BryanWilhite/Songhay.Blog/issues/43&quot; rel=&quot;noreferrer&quot;&gt;Songhay.Blog.Shell.Tests\HttpWebRequestTest should find and replace characters&lt;/a&gt;
         &lt;/span&gt;
-        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#42&lt;/span&gt;
+        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#43&lt;/span&gt;
           &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
-            &lt;p&gt;from &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load issue title&quot; data-id=&quot;370305781&quot; data-permission-text=&quot;Issue title is private&quot; data-url=&quot;https://github.com/BryanWilhite/Songhay.Cloud.BlobStorage/issues/5&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/BryanWilhite/Songhay.Cloud.BlobStorage/issues/5/hovercard&quot; href=&quot;https://github.com/BryanWilhite/Songhay.Cloud.BlobStorage/issues/5&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Cloud.BlobStorage#5&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;characters:
+&lt;span class=&quot;pl-c1&quot;&gt;&amp;amp;nbsp; → [space]&lt;/span&gt;
+&lt;span class=&quot;pl-c1&quot;&gt;&amp;amp;[space] → &amp;amp;amp;&lt;/span&gt;
+&lt;span class=&quot;pl-c1&quot;&gt;=&amp;gt; → =&amp;amp;gt;&lt;/span&gt;
+&lt;span class=&quot;pl-c1&quot;&gt;&amp;lt;([^/]) → &amp;amp;lt;$1&lt;/span&gt;&lt;/p&gt;
           &lt;/div&gt;
 
       &lt;/div&gt;
@@ -1053,11 +901,11 @@
 &lt;/div&gt;&lt;/div&gt;</content>
   </entry>
   <entry>
-    <id>tag:github.com,2008:PushEvent/8424017521</id>
-    <published>2018-10-15T20:13:46Z</published>
-    <updated>2018-10-15T20:13:46Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Cloud.BlobStorage/compare/7e8aa7ecae...8583670cfa"/>
-    <title type="html">BryanWilhite pushed to master in BryanWilhite/Songhay.Cloud.BlobStorage</title>
+    <id>tag:github.com,2008:PushEvent/8469359984</id>
+    <published>2018-10-23T22:40:47Z</published>
+    <updated>2018-10-23T22:40:47Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/jupyter-central/compare/c1513da2f9...b6e8b4e3e1"/>
+    <title type="html">BryanWilhite pushed to master in BryanWilhite/jupyter-central</title>
     <author>
       <name>BryanWilhite</name>
       <email></email>
@@ -1076,17 +924,17 @@
       
       pushed to
 
-        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Cloud.BlobStorage/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/jupyter-central/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
         in
 
-      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Cloud.BlobStorage&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Cloud.BlobStorage&lt;/a&gt;
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/jupyter-central&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/jupyter-central&lt;/a&gt;
       &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-        &lt;relative-time datetime=&quot;2018-10-15T20:13:46Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;
+        &lt;relative-time datetime=&quot;2018-10-23T22:40:47Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;
       &lt;/span&gt;
 
         &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
           &lt;span&gt;2 commits to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Cloud.BlobStorage/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/jupyter-central/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
 
           &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
             &lt;ul&gt;
@@ -1094,10 +942,10 @@
                   &lt;span title=&quot;BryanWilhite&quot;&gt;
                     &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
                   &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Cloud.BlobStorage/commit/8583670cfa901cad8ad2ac3b18c9620e2f30b790&quot; rel=&quot;noreferrer&quot;&gt;8583670&lt;/a&gt;&lt;/code&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/jupyter-central/commit/b6e8b4e3e1a701ace4373805628c02821236195b&quot; rel=&quot;noreferrer&quot;&gt;b6e8b4e&lt;/a&gt;&lt;/code&gt;
                   &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
                     &lt;blockquote&gt;
-                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;package&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f4e6.png&quot;&gt;📦&lt;/g-emoji&gt; NuGet pack
+                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;pencil2&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png&quot;&gt;✏️&lt;/g-emoji&gt; skiena entry
                     &lt;/blockquote&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
@@ -1105,18 +953,15 @@
                   &lt;span title=&quot;BryanWilhite&quot;&gt;
                     &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
                   &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Cloud.BlobStorage/commit/5c71414c12732fb075b39487bf3a4a76ab01caec&quot; rel=&quot;noreferrer&quot;&gt;5c71414&lt;/a&gt;&lt;/code&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/jupyter-central/commit/d5819fb0112625ee2dfdd63dd3655598c16fe12c&quot; rel=&quot;noreferrer&quot;&gt;d5819fb&lt;/a&gt;&lt;/code&gt;
                   &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
                     &lt;blockquote&gt;
-                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;tractor&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f69c.png&quot;&gt;🚜&lt;/g-emoji&gt; &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;sparkles&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/2728.png&quot;&gt;✨&lt;/g-emoji&gt; added ToCloudStorageAccount(), &lt;span class=&quot;issue-keyword tooltipped tooltipped-se&quot; aria-label=&quot;This commit closes issue #5.&quot;&gt;resolves&lt;/span&gt; &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load issue title&quot; data-id=&quot;370305781&quot; data-permission-text=&quot;Issue title is private&quot; data-url=&quot;https://github.com/BryanWilhite/Songhay.Cloud.BlobStorage/issues/5&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/BryanWilhite/Songhay.Cloud.BlobStorage/issues/5/hovercard&quot; href=&quot;https://github.com/BryanWilhite/Songhay.Cloud.BlobStorage/issues/5&quot; rel=&quot;noreferrer&quot;&gt;#5&lt;/a&gt;
+                      :pancil2: skiena entry
                     &lt;/blockquote&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
 
 
-                &lt;li class=&quot;f6 mt-2&quot;&gt;
-                  &lt;a class=&quot;link-gray&quot; href=&quot;/BryanWilhite/Songhay.Cloud.BlobStorage/compare/7e8aa7ecae...8583670cfa&quot; rel=&quot;noreferrer&quot;&gt;1 more commits »&lt;/a&gt;
-                &lt;/li&gt;
             &lt;/ul&gt;
           &lt;/div&gt;
         &lt;/div&gt;
@@ -1126,159 +971,10 @@
 &lt;/div&gt;&lt;/div&gt;</content>
   </entry>
   <entry>
-    <id>tag:github.com,2008:IssuesEvent/8424017495</id>
-    <published>2018-10-15T20:13:46Z</published>
-    <updated>2018-10-15T20:13:46Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Cloud.BlobStorage/issues/5"/>
-    <title type="html">BryanWilhite closed an issue in BryanWilhite/Songhay.Cloud.BlobStorage</title>
-    <author>
-      <name>BryanWilhite</name>
-      <email></email>
-      <uri>https://github.com/BryanWilhite</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_closed&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- issues --&gt;
-&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
-  &lt;span class=&quot;mr-3&quot;&gt;
-  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
-        &lt;div&gt;
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
-            
-            closed
-            an issue in
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Cloud.BlobStorage&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Cloud.BlobStorage&lt;/a&gt;
-          &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-            &lt;relative-time datetime=&quot;2018-10-15T20:13:46Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;
-          &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;Box p-3&quot;&gt;
-      &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-closed closed d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-      &lt;div class=&quot;ml-4&quot;&gt;
-        &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
-          &lt;a title=&quot;add ConfigurationBuilder extension methods for CloudStorageAccount&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;add ConfigurationBuilder extension methods for CloudStorageAccount&quot; href=&quot;/BryanWilhite/Songhay.Cloud.BlobStorage/issues/5&quot; rel=&quot;noreferrer&quot;&gt;add ConfigurationBuilder extension methods for CloudStorageAccount&lt;/a&gt;
-        &lt;/span&gt;
-        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#5&lt;/span&gt;
-          &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
-            &lt;p&gt;take learnings from &lt;code&gt;Songhay.Blog&lt;/code&gt; and centralize:
-&lt;span class=&quot;pl-k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;CloudStorageAccount&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;ToCloudStorageAccount&lt;/span&gt;(&lt;span class=&quot;pl-k&quot;&gt;this&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;ConfigurationBuilder&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;builder&lt;/span&gt;, &lt;span class=&quot;pl-k&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;b…&lt;/span&gt;&lt;/p&gt;
-          &lt;/div&gt;
-
-          &lt;div class=&quot;f6 text-gray mt-1&quot;&gt;
-            1 comment
-          &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:IssueCommentEvent/8423729170</id>
-    <published>2018-10-15T19:18:27Z</published>
-    <updated>2018-10-15T19:18:27Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Cloud.BlobStorage/issues/5#issuecomment-429979979"/>
-    <title type="html">BryanWilhite commented on issue BryanWilhite/Songhay.Cloud.BlobStorage#5</title>
-    <author>
-      <name>BryanWilhite</name>
-      <email></email>
-      <uri>https://github.com/BryanWilhite</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_comment&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- issue_comment --&gt;
-&lt;div class=&quot;d-flex border-bottom border-gray py-3&quot;&gt;
-    &lt;span class=&quot;mr-3&quot;&gt;
-  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
-        &lt;div&gt;
-          &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
-          
-          commented on
-          issue
-          &lt;a class=&quot;link-gray-dark text-bold&quot; title=&quot;add ConfigurationBuilder extension methods for CloudStorageAccount&quot; href=&quot;/BryanWilhite/Songhay.Cloud.BlobStorage/issues/5#issuecomment-429979979&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Cloud.BlobStorage#5&lt;/a&gt;
-          &lt;span class=&quot;f6 text-gray-light ml-1&quot;&gt;
-            &lt;relative-time datetime=&quot;2018-10-15T19:18:27Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;
-          &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;div class=&quot;message markdown-body Box p-3&quot;&gt;
-      &lt;div class=&quot;f6 mb-1&quot;&gt;
-        &lt;a title=&quot;add ConfigurationBuilder extension methods for CloudStorageAccount&quot; class=&quot;link-gray&quot; href=&quot;/BryanWilhite/Songhay.Cloud.BlobStorage/issues/5#issuecomment-429979979&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt; &lt;span class=&quot;link-gray-dark text-bold&quot;&gt;BryanWilhite&lt;/span&gt; commented &lt;relative-time datetime=&quot;2018-10-15T19:18:27Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;&lt;/a&gt;
-      &lt;/div&gt;
-        &lt;p&gt;there is an &lt;code&gt;IConfigurationRootExtensions.GetCloudStorageAccount()&lt;/code&gt; extension method but it does not take advantage of the conventions around &lt;code&gt;Program…&lt;/code&gt;&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:IssuesEvent/8423717032</id>
-    <published>2018-10-15T19:16:07Z</published>
-    <updated>2018-10-15T19:16:07Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Cloud.BlobStorage/issues/5"/>
-    <title type="html">BryanWilhite opened an issue in BryanWilhite/Songhay.Cloud.BlobStorage</title>
-    <author>
-      <name>BryanWilhite</name>
-      <email></email>
-      <uri>https://github.com/BryanWilhite</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_opened&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- issues --&gt;
-&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
-  &lt;span class=&quot;mr-3&quot;&gt;
-  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
-        &lt;div&gt;
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
-            
-            opened
-            an issue in
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Cloud.BlobStorage&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Cloud.BlobStorage&lt;/a&gt;
-          &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-            &lt;relative-time datetime=&quot;2018-10-15T19:16:07Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;
-          &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;Box p-3&quot;&gt;
-      &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-opened open d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-      &lt;div class=&quot;ml-4&quot;&gt;
-        &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
-          &lt;a title=&quot;add ConfigurationBuilder extension methods for CloudStorageAccount&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;add ConfigurationBuilder extension methods for CloudStorageAccount&quot; href=&quot;/BryanWilhite/Songhay.Cloud.BlobStorage/issues/5&quot; rel=&quot;noreferrer&quot;&gt;add ConfigurationBuilder extension methods for CloudStorageAccount&lt;/a&gt;
-        &lt;/span&gt;
-        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#5&lt;/span&gt;
-          &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
-            &lt;p&gt;take learnings from &lt;code&gt;Songhay.Blog&lt;/code&gt; and centralize:
-&lt;span class=&quot;pl-k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;CloudStorageAccount&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;ToCloudStorageAccount&lt;/span&gt;(&lt;span class=&quot;pl-k&quot;&gt;this&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;ConfigurationBuilder&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;builder&lt;/span&gt;, &lt;span class=&quot;pl-k&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;b…&lt;/span&gt;&lt;/p&gt;
-          &lt;/div&gt;
-
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:IssuesEvent/8418860517</id>
-    <published>2018-10-15T03:21:16Z</published>
-    <updated>2018-10-15T03:21:16Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/issues/38"/>
+    <id>tag:github.com,2008:IssuesEvent/8467918818</id>
+    <published>2018-10-23T18:16:42Z</published>
+    <updated>2018-10-23T18:16:42Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/issues/40"/>
     <title type="html">BryanWilhite opened an issue in BryanWilhite/Songhay.Dashboard</title>
     <author>
       <name>BryanWilhite</name>
@@ -1302,7 +998,7 @@
             an issue in
             &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Dashboard&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard&lt;/a&gt;
           &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-            &lt;relative-time datetime=&quot;2018-10-15T03:21:16Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;
+            &lt;relative-time datetime=&quot;2018-10-23T18:16:42Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;
           &lt;/span&gt;
         &lt;/div&gt;
       &lt;/div&gt;
@@ -1312,9 +1008,13 @@
       &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-opened open d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
       &lt;div class=&quot;ml-4&quot;&gt;
         &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
-          &lt;a title=&quot;move app.json to the cloud&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;move app.json to the cloud&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/38&quot; rel=&quot;noreferrer&quot;&gt;move app.json to the cloud&lt;/a&gt;
+          &lt;a title=&quot;Microsoft Edge:  SCRIPT5: SCRIPT5: Access is denied.&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;Microsoft Edge:  SCRIPT5: SCRIPT5: Access is denied.&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/40&quot; rel=&quot;noreferrer&quot;&gt;Microsoft Edge:  SCRIPT5: SCRIPT5: Access is denied.&lt;/a&gt;
         &lt;/span&gt;
-        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#38&lt;/span&gt;
+        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#40&lt;/span&gt;
+          &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
+            &lt;p&gt;this error seems to show up only on Edge and might be related to lazy-loading the yt player module:
+&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&quot;https://user-images.githubusercontent.com/5226627/47381524-16846480-d6b5-11e8-9b1f-d11637e2673c.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
 
       &lt;/div&gt;
     &lt;/div&gt;
@@ -1323,83 +1023,10 @@
 &lt;/div&gt;&lt;/div&gt;</content>
   </entry>
   <entry>
-    <id>tag:github.com,2008:PushEvent/8418756224</id>
-    <published>2018-10-15T02:41:42Z</published>
-    <updated>2018-10-15T02:41:42Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/compare/35a81f7ca3...8816efc265"/>
-    <title type="html">BryanWilhite pushed to master in BryanWilhite/Songhay.Dashboard</title>
-    <author>
-      <name>BryanWilhite</name>
-      <email></email>
-      <uri>https://github.com/BryanWilhite</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
-  &lt;span class=&quot;mr-3&quot;&gt;
-  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
-      
-      pushed to
-
-        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
-        in
-
-      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Dashboard&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard&lt;/a&gt;
-      &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-        &lt;relative-time datetime=&quot;2018-10-15T02:41:42Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;
-      &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
-          &lt;span&gt;2 commits to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;BryanWilhite&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/commit/8816efc26504ee32b4607bad283ffd168c80056b&quot; rel=&quot;noreferrer&quot;&gt;8816efc&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;pencil2&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png&quot;&gt;✏️&lt;/g-emoji&gt; &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;lipstick&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f484.png&quot;&gt;💄&lt;/g-emoji&gt; &lt;span class=&quot;issue-keyword tooltipped tooltipped-se&quot; aria-label=&quot;This commit closes issue #37.&quot;&gt;resolves&lt;/span&gt; &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load issue title&quot; data-id=&quot;369965546&quot; data-permission-text=&quot;Issue title is private&quot; data-url=&quot;https://github.com/BryanWilhite/Songhay.Dashboard/issues/37&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/BryanWilhite/Songhay.Dashboard/issues/37/hovercard&quot; href=&quot;https://github.com/BryanWilhite/Songhay.Dashboard/issues/37&quot; rel=&quot;noreferrer&quot;&gt;#37&lt;/a&gt;
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;BryanWilhite&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/commit/2e7ade6c2cdd4448467efea49e31c5c37746014d&quot; rel=&quot;noreferrer&quot;&gt;2e7ade6&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;pencil2&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png&quot;&gt;✏️&lt;/g-emoji&gt; &lt;span class=&quot;issue-keyword tooltipped tooltipped-se&quot; aria-label=&quot;This commit closes issue #34.&quot;&gt;resolves&lt;/span&gt; &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load issue title&quot; data-id=&quot;368779470&quot; data-permission-text=&quot;Issue title is private&quot; data-url=&quot;https://github.com/BryanWilhite/Songhay.Dashboard/issues/34&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/BryanWilhite/Songhay.Dashboard/issues/34/hovercard&quot; href=&quot;https://github.com/BryanWilhite/Songhay.Dashboard/issues/34&quot; rel=&quot;noreferrer&quot;&gt;#34&lt;/a&gt;
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-                &lt;li class=&quot;f6 mt-2&quot;&gt;
-                  &lt;a class=&quot;link-gray&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/compare/35a81f7ca3...8816efc265&quot; rel=&quot;noreferrer&quot;&gt;4 more commits »&lt;/a&gt;
-                &lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:IssuesEvent/8418756196</id>
-    <published>2018-10-15T02:41:41Z</published>
-    <updated>2018-10-15T02:41:41Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/issues/37"/>
+    <id>tag:github.com,2008:IssuesEvent/8463215679</id>
+    <published>2018-10-23T06:10:52Z</published>
+    <updated>2018-10-23T06:10:52Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/issues/8"/>
     <title type="html">BryanWilhite closed an issue in BryanWilhite/Songhay.Dashboard</title>
     <author>
       <name>BryanWilhite</name>
@@ -1423,7 +1050,7 @@
             an issue in
             &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Dashboard&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard&lt;/a&gt;
           &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-            &lt;relative-time datetime=&quot;2018-10-15T02:41:41Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;
+            &lt;relative-time datetime=&quot;2018-10-23T06:10:52Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;
           &lt;/span&gt;
         &lt;/div&gt;
       &lt;/div&gt;
@@ -1433,16 +1060,16 @@
       &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-closed closed d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
       &lt;div class=&quot;ml-4&quot;&gt;
         &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
-          &lt;a title=&quot;yt thumbs not being pushed down by flex layout container&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;yt thumbs not being pushed down by flex layout container&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/37&quot; rel=&quot;noreferrer&quot;&gt;yt thumbs not being pushed down by flex layout container&lt;/a&gt;
+          &lt;a title=&quot;are you going to build ye olde FunkyKB with Vue or React—or just plain Angular?&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;are you going to build ye olde FunkyKB with Vue or React—or just plain Angular?&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/8&quot; rel=&quot;noreferrer&quot;&gt;are you going to build ye olde FunkyKB with Vue or React—or just plain Angular?&lt;/a&gt;
         &lt;/span&gt;
-        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#37&lt;/span&gt;
+        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#8&lt;/span&gt;
           &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
-            &lt;p&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&quot;https://user-images.githubusercontent.com/5226627/46924772-9f780d80-cfdc-11e8-90d2-8cd9c2e9db5b.png&quot;&gt;&lt;/a&gt;
-this is either by design for flex layout or due to &lt;code&gt;@angular/flex-layout&lt;/code&gt;&lt;/p&gt;
+            &lt;p&gt;i am concerned that i will fall into a time sink, trying to work yet another framework (what happened to &lt;a href=&quot;https://github.com/BryanWilhite/aurelia-index-app&quot; rel=&quot;noreferrer&quot;&gt;Aurelia&lt;/a&gt;, dude?)
+the easiest way out (for l…&lt;/p&gt;
           &lt;/div&gt;
 
           &lt;div class=&quot;f6 text-gray mt-1&quot;&gt;
-            1 comment
+            2 comments
           &lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -1451,168 +1078,11 @@ this is either by design for flex layout or due to &lt;code&gt;@angular/flex-lay
 &lt;/div&gt;&lt;/div&gt;</content>
   </entry>
   <entry>
-    <id>tag:github.com,2008:IssuesEvent/8418756189</id>
-    <published>2018-10-15T02:41:41Z</published>
-    <updated>2018-10-15T02:41:41Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/issues/34"/>
-    <title type="html">BryanWilhite closed an issue in BryanWilhite/Songhay.Dashboard</title>
-    <author>
-      <name>BryanWilhite</name>
-      <email></email>
-      <uri>https://github.com/BryanWilhite</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_closed&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- issues --&gt;
-&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
-  &lt;span class=&quot;mr-3&quot;&gt;
-  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
-        &lt;div&gt;
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
-            
-            closed
-            an issue in
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Dashboard&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard&lt;/a&gt;
-          &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-            &lt;relative-time datetime=&quot;2018-10-15T02:41:41Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;
-          &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;Box p-3&quot;&gt;
-      &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-closed closed d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-      &lt;div class=&quot;ml-4&quot;&gt;
-        &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
-          &lt;a title=&quot;yt curated channels are not sorted correctly&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;yt curated channels are not sorted correctly&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/34&quot; rel=&quot;noreferrer&quot;&gt;yt curated channels are not sorted correctly&lt;/a&gt;
-        &lt;/span&gt;
-        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#34&lt;/span&gt;
-          &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
-            &lt;p&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&quot;https://user-images.githubusercontent.com/5226627/46755545-327e1400-cc7a-11e8-9085-80ffc82699b2.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-          &lt;/div&gt;
-
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:IssuesEvent/8418756184</id>
-    <published>2018-10-15T02:41:41Z</published>
-    <updated>2018-10-15T02:41:41Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/issues/33"/>
-    <title type="html">BryanWilhite closed an issue in BryanWilhite/Songhay.Dashboard</title>
-    <author>
-      <name>BryanWilhite</name>
-      <email></email>
-      <uri>https://github.com/BryanWilhite</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_closed&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- issues --&gt;
-&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
-  &lt;span class=&quot;mr-3&quot;&gt;
-  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
-        &lt;div&gt;
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
-            
-            closed
-            an issue in
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Dashboard&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard&lt;/a&gt;
-          &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-            &lt;relative-time datetime=&quot;2018-10-15T02:41:41Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;
-          &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;Box p-3&quot;&gt;
-      &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-closed closed d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-      &lt;div class=&quot;ml-4&quot;&gt;
-        &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
-          &lt;a title=&quot;add more studio links&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;add more studio links&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/33&quot; rel=&quot;noreferrer&quot;&gt;add more studio links&lt;/a&gt;
-        &lt;/span&gt;
-        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#33&lt;/span&gt;
-          &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
-            &lt;p&gt;&lt;a href=&quot;https://office.live.com&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://office.live.com&lt;/a&gt; [might want to replace GitHub link on dash]
-&lt;a href=&quot;https://materialdesignicons.com/icon/office&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://materialdesignicons.com/icon/office&lt;/a&gt;
-&lt;a href=&quot;https://stackblitz.com/@BryanWilhite&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://stackblitz.com/@BryanWilhite&lt;/a&gt;
-&lt;a href=&quot;https://materialdesignicons.com/icon/code-tags&quot; rel=&quot;nofollow noreferrer&quot;&gt;…&lt;/a&gt;&lt;/p&gt;
-          &lt;/div&gt;
-
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:IssuesEvent/8418756178</id>
-    <published>2018-10-15T02:41:41Z</published>
-    <updated>2018-10-15T02:41:41Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/issues/36"/>
-    <title type="html">BryanWilhite closed an issue in BryanWilhite/Songhay.Dashboard</title>
-    <author>
-      <name>BryanWilhite</name>
-      <email></email>
-      <uri>https://github.com/BryanWilhite</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_closed&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- issues --&gt;
-&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
-  &lt;span class=&quot;mr-3&quot;&gt;
-  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
-        &lt;div&gt;
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
-            
-            closed
-            an issue in
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Dashboard&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard&lt;/a&gt;
-          &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-            &lt;relative-time datetime=&quot;2018-10-15T02:41:41Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;
-          &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;Box p-3&quot;&gt;
-      &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-closed closed d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-      &lt;div class=&quot;ml-4&quot;&gt;
-        &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
-          &lt;a title=&quot;tweeted links builder is not rendering profile-image HTML&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;tweeted links builder is not rendering profile-image HTML&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/36&quot; rel=&quot;noreferrer&quot;&gt;tweeted links builder is not rendering profile-image HTML&lt;/a&gt;
-        &lt;/span&gt;
-        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#36&lt;/span&gt;
-          &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
-            &lt;p&gt;looks like the equivalent of this is missing:
-&lt;span class=&quot;pl-k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;updateXhtmlFlow&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;function&lt;/span&gt; () { &lt;span class=&quot;pl-k&quot;&gt;var&lt;/span&gt; textarea &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;$&lt;/span&gt;(&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;#XhtmlFlow &amp;gt; textarea&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;); &lt;span class=&quot;pl-smi&quot;&gt;textarea&lt;/span&gt;.&lt;span class=&quot;pl-en&quot;&gt;empty&lt;/span&gt;(); &lt;span class=&quot;pl-en&quot;&gt;$&lt;/span&gt;(&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;#…&lt;/span&gt;&lt;/p&gt;
-          &lt;/div&gt;
-
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:IssueCommentEvent/8418629053</id>
-    <published>2018-10-15T01:51:21Z</published>
-    <updated>2018-10-15T01:51:21Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/issues/37#issuecomment-429684841"/>
-    <title type="html">BryanWilhite commented on issue BryanWilhite/Songhay.Dashboard#37</title>
+    <id>tag:github.com,2008:IssueCommentEvent/8463215675</id>
+    <published>2018-10-23T06:10:52Z</published>
+    <updated>2018-10-23T06:10:52Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/issues/8#issuecomment-432106444"/>
+    <title type="html">BryanWilhite commented on issue BryanWilhite/Songhay.Dashboard#8</title>
     <author>
       <name>BryanWilhite</name>
       <email></email>
@@ -1633,30 +1103,28 @@ this is either by design for flex layout or due to &lt;code&gt;@angular/flex-lay
           
           commented on
           issue
-          &lt;a class=&quot;link-gray-dark text-bold&quot; title=&quot;yt thumbs not being pushed down by flex layout container&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/37#issuecomment-429684841&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard#37&lt;/a&gt;
+          &lt;a class=&quot;link-gray-dark text-bold&quot; title=&quot;are you going to build ye olde FunkyKB with Vue or React—or just plain Angular?&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/8#issuecomment-432106444&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard#8&lt;/a&gt;
           &lt;span class=&quot;f6 text-gray-light ml-1&quot;&gt;
-            &lt;relative-time datetime=&quot;2018-10-15T01:51:21Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;
+            &lt;relative-time datetime=&quot;2018-10-23T06:10:52Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;
           &lt;/span&gt;
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;div class=&quot;message markdown-body Box p-3&quot;&gt;
       &lt;div class=&quot;f6 mb-1&quot;&gt;
-        &lt;a title=&quot;yt thumbs not being pushed down by flex layout container&quot; class=&quot;link-gray&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/37#issuecomment-429684841&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt; &lt;span class=&quot;link-gray-dark text-bold&quot;&gt;BryanWilhite&lt;/span&gt; commented &lt;relative-time datetime=&quot;2018-10-15T01:51:21Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;&lt;/a&gt;
+        &lt;a title=&quot;are you going to build ye olde FunkyKB with Vue or React—or just plain Angular?&quot; class=&quot;link-gray&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/8#issuecomment-432106444&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt; &lt;span class=&quot;link-gray-dark text-bold&quot;&gt;BryanWilhite&lt;/span&gt; commented &lt;relative-time datetime=&quot;2018-10-23T06:10:52Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;&lt;/a&gt;
       &lt;/div&gt;
-        &lt;p&gt;this is a flex-layout issue: &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load issue title&quot; data-id=&quot;201701044&quot; data-permission-text=&quot;Issue title is private&quot; data-url=&quot;https://github.com/angular/flex-layout/issues/119&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/angular/flex-layout/issues/119/hovercard&quot; href=&quot;https://github.com/angular/flex-layout/issues/119&quot; rel=&quot;noreferrer&quot;&gt;angular/flex-layout#119&lt;/a&gt;
-
-This still appears to be an issue as at v6.0.0-beta. It&#39;s unclear from the discussion above (…&lt;/p&gt;
+        &lt;p&gt;this might do well as a &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website&quot; rel=&quot;nofollow noreferrer&quot;&gt;static Azure Storage web site&lt;/a&gt; but that can come later; &lt;a href=&quot;https://github.com/BryanWilhite/funky-kb-client&quot; rel=&quot;noreferrer&quot;&gt;a repo for the Funky KB&lt;/a&gt; is generated and React JS is the client-side…&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/div&gt;</content>
   </entry>
   <entry>
-    <id>tag:github.com,2008:IssuesEvent/8418548603</id>
-    <published>2018-10-15T01:14:46Z</published>
-    <updated>2018-10-15T01:14:46Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/issues/37"/>
-    <title type="html">BryanWilhite opened an issue in BryanWilhite/Songhay.Dashboard</title>
+    <id>tag:github.com,2008:IssuesEvent/8463191821</id>
+    <published>2018-10-23T06:04:51Z</published>
+    <updated>2018-10-23T06:04:51Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Feeds/issues/7"/>
+    <title type="html">BryanWilhite opened an issue in BryanWilhite/Songhay.Feeds</title>
     <author>
       <name>BryanWilhite</name>
       <email></email>
@@ -1677,9 +1145,9 @@ This still appears to be an issue as at v6.0.0-beta. It&#39;s unclear from the d
             
             opened
             an issue in
-            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Dashboard&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard&lt;/a&gt;
+            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.Feeds&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Feeds&lt;/a&gt;
           &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
-            &lt;relative-time datetime=&quot;2018-10-15T01:14:46Z&quot;&gt;Oct 15, 2018&lt;/relative-time&gt;
+            &lt;relative-time datetime=&quot;2018-10-23T06:04:51Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;
           &lt;/span&gt;
         &lt;/div&gt;
       &lt;/div&gt;
@@ -1689,12 +1157,478 @@ This still appears to be an issue as at v6.0.0-beta. It&#39;s unclear from the d
       &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-opened open d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
       &lt;div class=&quot;ml-4&quot;&gt;
         &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
-          &lt;a title=&quot;yt thumbs not being pushed down by flex layout container&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;yt thumbs not being pushed down by flex layout container&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/37&quot; rel=&quot;noreferrer&quot;&gt;yt thumbs not being pushed down by flex layout container&lt;/a&gt;
+          &lt;a title=&quot;get Feeds Azure web job running&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;get Feeds Azure web job running&quot; href=&quot;/BryanWilhite/Songhay.Feeds/issues/7&quot; rel=&quot;noreferrer&quot;&gt;get Feeds Azure web job running&lt;/a&gt;
         &lt;/span&gt;
-        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#37&lt;/span&gt;
+        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#7&lt;/span&gt;
           &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
-            &lt;p&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&quot;https://user-images.githubusercontent.com/5226627/46924772-9f780d80-cfdc-11e8-90d2-8cd9c2e9db5b.png&quot;&gt;&lt;/a&gt;
-this is either by design for flex layout or due to &lt;code&gt;@angular/flex-layout&lt;/code&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load issue title&quot; data-id=&quot;367659284&quot; data-permission-text=&quot;Issue title is private&quot; data-url=&quot;https://github.com/BryanWilhite/Songhay.Dashboard/issues/30&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/BryanWilhite/Songhay.Dashboard/issues/30/hovercard&quot; href=&quot;https://github.com/BryanWilhite/Songhay.Dashboard/issues/30&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard#30&lt;/a&gt; depends on this&lt;/p&gt;
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/8462775535</id>
+    <published>2018-10-23T03:55:36Z</published>
+    <updated>2018-10-23T03:55:36Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.StudioFloor/issues/9"/>
+    <title type="html">BryanWilhite closed an issue in BryanWilhite/Songhay.StudioFloor</title>
+    <author>
+      <name>BryanWilhite</name>
+      <email></email>
+      <uri>https://github.com/BryanWilhite</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_closed&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- issues --&gt;
+&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
+  &lt;span class=&quot;mr-3&quot;&gt;
+  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
+        &lt;div&gt;
+            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
+            
+            closed
+            an issue in
+            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.StudioFloor&lt;/a&gt;
+          &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
+            &lt;relative-time datetime=&quot;2018-10-23T03:55:36Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3&quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-closed closed d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
+          &lt;a title=&quot;Microsoft.Practices.* versions have not been aligned/compatible with modern Prism&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;Microsoft.Practices.* versions have not been aligned/compatible with modern Prism&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/issues/9&quot; rel=&quot;noreferrer&quot;&gt;Microsoft.Practices.* versions have not been aligned/compatible with modern Prism&lt;/a&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#9&lt;/span&gt;
+          &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
+            &lt;p&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&quot;https://user-images.githubusercontent.com/5226627/47322124-be455800-d60b-11e8-8b01-3e746239c366.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+
+          &lt;div class=&quot;f6 text-gray mt-1&quot;&gt;
+            1 comment
+          &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/8462775532</id>
+    <published>2018-10-23T03:55:36Z</published>
+    <updated>2018-10-23T03:55:36Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.StudioFloor/issues/9#issuecomment-432081571"/>
+    <title type="html">BryanWilhite commented on issue BryanWilhite/Songhay.StudioFloor#9</title>
+    <author>
+      <name>BryanWilhite</name>
+      <email></email>
+      <uri>https://github.com/BryanWilhite</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_comment&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- issue_comment --&gt;
+&lt;div class=&quot;d-flex border-bottom border-gray py-3&quot;&gt;
+    &lt;span class=&quot;mr-3&quot;&gt;
+  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
+        &lt;div&gt;
+          &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
+          
+          commented on
+          issue
+          &lt;a class=&quot;link-gray-dark text-bold&quot; title=&quot;Microsoft.Practices.* versions have not been aligned/compatible with modern Prism&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/issues/9#issuecomment-432081571&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.StudioFloor#9&lt;/a&gt;
+          &lt;span class=&quot;f6 text-gray-light ml-1&quot;&gt;
+            &lt;relative-time datetime=&quot;2018-10-23T03:55:36Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;div class=&quot;message markdown-body Box p-3&quot;&gt;
+      &lt;div class=&quot;f6 mb-1&quot;&gt;
+        &lt;a title=&quot;Microsoft.Practices.* versions have not been aligned/compatible with modern Prism&quot; class=&quot;link-gray&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/issues/9#issuecomment-432081571&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt; &lt;span class=&quot;link-gray-dark text-bold&quot;&gt;BryanWilhite&lt;/span&gt; commented &lt;relative-time datetime=&quot;2018-10-23T03:55:36Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;&lt;/a&gt;
+      &lt;/div&gt;
+        &lt;p&gt;this is no longer the case; see &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load issue title&quot; data-id=&quot;372753118&quot; data-permission-text=&quot;Issue title is private&quot; data-url=&quot;https://github.com/BryanWilhite/Songhay.StudioFloor/issues/10&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/BryanWilhite/Songhay.StudioFloor/issues/10/hovercard&quot; href=&quot;https://github.com/BryanWilhite/Songhay.StudioFloor/issues/10&quot; rel=&quot;noreferrer&quot;&gt;#10&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/8462772258</id>
+    <published>2018-10-23T03:54:34Z</published>
+    <updated>2018-10-23T03:54:34Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.StudioFloor/compare/0f64914c3f...4e47125ef9"/>
+    <title type="html">BryanWilhite pushed to master in BryanWilhite/Songhay.StudioFloor</title>
+    <author>
+      <name>BryanWilhite</name>
+      <email></email>
+      <uri>https://github.com/BryanWilhite</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
+  &lt;span class=&quot;mr-3&quot;&gt;
+  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
+      
+      pushed to
+
+        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+        in
+
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.StudioFloor&lt;/a&gt;
+      &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
+        &lt;relative-time datetime=&quot;2018-10-23T03:54:34Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;BryanWilhite&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/commit/4e47125ef9818879d81bd684c62972ec00d1b9f5&quot; rel=&quot;noreferrer&quot;&gt;4e47125&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;books&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png&quot;&gt;📚&lt;/g-emoji&gt; docs
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/8462766110</id>
+    <published>2018-10-23T03:52:36Z</published>
+    <updated>2018-10-23T03:52:36Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.StudioFloor/compare/4b2e2e8ddb...0f64914c3f"/>
+    <title type="html">BryanWilhite pushed to master in BryanWilhite/Songhay.StudioFloor</title>
+    <author>
+      <name>BryanWilhite</name>
+      <email></email>
+      <uri>https://github.com/BryanWilhite</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
+  &lt;span class=&quot;mr-3&quot;&gt;
+  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
+      
+      pushed to
+
+        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+        in
+
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.StudioFloor&lt;/a&gt;
+      &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
+        &lt;relative-time datetime=&quot;2018-10-23T03:52:36Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;BryanWilhite&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/commit/0f64914c3f5552277cf4e4c523fbbdaafc3cdfb4&quot; rel=&quot;noreferrer&quot;&gt;0f64914&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;package&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f4e6.png&quot;&gt;📦&lt;/g-emoji&gt; &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;arrow_up&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/2b06.png&quot;&gt;⬆️&lt;/g-emoji&gt; NuGet up
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;BryanWilhite&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/commit/622a8bccb9b2776f59165520c0d0ccaf1fae8822&quot; rel=&quot;noreferrer&quot;&gt;622a8bc&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;package&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f4e6.png&quot;&gt;📦&lt;/g-emoji&gt; &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;arrow_up&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/2b06.png&quot;&gt;⬆️&lt;/g-emoji&gt; NuGet up Prism.Wpf &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;hammer&quot; fallback-src=&quot;https://assets-cdn.github.com/images/icons/emoji/unicode/1f528.png&quot;&gt;🔨&lt;/g-emoji&gt; re-factored App and modules, &lt;span class=&quot;issue-keyword tooltipped tooltipped-se&quot; aria-label=&quot;This commit closes issue #10.&quot;&gt;resolves&lt;/span&gt; &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load issue title&quot; data-id=&quot;372753118&quot; data-permission-text=&quot;Issue title is private&quot; data-url=&quot;https://github.com/BryanWilhite/Songhay.StudioFloor/issues/10&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/BryanWilhite/Songhay.StudioFloor/issues/10/hovercard&quot; href=&quot;https://github.com/BryanWilhite/Songhay.StudioFloor/issues/10&quot; rel=&quot;noreferrer&quot;&gt;#10&lt;/a&gt;
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+                &lt;li class=&quot;f6 mt-2&quot;&gt;
+                  &lt;a class=&quot;link-gray&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/compare/4b2e2e8ddb...0f64914c3f&quot; rel=&quot;noreferrer&quot;&gt;2 more commits »&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/8462766074</id>
+    <published>2018-10-23T03:52:35Z</published>
+    <updated>2018-10-23T03:52:35Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.StudioFloor/issues/10"/>
+    <title type="html">BryanWilhite closed an issue in BryanWilhite/Songhay.StudioFloor</title>
+    <author>
+      <name>BryanWilhite</name>
+      <email></email>
+      <uri>https://github.com/BryanWilhite</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_closed&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- issues --&gt;
+&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
+  &lt;span class=&quot;mr-3&quot;&gt;
+  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
+        &lt;div&gt;
+            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
+            
+            closed
+            an issue in
+            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.StudioFloor&lt;/a&gt;
+          &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
+            &lt;relative-time datetime=&quot;2018-10-23T03:52:35Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3&quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-closed closed d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
+          &lt;a title=&quot;upgrade Prism.Wpf to version 7?&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;upgrade Prism.Wpf to version 7?&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/issues/10&quot; rel=&quot;noreferrer&quot;&gt;upgrade Prism.Wpf to version 7?&lt;/a&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#10&lt;/span&gt;
+          &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
+            &lt;p&gt;currently version 6.3.0 is in use; upgrading to 7.x appears to serve Xamarin.Forms with the new &lt;code&gt;PrismApplication&lt;/code&gt; type [&lt;a href=&quot;http://brianlagunas.com/prism-for-xamarin-forms-6-2-0-preview-3/&quot; rel=&quot;nofollow noreferrer&quot;&gt;2016 blog post&lt;/a&gt;]&lt;/p&gt;
+          &lt;/div&gt;
+
+          &lt;div class=&quot;f6 text-gray mt-1&quot;&gt;
+            2 comments
+          &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/8462671853</id>
+    <published>2018-10-23T03:24:24Z</published>
+    <updated>2018-10-23T03:24:24Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.StudioFloor/issues/10#issuecomment-432075683"/>
+    <title type="html">BryanWilhite commented on issue BryanWilhite/Songhay.StudioFloor#10</title>
+    <author>
+      <name>BryanWilhite</name>
+      <email></email>
+      <uri>https://github.com/BryanWilhite</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_comment&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- issue_comment --&gt;
+&lt;div class=&quot;d-flex border-bottom border-gray py-3&quot;&gt;
+    &lt;span class=&quot;mr-3&quot;&gt;
+  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
+        &lt;div&gt;
+          &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
+          
+          commented on
+          issue
+          &lt;a class=&quot;link-gray-dark text-bold&quot; title=&quot;upgrade Prism.Wpf to version 7?&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/issues/10#issuecomment-432075683&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.StudioFloor#10&lt;/a&gt;
+          &lt;span class=&quot;f6 text-gray-light ml-1&quot;&gt;
+            &lt;relative-time datetime=&quot;2018-10-23T03:24:24Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;div class=&quot;message markdown-body Box p-3&quot;&gt;
+      &lt;div class=&quot;f6 mb-1&quot;&gt;
+        &lt;a title=&quot;upgrade Prism.Wpf to version 7?&quot; class=&quot;link-gray&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/issues/10#issuecomment-432075683&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt; &lt;span class=&quot;link-gray-dark text-bold&quot;&gt;BryanWilhite&lt;/span&gt; commented &lt;relative-time datetime=&quot;2018-10-23T03:24:24Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;&lt;/a&gt;
+      &lt;/div&gt;
+        &lt;p&gt;for Prism 7.x modules:
+
+&lt;code&gt;IModule.Initialize&lt;/code&gt; has been replaced by &lt;code&gt;RegisterTypes(IContainerRegistry containerRegistry)&lt;/code&gt; and &lt;code&gt;OnInitialized(IContainerPro…&lt;/code&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/8462486260</id>
+    <published>2018-10-23T02:32:36Z</published>
+    <updated>2018-10-23T02:32:36Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.StudioFloor/issues/10#issuecomment-432065053"/>
+    <title type="html">BryanWilhite commented on issue BryanWilhite/Songhay.StudioFloor#10</title>
+    <author>
+      <name>BryanWilhite</name>
+      <email></email>
+      <uri>https://github.com/BryanWilhite</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_comment&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- issue_comment --&gt;
+&lt;div class=&quot;d-flex border-bottom border-gray py-3&quot;&gt;
+    &lt;span class=&quot;mr-3&quot;&gt;
+  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
+        &lt;div&gt;
+          &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
+          
+          commented on
+          issue
+          &lt;a class=&quot;link-gray-dark text-bold&quot; title=&quot;upgrade Prism.Wpf to version 7?&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/issues/10#issuecomment-432065053&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.StudioFloor#10&lt;/a&gt;
+          &lt;span class=&quot;f6 text-gray-light ml-1&quot;&gt;
+            &lt;relative-time datetime=&quot;2018-10-23T02:32:36Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;div class=&quot;message markdown-body Box p-3&quot;&gt;
+      &lt;div class=&quot;f6 mb-1&quot;&gt;
+        &lt;a title=&quot;upgrade Prism.Wpf to version 7?&quot; class=&quot;link-gray&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/issues/10#issuecomment-432065053&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt; &lt;span class=&quot;link-gray-dark text-bold&quot;&gt;BryanWilhite&lt;/span&gt; commented &lt;relative-time datetime=&quot;2018-10-23T02:32:36Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;&lt;/a&gt;
+      &lt;/div&gt;
+        &lt;p&gt;&lt;a class=&quot;user-mention&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/hovercards?user_id=3853405&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/DarqueWarrior&quot; rel=&quot;noreferrer&quot;&gt;@DarqueWarrior&lt;/a&gt; addresses my issue directly: &lt;a href=&quot;http://donovanbrown.com/post/Getting-started-with-Prism-70&quot; rel=&quot;nofollow noreferrer&quot;&gt;http://donovanbrown.com/post/Getting-started-with-Prism-70&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/8462048968</id>
+    <published>2018-10-23T00:28:32Z</published>
+    <updated>2018-10-23T00:28:32Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.StudioFloor/issues/10"/>
+    <title type="html">BryanWilhite opened an issue in BryanWilhite/Songhay.StudioFloor</title>
+    <author>
+      <name>BryanWilhite</name>
+      <email></email>
+      <uri>https://github.com/BryanWilhite</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_opened&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- issues --&gt;
+&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
+  &lt;span class=&quot;mr-3&quot;&gt;
+  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
+        &lt;div&gt;
+            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
+            
+            opened
+            an issue in
+            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.StudioFloor&lt;/a&gt;
+          &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
+            &lt;relative-time datetime=&quot;2018-10-23T00:28:32Z&quot;&gt;Oct 23, 2018&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3&quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-opened open d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
+          &lt;a title=&quot;replace Unity with PrismApplication?&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;replace Unity with PrismApplication?&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/issues/10&quot; rel=&quot;noreferrer&quot;&gt;replace Unity with PrismApplication?&lt;/a&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#10&lt;/span&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/8461512494</id>
+    <published>2018-10-22T22:05:36Z</published>
+    <updated>2018-10-22T22:05:36Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.StudioFloor/issues/9"/>
+    <title type="html">BryanWilhite opened an issue in BryanWilhite/Songhay.StudioFloor</title>
+    <author>
+      <name>BryanWilhite</name>
+      <email></email>
+      <uri>https://github.com/BryanWilhite</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_opened&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- issues --&gt;
+&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
+  &lt;span class=&quot;mr-3&quot;&gt;
+  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
+        &lt;div&gt;
+            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
+            
+            opened
+            an issue in
+            &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.StudioFloor&lt;/a&gt;
+          &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
+            &lt;relative-time datetime=&quot;2018-10-22T22:05:36Z&quot;&gt;Oct 22, 2018&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3&quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-opened open d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; role=&quot;img&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;span class=&quot;f4 lh-condensed text-bold text-gray-dark&quot;&gt;
+          &lt;a title=&quot;Microsoft.Practices.* versions have not been aligned/compatible with modern Prism&quot; class=&quot;text-gray-dark&quot; aria-label=&quot;Microsoft.Practices.* versions have not been aligned/compatible with modern Prism&quot; href=&quot;/BryanWilhite/Songhay.StudioFloor/issues/9&quot; rel=&quot;noreferrer&quot;&gt;Microsoft.Practices.* versions have not been aligned/compatible with modern Prism&lt;/a&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;f4 text-gray-light ml-1&quot;&gt;#9&lt;/span&gt;
+          &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
+            &lt;p&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&quot;https://user-images.githubusercontent.com/5226627/47322124-be455800-d60b-11e8-8b01-3e746239c366.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
           &lt;/div&gt;
 
       &lt;/div&gt;
