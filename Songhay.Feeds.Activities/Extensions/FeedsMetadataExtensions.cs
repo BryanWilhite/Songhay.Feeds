@@ -28,7 +28,7 @@ namespace Songhay.Feeds.Activities.Extensions
 
             rootDirectory = Path.GetFullPath(rootDirectory);
 
-            if (!Directory.Exists(rootDirectory)) throw new DirectoryNotFoundException("The expected root directory is not here.");
+            if (!Directory.Exists(rootDirectory)) Directory.CreateDirectory(rootDirectory);
 
             return rootDirectory;
         }
