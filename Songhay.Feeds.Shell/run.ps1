@@ -1,3 +1,4 @@
 ﻿Set-Location $PSScriptRoot
 
-dotnet DownloadFeedsActivity --base-path "D:\home\site\wwwroot\wwwroot"
+&dotnet Songhay.Feeds.Shell.dll DownloadFeedsActivity
+&dotnet Songhay.Feeds.Shell.dll StoreFeedsActivity
