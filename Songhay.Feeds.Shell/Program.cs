@@ -36,6 +36,16 @@ namespace Songhay.Feeds.Shell
             return configuration;
         }
 
+        internal static void InitializeTraceSource(TraceListener listener)
+        {
+            var traceSource = TraceSources
+                .Instance
+                .GetTraceSourceFromConfiguredName()
+                .WithAllSourceLevels()
+                .EnsureTraceSource();
+            traceSource.Listeners.Add(listener);
+        }
+
         internal static void WriteException(Exception ex)
         {
             Console.BackgroundColor = ConsoleColor.DarkRed;
@@ -65,16 +75,6 @@ EXCEPTION:
             Console.WriteLine(string.Format("{0}Press any key to continue...", Environment.NewLine));
             Console.ReadKey(false);
 #endif
-        }
-
-        static void InitializeTraceSource(TraceListener listener)
-        {
-            var traceSource = TraceSources
-                .Instance
-                .GetTraceSourceFromConfiguredName()
-                .WithAllSourceLevels()
-                .EnsureTraceSource();
-            traceSource.Listeners.Add(listener);
         }
 
         static void Main(string[] args)
