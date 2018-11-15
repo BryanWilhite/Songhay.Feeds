@@ -1,9 +1,11 @@
+name: $(System.TeamProject)_$(Build.DefinitionName)_$(Build.SourceBranchName)_$(Build.BuildId)
+
 variables:
   BuildConfiguration: 'Release'
   RepoName: 'Songhay.Feeds'
 
-name: $(System.TeamProject)_$(Build.DefinitionName)_$(Build.SourceBranchName)_$(Build.BuildId)
 trigger:
+  batch: true
   branches:
     include:
     - master
