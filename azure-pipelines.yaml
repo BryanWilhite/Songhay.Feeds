@@ -1,17 +1,24 @@
+variables:
+  BuildConfiguration: 'Release'
+  RepoName: 'Songhay.Feeds'
+
 name: $(System.TeamProject)_$(Build.DefinitionName)_$(Build.SourceBranchName)_$(Build.BuildId)
 trigger:
-- master
-- releases/*
+  branches:
+    include:
+    - master
+    - releases/*
+  paths:
+    exclude:
+    - /azure*.yml
+    - $(RepoName).Shell.Tests/*
+    - $(RepoName).Tests/*
 
 resources:
 - repo: self
 
 queue:
   name: Hosted VS2017
-
-variables:
-  BuildConfiguration: 'Release'
-  RepoName: 'Songhay.Feeds'
 
 steps:
 - task: DotNetCoreCLI@2
