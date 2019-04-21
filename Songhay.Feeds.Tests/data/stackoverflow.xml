@@ -5,13 +5,14 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/22944" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/22944" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2018-10-26T23:23:48Z</updated>
+    <updated>2019-04-21T14:22:28Z</updated>
     <id>https://stackoverflow.com/feeds/user/22944</id>
     <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
     <entry>
         <id>https://stackoverflow.com/q/52883672</id>
         <re:rank scheme="https://stackoverflow.com">0</re:rank>
         <title type="text">NUniteLite 3.11.0 throwing Null Reference Exception with AutoRun in LINQpad</title>
+            <category scheme="https://stackoverflow.com/tags" term="c#" />
             <category scheme="https://stackoverflow.com/tags" term="nunit" />
             <category scheme="https://stackoverflow.com/tags" term="linqpad" />
             <category scheme="https://stackoverflow.com/tags" term="nunit-3.0" />
@@ -21,7 +22,7 @@
         </author>
         <link rel="alternate" href="https://stackoverflow.com/questions/52883672/nunitelite-3-11-0-throwing-null-reference-exception-with-autorun-in-linqpad" />
         <published>2018-10-18T22:55:15Z</published>
-        <updated>2018-10-19T16:24:06Z</updated>
+        <updated>2019-04-16T08:07:11Z</updated>
         <summary type="html">
             
 
@@ -253,7 +254,7 @@ public class Runner
     </entry>
     <entry>
         <id>https://stackoverflow.com/q/51529003</id>
-        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <re:rank scheme="https://stackoverflow.com">1</re:rank>
         <title type="text">Is `dotnet run` is no different from `npm start` when using Microsoft.DotNet.Web.Spa.ProjectTemplates::2.0.0?</title>
             <category scheme="https://stackoverflow.com/tags" term="asp.net-core" />
             <category scheme="https://stackoverflow.com/tags" term="visual-studio-code" />
@@ -277,7 +278,7 @@ public class Runner
     </entry>
     <entry>
         <id>https://stackoverflow.com/q/46477166</id>
-        <re:rank scheme="https://stackoverflow.com">1</re:rank>
+        <re:rank scheme="https://stackoverflow.com">2</re:rank>
         <title type="text">VS2017 MSTEST Discovery Fails due to System.Runtime Binding in App.config</title>
             <category scheme="https://stackoverflow.com/tags" term="visual-studio" />
             <category scheme="https://stackoverflow.com/tags" term="nuget" />
@@ -547,7 +548,7 @@ export class MyParent {
     </entry>
     <entry>
         <id>https://stackoverflow.com/q/47445703</id>
-        <re:rank scheme="https://stackoverflow.com">1</re:rank>
+        <re:rank scheme="https://stackoverflow.com">2</re:rank>
         <title type="text">Using Jasmine to test an Angular Service that loads a static JSON file</title>
             <category scheme="https://stackoverflow.com/tags" term="angular" />
             <category scheme="https://stackoverflow.com/tags" term="karma-jasmine" />
@@ -709,7 +710,7 @@ at mergeOptions (http://localhost:9876/_karma_webpack_/webpack:/../angular.io-in
     </entry>
     <entry>
         <id>https://stackoverflow.com/questions/24386657/-/43596663#43596663</id>
-        <re:rank scheme="https://stackoverflow.com">11</re:rank>
+        <re:rank scheme="https://stackoverflow.com">14</re:rank>
         <title type="text">Answer by rasx for How to add a &quot;open git-bash here...&quot; context menu to the windows explorer?</title>
         <author>
             <name>rasx</name>
@@ -883,7 +884,7 @@ h2Elements.ToList().ForEach(i =&amp;gt;
     </entry>
     <entry>
         <id>https://stackoverflow.com/q/3008704</id>
-        <re:rank scheme="https://stackoverflow.com">68</re:rank>
+        <re:rank scheme="https://stackoverflow.com">76</re:rank>
         <title type="text">How to determine the current version of ASP.NET MVC?</title>
             <category scheme="https://stackoverflow.com/tags" term="asp.net-mvc" />
         <author>
@@ -978,7 +979,7 @@ jToken
 </summary>
     </entry>    <entry>
         <id>https://stackoverflow.com/q/36633241</id>
-        <re:rank scheme="https://stackoverflow.com">2</re:rank>
+        <re:rank scheme="https://stackoverflow.com">3</re:rank>
         <title type="text">Autofac WithKey Attribute not working as expected (multiple implementations)</title>
             <category scheme="https://stackoverflow.com/tags" term="autofac" />
             <category scheme="https://stackoverflow.com/tags" term="linqpad" />
@@ -1129,7 +1130,6 @@ class MyAppDomain
         <title type="text">Cannot update DocuSign top-level Account User information?</title>
             <category scheme="https://stackoverflow.com/tags" term="rest" />
             <category scheme="https://stackoverflow.com/tags" term="docusignapi" />
-            <category scheme="https://stackoverflow.com/tags" term="docusign" />
         <author>
             <name>rasx</name>
             <uri>https://stackoverflow.com/users/22944</uri>
@@ -1159,7 +1159,7 @@ class MyAppDomain
     </entry>
     <entry>
         <id>https://stackoverflow.com/questions/987135/-/34403435#34403435</id>
-        <re:rank scheme="https://stackoverflow.com">4</re:rank>
+        <re:rank scheme="https://stackoverflow.com">6</re:rank>
         <title type="text">Answer by rasx for How to remove all namespaces from XML with C#?</title>
         <author>
             <name>rasx</name>

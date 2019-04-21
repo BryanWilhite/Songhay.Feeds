@@ -1,100 +1,91 @@
 <rss version="2.0">
-  <channel><pubDate>Thu, 25 Oct 2018 05:24:40 GMT</pubDate>
+  <channel><pubDate>Sun, 21 Apr 2019 03:10:30 GMT</pubDate>
 <title>&gt;DayPath_</title>
 <description>The technical journey of @BryanWilhite.</description>
-<copyright>Bryan Wilhite, Songhay System 2018</copyright>
+<copyright>Bryan Wilhite, Songhay System 2019</copyright>
 <link>http://songhayblog.azurewebsites.net/</link>
 <item>
-  <title>“Using Web Assembly to speed up your Angular Application” and other Tweeted links…</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/using-web-assembly-to-speed-up-your-angular-application-and-other-tweeted-links</link>
-  <description>Using Web Assembly to speed up your Angular Application [malcoded.com]#angular#javascript via @malcoded
-      Why another state management framework for Angular? by @amcdnl#ngxs#ngrx#angular[medium.com][twitter.com]#RxJS 6.2.0 published - Finally added ...</description>
+  <title>studio status report: 2019-04</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-04</link>
+  <description>getting this Index App into songhay-ng-workspaceThis month saw the archiving of angular.io-index-app [GitHub] because it is being moved to songhay-ng-workspace. This was quite a forehead slapping moment and should be reflected in this month’s version of ...</description>
   <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">using-web-assembly-to-speed-up-your-angular-application-and-other-tweeted-links</guid>
-  <pubDate>Thu, 25 Oct 2018 05:23:25 GMT</pubDate>
+  <guid isPermaLink="false">studio-status-report-2019-04</guid>
+  <pubDate>Sun, 21 Apr 2019 03:09:16 GMT</pubDate>
 </item>
 <item>
-  <title>“Ready for more details about #Angular new engine Ivy?” and other Tweeted links…</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/ready-for-more-details-about-angular-new-engine-ivy-and-other-tweeted-links</link>
-  <description>Ready for more details about #Angular new engine Ivy? I just published an article that dives deep into Ivy implementation and provides a comparison with the existing engine. Read it to find out if what you've learnt about Angular internals applies to Ivy...</description>
+  <title>studio status report: 2019-03</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-03</link>
+  <description>excited about Songhay System being on NPMThe 20-month siege to obtain the fundamental ability to share/reuse code in Javascript framework developed by one of the wealthiest companies in the world is finally over. Now the Songhay studio can steam ahead wi...</description>
   <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">ready-for-more-details-about-angular-new-engine-ivy-and-other-tweeted-links</guid>
-  <pubDate>Wed, 24 Oct 2018 04:41:48 GMT</pubDate>
+  <guid isPermaLink="false">studio-status-report-2019-03</guid>
+  <pubDate>Sat, 23 Mar 2019 03:10:57 GMT</pubDate>
 </item>
 <item>
-  <title>“Upgrading to Angular v6: Step by Step” and other Tweeted links…</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/upgrading-to-angular-v6-step-by-step-and-other-tweeted-links</link>
-  <description>Upgrading to Angular v6: Step by Step [loiane.com]#angular
-      8 Free #JavaScript Image Cropping Scripts &amp;amp; Plugins [webdesignerdepot.com]
-      “Version 6 of Angular Now Available” by @stephenfluin[blog.angular.io]
-      Using Lektor with Travis...</description>
+  <title>flippant remarks about BehaviorSubject</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/flippant-remarks-about-behaviorsubject</link>
+  <description>It feels like BehaviorSubject was built to make observable store services possible. BehaviorSubject is at the heart of the possibility of never needing a large/complex package like Redux—ever. In “State management in Angular with observable store service...</description>
   <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">upgrading-to-angular-v6-step-by-step-and-other-tweeted-links</guid>
-  <pubDate>Mon, 22 Oct 2018 02:27:32 GMT</pubDate>
+  <guid isPermaLink="false">flippant-remarks-about-behaviorsubject</guid>
+  <pubDate>Tue, 26 Feb 2019 02:57:33 GMT</pubDate>
 </item>
 <item>
-  <title>jupyter central</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/jupyter-central</link>
-  <description>I am sure there are many reasons why Span&amp;lt;T&amp;gt; (and Memory&amp;lt;T&amp;gt;) was introduced to the .NET Framework. To me, these C# language features are a response to the dangerous (and tedious) supremacy of handling data in unmanaged memory in general and t...</description>
+  <title>studio status report: 2019-02</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-02</link>
+  <description>One “pure” NPM package and two Angular packagesAfter another miserable, 20-day siege, these are the repositories I have committed to that develop Javascript code reuse in the Songhay Studio:songhay-core [GitHub]songhay-ng-workspace [GitHub]Here is a sele...</description>
   <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">jupyter-central</guid>
-  <pubDate>Sun, 21 Oct 2018 18:17:34 GMT</pubDate>
+  <guid isPermaLink="false">studio-status-report-2019-02</guid>
+  <pubDate>Tue, 26 Feb 2019 02:52:45 GMT</pubDate>
 </item>
 <item>
-  <title>“Mad props to Microsoft for their PWA push!” and other Tweeted links…</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/mad-props-to-microsoft-for-their-pwa-push-and-other-tweeted-links</link>
-  <description>Mad props to Microsoft for their PWA push! [developer.microsoft.com] Love seeing PWAs become first class on Windows 10. I am working on a blog post right now about what this means for @Ionicframework users (:
-    
-      The Power of Flex-Grow [hackerno...</description>
+  <title>studio status report: 2019-01</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-01</link>
+  <description>the day job brings some new Angular research topicsDo rxjs observables invoke for every subscriber? The answer to this question (at work) looks like it’s yes which means HttpClient.post() will invoke post() for every subscriber. This default behavior is ...</description>
   <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">mad-props-to-microsoft-for-their-pwa-push-and-other-tweeted-links</guid>
-  <pubDate>Tue, 16 Oct 2018 06:19:25 GMT</pubDate>
+  <guid isPermaLink="false">studio-status-report-2019-01</guid>
+  <pubDate>Mon, 28 Jan 2019 23:01:04 GMT</pubDate>
 </item>
 <item>
-  <title>“With Angular v6 it’s now as easy as `ng add” and other Tweeted links…</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/with-angular-v6-it-s-now-as-easy-as-ng-add-and-other-tweeted-links</link>
-  <description>With Angular v6 it's now as easy as `ng add @angular/pwa`. 🌟🌞⚡ [twitter.com]
-      What's new in #Angular Release 6.0.0 🇬🇧. My article at @JAXenter shows:
+  <title>“Microsoft Garage releases XAML Studio” and other tweeted links…</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/microsoft-garage-releases-xaml-studio-and-other-tweeted-links</link>
+  <description>Microsoft Garage releases XAML Studio, a new tool to help you
+            rapidly prototype UWP XAML [bit.ly] 🚀🌛 Announcing Apollo Elements: GraphQL + Web Components 👩‍🚀 👨‍🚀 With
+            support for 🔥 LitElement 👾 Hybrids 🔬 Gluon 🧱 Polyme...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">microsoft-garage-releases-xaml-studio-and-other-tweeted-links</guid>
+  <pubDate>Mon, 28 Jan 2019 22:39:20 GMT</pubDate>
+</item>
+<item>
+  <title>“Internet Explorer… Critical security flaw” and other tweeted links…</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/internet-explorer-critical-security-flaw-and-other-tweeted-links</link>
+  <description>If for whatever reason you are still using Internet Explorer (any version), STOP NOW. Critical security flaw enabling drive-by remote code execution is being actively exploited. Emergency patch is being pushed - but why not move to a better browser? [ars...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">internet-explorer-critical-security-flaw-and-other-tweeted-links</guid>
+  <pubDate>Sat, 26 Jan 2019 01:47:50 GMT</pubDate>
+</item>
+<item>
+  <title>“You asked, we answered. MSFT open sources WPF, Windows Forms and Windows UI XAML Library” and other tweeted links…</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/you-asked-we-answered-msft-open-sources-wpf-windows-forms-and-windows-ui-xaml-library-and-other-tweeted-links</link>
+  <description>You asked, we answered. MSFT open sources WPF, Windows Forms and Windows UI XAML Library [blogs.windows.com] Microsoft ❤️ OpenSource - the UI toolkits, Windows.Forms and WPF are now open source: [blogs.msdn.microsoft.com] Some big news for developers at ...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">you-asked-we-answered-msft-open-sources-wpf-windows-forms-and-windows-ui-xaml-library-and-other-tweeted-links</guid>
+  <pubDate>Mon, 21 Jan 2019 20:36:32 GMT</pubDate>
+</item>
+<item>
+  <title>“I just published ‘Implementing Search in GraphQL’"” and other tweeted links…</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/i-just-published-implementing-search-in-graphql-and-other-tweeted-links</link>
+  <description>I just published "Implementing Search in GraphQL" showing how to implement text-based searches that are both case-insensitive &amp;amp; full field!
 
-      🌴Treeshakable Providers
-      ⚡️Angular Elements ("Web Components")
-      📺Outloo...</description>
+            This is a 2 part series, the next will be advanced search using Elasticsearch for things like g...</description>
   <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">with-angular-v6-it-s-now-as-easy-as-ng-add-and-other-tweeted-links</guid>
-  <pubDate>Sat, 13 Oct 2018 23:15:46 GMT</pubDate>
+  <guid isPermaLink="false">i-just-published-implementing-search-in-graphql-and-other-tweeted-links</guid>
+  <pubDate>Thu, 17 Jan 2019 04:26:24 GMT</pubDate>
 </item>
 <item>
-  <title>studio status report: 2018-10</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2018-10</link>
-  <description>the new SonghaySystem.com releasedSonghaySystem.com is released. I tweeted about it to capture the moment—which was a moment of exhaustion. I would love to say that this release captured all of the Angular-related topics I plan to study but I can’t. Thes...</description>
+  <title>“Dynamic Nested Reactive Forms In Angular” and other tweeted links…</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/dynamic-nested-reactive-forms-in-angular-and-other-tweeted-links</link>
+  <description>Dynamic Nested Reactive Forms In Angular – Josh Hicks – Medium [medium.com] How to Create Custom Angular Pipes and Dynamic Locales: [medium.com] Adjustable sidebar using Angular - @nicuvlad89[medium.com]#JavaScript#Typescript#Angular#WebDevelopment Under...</description>
   <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">studio-status-report-2018-10</guid>
-  <pubDate>Thu, 11 Oct 2018 00:02:11 GMT</pubDate>
-</item>
-<item>
-  <title>studio status report: 2018-09</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2018-09</link>
-  <description>This report is a extremely late as this writing occurs on the last day of the month.the work on the new SonghaySystem.com continuesThe prime suspect for the lateness of this report is the work represented by Songhay.Dashboardissue #16. This single issue ...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">studio-status-report-2018-09</guid>
-  <pubDate>Sun, 30 Sep 2018 22:50:14 GMT</pubDate>
-</item>
-<item>
-  <title>studio status report: 2018-08</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2018-08</link>
-  <description>Going forward from here my passive-voice intention is to keep track of myself monthly. My work habits have always included keeping a private journal. In the “early years,” one Microsoft Word document per year was enough. As my software-development surfac...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">studio-status-report-2018-08</guid>
-  <pubDate>Fri, 10 Aug 2018 17:25:50 GMT</pubDate>
-</item>
-<item>
-  <title>“How to make responsiveness super simple with CSS Variables” and other Tweeted links…</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/how-to-make-responsiveness-super-simple-with-css-variables-and-other-tweeted-links</link>
-  <description>How to make responsiveness super simple with CSS Variables A quick tutorial on how to create responsive websites i…
-      [twitter.com] The 3.0 releases of our aXe
-      #a11y extensions are out! You can now test inside of Shadow DOM and with some new ...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">how-to-make-responsiveness-super-simple-with-css-variables-and-other-tweeted-links</guid>
-  <pubDate>Wed, 08 Aug 2018 17:41:02 GMT</pubDate>
+  <guid isPermaLink="false">dynamic-nested-reactive-forms-in-angular-and-other-tweeted-links</guid>
+  <pubDate>Wed, 16 Jan 2019 05:20:45 GMT</pubDate>
 </item></channel>
 </rss>
