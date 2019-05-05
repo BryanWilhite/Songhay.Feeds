@@ -71,7 +71,16 @@ namespace Songhay.Feeds.Tests.Activities
             Assert.IsNotNull(meta, "The expected metadata instance is not here.");
             this.TestContext.WriteLine(meta.ToString());
 
-            activity.ConvertFeedsToJson(new ProgramArgs(args), meta);
+            var listener = new TextWriterTraceListener(Console.Out);
+            try
+            {
+                Program.InitializeTraceSource(listener);
+                activity.ConvertFeedsToJson(new ProgramArgs(args), meta);
+            }
+            finally
+            {
+                listener.Flush();
+            }
         }
 
         [TestCategory("Integration")]
