@@ -17,10 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="data\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Songhay.Feeds.Activities\Songhay.Feeds.Activities.csproj" />
     <ProjectReference Include="..\Songhay.Feeds.Models\Songhay.Feeds.Models.csproj" />
     <ProjectReference Include="..\Songhay.Feeds.Shell\Songhay.Feeds.Shell.csproj" />
