@@ -75,8 +75,11 @@ Use command-line argument {ProgramArgs.BasePath} to prepend a base path to a con
                     var request = new HttpRequestMessage() { RequestUri = uri, Method = HttpMethod.Get };
 
                     var response = await client.SendAsync(request);
-                    if (response == null) throw new NullReferenceException("The expected response is not here.");
-                    if (response.StatusCode != HttpStatusCode.OK) throw new HttpRequestException("The expected response status code is not here.");
+                    if (response == null)
+                        throw new NullReferenceException($"The expected response is not here. [{uri.OriginalString}]");
+
+                    if (response.StatusCode != HttpStatusCode.OK)
+                        throw new HttpRequestException($"The expected response status code is not here. [{nameof(response.StatusCode)}: {response.StatusCode}] [{uri.OriginalString}]");
 
                     var xml = await response.Content.ReadAsStringAsync();
                     File.WriteAllText(Path.Combine(rootDirectory, $"{feed.Key}.xml"), xml);

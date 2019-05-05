@@ -2,8 +2,11 @@
 using Songhay.Extensions;
 using Songhay.Feeds.Activities;
 using Songhay.Feeds.Activities.Extensions;
+using Songhay.Feeds.Shell;
 using Songhay.Feeds.Tests.Extensions;
 using Songhay.Models;
+using System;
+using System.Diagnostics;
 
 namespace Songhay.Feeds.Tests.Activities
 {
@@ -85,7 +88,16 @@ namespace Songhay.Feeds.Tests.Activities
             Assert.IsNotNull(meta, "The expected metadata instance is not here.");
             this.TestContext.WriteLine(meta.ToString());
 
-            activity.DownloadFeeds(new ProgramArgs(args), meta);
+            var listener = new TextWriterTraceListener(Console.Out);
+            try
+            {
+                Program.InitializeTraceSource(listener);
+                activity.DownloadFeeds(new ProgramArgs(args), meta);
+            }
+            finally
+            {
+                listener.Flush();
+            }
         }
     }
 }
