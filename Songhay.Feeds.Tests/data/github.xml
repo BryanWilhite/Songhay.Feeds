@@ -4,7 +4,77 @@
   <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite"/>
   <link type="application/atom+xml" rel="self" href="https://github.com/BryanWilhite.atom"/>
   <title>BryanWilhite’s Activity</title>
-  <updated>2019-05-05T17:11:28Z</updated>
+  <updated>2019-05-05T23:01:31Z</updated>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/9566789276</id>
+    <published>2019-05-05T23:01:31Z</published>
+    <updated>2019-05-05T23:01:31Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Feeds/compare/057247614b...fb0336154c"/>
+    <title type="html">BryanWilhite pushed to master in BryanWilhite/Songhay.Feeds</title>
+    <author>
+      <name>BryanWilhite</name>
+      <email></email>
+      <uri>https://github.com/BryanWilhite</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex border-bottom py-3&quot;&gt;
+  &lt;span class=&quot;mr-3&quot;&gt;
+  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
+      
+      pushed to
+
+        &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Feeds/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+        in
+
+      &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;/BryanWilhite/Songhay.Feeds&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Feeds&lt;/a&gt;
+      &lt;span class=&quot;f6 text-gray-light no-wrap ml-1&quot;&gt;
+        &lt;relative-time datetime=&quot;2019-05-05T23:01:31Z&quot;&gt;May 5, 2019&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2&quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/BryanWilhite/Songhay.Feeds/tree/master&quot; rel=&quot;noreferrer&quot;&gt;master&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;BryanWilhite&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Feeds/commit/fb0336154cfd084caa37f9667019e09c3777e5e4&quot; rel=&quot;noreferrer&quot;&gt;fb03361&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;microscope&quot; fallback-src=&quot;https://github.githubassets.com/images/icons/emoji/unicode/1f52c.png&quot;&gt;🔬&lt;/g-emoji&gt; &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;hammer&quot; fallback-src=&quot;https://github.githubassets.com/images/icons/emoji/unicode/1f528.png&quot;&gt;🔨&lt;/g-emoji&gt;
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;BryanWilhite&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/BryanWilhite/Songhay.Feeds/commit/2f130cd6a1d077c2a39bc67328b12d13458a82f3&quot; rel=&quot;noreferrer&quot;&gt;2f130cd&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;microscope&quot; fallback-src=&quot;https://github.githubassets.com/images/icons/emoji/unicode/1f52c.png&quot;&gt;🔬&lt;/g-emoji&gt; &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;fire&quot; fallback-src=&quot;https://github.githubassets.com/images/icons/emoji/unicode/1f525.png&quot;&gt;🔥&lt;/g-emoji&gt; ShouldDownloadFeeds fails
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
   <entry>
     <id>tag:github.com,2008:PushEvent/9566076326</id>
     <published>2019-05-05T17:11:28Z</published>
@@ -1514,48 +1584,6 @@ drilling into &lt;code&gt;index/&lt;/code&gt;:
         &lt;a title=&quot;Migrate from ASP.NET Core 2.0 to 2.2&quot; class=&quot;link-gray&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/55#issuecomment-488157401&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt; &lt;span class=&quot;link-gray-dark text-bold&quot;&gt;BryanWilhite&lt;/span&gt; commented &lt;relative-time datetime=&quot;2019-05-01T00:02:58Z&quot;&gt;May 1, 2019&lt;/relative-time&gt;&lt;/a&gt;
       &lt;/div&gt;
         &lt;p&gt;the Azure DevOps build server appears to support .NET 2.2 without any &lt;a href=&quot;https://github.com/BryanWilhite/Songhay.Blog/issues/49#issuecomment-452512147&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/BryanWilhite/Songhay.Blog/issues/49/hovercard&quot; rel=&quot;noreferrer&quot;&gt;customizations&lt;/a&gt;&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:github.com,2008:IssueCommentEvent/9541809765</id>
-    <published>2019-04-30T23:58:08Z</published>
-    <updated>2019-04-30T23:58:08Z</updated>
-    <link type="text/html" rel="alternate" href="https://github.com/BryanWilhite/Songhay.Dashboard/issues/55#issuecomment-488156495"/>
-    <title type="html">BryanWilhite commented on issue BryanWilhite/Songhay.Dashboard#55</title>
-    <author>
-      <name>BryanWilhite</name>
-      <email></email>
-      <uri>https://github.com/BryanWilhite</uri>
-    </author>
-    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5226627?s=30&amp;v=4"/>
-    <content type="html">&lt;div class=&quot;issues_comment&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- issue_comment --&gt;
-&lt;div class=&quot;d-flex border-bottom border-gray py-3&quot;&gt;
-    &lt;span class=&quot;mr-3&quot;&gt;
-  &lt;a class=&quot;d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar&quot; src=&quot;https://avatars0.githubusercontent.com/u/5226627?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@BryanWilhite&quot;&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
-        &lt;div&gt;
-          &lt;a class=&quot;link-gray-dark no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;/BryanWilhite&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite&lt;/a&gt;
-          
-          commented on
-          issue
-          &lt;a class=&quot;link-gray-dark text-bold&quot; title=&quot;Migrate from ASP.NET Core 2.0 to 2.2&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/55#issuecomment-488156495&quot; rel=&quot;noreferrer&quot;&gt;BryanWilhite/Songhay.Dashboard#55&lt;/a&gt;
-          &lt;span class=&quot;f6 text-gray-light ml-1&quot;&gt;
-            &lt;relative-time datetime=&quot;2019-04-30T23:58:08Z&quot;&gt;Apr 30, 2019&lt;/relative-time&gt;
-          &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;div class=&quot;message markdown-body Box p-3 wb-break-all&quot;&gt;
-      &lt;div class=&quot;f6 mb-1&quot;&gt;
-        &lt;a title=&quot;Migrate from ASP.NET Core 2.0 to 2.2&quot; class=&quot;link-gray&quot; href=&quot;/BryanWilhite/Songhay.Dashboard/issues/55#issuecomment-488156495&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar mr-1&quot; src=&quot;https://avatars3.githubusercontent.com/u/5226627?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@BryanWilhite&quot;&gt; &lt;span class=&quot;link-gray-dark text-bold&quot;&gt;BryanWilhite&lt;/span&gt; commented &lt;relative-time datetime=&quot;2019-04-30T23:58:08Z&quot;&gt;Apr 30, 2019&lt;/relative-time&gt;&lt;/a&gt;
-      &lt;/div&gt;
-        &lt;p&gt;the build warning about declaring a version for &lt;code&gt;Microsoft.AspNetCore.All&lt;/code&gt; seems to be at odds with the NuGet package management experience in Visual…&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

@@ -78,7 +78,12 @@ Use command-line argument {ProgramArgs.BasePath} to prepend a base path to a con
                     if (response == null)
                         throw new NullReferenceException($"The expected response is not here. [{uri.OriginalString}]");
 
-                    if (response.StatusCode != HttpStatusCode.OK)
+                    if (response.StatusCode == HttpStatusCode.Forbidden)
+                    {
+                        traceSource.TraceWarning($"WARNING: The request was forbidden. [{uri.OriginalString}]");
+                        return;
+                    }
+                    else if (response.StatusCode != HttpStatusCode.OK)
                         throw new HttpRequestException($"The expected response status code is not here. [{nameof(response.StatusCode)}: {response.StatusCode}] [{uri.OriginalString}]");
 
                     var xml = await response.Content.ReadAsStringAsync();
