@@ -35,16 +35,16 @@ Use command-line argument {ProgramArgs.BasePath} to prepend a base path to a con
         public void Start(ProgramArgs args)
         {
             var meta = this.Configuration.ToFeedsMetadata();
-            this.DownloadFeeds(args, meta);
-            this.ConvertFeedsToJson(args, meta);
+            var rootDirectory = meta.ToRootDirectory(args);
+
+            this.DownloadFeeds(meta, rootDirectory);
+            this.ConvertFeedsToJson(meta, rootDirectory);
         }
 
         internal IConfigurationRoot Configuration { get; private set; }
 
-        internal void ConvertFeedsToJson(ProgramArgs args, FeedsMetadata meta)
+        internal void ConvertFeedsToJson(FeedsMetadata meta, string rootDirectory)
         {
-            var rootDirectory = meta.ToRootDirectory(args);
-
             meta.Feeds.ForEachInEnumerable(feed =>
             {
                 traceSource?.TraceVerbose($"feed: {feed.Key}");
@@ -57,11 +57,9 @@ Use command-line argument {ProgramArgs.BasePath} to prepend a base path to a con
             });
         }
 
-        internal void DownloadFeeds(ProgramArgs args, FeedsMetadata meta)
+        internal void DownloadFeeds(FeedsMetadata meta, string rootDirectory)
         {
             if (string.IsNullOrEmpty(meta.FeedsDirectory)) throw new NullReferenceException("The expected feeds directory is not configured.");
-
-            var rootDirectory = meta.ToRootDirectory(args);
 
             var tasks = meta.Feeds.Select(feed =>
             {

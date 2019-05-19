@@ -42,7 +42,7 @@ namespace Songhay.Feeds.Tests
             using(var listener = new TextWriterTraceListener(writer))
             {
                 Program.InitializeTraceSource(listener, configuration);
-                activity.ConvertFeedsToJson(new ProgramArgs(args), meta);
+                activity.ConvertFeedsToJson(meta, meta.ToRootDirectory(new ProgramArgs(args)));
 
                 listener.Flush();
                 this._testOutputHelper.WriteLine(writer.ToString());
@@ -99,7 +99,7 @@ namespace Songhay.Feeds.Tests
             {
                 Program.InitializeTraceSource(listener, configuration);
 
-                activity.DownloadFeeds(new ProgramArgs(args), meta);
+                activity.DownloadFeeds(meta, meta.ToRootDirectory(new ProgramArgs(args)));
 
                 listener.Flush();
                 this._testOutputHelper.WriteLine(writer.ToString());
