@@ -20,9 +20,7 @@ namespace Songhay.Feeds.Activities
     {
         static DownloadFeedsActivity() => traceSource = TraceSources
             .Instance
-            .GetTraceSourceFromConfiguredName()
-            .WithAllSourceLevels()
-            .EnsureTraceSource();
+            .GetConfiguredTraceSource();
 
         static readonly TraceSource traceSource;
 
@@ -49,7 +47,7 @@ Use command-line argument {ProgramArgs.BasePath} to prepend a base path to a con
 
             meta.Feeds.ForEachInEnumerable(feed =>
             {
-                traceSource.TraceVerbose($"feed: {feed.Key}");
+                traceSource?.TraceVerbose($"feed: {feed.Key}");
 
                 var xml = File.ReadAllText(Path.Combine(rootDirectory, $"{feed.Key}.xml"));
                 var xmlDoc = new XmlDocument();
@@ -70,7 +68,7 @@ Use command-line argument {ProgramArgs.BasePath} to prepend a base path to a con
                 return Task.Run(async () =>
                 {
                     var uri = new Uri(feed.Value, UriKind.Absolute);
-                    traceSource.TraceVerbose($"uri: {uri.OriginalString}");
+                    traceSource?.TraceVerbose($"uri: {uri.OriginalString}");
                     var client = new HttpClient();
                     var request = new HttpRequestMessage() { RequestUri = uri, Method = HttpMethod.Get };
 
@@ -80,7 +78,7 @@ Use command-line argument {ProgramArgs.BasePath} to prepend a base path to a con
 
                     if (response.StatusCode == HttpStatusCode.Forbidden)
                     {
-                        traceSource.TraceWarning($"WARNING: The request was forbidden. [{uri.OriginalString}]");
+                        traceSource?.TraceWarning($"WARNING: The request was forbidden. [{uri.OriginalString}]");
                         return;
                     }
                     else if (response.StatusCode != HttpStatusCode.OK)

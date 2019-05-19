@@ -5,9 +5,120 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/22944" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/22944" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2019-05-06T00:12:54Z</updated>
+    <updated>2019-05-19T05:14:10Z</updated>
     <id>https://stackoverflow.com/feeds/user/22944</id>
     <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>https://stackoverflow.com/q/56158421</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">JsonResult and ObjectResult do not derive from each other—why?</title>
+            <category scheme="https://stackoverflow.com/tags" term="asp.net-mvc" />
+            <category scheme="https://stackoverflow.com/tags" term="asp.net-core" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/56158421/jsonresult-and-objectresult-do-not-derive-from-each-other-why" />
+        <published>2019-05-15T22:23:52Z</published>
+        <updated>2019-05-16T05:24:01Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;folks on my team write stuff like this:&lt;/p&gt;
+
+&lt;pre class=&quot;lang-cs prettyprint-override&quot;&gt;&lt;code&gt;[HttpPost(&quot;do&quot;)]
+public async Task&amp;lt;ActionResult&amp;gt; DoAsync()
+{
+    try
+    {
+        var obj = await this.DoThing();
+
+        return new JsonResult(obj);
+    }
+    catch (StatusCodeException x)
+    {
+        return StatusCode(x.StatusCode, new { x.Message, x.StackTrace });
+    }
+    catch (Exception x)
+    {
+        return StatusCode(500, x.GenerateMessage(&quot; &quot;));
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This means &lt;code&gt;JsonResult&lt;/code&gt; or &lt;code&gt;ObjectResult&lt;/code&gt; can be returned which makes testing kind of complicated. This is because &lt;code&gt;JsonResult&lt;/code&gt; and &lt;code&gt;ObjectResult&lt;/code&gt; do &lt;em&gt;not&lt;/em&gt; derive from each other.&#128556; Does anyone know why this is the case?&lt;/p&gt;
+
+&lt;p&gt;I had to write a little wrapper class for testing to make life a bit easier:&lt;/p&gt;
+
+&lt;pre class=&quot;lang-cs prettyprint-override&quot;&gt;&lt;code&gt;/// &amp;lt;summary&amp;gt;
+/// Defines all subclasses of &amp;lt;see cref=&quot;ActionResult&quot;/&amp;gt;
+/// that have status codes and &amp;lt;see cref=&quot;object&quot;/&amp;gt; values.
+/// &amp;lt;/summary&amp;gt;
+public class ObjectValueActionResult
+{
+    /// &amp;lt;summary&amp;gt;
+    /// Initializes a new instance of the &amp;lt;see cref=&quot;ObjectValueActionResult&quot;/&amp;gt; class.
+    /// &amp;lt;/summary&amp;gt;
+    /// &amp;lt;param name=&quot;result&quot;&amp;gt;The result.&amp;lt;/param&amp;gt;
+    /// &amp;lt;remarks&amp;gt;
+    /// The majority of &amp;lt;see cref=&quot;IActionResult&quot;/&amp;gt; instances like &amp;lt;see cref=&quot;OkObjectResult&quot;/&amp;gt; derive
+    /// from &amp;lt;see cref=&quot;ObjectResult&quot;/&amp;gt;.
+    /// &amp;lt;/remarks&amp;gt;
+    public ObjectValueActionResult(IActionResult result)
+    {
+        Assert.NotNull(result);
+        switch (result)
+        {
+            case JsonResult j:
+                this.Value = j.Value;
+                this.StatusCode = j.StatusCode;
+                break;
+            case NoContentResult n:
+                this.StatusCode = n.StatusCode;
+                break;
+            case ObjectResult o:
+                this.Value = o.Value;
+                this.StatusCode = o.StatusCode;
+                break;
+            default:
+                throw new NotImplementedException($&quot;The expected {nameof(IAsyncResult)} type is not here.&quot;);
+        }
+    }
+    /// &amp;lt;summary&amp;gt;
+    /// Gets or sets the value.
+    /// &amp;lt;/summary&amp;gt;
+    /// &amp;lt;value&amp;gt;
+    /// The value.
+    /// &amp;lt;/value&amp;gt;
+    public object Value { get; set; }
+    /// &amp;lt;summary&amp;gt;Gets or sets the HTTP status code.&amp;lt;/summary&amp;gt;
+    public int? StatusCode { get; set; }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is there an alternative to this?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/3008704</id>
+        <re:rank scheme="https://stackoverflow.com">77</re:rank>
+        <title type="text">How to determine the current version of ASP.NET MVC?</title>
+            <category scheme="https://stackoverflow.com/tags" term="asp.net-mvc" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/3008704/how-to-determine-the-current-version-of-asp-net-mvc" />
+        <published>2010-06-09T18:27:39Z</published>
+        <updated>2019-05-06T17:54:39Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;Is there a way to get the current version of ASP.NET MVC in code? Reflecting on MVC assemblies is needed? Any new IIS server variables? Some property to read in HTTP context?&lt;/p&gt;
+
+        </summary>
+    </entry>
     <entry>
         <id>https://stackoverflow.com/q/52883672</id>
         <re:rank scheme="https://stackoverflow.com">0</re:rank>
@@ -883,25 +994,6 @@ h2Elements.ToList().ForEach(i =&amp;gt;
         </summary>
     </entry>
     <entry>
-        <id>https://stackoverflow.com/q/3008704</id>
-        <re:rank scheme="https://stackoverflow.com">76</re:rank>
-        <title type="text">How to determine the current version of ASP.NET MVC?</title>
-            <category scheme="https://stackoverflow.com/tags" term="asp.net-mvc" />
-        <author>
-            <name>rasx</name>
-            <uri>https://stackoverflow.com/users/22944</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/3008704/how-to-determine-the-current-version-of-asp-net-mvc" />
-        <published>2010-06-09T18:27:39Z</published>
-        <updated>2017-02-14T09:25:40Z</updated>
-        <summary type="html">
-            
-
-            &lt;p&gt;Is there a way to get the current version of ASP.NET MVC in code? Reflecting on MVC assemblies is needed? Any new IIS server variables? Some property to read in HTTP context?&lt;/p&gt;
-
-        </summary>
-    </entry>
-    <entry>
         <id>https://stackoverflow.com/q/38005957</id>
         <re:rank scheme="https://stackoverflow.com">2</re:rank>
         <title type="text">JToken is not a reference of JObject?</title>
@@ -1367,71 +1459,6 @@ public IHttpActionResult ReadRaw([FromBody]XElement rootElement)
     var responseDocument = request.GetResponseDocument(this._context);
     return this.Ok&amp;lt;XElement&amp;gt;(responseDocument.Root);
 }
-&lt;/code&gt;&lt;/pre&gt;
-</summary>
-    </entry>    <entry>
-        <id>https://stackoverflow.com/questions/2524804/-/33792337#33792337</id>
-        <re:rank scheme="https://stackoverflow.com">0</re:rank>
-        <title type="text">Answer by rasx for How do I use XPath with a default namespace with no prefix?</title>
-        <author>
-            <name>rasx</name>
-            <uri>https://stackoverflow.com/users/22944</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/2524804/how-do-i-use-xpath-with-a-default-namespace-with-no-prefix/33792337#33792337" />
-        <published>2015-11-18T23:13:56Z</published>
-        <updated>2015-11-18T23:13:56Z</updated>
-        <summary type="html">&lt;p&gt;I like @mads-hansen, his answer, so well that I wrote these general-purpose utility-class members:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;    /// &amp;lt;summary&amp;gt;
-    /// Gets the &amp;lt;see cref=&quot;XNode&quot; /&amp;gt; into a &amp;lt;c&amp;gt;local-name()&amp;lt;/c&amp;gt;, XPath-predicate query.
-    /// &amp;lt;/summary&amp;gt;
-    /// &amp;lt;param name=&quot;childElementName&quot;&amp;gt;Name of the child element.&amp;lt;/param&amp;gt;
-    /// &amp;lt;returns&amp;gt;&amp;lt;/returns&amp;gt;
-    public static string GetLocalNameXPathQuery(string childElementName)
-    {
-        return GetLocalNameXPathQuery(namespacePrefixOrUri: null, childElementName: childElementName, childAttributeName: null);
-    }
-
-    /// &amp;lt;summary&amp;gt;
-    /// Gets the &amp;lt;see cref=&quot;XNode&quot; /&amp;gt; into a &amp;lt;c&amp;gt;local-name()&amp;lt;/c&amp;gt;, XPath-predicate query.
-    /// &amp;lt;/summary&amp;gt;
-    /// &amp;lt;param name=&quot;namespacePrefixOrUri&quot;&amp;gt;The namespace prefix or URI.&amp;lt;/param&amp;gt;
-    /// &amp;lt;param name=&quot;childElementName&quot;&amp;gt;Name of the child element.&amp;lt;/param&amp;gt;
-    /// &amp;lt;returns&amp;gt;&amp;lt;/returns&amp;gt;
-    public static string GetLocalNameXPathQuery(string namespacePrefixOrUri, string childElementName)
-    {
-        return GetLocalNameXPathQuery(namespacePrefixOrUri, childElementName, childAttributeName: null);
-    }
-
-    /// &amp;lt;summary&amp;gt;
-    /// Gets the &amp;lt;see cref=&quot;XNode&quot; /&amp;gt; into a &amp;lt;c&amp;gt;local-name()&amp;lt;/c&amp;gt;, XPath-predicate query.
-    /// &amp;lt;/summary&amp;gt;
-    /// &amp;lt;param name=&quot;namespacePrefixOrUri&quot;&amp;gt;The namespace prefix or URI.&amp;lt;/param&amp;gt;
-    /// &amp;lt;param name=&quot;childElementName&quot;&amp;gt;Name of the child element.&amp;lt;/param&amp;gt;
-    /// &amp;lt;param name=&quot;childAttributeName&quot;&amp;gt;Name of the child attribute.&amp;lt;/param&amp;gt;
-    /// &amp;lt;returns&amp;gt;&amp;lt;/returns&amp;gt;
-    /// &amp;lt;remarks&amp;gt;
-    /// This routine is useful when namespace-resolving is not desirable or available.
-    /// &amp;lt;/remarks&amp;gt;
-    public static string GetLocalNameXPathQuery(string namespacePrefixOrUri, string childElementName, string childAttributeName)
-    {
-        if (string.IsNullOrEmpty(childElementName)) return null;
-
-        if (string.IsNullOrEmpty(childAttributeName))
-        {
-            return string.IsNullOrEmpty(namespacePrefixOrUri) ?
-                string.Format(&quot;./*[local-name()=&#39;{0}&#39;]&quot;, childElementName)
-                :
-                string.Format(&quot;./*[namespace-uri()=&#39;{0}&#39; and local-name()=&#39;{1}&#39;]&quot;, namespacePrefixOrUri, childElementName);
-        }
-        else
-        {
-            return string.IsNullOrEmpty(namespacePrefixOrUri) ?
-                string.Format(&quot;./*[local-name()=&#39;{0}&#39;]/@{1}&quot;, childElementName, childAttributeName)
-                :
-                string.Format(&quot;./*[namespace-uri()=&#39;{0}&#39; and local-name()=&#39;{1}&#39;]/@{2}&quot;, namespacePrefixOrUri, childElementName, childAttributeName);
-        }
-    }
 &lt;/code&gt;&lt;/pre&gt;
 </summary>
     </entry>    <entry>

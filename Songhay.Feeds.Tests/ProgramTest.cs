@@ -1,20 +1,31 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Songhay.Feeds.Tests.Extensions;
+﻿using System.IO;
+using System.Linq;
+using Xunit;
+using Xunit.Abstractions;
 
 namespace Songhay.Feeds.Tests
 {
-    [TestClass]
     public class ProgramTest
     {
-        public TestContext TestContext { get; set; }
+        public ProgramTest(ITestOutputHelper helper)
+        {
+            this._testOutputHelper = helper;
+            this._projectPath = FrameworkAssemblyUtility.GetPathFromAssembly(this.GetType().Assembly, "../../../");
+        }
 
-        [TestCategory("Integration")]
-        [TestMethod]
+        [Trait("Category", "Integration")]
+        [Fact]
         public void ShouldLoadConfiguration()
         {
-            var shellProjectDirectoryInfo = this.TestContext.ShouldGetShellProjectDirectoryInfo(this.GetType());
+            var projectDirectoryInfo = new DirectoryInfo(this._projectPath);
+            var shellProjectDirectoryInfo = projectDirectoryInfo.Parent.GetDirectories().Single(i => i.Name.EndsWith("Shell"));
+
+            Assert.NotNull(shellProjectDirectoryInfo);
             var configuration = Shell.Program.LoadConfiguration(shellProjectDirectoryInfo.FullName);
-            Assert.IsNotNull(configuration, "The expected configuration is not here.");
+            Assert.NotNull(configuration);
         }
+
+        readonly string _projectPath;
+        readonly ITestOutputHelper _testOutputHelper;
     }
 }

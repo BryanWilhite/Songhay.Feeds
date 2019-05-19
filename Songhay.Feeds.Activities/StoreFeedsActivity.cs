@@ -17,9 +17,7 @@ namespace Songhay.Feeds.Activities
     {
         static StoreFeedsActivity() => traceSource = TraceSources
             .Instance
-            .GetTraceSourceFromConfiguredName()
-            .WithAllSourceLevels()
-            .EnsureTraceSource();
+            .GetConfiguredTraceSource();
 
         static readonly TraceSource traceSource;
 
@@ -32,7 +30,7 @@ namespace Songhay.Feeds.Activities
 
         public void Start(ProgramArgs args)
         {
-            traceSource.TraceInformation($"starting {nameof(StoreFeedsActivity)}...");
+            traceSource?.TraceInformation($"starting {nameof(StoreFeedsActivity)}...");
 
             var meta = this.GetProgramMetadata();
 
@@ -77,13 +75,13 @@ namespace Songhay.Feeds.Activities
         {
             var root = feedsMeta.ToRootDirectory(args);
 
-            var container = cloudStorageAccount.CreateCloudBlobClient().GetContainerReference("studio-dash");
+            var container = cloudStorageAccount.GetContainerReference("studio-dash");
 
             var tasks = feedsMeta.Feeds.Keys.Select(i =>
             {
                 var jsonFile = root.ToCombinedPath($"{i}.json");
-                traceSource.TraceVerbose($"uploading {jsonFile}...");
-                return container.UploadBlob(jsonFile, string.Empty);
+                traceSource?.TraceVerbose($"uploading {jsonFile}...");
+                return container.UploadBlobAsync(jsonFile, string.Empty);
             }).ToArray();
 
             Task.WaitAll(tasks);

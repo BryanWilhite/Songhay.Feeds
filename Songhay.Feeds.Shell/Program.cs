@@ -36,14 +36,12 @@ namespace Songhay.Feeds.Shell
             return configuration;
         }
 
-        internal static void InitializeTraceSource(TraceListener listener)
+        internal static void InitializeTraceSource(TraceListener listener, IConfigurationRoot configuration)
         {
             var traceSource = TraceSources
                 .Instance
-                .GetTraceSourceFromConfiguredName()
-                .WithAllSourceLevels()
-                .EnsureTraceSource();
-            traceSource.Listeners.Add(listener);
+                .GetConfiguredTraceSource(configuration);
+            traceSource?.Listeners.Add(listener);
         }
 
         internal static void WriteException(Exception ex)
@@ -86,7 +84,7 @@ EXCEPTION:
             var listener = new TextWriterTraceListener(Console.Out);
             try
             {
-                InitializeTraceSource(listener);
+                InitializeTraceSource(listener, configuration);
 
                 var getter = GetActivitiesGetter(args);
                 var activity = getter.GetActivity();
