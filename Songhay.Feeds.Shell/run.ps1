@@ -1,10 +1,9 @@
-﻿trap 
-{ 
-    Write-Output $_ 
-    exit 1 
-}
+﻿Set-Location $PSScriptRoot
 
-Set-Location $PSScriptRoot
+$p = Start-Process dotnet -ArgumentList "Songhay.Feeds.Shell.dll DownloadFeedsActivity" -NoNewWindow -PassThru -Wait
 
-& dotnet Songhay.Feeds.Shell.dll DownloadFeedsActivity
-& dotnet Songhay.Feeds.Shell.dll StoreFeedsActivity
+if($p.ExitCode -ne 0) { exit $p.ExitCode }
+
+$p = Start-Process dotnet -ArgumentList "Songhay.Feeds.Shell.dll StoreFeedsActivity" -NoNewWindow -PassThru -Wait
+
+exit $p.ExitCode
