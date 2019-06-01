@@ -5,9 +5,38 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/22944" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/22944" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2019-05-21T19:15:26Z</updated>
+    <updated>2019-06-01T00:07:13Z</updated>
     <id>https://stackoverflow.com/feeds/user/22944</id>
     <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>https://stackoverflow.com/q/2039887</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">WPF Tiled Background Misalignment</title>
+            <category scheme="https://stackoverflow.com/tags" term="wpf" />
+            <category scheme="https://stackoverflow.com/tags" term="xaml" />
+            <category scheme="https://stackoverflow.com/tags" term="background" />
+            <category scheme="https://stackoverflow.com/tags" term="expression-blend" />
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/2039887/wpf-tiled-background-misalignment" />
+        <published>2010-01-11T04:17:57Z</published>
+        <updated>2019-05-31T16:08:32Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;We have quite a complex WPF application (that I cannot show here) that somehow has the tiled background misaligned of one of its user controls. I was unable to reproduce this problem in a &quot;clean&quot; WPF project but will try to illustrate the problem in this picture:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i.stack.imgur.com/OvppF.jpg&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img src=&quot;https://i.stack.imgur.com/OvppF.jpg&quot; alt=&quot;WPF Background Tile Misalignment&quot;&gt;&lt;/a&gt;&lt;br&gt;
+&lt;sub&gt;(source: &lt;a href=&quot;http://kintespace.com/bitmaps/blog_wpf_tile_misalignment.jpg&quot; rel=&quot;nofollow noreferrer&quot;&gt;kintespace.com&lt;/a&gt;)&lt;/sub&gt;  &lt;/p&gt;
+
+&lt;p&gt;The gray area represents the user control and the black and red checks represents the tiled background &lt;em&gt;inside&lt;/em&gt; the user control. The white background represents the window hosting the control. The &lt;code&gt;VisualBrush&lt;/code&gt; is used here but the same problem comes with the &lt;code&gt;DrawingBrush&lt;/code&gt;. I would prefer &lt;em&gt;not&lt;/em&gt; to use the &lt;code&gt;ImageBrush&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Can you open a &quot;clean&quot; WPF project and build something that will cause a tiled background to be misaligned like this?&lt;/p&gt;
+
+        </summary>
+    </entry>
     <entry>
         <id>https://stackoverflow.com/q/56158421</id>
         <re:rank scheme="https://stackoverflow.com">0</re:rank>
@@ -1438,30 +1467,6 @@ public HttpResponseMessage ReadRaw(HttpRequestMessage rawRequest)
         </summary>
     </entry>
     <entry>
-        <id>https://stackoverflow.com/questions/34010328/-/34028520#34028520</id>
-        <re:rank scheme="https://stackoverflow.com">0</re:rank>
-        <title type="text">Answer by rasx for Is this still the right way to read raw XML with ApiController?</title>
-        <author>
-            <name>rasx</name>
-            <uri>https://stackoverflow.com/users/22944</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/34010328/is-this-still-the-right-way-to-read-raw-xml-with-apicontroller/34028520#34028520" />
-        <published>2015-12-01T19:29:50Z</published>
-        <updated>2015-12-01T20:28:27Z</updated>
-        <summary type="html">&lt;p&gt;Consider &lt;a href=&quot;http://bizcoder.com/posting-raw-json-to-web-api&quot; rel=&quot;nofollow&quot;&gt;this article from Microsoft evangelist Darrel Miller&lt;/a&gt;. He shows us that a combination of &lt;code&gt;[FromBody]&lt;/code&gt; and &lt;code&gt;XElement&lt;/code&gt; is the way to go:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[HttpPost]
-[Route(&quot;raw&quot;)]
-public IHttpActionResult ReadRaw([FromBody]XElement rootElement)
-{
-    var requestDocument = new XDocument(rootElement);
-    var request = MyDBContext.GetStuffStaticMethod(requestDocument);
-    var responseDocument = request.GetResponseDocument(this._context);
-    return this.Ok&amp;lt;XElement&amp;gt;(responseDocument.Root);
-}
-&lt;/code&gt;&lt;/pre&gt;
-</summary>
-    </entry>    <entry>
         <id>https://stackoverflow.com/questions/52883672/nunitelite-3-11-0-throwing-null-reference-exception-with-autorun-in-linqpad?cid=92705141</id>
         <title type="text">Comment by rasx on NUniteLite 3.11.0 throwing Null Reference Exception with AutoRun in LINQpad</title>
         <author>

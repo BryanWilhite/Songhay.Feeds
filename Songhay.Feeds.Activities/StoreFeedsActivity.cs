@@ -17,7 +17,8 @@ namespace Songhay.Feeds.Activities
     {
         static StoreFeedsActivity() => traceSource = TraceSources
             .Instance
-            .GetConfiguredTraceSource();
+            .GetConfiguredTraceSource()
+            .WithSourceLevels();
 
         static readonly TraceSource traceSource;
 

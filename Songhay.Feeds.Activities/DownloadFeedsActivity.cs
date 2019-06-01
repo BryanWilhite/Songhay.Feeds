@@ -20,7 +20,8 @@ namespace Songhay.Feeds.Activities
     {
         static DownloadFeedsActivity() => traceSource = TraceSources
             .Instance
-            .GetConfiguredTraceSource();
+            .GetConfiguredTraceSource()
+            .WithSourceLevels();
 
         static readonly TraceSource traceSource;
 
@@ -45,15 +46,28 @@ Use command-line argument {ProgramArgs.BasePath} to prepend a base path to a con
 
         internal void ConvertFeedsToJson(FeedsMetadata meta, string rootDirectory)
         {
+            if (!Directory.Exists(rootDirectory)) throw new DirectoryNotFoundException($"The expected directory, `{rootDirectory}`, is not here.");
+
+            var rootInfo = new DirectoryInfo(rootDirectory);
+
             meta.Feeds.ForEachInEnumerable(feed =>
             {
                 traceSource?.TraceVerbose($"feed: {feed.Key}");
 
-                var xml = File.ReadAllText(Path.Combine(rootDirectory, $"{feed.Key}.xml"));
+                var xmlPath = rootInfo.ToCombinedPath($"{feed.Key}.xml");
+                if(!File.Exists(xmlPath))
+                {
+                    traceSource?.TraceWarning($"The expected file, `{xmlPath}`, is not here.");
+                    return;
+                }
+
+                var xml = File.ReadAllText(xmlPath);
                 var xmlDoc = new XmlDocument();
                 xmlDoc.LoadXml(xml);
+
+                var jsonPath = rootInfo.ToCombinedPath($"{feed.Key}.json");
                 var json = JsonConvert.SerializeXmlNode(xmlDoc.DocumentElement, Newtonsoft.Json.Formatting.Indented);
-                File.WriteAllText(Path.Combine(rootDirectory, $"{feed.Key}.json"), json);
+                File.WriteAllText(jsonPath, json);
             });
         }
 
