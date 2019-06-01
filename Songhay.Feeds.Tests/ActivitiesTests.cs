@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using Songhay.Cloud.BlobStorage.Extensions;
 using Songhay.Extensions;
 using Songhay.Feeds.Activities;
 using Songhay.Feeds.Activities.Extensions;
@@ -121,7 +122,7 @@ namespace Songhay.Feeds.Tests
             var meta = activity.GetProgramMetadata();
             Assert.NotNull(meta);
 
-            var account = activity.GetCloudStorageAccount(meta, cloudStorageSetName, connectionStringName);
+            var account = meta.GetCloudStorageAccount(cloudStorageSetName, connectionStringName);
             Assert.NotNull(account);
         }
 
@@ -177,7 +178,7 @@ namespace Songhay.Feeds.Tests
             var meta = activity.GetProgramMetadata();
             Assert.NotNull(meta);
 
-            var account = activity.GetCloudStorageAccount(meta, cloudStorageSetName, connectionStringName);
+            var account = meta.GetCloudStorageAccount(cloudStorageSetName, connectionStringName);
             Assert.NotNull(account);
 
             var feedsMeta = activity.Configuration.ToFeedsMetadata();

@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Songhay.Cloud.BlobStorage" Version="3.0.0" />
-    <PackageReference Include="SonghayCore" Version="3.2.0" />
+    <PackageReference Include="Songhay.Cloud.BlobStorage" Version="3.0.1" />
+    <PackageReference Include="SonghayCore" Version="3.2.1" />
   </ItemGroup>
 
   <ItemGroup>

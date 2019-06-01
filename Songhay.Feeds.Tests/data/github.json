@@ -17,8 +17,120 @@
       }
     ],
     "title": "BryanWilhite’s Activity",
-    "updated": "2019-05-31T23:53:31Z",
+    "updated": "2019-06-01T00:16:25Z",
     "entry": [
+      {
+        "id": "tag:github.com,2008:IssuesEvent/9738343190",
+        "published": "2019-06-01T00:16:25Z",
+        "updated": "2019-06-01T00:16:25Z",
+        "link": {
+          "@type": "text/html",
+          "@rel": "alternate",
+          "@href": "https://github.com/BryanWilhite/Songhay.Feeds/issues/15"
+        },
+        "title": {
+          "@type": "html",
+          "#text": "BryanWilhite reopened an issue in BryanWilhite/Songhay.Feeds"
+        },
+        "author": {
+          "name": "BryanWilhite",
+          "email": "",
+          "uri": "https://github.com/BryanWilhite"
+        },
+        "media:thumbnail": {
+          "@height": "30",
+          "@width": "30",
+          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
+        },
+        "content": {
+          "@type": "html",
+          "#text": "<div class=\"issues_reopened\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            reopened\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Songhay.Feeds\" rel=\"noreferrer\">BryanWilhite/Songhay.Feeds</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-06-01T00:16:25Z\">Jun 1, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-reopened open d-inline-block mt-1 float-left\" viewBox=\"0 0 14 16\" version=\"1.1\" width=\"14\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M8 9H6V4h2v5zm-2 3h2v-2H6v2zm6.33-2H10l1.5 1.5c-1.05 1.33-2.67 2.2-4.5 2.2A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7 2.19 0 4.13-1.02 5.41-2.59L14 14v-4h-1.67zM1.67 6H4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7 0 .34-.03.67-.09 1h1.31c.05-.33.08-.66.08-1 0-3.86-3.14-7-7-7-2.19 0-4.13 1.02-5.41 2.59L0 2v4h1.67z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"ERROR: cannot find codepen XML file\" class=\"text-gray-dark\" aria-label=\"ERROR: cannot find codepen XML file\" href=\"/BryanWilhite/Songhay.Feeds/issues/15\" rel=\"noreferrer\">ERROR: cannot find codepen XML file</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#15</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p><span class=\"pl-c1\">[05/31/2019 13:24:44 &gt; 270fc7: SYS INFO] Status changed to Initializing</span>\n<span class=\"pl-c1\">[05/31/2019 13:24:44 &gt; 270fc7: SYS INFO] Run script 'run.ps1' with script h…</span></p>\n          </div>\n\n          <div class=\"f6 text-gray mt-1\">\n            3 comments\n          </div>\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "id": "tag:github.com,2008:IssueCommentEvent/9738343181",
+        "published": "2019-06-01T00:16:25Z",
+        "updated": "2019-06-01T00:16:25Z",
+        "link": {
+          "@type": "text/html",
+          "@rel": "alternate",
+          "@href": "https://github.com/BryanWilhite/Songhay.Feeds/issues/15#issuecomment-497895442"
+        },
+        "title": {
+          "@type": "html",
+          "#text": "BryanWilhite commented on issue BryanWilhite/Songhay.Feeds#15"
+        },
+        "author": {
+          "name": "BryanWilhite",
+          "email": "",
+          "uri": "https://github.com/BryanWilhite"
+        },
+        "media:thumbnail": {
+          "@height": "30",
+          "@width": "30",
+          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
+        },
+        "content": {
+          "@type": "html",
+          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"ERROR: cannot find codepen XML file\" href=\"/BryanWilhite/Songhay.Feeds/issues/15#issuecomment-497895442\" rel=\"noreferrer\">BryanWilhite/Songhay.Feeds#15</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-06-01T00:16:25Z\">Jun 1, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"ERROR: cannot find codepen XML file\" class=\"link-gray\" href=\"/BryanWilhite/Songhay.Feeds/issues/15#issuecomment-497895442\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-06-01T00:16:25Z\">Jun 1, 2019</relative-time></a>\n      </div>\n        <p><g-emoji class=\"g-emoji\" alias=\"roll_eyes\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f644.png\">🙄</g-emoji>\n<span class=\"pl-c1\">[06/01/2019 00:14:43 &gt; 270fc7: SYS INFO] Status changed to Initializing</span>\n<span class=\"pl-c1\">[06/01/2019 00:14:43 &gt; 270fc7: SYS INFO] Job directory change detected: J…</span></p>\n    </div>\n  </div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "id": "tag:github.com,2008:PushEvent/9738323640",
+        "published": "2019-06-01T00:08:09Z",
+        "updated": "2019-06-01T00:08:09Z",
+        "link": {
+          "@type": "text/html",
+          "@rel": "alternate",
+          "@href": "https://github.com/BryanWilhite/Songhay.Feeds/compare/5d18692915...5abaf750a9"
+        },
+        "title": {
+          "@type": "html",
+          "#text": "BryanWilhite pushed to master in BryanWilhite/Songhay.Feeds"
+        },
+        "author": {
+          "name": "BryanWilhite",
+          "email": "",
+          "uri": "https://github.com/BryanWilhite"
+        },
+        "media:thumbnail": {
+          "@height": "30",
+          "@width": "30",
+          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
+        },
+        "content": {
+          "@type": "html",
+          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/Songhay.Feeds/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Songhay.Feeds\" rel=\"noreferrer\">BryanWilhite/Songhay.Feeds</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-06-01T00:08:09Z\">Jun 1, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/Songhay.Feeds/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/Songhay.Feeds/commit/5abaf750a946bd6cbc396fe46c47460e3cd9d218\" rel=\"noreferrer\">5abaf75</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"hammer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f528.png\">🔨</g-emoji> <span class=\"issue-keyword tooltipped tooltipped-se\" aria-label=\"This commit closes issue #15.\">resolves</span> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"450827108\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/Songhay.Feeds/issues/15\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/Songhay.Feeds/issues/15/hovercard\" href=\"https://github.com/BryanWilhite/Songhay.Feeds/issues/15\" rel=\"noreferrer\">#15</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "id": "tag:github.com,2008:IssuesEvent/9738323631",
+        "published": "2019-06-01T00:08:08Z",
+        "updated": "2019-06-01T00:08:08Z",
+        "link": {
+          "@type": "text/html",
+          "@rel": "alternate",
+          "@href": "https://github.com/BryanWilhite/Songhay.Feeds/issues/15"
+        },
+        "title": {
+          "@type": "html",
+          "#text": "BryanWilhite closed an issue in BryanWilhite/Songhay.Feeds"
+        },
+        "author": {
+          "name": "BryanWilhite",
+          "email": "",
+          "uri": "https://github.com/BryanWilhite"
+        },
+        "media:thumbnail": {
+          "@height": "30",
+          "@width": "30",
+          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
+        },
+        "content": {
+          "@type": "html",
+          "#text": "<div class=\"issues_closed\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            closed\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Songhay.Feeds\" rel=\"noreferrer\">BryanWilhite/Songhay.Feeds</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-06-01T00:08:08Z\">Jun 1, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-closed closed d-inline-block mt-1 float-left\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"ERROR: cannot find codepen XML file\" class=\"text-gray-dark\" aria-label=\"ERROR: cannot find codepen XML file\" href=\"/BryanWilhite/Songhay.Feeds/issues/15\" rel=\"noreferrer\">ERROR: cannot find codepen XML file</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#15</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p><span class=\"pl-c1\">[05/31/2019 13:24:44 &gt; 270fc7: SYS INFO] Status changed to Initializing</span>\n<span class=\"pl-c1\">[05/31/2019 13:24:44 &gt; 270fc7: SYS INFO] Run script 'run.ps1' with script h…</span></p>\n          </div>\n\n          <div class=\"f6 text-gray mt-1\">\n            2 comments\n          </div>\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+        }
+      },
       {
         "id": "tag:github.com,2008:IssueCommentEvent/9738286328",
         "published": "2019-05-31T23:53:31Z",
@@ -745,118 +857,6 @@
         "content": {
           "@type": "html",
           "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"investigate a return to project-driven NuGet packing\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497131523\" rel=\"noreferrer\">BryanWilhite/SonghayCore#34</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-29T22:27:28Z\">May 29, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"investigate a return to project-driven NuGet packing\" class=\"link-gray\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497131523\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-29T22:27:28Z\">May 29, 2019</relative-time></a>\n      </div>\n        <p>the big news <g-emoji class=\"g-emoji\" alias=\"newspaper\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4f0.png\">📰</g-emoji> (for me):\n\n.NET Standard and .NET Core libraries are expected to be distributed as NuGet packages. This is in fact how all of the .N…</p>\n    </div>\n  </div>\n</div>\n</div></div>"
-        }
-      },
-      {
-        "id": "tag:github.com,2008:IssuesEvent/9722988914",
-        "published": "2019-05-29T22:19:23Z",
-        "updated": "2019-05-29T22:19:23Z",
-        "link": {
-          "@type": "text/html",
-          "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/the-funky-knowledge-base/issues/9"
-        },
-        "title": {
-          "@type": "html",
-          "#text": "BryanWilhite closed an issue in BryanWilhite/the-funky-knowledge-base"
-        },
-        "author": {
-          "name": "BryanWilhite",
-          "email": "",
-          "uri": "https://github.com/BryanWilhite"
-        },
-        "media:thumbnail": {
-          "@height": "30",
-          "@width": "30",
-          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
-        },
-        "content": {
-          "@type": "html",
-          "#text": "<div class=\"issues_closed\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            closed\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/the-funky-knowledge-base\" rel=\"noreferrer\">BryanWilhite/the-funky-knowledge-base</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-05-29T22:19:23Z\">May 29, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-closed closed d-inline-block mt-1 float-left\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"drop the Songhay.FunkyKnowledgeBase repo and everything along its pipelines\" class=\"text-gray-dark\" aria-label=\"drop the Songhay.FunkyKnowledgeBase repo and everything along its pipelines\" href=\"/BryanWilhite/the-funky-knowledge-base/issues/9\" rel=\"noreferrer\">drop the Songhay.FunkyKnowledgeBase repo and everything along its pipelines</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#9</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p><g-emoji class=\"g-emoji\" alias=\"fire\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f525.png\">🔥</g-emoji> <a href=\"https://github.com/BryanWilhite/Songhay.FunkyKnowledgeBase\" rel=\"noreferrer\">https://github.com/BryanWilhite/Songhay.FunkyKnowledgeBase</a>\nand Azure DevOps stuff\nand Azure Portal stuff</p>\n          </div>\n\n          <div class=\"f6 text-gray mt-1\">\n            3 comments\n          </div>\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
-        }
-      },
-      {
-        "id": "tag:github.com,2008:IssueCommentEvent/9722923887",
-        "published": "2019-05-29T22:05:23Z",
-        "updated": "2019-05-29T22:05:23Z",
-        "link": {
-          "@type": "text/html",
-          "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/the-funky-knowledge-base/issues/9#issuecomment-497126017"
-        },
-        "title": {
-          "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/the-funky-knowledge-base#9"
-        },
-        "author": {
-          "name": "BryanWilhite",
-          "email": "",
-          "uri": "https://github.com/BryanWilhite"
-        },
-        "media:thumbnail": {
-          "@height": "30",
-          "@width": "30",
-          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
-        },
-        "content": {
-          "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"drop the Songhay.FunkyKnowledgeBase repo and everything along its pipelines\" href=\"/BryanWilhite/the-funky-knowledge-base/issues/9#issuecomment-497126017\" rel=\"noreferrer\">BryanWilhite/the-funky-knowledge-base#9</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-29T22:05:23Z\">May 29, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"drop the Songhay.FunkyKnowledgeBase repo and everything along its pipelines\" class=\"link-gray\" href=\"/BryanWilhite/the-funky-knowledge-base/issues/9#issuecomment-497126017\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-29T22:05:23Z\">May 29, 2019</relative-time></a>\n      </div>\n        <p>here:\n<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/5226627/58594681-2c49a180-8223-11e9-8b07-7c872e218b3f.png\"></a></p>\n    </div>\n  </div>\n</div>\n</div></div>"
-        }
-      },
-      {
-        "id": "tag:github.com,2008:IssueCommentEvent/9722898709",
-        "published": "2019-05-29T22:00:27Z",
-        "updated": "2019-05-29T22:00:27Z",
-        "link": {
-          "@type": "text/html",
-          "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/the-funky-knowledge-base/issues/9#issuecomment-497124667"
-        },
-        "title": {
-          "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/the-funky-knowledge-base#9"
-        },
-        "author": {
-          "name": "BryanWilhite",
-          "email": "",
-          "uri": "https://github.com/BryanWilhite"
-        },
-        "media:thumbnail": {
-          "@height": "30",
-          "@width": "30",
-          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
-        },
-        "content": {
-          "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"drop the Songhay.FunkyKnowledgeBase repo and everything along its pipelines\" href=\"/BryanWilhite/the-funky-knowledge-base/issues/9#issuecomment-497124667\" rel=\"noreferrer\">BryanWilhite/the-funky-knowledge-base#9</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-29T22:00:27Z\">May 29, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"drop the Songhay.FunkyKnowledgeBase repo and everything along its pipelines\" class=\"link-gray\" href=\"/BryanWilhite/the-funky-knowledge-base/issues/9#issuecomment-497124667\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-29T22:00:27Z\">May 29, 2019</relative-time></a>\n      </div>\n        <p>in Azure (portal, under Configuration, Path mappings):\n<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/5226627/58594444-7bdb9d80-8222-11e9-8331-a1ec5e8cbd6d.png\"></a>\n<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/5226627/58594430-73836280-8222-11e9-8927-5bd5688634c8.png\"></a>\n<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/5226627/58594381-5189e000-8222-11e9-84a4-3ce507ad8662.png\"></a></p>\n    </div>\n  </div>\n</div>\n</div></div>"
-        }
-      },
-      {
-        "id": "tag:github.com,2008:IssueCommentEvent/9722737127",
-        "published": "2019-05-29T21:29:49Z",
-        "updated": "2019-05-29T21:29:49Z",
-        "link": {
-          "@type": "text/html",
-          "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/the-funky-knowledge-base/issues/9#issuecomment-497116247"
-        },
-        "title": {
-          "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/the-funky-knowledge-base#9"
-        },
-        "author": {
-          "name": "BryanWilhite",
-          "email": "",
-          "uri": "https://github.com/BryanWilhite"
-        },
-        "media:thumbnail": {
-          "@height": "30",
-          "@width": "30",
-          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
-        },
-        "content": {
-          "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"drop the Songhay.FunkyKnowledgeBase repo and everything along its pipelines\" href=\"/BryanWilhite/the-funky-knowledge-base/issues/9#issuecomment-497116247\" rel=\"noreferrer\">BryanWilhite/the-funky-knowledge-base#9</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-29T21:29:49Z\">May 29, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"drop the Songhay.FunkyKnowledgeBase repo and everything along its pipelines\" class=\"link-gray\" href=\"/BryanWilhite/the-funky-knowledge-base/issues/9#issuecomment-497116247\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-29T21:29:49Z\">May 29, 2019</relative-time></a>\n      </div>\n        <p>in Azure DevOps:\n<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/5226627/58592834-34531280-821e-11e9-830a-f08469a2ffe7.png\"></a></p>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       }
     ]

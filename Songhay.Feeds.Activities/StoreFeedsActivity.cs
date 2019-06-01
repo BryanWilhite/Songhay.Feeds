@@ -6,8 +6,8 @@ using Songhay.Extensions;
 using Songhay.Feeds.Activities.Extensions;
 using Songhay.Feeds.Models;
 using Songhay.Models;
-using System;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -35,9 +35,7 @@ namespace Songhay.Feeds.Activities
 
             var meta = this.GetProgramMetadata();
 
-            var cloudStorageAccount = this.GetCloudStorageAccount(meta,
-                cloudStorageSetName: "SonghayCloudStorage",
-                connectionStringName: "general-purpose-v1");
+            var cloudStorageAccount = meta.GetCloudStorageAccount(cloudStorageSetName: "SonghayCloudStorage", connectionStringName: "general-purpose-v1");
 
             var feedsMeta = this.Configuration.ToFeedsMetadata();
 
@@ -45,24 +43,6 @@ namespace Songhay.Feeds.Activities
         }
 
         internal IConfigurationRoot Configuration { get; private set; }
-
-        internal CloudStorageAccount GetCloudStorageAccount(ProgramMetadata meta, string cloudStorageSetName, string connectionStringName)
-        {
-            //TODO: move this to an extension method in Cloud storage core:
-            if (meta.CloudStorageSet == null) throw new NullReferenceException("The expected cloud storage set is not here.");
-
-            var key = cloudStorageSetName;
-
-            var test = meta.CloudStorageSet.TryGetValue(key, out var set);
-
-            if (!test) throw new NullReferenceException($"The expected cloud storage set, {key}, is not here.");
-            if (!set.Any()) throw new NullReferenceException($"The expected cloud storage set items for {key} are not here.");
-            test = set.TryGetValue(connectionStringName, out var connectionString);
-            if (!test) throw new NullReferenceException($"The expected cloud storage set connection, {connectionStringName}, is not here.");
-
-            var cloudStorageAccount = CloudStorageAccount.Parse(connectionString);
-            return cloudStorageAccount;
-        }
 
         internal ProgramMetadata GetProgramMetadata()
         {
@@ -75,12 +55,19 @@ namespace Songhay.Feeds.Activities
         internal void UploadJson(CloudStorageAccount cloudStorageAccount, FeedsMetadata feedsMeta, ProgramArgs args)
         {
             var root = feedsMeta.ToRootDirectory(args);
+            var rootInfo = new DirectoryInfo(root);
 
             var container = cloudStorageAccount.GetContainerReference("studio-dash");
 
             var tasks = feedsMeta.Feeds.Keys.Select(i =>
             {
-                var jsonFile = root.ToCombinedPath($"{i}.json");
+                var jsonFile = rootInfo.ToCombinedPath($"{i}.json");
+                if(!File.Exists(jsonFile))
+                {
+                    traceSource?.TraceWarning($"The expected file, `{jsonFile}`, is not here.");
+                    return Task.FromResult(0);
+                }
+
                 traceSource?.TraceVerbose($"uploading {jsonFile}...");
                 return container.UploadBlobAsync(jsonFile, string.Empty);
             }).ToArray();

@@ -22,7 +22,7 @@ namespace Songhay.Feeds.Activities.Extensions
             var basePath = args.HasArg(ProgramArgs.BasePath, requiresValue: false) ? args.GetBasePathValue() : Directory.GetCurrentDirectory();
 
             var rootDirectory = meta.FeedsDirectory.StartsWith("./") ?
-                basePath.ToCombinedPath(meta.FeedsDirectory)
+                FrameworkFileUtility.GetCombinedPath(basePath, meta.FeedsDirectory)
                 :
                 meta.FeedsDirectory;
 
