@@ -9,7 +9,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Songhay.Feeds.Shell", "Song
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Songhay.Feeds.Activities", "Songhay.Feeds.Activities\Songhay.Feeds.Activities.csproj", "{564F502E-F4D5-4538-85B6-64C022B87455}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Songhay.Feeds.Tests", "Songhay.Feeds.Tests\Songhay.Feeds.Tests.csproj", "{0AF0AC4F-BF58-4685-BD81-D20430EE2E1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Songhay.Feeds.Tests", "Songhay.Feeds.Tests\Songhay.Feeds.Tests.csproj", "{0AF0AC4F-BF58-4685-BD81-D20430EE2E1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8CF2532A-D772-418F-A923-910C3DE2EE16}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines-deployment.ps1 = azure-pipelines-deployment.ps1
+		azure-pipelines.yaml = azure-pipelines.yaml
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
