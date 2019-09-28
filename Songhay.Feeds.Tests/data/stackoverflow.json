@@ -20,9 +20,9 @@
       }
     ],
     "subtitle": "most recent 30 from stackoverflow.com",
-    "updated": "2019-06-01T00:28:04Z",
+    "updated": "2019-09-28T21:54:14Z",
     "id": "https://stackoverflow.com/feeds/user/22944",
-    "creativeCommons:license": "http://www.creativecommons.org/licenses/by-sa/3.0/rdf",
+    "creativeCommons:license": "https://creativecommons.org/licenses/by-sa/4.0/rdf",
     "entry": [
       {
         "id": "https://stackoverflow.com/q/2039887",
@@ -106,7 +106,7 @@
         "id": "https://stackoverflow.com/q/3008704",
         "re:rank": {
           "@scheme": "https://stackoverflow.com",
-          "#text": "77"
+          "#text": "81"
         },
         "title": {
           "@type": "text",
@@ -197,84 +197,6 @@
         "summary": {
           "@type": "html",
           "#text": "<p>I just tried to open a LINQPad query file that tried to load the <code>xunit</code> <a href=\"https://www.nuget.org/packages/xunit\" rel=\"nofollow noreferrer\">package</a> and got an error which has never happened to me in using LINQPad for years. So my answer is <em>no</em>.</p>\n"
-        }
-      },
-      {
-        "id": "https://stackoverflow.com/q/52214134",
-        "re:rank": {
-          "@scheme": "https://stackoverflow.com",
-          "#text": "0"
-        },
-        "title": {
-          "@type": "text",
-          "#text": "an Angular NPM package out there for `nativeElement: ElementRef` [like jQuery]?"
-        },
-        "category": [
-          {
-            "@scheme": "https://stackoverflow.com/tags",
-            "@term": "angular"
-          },
-          {
-            "@scheme": "https://stackoverflow.com/tags",
-            "@term": "typescript"
-          },
-          {
-            "@scheme": "https://stackoverflow.com/tags",
-            "@term": "dom"
-          }
-        ],
-        "author": {
-          "name": "rasx",
-          "uri": "https://stackoverflow.com/users/22944"
-        },
-        "link": {
-          "@rel": "alternate",
-          "@href": "https://stackoverflow.com/questions/52214134/an-angular-npm-package-out-there-for-nativeelement-elementref-like-jquery"
-        },
-        "published": "2018-09-07T01:33:48Z",
-        "updated": "2018-09-07T01:33:48Z",
-        "summary": {
-          "@type": "html",
-          "#text": "\r\n            \r\n\r\n            <p>I am very tempted to re-factor the following <code>nativeElement</code> handling in <code>ngAfterViewInit</code> into a little Typescript class of static methods:</p>\n\n<pre><code>export class AnimationBuilderComponent implements AfterViewInit {\n    @ViewChild('photos') photosContainer: ElementRef;\n\n    constructor(private animationBuilder: AnimationBuilder) {}\n\n    ngAfterViewInit(): void {\n        const div = this.photosContainer.nativeElement as HTMLDivElement;\n        if (!div) {\n            console.warn('the expected div element is not here');\n            return;\n        }\n        const children = Array.from(div.children);\n        if (!children) {\n            console.warn('the expected div element children are not here');\n            return;\n        }\n        if (!children.length) {\n            console.warn(\n                'the expected number of div element children is not here'\n            );\n            return;\n        }\n        children.forEach(el =&gt; {\n            if (el.nodeName !== 'img'.toUpperCase()) {\n                return;\n            }\n            console.log(el.clientWidth);\n        });\n    }\n\n    animate(): void {\n        console.log('animate!');\n    }\n}\n</code></pre>\n\n<p>Before I scurry off and do this, is there a NPM package out there that already does this? Effectively, I am looking for a tiny equivalent of jQuery that is aware of <code>ElementRef</code>.</p>\n\r\n        "
-        }
-      },
-      {
-        "id": "https://stackoverflow.com/q/52050067",
-        "re:rank": {
-          "@scheme": "https://stackoverflow.com",
-          "#text": "0"
-        },
-        "title": {
-          "@type": "text",
-          "#text": "Does MSTEST on .NET Core support more --logger format than just TRX?"
-        },
-        "category": [
-          {
-            "@scheme": "https://stackoverflow.com/tags",
-            "@term": "visual-studio-code"
-          },
-          {
-            "@scheme": "https://stackoverflow.com/tags",
-            "@term": ".net-core"
-          },
-          {
-            "@scheme": "https://stackoverflow.com/tags",
-            "@term": "mstest"
-          }
-        ],
-        "author": {
-          "name": "rasx",
-          "uri": "https://stackoverflow.com/users/22944"
-        },
-        "link": {
-          "@rel": "alternate",
-          "@href": "https://stackoverflow.com/questions/52050067/does-mstest-on-net-core-support-more-logger-format-than-just-trx"
-        },
-        "published": "2018-08-28T04:24:27Z",
-        "updated": "2018-08-28T04:24:27Z",
-        "summary": {
-          "@type": "html",
-          "#text": "\r\n            \r\n\r\n            <p>In Visual Studio Code, my test task uses the TRX logger:</p>\n\n<pre><code>{\n    \"label\": \"test [Songhay.Feeds.Tests]\",\n    \"command\": \"dotnet\",\n    \"type\": \"shell\",\n    \"args\": [\n        \"test\",\n        \"${workspaceFolder}/Songhay.Feeds.Tests/Songhay.Feeds.Tests.csproj\"\n        \"--logger:trx\",\n        \"--results-directory:${workspaceFolder}/TestResults\",\n        \"--verbosity:normal\"\n    ],\n    \"problemMatcher\": \"$msCompile\"\n}\n</code></pre>\n\n<p>where <code>--logger</code> <a href=\"https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-test?tabs=netcore21#options\" rel=\"nofollow noreferrer\">is documented</a> but no list of logger formats (for MSTEST) can be listed here and <a href=\"https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest\" rel=\"nofollow noreferrer\">when MSTEST is covered in the docs</a>, there is no mention of loggers. Is TRX the only logger for MSTEST on .NET Core? (And, BTW, is there a TRX viewer in the works for VSCode?)</p>\n\r\n        "
         }
       },
       {
@@ -651,7 +573,7 @@
         "id": "https://stackoverflow.com/questions/24386657/-/43596663#43596663",
         "re:rank": {
           "@scheme": "https://stackoverflow.com",
-          "#text": "14"
+          "#text": "16"
         },
         "title": {
           "@type": "text",
@@ -1084,6 +1006,56 @@
         "summary": {
           "@type": "html",
           "#text": "\r\n            \r\n\r\n            <p>This <a href=\"https://stackoverflow.com/a/14287314/22944\">answer from 2012</a> gave me this solution to reading raw XML from a POST:</p>\n\n<pre><code>[HttpPost]\n[Route(\"raw\")]\npublic HttpResponseMessage ReadRaw(HttpRequestMessage rawRequest)\n{\n    var requestDocument = XDocument.Parse(rawRequest.Content.ReadAsStringAsync().Result);\n    var request = MyDBContext.GetStuffStaticMethod(requestDocument);\n    var responseDocument = request.GetResponseDocument(this._context);\n    var xml = responseDocument.ToString();\n    return new HttpResponseMessage\n    {\n        Content = new StringContent(xml, Encoding.UTF8, \"application/xml\")\n    };\n}\n</code></pre>\n\n<p>Is this still the way to go in the current time frame?</p>\n\n<p>BTW: this was the request from my OWIN-based integration test:</p>\n\n<pre><code>using (WebApp.Start&lt;Startup&gt;(url: baseUri))\n{\n    var client = new HttpClient();\n    HttpResponseMessage response = null;\n\n    Func&lt;string, string&gt; callOwin = i =&gt;\n    {\n        var requestUri = baseUri + i;\n        this.TestContext.WriteLine(\"requestUri: {0}\", requestUri);\n        response = client.PostAsync(requestUri,\n            new StringContent(requestDoc.ToString(SaveOptions.DisableFormatting), Encoding.UTF8, \"text/xml\")).Result;\n        this.TestContext.WriteLine(\"response: {0}\", response.ToString());\n        return response.Content.ReadAsStringAsync().Result;\n    };\n\n    var xml = callOwin(path);\n    Assert.IsNotNull(response, \"The expected response is not here.\");\n    Assert.AreEqual(HttpStatusCode.OK, response.StatusCode, \"The expected response status code is not here.\");\n\n    Assert.IsFalse(string.IsNullOrEmpty(xml), \"A response is expected.\");\n    this.TestContext.WriteLine(\"xml: {0}\", xml);\n}\n</code></pre>\n\r\n        "
+        }
+      },
+      {
+        "id": "https://stackoverflow.com/questions/34010328/-/34028520#34028520",
+        "re:rank": {
+          "@scheme": "https://stackoverflow.com",
+          "#text": "0"
+        },
+        "title": {
+          "@type": "text",
+          "#text": "Answer by rasx for Is this still the right way to read raw XML with ApiController?"
+        },
+        "author": {
+          "name": "rasx",
+          "uri": "https://stackoverflow.com/users/22944"
+        },
+        "link": {
+          "@rel": "alternate",
+          "@href": "https://stackoverflow.com/questions/34010328/is-this-still-the-right-way-to-read-raw-xml-with-apicontroller/34028520#34028520"
+        },
+        "published": "2015-12-01T19:29:50Z",
+        "updated": "2015-12-01T20:28:27Z",
+        "summary": {
+          "@type": "html",
+          "#text": "<p>Consider <a href=\"http://bizcoder.com/posting-raw-json-to-web-api\" rel=\"nofollow\">this article from Microsoft evangelist Darrel Miller</a>. He shows us that a combination of <code>[FromBody]</code> and <code>XElement</code> is the way to go:</p>\n\n<pre><code>[HttpPost]\n[Route(\"raw\")]\npublic IHttpActionResult ReadRaw([FromBody]XElement rootElement)\n{\n    var requestDocument = new XDocument(rootElement);\n    var request = MyDBContext.GetStuffStaticMethod(requestDocument);\n    var responseDocument = request.GetResponseDocument(this._context);\n    return this.Ok&lt;XElement&gt;(responseDocument.Root);\n}\n</code></pre>\n"
+        }
+      },
+      {
+        "id": "https://stackoverflow.com/questions/2524804/-/33792337#33792337",
+        "re:rank": {
+          "@scheme": "https://stackoverflow.com",
+          "#text": "0"
+        },
+        "title": {
+          "@type": "text",
+          "#text": "Answer by rasx for How do I use XPath with a default namespace with no prefix?"
+        },
+        "author": {
+          "name": "rasx",
+          "uri": "https://stackoverflow.com/users/22944"
+        },
+        "link": {
+          "@rel": "alternate",
+          "@href": "https://stackoverflow.com/questions/2524804/how-do-i-use-xpath-with-a-default-namespace-with-no-prefix/33792337#33792337"
+        },
+        "published": "2015-11-18T23:13:56Z",
+        "updated": "2015-11-18T23:13:56Z",
+        "summary": {
+          "@type": "html",
+          "#text": "<p>I like @mads-hansen, his answer, so well that I wrote these general-purpose utility-class members:</p>\n\n<pre><code>    /// &lt;summary&gt;\n    /// Gets the &lt;see cref=\"XNode\" /&gt; into a &lt;c&gt;local-name()&lt;/c&gt;, XPath-predicate query.\n    /// &lt;/summary&gt;\n    /// &lt;param name=\"childElementName\"&gt;Name of the child element.&lt;/param&gt;\n    /// &lt;returns&gt;&lt;/returns&gt;\n    public static string GetLocalNameXPathQuery(string childElementName)\n    {\n        return GetLocalNameXPathQuery(namespacePrefixOrUri: null, childElementName: childElementName, childAttributeName: null);\n    }\n\n    /// &lt;summary&gt;\n    /// Gets the &lt;see cref=\"XNode\" /&gt; into a &lt;c&gt;local-name()&lt;/c&gt;, XPath-predicate query.\n    /// &lt;/summary&gt;\n    /// &lt;param name=\"namespacePrefixOrUri\"&gt;The namespace prefix or URI.&lt;/param&gt;\n    /// &lt;param name=\"childElementName\"&gt;Name of the child element.&lt;/param&gt;\n    /// &lt;returns&gt;&lt;/returns&gt;\n    public static string GetLocalNameXPathQuery(string namespacePrefixOrUri, string childElementName)\n    {\n        return GetLocalNameXPathQuery(namespacePrefixOrUri, childElementName, childAttributeName: null);\n    }\n\n    /// &lt;summary&gt;\n    /// Gets the &lt;see cref=\"XNode\" /&gt; into a &lt;c&gt;local-name()&lt;/c&gt;, XPath-predicate query.\n    /// &lt;/summary&gt;\n    /// &lt;param name=\"namespacePrefixOrUri\"&gt;The namespace prefix or URI.&lt;/param&gt;\n    /// &lt;param name=\"childElementName\"&gt;Name of the child element.&lt;/param&gt;\n    /// &lt;param name=\"childAttributeName\"&gt;Name of the child attribute.&lt;/param&gt;\n    /// &lt;returns&gt;&lt;/returns&gt;\n    /// &lt;remarks&gt;\n    /// This routine is useful when namespace-resolving is not desirable or available.\n    /// &lt;/remarks&gt;\n    public static string GetLocalNameXPathQuery(string namespacePrefixOrUri, string childElementName, string childAttributeName)\n    {\n        if (string.IsNullOrEmpty(childElementName)) return null;\n\n        if (string.IsNullOrEmpty(childAttributeName))\n        {\n            return string.IsNullOrEmpty(namespacePrefixOrUri) ?\n                string.Format(\"./*[local-name()='{0}']\", childElementName)\n                :\n                string.Format(\"./*[namespace-uri()='{0}' and local-name()='{1}']\", namespacePrefixOrUri, childElementName);\n        }\n        else\n        {\n            return string.IsNullOrEmpty(namespacePrefixOrUri) ?\n                string.Format(\"./*[local-name()='{0}']/@{1}\", childElementName, childAttributeName)\n                :\n                string.Format(\"./*[namespace-uri()='{0}' and local-name()='{1}']/@{2}\", namespacePrefixOrUri, childElementName, childAttributeName);\n        }\n    }\n</code></pre>\n"
         }
       },
       {

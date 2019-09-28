@@ -1,9 +1,49 @@
 <rss version="2.0">
-  <channel><pubDate>Sun, 21 Apr 2019 03:10:30 GMT</pubDate>
+  <channel><pubDate>Sun, 22 Sep 2019 18:04:27 GMT</pubDate>
 <title>&gt;DayPath_</title>
 <description>The technical journey of @BryanWilhite.</description>
 <copyright>Bryan Wilhite, Songhay System 2019</copyright>
 <link>http://songhayblog.azurewebsites.net/</link>
+<item>
+  <title>studio status report: 2019-09</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-09</link>
+  <description>month-9 has been about actually using @songhay/player-video-you-tubeThe NPM package @songhay/player-video-you-tube is installed and compiling into the build for SonghaySystem.com.👏 (BTW: it was editorial error to mention @songhay/index for the last few ...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">studio-status-report-2019-09</guid>
+  <pubDate>Sun, 22 Sep 2019 18:03:05 GMT</pubDate>
+</item>
+<item>
+  <title>studio status report: 2019-08</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-08</link>
+  <description>month-7 was about moving the kinté space Blog into an 11ty pipeline11ty pipeline for kintespace.com Blog. I am almost certain that end-of-month-8 or early month 9 will see the re-launch of the kintespace.com Blog without WordPress! Success here will make...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">studio-status-report-2019-08</guid>
+  <pubDate>Sun, 25 Aug 2019 04:16:23 GMT</pubDate>
+</item>
+<item>
+  <title>studio status report: 2019-07</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-07</link>
+  <description>month-6 was about switching to Hyper-V, being 134% behind and 11tyMy studio notes on setting up Ubuntu on Hyper-V boil down to this:Install OS (minimal install) from *.ISO on Generation 2 VM without RemoteFX 3D Video Adapter (with Checkpoints Disabled)Co...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">studio-status-report-2019-07</guid>
+  <pubDate>Mon, 22 Jul 2019 18:54:32 GMT</pubDate>
+</item>
+<item>
+  <title>flippant remarks about DGML and Visual Studio code visualization</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/flippant-remarks-about-dgml-and-visual-studio-code-visualization</link>
+  <description>In 2008, Cameron Skinner of Microsoft wrote, “Introduction to Directed Graph Markup Language (DGML).” In the comments of this post, Chris Lovett is mentioned as an architect working on DGML and Sadi Khan as a Program Manager. Lovett developed DgmlPowerTo...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">flippant-remarks-about-dgml-and-visual-studio-code-visualization</guid>
+  <pubDate>Mon, 22 Jul 2019 18:51:53 GMT</pubDate>
+</item>
+<item>
+  <title>studio status report: 2019-06</title>
+  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-06</link>
+  <description>I missed last month 😒🤷‍️😁month-4 was all about upgrading SonghayCore 🐰🕳I have started using GitHub projects to batch issues together to mark a NuGet release. My first project, version 3.1.3 release, records the miserable but compelling details aroun...</description>
+  <author>rasx@songhaysystem.com</author>
+  <guid isPermaLink="false">studio-status-report-2019-06</guid>
+  <pubDate>Thu, 06 Jun 2019 18:35:09 GMT</pubDate>
+</item>
 <item>
   <title>studio status report: 2019-04</title>
   <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-04</link>
@@ -43,49 +83,5 @@
   <author>rasx@songhaysystem.com</author>
   <guid isPermaLink="false">studio-status-report-2019-01</guid>
   <pubDate>Mon, 28 Jan 2019 23:01:04 GMT</pubDate>
-</item>
-<item>
-  <title>“Microsoft Garage releases XAML Studio” and other tweeted links…</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/microsoft-garage-releases-xaml-studio-and-other-tweeted-links</link>
-  <description>Microsoft Garage releases XAML Studio, a new tool to help you
-            rapidly prototype UWP XAML [bit.ly] 🚀🌛 Announcing Apollo Elements: GraphQL + Web Components 👩‍🚀 👨‍🚀 With
-            support for 🔥 LitElement 👾 Hybrids 🔬 Gluon 🧱 Polyme...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">microsoft-garage-releases-xaml-studio-and-other-tweeted-links</guid>
-  <pubDate>Mon, 28 Jan 2019 22:39:20 GMT</pubDate>
-</item>
-<item>
-  <title>“Internet Explorer… Critical security flaw” and other tweeted links…</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/internet-explorer-critical-security-flaw-and-other-tweeted-links</link>
-  <description>If for whatever reason you are still using Internet Explorer (any version), STOP NOW. Critical security flaw enabling drive-by remote code execution is being actively exploited. Emergency patch is being pushed - but why not move to a better browser? [ars...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">internet-explorer-critical-security-flaw-and-other-tweeted-links</guid>
-  <pubDate>Sat, 26 Jan 2019 01:47:50 GMT</pubDate>
-</item>
-<item>
-  <title>“You asked, we answered. MSFT open sources WPF, Windows Forms and Windows UI XAML Library” and other tweeted links…</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/you-asked-we-answered-msft-open-sources-wpf-windows-forms-and-windows-ui-xaml-library-and-other-tweeted-links</link>
-  <description>You asked, we answered. MSFT open sources WPF, Windows Forms and Windows UI XAML Library [blogs.windows.com] Microsoft ❤️ OpenSource - the UI toolkits, Windows.Forms and WPF are now open source: [blogs.msdn.microsoft.com] Some big news for developers at ...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">you-asked-we-answered-msft-open-sources-wpf-windows-forms-and-windows-ui-xaml-library-and-other-tweeted-links</guid>
-  <pubDate>Mon, 21 Jan 2019 20:36:32 GMT</pubDate>
-</item>
-<item>
-  <title>“I just published ‘Implementing Search in GraphQL’"” and other tweeted links…</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/i-just-published-implementing-search-in-graphql-and-other-tweeted-links</link>
-  <description>I just published "Implementing Search in GraphQL" showing how to implement text-based searches that are both case-insensitive &amp;amp; full field!
-
-            This is a 2 part series, the next will be advanced search using Elasticsearch for things like g...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">i-just-published-implementing-search-in-graphql-and-other-tweeted-links</guid>
-  <pubDate>Thu, 17 Jan 2019 04:26:24 GMT</pubDate>
-</item>
-<item>
-  <title>“Dynamic Nested Reactive Forms In Angular” and other tweeted links…</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/dynamic-nested-reactive-forms-in-angular-and-other-tweeted-links</link>
-  <description>Dynamic Nested Reactive Forms In Angular – Josh Hicks – Medium [medium.com] How to Create Custom Angular Pipes and Dynamic Locales: [medium.com] Adjustable sidebar using Angular - @nicuvlad89[medium.com]#JavaScript#Typescript#Angular#WebDevelopment Under...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">dynamic-nested-reactive-forms-in-angular-and-other-tweeted-links</guid>
-  <pubDate>Wed, 16 Jan 2019 05:20:45 GMT</pubDate>
 </item></channel>
 </rss>

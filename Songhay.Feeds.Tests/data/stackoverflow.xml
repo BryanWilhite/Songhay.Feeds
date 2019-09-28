@@ -5,9 +5,9 @@
     <link rel="self" href="https://stackoverflow.com/feeds/user/22944" type="application/atom+xml" />
     <link rel="alternate" href="https://stackoverflow.com/users/22944" type="text/html" />
     <subtitle>most recent 30 from stackoverflow.com</subtitle>
-    <updated>2019-06-01T00:28:04Z</updated>
+    <updated>2019-09-28T21:54:14Z</updated>
     <id>https://stackoverflow.com/feeds/user/22944</id>
-    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
     <entry>
         <id>https://stackoverflow.com/q/2039887</id>
         <re:rank scheme="https://stackoverflow.com">0</re:rank>
@@ -131,7 +131,7 @@ public class ObjectValueActionResult
     </entry>
     <entry>
         <id>https://stackoverflow.com/q/3008704</id>
-        <re:rank scheme="https://stackoverflow.com">77</re:rank>
+        <re:rank scheme="https://stackoverflow.com">81</re:rank>
         <title type="text">How to determine the current version of ASP.NET MVC?</title>
             <category scheme="https://stackoverflow.com/tags" term="asp.net-mvc" />
         <author>
@@ -259,103 +259,6 @@ public class Runner
         <summary type="html">&lt;p&gt;I just tried to open a LINQPad query file that tried to load the &lt;code&gt;xunit&lt;/code&gt; &lt;a href=&quot;https://www.nuget.org/packages/xunit&quot; rel=&quot;nofollow noreferrer&quot;&gt;package&lt;/a&gt; and got an error which has never happened to me in using LINQPad for years. So my answer is &lt;em&gt;no&lt;/em&gt;.&lt;/p&gt;
 </summary>
     </entry>    <entry>
-        <id>https://stackoverflow.com/q/52214134</id>
-        <re:rank scheme="https://stackoverflow.com">0</re:rank>
-        <title type="text">an Angular NPM package out there for `nativeElement: ElementRef` [like jQuery]?</title>
-            <category scheme="https://stackoverflow.com/tags" term="angular" />
-            <category scheme="https://stackoverflow.com/tags" term="typescript" />
-            <category scheme="https://stackoverflow.com/tags" term="dom" />
-        <author>
-            <name>rasx</name>
-            <uri>https://stackoverflow.com/users/22944</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/52214134/an-angular-npm-package-out-there-for-nativeelement-elementref-like-jquery" />
-        <published>2018-09-07T01:33:48Z</published>
-        <updated>2018-09-07T01:33:48Z</updated>
-        <summary type="html">
-            
-
-            &lt;p&gt;I am very tempted to re-factor the following &lt;code&gt;nativeElement&lt;/code&gt; handling in &lt;code&gt;ngAfterViewInit&lt;/code&gt; into a little Typescript class of static methods:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;export class AnimationBuilderComponent implements AfterViewInit {
-    @ViewChild(&#39;photos&#39;) photosContainer: ElementRef;
-
-    constructor(private animationBuilder: AnimationBuilder) {}
-
-    ngAfterViewInit(): void {
-        const div = this.photosContainer.nativeElement as HTMLDivElement;
-        if (!div) {
-            console.warn(&#39;the expected div element is not here&#39;);
-            return;
-        }
-        const children = Array.from(div.children);
-        if (!children) {
-            console.warn(&#39;the expected div element children are not here&#39;);
-            return;
-        }
-        if (!children.length) {
-            console.warn(
-                &#39;the expected number of div element children is not here&#39;
-            );
-            return;
-        }
-        children.forEach(el =&amp;gt; {
-            if (el.nodeName !== &#39;img&#39;.toUpperCase()) {
-                return;
-            }
-            console.log(el.clientWidth);
-        });
-    }
-
-    animate(): void {
-        console.log(&#39;animate!&#39;);
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Before I scurry off and do this, is there a NPM package out there that already does this? Effectively, I am looking for a tiny equivalent of jQuery that is aware of &lt;code&gt;ElementRef&lt;/code&gt;.&lt;/p&gt;
-
-        </summary>
-    </entry>
-    <entry>
-        <id>https://stackoverflow.com/q/52050067</id>
-        <re:rank scheme="https://stackoverflow.com">0</re:rank>
-        <title type="text">Does MSTEST on .NET Core support more --logger format than just TRX?</title>
-            <category scheme="https://stackoverflow.com/tags" term="visual-studio-code" />
-            <category scheme="https://stackoverflow.com/tags" term=".net-core" />
-            <category scheme="https://stackoverflow.com/tags" term="mstest" />
-        <author>
-            <name>rasx</name>
-            <uri>https://stackoverflow.com/users/22944</uri>
-        </author>
-        <link rel="alternate" href="https://stackoverflow.com/questions/52050067/does-mstest-on-net-core-support-more-logger-format-than-just-trx" />
-        <published>2018-08-28T04:24:27Z</published>
-        <updated>2018-08-28T04:24:27Z</updated>
-        <summary type="html">
-            
-
-            &lt;p&gt;In Visual Studio Code, my test task uses the TRX logger:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{
-    &quot;label&quot;: &quot;test [Songhay.Feeds.Tests]&quot;,
-    &quot;command&quot;: &quot;dotnet&quot;,
-    &quot;type&quot;: &quot;shell&quot;,
-    &quot;args&quot;: [
-        &quot;test&quot;,
-        &quot;${workspaceFolder}/Songhay.Feeds.Tests/Songhay.Feeds.Tests.csproj&quot;
-        &quot;--logger:trx&quot;,
-        &quot;--results-directory:${workspaceFolder}/TestResults&quot;,
-        &quot;--verbosity:normal&quot;
-    ],
-    &quot;problemMatcher&quot;: &quot;$msCompile&quot;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;where &lt;code&gt;--logger&lt;/code&gt; &lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-test?tabs=netcore21#options&quot; rel=&quot;nofollow noreferrer&quot;&gt;is documented&lt;/a&gt; but no list of logger formats (for MSTEST) can be listed here and &lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest&quot; rel=&quot;nofollow noreferrer&quot;&gt;when MSTEST is covered in the docs&lt;/a&gt;, there is no mention of loggers. Is TRX the only logger for MSTEST on .NET Core? (And, BTW, is there a TRX viewer in the works for VSCode?)&lt;/p&gt;
-
-        </summary>
-    </entry>
-    <entry>
         <id>https://stackoverflow.com/q/51563534</id>
         <re:rank scheme="https://stackoverflow.com">0</re:rank>
         <title type="text">is it possible to write CSS for all Angular &quot;hosts&quot; or do we have to select each host individually</title>
@@ -850,7 +753,7 @@ at mergeOptions (http://localhost:9876/_karma_webpack_/webpack:/../angular.io-in
     </entry>
     <entry>
         <id>https://stackoverflow.com/questions/24386657/-/43596663#43596663</id>
-        <re:rank scheme="https://stackoverflow.com">14</re:rank>
+        <re:rank scheme="https://stackoverflow.com">16</re:rank>
         <title type="text">Answer by rasx for How to add a &quot;open git-bash here...&quot; context menu to the windows explorer?</title>
         <author>
             <name>rasx</name>
@@ -1467,6 +1370,95 @@ public HttpResponseMessage ReadRaw(HttpRequestMessage rawRequest)
         </summary>
     </entry>
     <entry>
+        <id>https://stackoverflow.com/questions/34010328/-/34028520#34028520</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by rasx for Is this still the right way to read raw XML with ApiController?</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/34010328/is-this-still-the-right-way-to-read-raw-xml-with-apicontroller/34028520#34028520" />
+        <published>2015-12-01T19:29:50Z</published>
+        <updated>2015-12-01T20:28:27Z</updated>
+        <summary type="html">&lt;p&gt;Consider &lt;a href=&quot;http://bizcoder.com/posting-raw-json-to-web-api&quot; rel=&quot;nofollow&quot;&gt;this article from Microsoft evangelist Darrel Miller&lt;/a&gt;. He shows us that a combination of &lt;code&gt;[FromBody]&lt;/code&gt; and &lt;code&gt;XElement&lt;/code&gt; is the way to go:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[HttpPost]
+[Route(&quot;raw&quot;)]
+public IHttpActionResult ReadRaw([FromBody]XElement rootElement)
+{
+    var requestDocument = new XDocument(rootElement);
+    var request = MyDBContext.GetStuffStaticMethod(requestDocument);
+    var responseDocument = request.GetResponseDocument(this._context);
+    return this.Ok&amp;lt;XElement&amp;gt;(responseDocument.Root);
+}
+&lt;/code&gt;&lt;/pre&gt;
+</summary>
+    </entry>    <entry>
+        <id>https://stackoverflow.com/questions/2524804/-/33792337#33792337</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by rasx for How do I use XPath with a default namespace with no prefix?</title>
+        <author>
+            <name>rasx</name>
+            <uri>https://stackoverflow.com/users/22944</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/2524804/how-do-i-use-xpath-with-a-default-namespace-with-no-prefix/33792337#33792337" />
+        <published>2015-11-18T23:13:56Z</published>
+        <updated>2015-11-18T23:13:56Z</updated>
+        <summary type="html">&lt;p&gt;I like @mads-hansen, his answer, so well that I wrote these general-purpose utility-class members:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    /// &amp;lt;summary&amp;gt;
+    /// Gets the &amp;lt;see cref=&quot;XNode&quot; /&amp;gt; into a &amp;lt;c&amp;gt;local-name()&amp;lt;/c&amp;gt;, XPath-predicate query.
+    /// &amp;lt;/summary&amp;gt;
+    /// &amp;lt;param name=&quot;childElementName&quot;&amp;gt;Name of the child element.&amp;lt;/param&amp;gt;
+    /// &amp;lt;returns&amp;gt;&amp;lt;/returns&amp;gt;
+    public static string GetLocalNameXPathQuery(string childElementName)
+    {
+        return GetLocalNameXPathQuery(namespacePrefixOrUri: null, childElementName: childElementName, childAttributeName: null);
+    }
+
+    /// &amp;lt;summary&amp;gt;
+    /// Gets the &amp;lt;see cref=&quot;XNode&quot; /&amp;gt; into a &amp;lt;c&amp;gt;local-name()&amp;lt;/c&amp;gt;, XPath-predicate query.
+    /// &amp;lt;/summary&amp;gt;
+    /// &amp;lt;param name=&quot;namespacePrefixOrUri&quot;&amp;gt;The namespace prefix or URI.&amp;lt;/param&amp;gt;
+    /// &amp;lt;param name=&quot;childElementName&quot;&amp;gt;Name of the child element.&amp;lt;/param&amp;gt;
+    /// &amp;lt;returns&amp;gt;&amp;lt;/returns&amp;gt;
+    public static string GetLocalNameXPathQuery(string namespacePrefixOrUri, string childElementName)
+    {
+        return GetLocalNameXPathQuery(namespacePrefixOrUri, childElementName, childAttributeName: null);
+    }
+
+    /// &amp;lt;summary&amp;gt;
+    /// Gets the &amp;lt;see cref=&quot;XNode&quot; /&amp;gt; into a &amp;lt;c&amp;gt;local-name()&amp;lt;/c&amp;gt;, XPath-predicate query.
+    /// &amp;lt;/summary&amp;gt;
+    /// &amp;lt;param name=&quot;namespacePrefixOrUri&quot;&amp;gt;The namespace prefix or URI.&amp;lt;/param&amp;gt;
+    /// &amp;lt;param name=&quot;childElementName&quot;&amp;gt;Name of the child element.&amp;lt;/param&amp;gt;
+    /// &amp;lt;param name=&quot;childAttributeName&quot;&amp;gt;Name of the child attribute.&amp;lt;/param&amp;gt;
+    /// &amp;lt;returns&amp;gt;&amp;lt;/returns&amp;gt;
+    /// &amp;lt;remarks&amp;gt;
+    /// This routine is useful when namespace-resolving is not desirable or available.
+    /// &amp;lt;/remarks&amp;gt;
+    public static string GetLocalNameXPathQuery(string namespacePrefixOrUri, string childElementName, string childAttributeName)
+    {
+        if (string.IsNullOrEmpty(childElementName)) return null;
+
+        if (string.IsNullOrEmpty(childAttributeName))
+        {
+            return string.IsNullOrEmpty(namespacePrefixOrUri) ?
+                string.Format(&quot;./*[local-name()=&#39;{0}&#39;]&quot;, childElementName)
+                :
+                string.Format(&quot;./*[namespace-uri()=&#39;{0}&#39; and local-name()=&#39;{1}&#39;]&quot;, namespacePrefixOrUri, childElementName);
+        }
+        else
+        {
+            return string.IsNullOrEmpty(namespacePrefixOrUri) ?
+                string.Format(&quot;./*[local-name()=&#39;{0}&#39;]/@{1}&quot;, childElementName, childAttributeName)
+                :
+                string.Format(&quot;./*[namespace-uri()=&#39;{0}&#39; and local-name()=&#39;{1}&#39;]/@{2}&quot;, namespacePrefixOrUri, childElementName, childAttributeName);
+        }
+    }
+&lt;/code&gt;&lt;/pre&gt;
+</summary>
+    </entry>    <entry>
         <id>https://stackoverflow.com/questions/52883672/nunitelite-3-11-0-throwing-null-reference-exception-with-autorun-in-linqpad?cid=92705141</id>
         <title type="text">Comment by rasx on NUniteLite 3.11.0 throwing Null Reference Exception with AutoRun in LINQpad</title>
         <author>

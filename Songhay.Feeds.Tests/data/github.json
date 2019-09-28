@@ -17,24 +17,23 @@
       }
     ],
     "title": "BryanWilhite’s Activity",
-    "updated": "2019-06-01T00:16:25Z",
+    "updated": "2019-09-28T21:44:17Z",
     "entry": [
       {
-        "id": "tag:github.com,2008:IssuesEvent/9738343190",
-        "published": "2019-06-01T00:16:25Z",
-        "updated": "2019-06-01T00:16:25Z",
+        "id": "tag:github.com,2008:PushEvent/10516971659",
+        "published": "2019-09-28T21:44:17Z",
+        "updated": "2019-09-28T21:44:17Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/Songhay.Feeds/issues/15"
+          "@href": "https://github.com/BryanWilhite/Songhay.Affiliates/compare/94f37f6349...f4378b36e5"
         },
         "title": {
           "@type": "html",
-          "#text": "BryanWilhite reopened an issue in BryanWilhite/Songhay.Feeds"
+          "#text": "BryanWilhite pushed to master in BryanWilhite/Songhay.Affiliates"
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -44,25 +43,24 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"issues_reopened\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            reopened\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Songhay.Feeds\" rel=\"noreferrer\">BryanWilhite/Songhay.Feeds</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-06-01T00:16:25Z\">Jun 1, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-reopened open d-inline-block mt-1 float-left\" viewBox=\"0 0 14 16\" version=\"1.1\" width=\"14\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M8 9H6V4h2v5zm-2 3h2v-2H6v2zm6.33-2H10l1.5 1.5c-1.05 1.33-2.67 2.2-4.5 2.2A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7 2.19 0 4.13-1.02 5.41-2.59L14 14v-4h-1.67zM1.67 6H4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7 0 .34-.03.67-.09 1h1.31c.05-.33.08-.66.08-1 0-3.86-3.14-7-7-7-2.19 0-4.13 1.02-5.41 2.59L0 2v4h1.67z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"ERROR: cannot find codepen XML file\" class=\"text-gray-dark\" aria-label=\"ERROR: cannot find codepen XML file\" href=\"/BryanWilhite/Songhay.Feeds/issues/15\" rel=\"noreferrer\">ERROR: cannot find codepen XML file</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#15</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p><span class=\"pl-c1\">[05/31/2019 13:24:44 &gt; 270fc7: SYS INFO] Status changed to Initializing</span>\n<span class=\"pl-c1\">[05/31/2019 13:24:44 &gt; 270fc7: SYS INFO] Run script 'run.ps1' with script h…</span></p>\n          </div>\n\n          <div class=\"f6 text-gray mt-1\">\n            3 comments\n          </div>\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/Songhay.Affiliates/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Songhay.Affiliates\" rel=\"noreferrer\">BryanWilhite/Songhay.Affiliates</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-09-28T21:44:17Z\">Sep 28, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/Songhay.Affiliates/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/Songhay.Affiliates/commit/f4378b36e57d01b0a1f40b08b315ca708d3f8d28\" rel=\"noreferrer\">f4378b3</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"package\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png\">📦</g-emoji> <g-emoji class=\"g-emoji\" alias=\"arrow_up\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2b06.png\">⬆️</g-emoji> <g-emoji class=\"g-emoji\" alias=\"umbrella\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2614.png\">☔️</g-emoji>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:IssueCommentEvent/9738343181",
-        "published": "2019-06-01T00:16:25Z",
-        "updated": "2019-06-01T00:16:25Z",
+        "id": "tag:github.com,2008:IssuesEvent/10514343048",
+        "published": "2019-09-28T00:04:18Z",
+        "updated": "2019-09-28T00:04:18Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/Songhay.Feeds/issues/15#issuecomment-497895442"
+          "@href": "https://github.com/BryanWilhite/Blog/issues/13"
         },
         "title": {
           "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/Songhay.Feeds#15"
+          "#text": "BryanWilhite opened an issue in BryanWilhite/Blog"
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -72,25 +70,24 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"ERROR: cannot find codepen XML file\" href=\"/BryanWilhite/Songhay.Feeds/issues/15#issuecomment-497895442\" rel=\"noreferrer\">BryanWilhite/Songhay.Feeds#15</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-06-01T00:16:25Z\">Jun 1, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"ERROR: cannot find codepen XML file\" class=\"link-gray\" href=\"/BryanWilhite/Songhay.Feeds/issues/15#issuecomment-497895442\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-06-01T00:16:25Z\">Jun 1, 2019</relative-time></a>\n      </div>\n        <p><g-emoji class=\"g-emoji\" alias=\"roll_eyes\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f644.png\">🙄</g-emoji>\n<span class=\"pl-c1\">[06/01/2019 00:14:43 &gt; 270fc7: SYS INFO] Status changed to Initializing</span>\n<span class=\"pl-c1\">[06/01/2019 00:14:43 &gt; 270fc7: SYS INFO] Job directory change detected: J…</span></p>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"issues_opened\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            opened\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Blog\" rel=\"noreferrer\">BryanWilhite/Blog</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-09-28T00:04:18Z\">Sep 28, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-opened open d-inline-block mt-1 float-left\" viewBox=\"0 0 14 16\" version=\"1.1\" width=\"14\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"migrate existing entries (in AzStorage) to `presentation/` image\" class=\"text-gray-dark\" aria-label=\"migrate existing entries (in AzStorage) to `presentation/` image\" href=\"/BryanWilhite/Blog/issues/13\" rel=\"noreferrer\">migrate existing entries (in AzStorage) to `presentation/` image</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#13</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/5226627/65808405-d6412800-e148-11e9-8871-7d14e33d0bbc.png\"></a></p>\n          </div>\n\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:PushEvent/9738323640",
-        "published": "2019-06-01T00:08:09Z",
-        "updated": "2019-06-01T00:08:09Z",
+        "id": "tag:github.com,2008:PushEvent/10514322617",
+        "published": "2019-09-27T23:57:47Z",
+        "updated": "2019-09-27T23:57:47Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/Songhay.Feeds/compare/5d18692915...5abaf750a9"
+          "@href": "https://github.com/BryanWilhite/Blog/compare/bb289ab637...6eb933f357"
         },
         "title": {
           "@type": "html",
-          "#text": "BryanWilhite pushed to master in BryanWilhite/Songhay.Feeds"
+          "#text": "BryanWilhite pushed to master in BryanWilhite/Blog"
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -100,25 +97,24 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/Songhay.Feeds/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Songhay.Feeds\" rel=\"noreferrer\">BryanWilhite/Songhay.Feeds</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-06-01T00:08:09Z\">Jun 1, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/Songhay.Feeds/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/Songhay.Feeds/commit/5abaf750a946bd6cbc396fe46c47460e3cd9d218\" rel=\"noreferrer\">5abaf75</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"hammer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f528.png\">🔨</g-emoji> <span class=\"issue-keyword tooltipped tooltipped-se\" aria-label=\"This commit closes issue #15.\">resolves</span> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"450827108\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/Songhay.Feeds/issues/15\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/Songhay.Feeds/issues/15/hovercard\" href=\"https://github.com/BryanWilhite/Songhay.Feeds/issues/15\" rel=\"noreferrer\">#15</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/Blog/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Blog\" rel=\"noreferrer\">BryanWilhite/Blog</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-09-27T23:57:47Z\">Sep 27, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>2 commits to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/Blog/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/Blog/commit/6eb933f357c93d340a3be44245e222aad73e3a64\" rel=\"noreferrer\">6eb933f</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"umbrella\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2614.png\">☔️</g-emoji> <span class=\"issue-keyword tooltipped tooltipped-se\" aria-label=\"This commit closes issue #8.\">resolves</span> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"499592082\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/Blog/issues/8\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/Blog/issues/8/hovercard\" href=\"https://github.com/BryanWilhite/Blog/issues/8\" rel=\"noreferrer\">#8</a>\n                    </blockquote>\n                  </div>\n                </li>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/Blog/commit/ee7ea159dabc91923f5e68c7dda3cc403f10c514\" rel=\"noreferrer\">ee7ea15</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"tractor\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f69c.png\">🚜</g-emoji> copied drafts <g-emoji class=\"g-emoji\" alias=\"hammer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f528.png\">🔨</g-emoji>, issue <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"499592082\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/Blog/issues/8\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/Blog/issues/8/hovercard\" href=\"https://github.com/BryanWilhite/Blog/issues/8\" rel=\"noreferrer\">#8</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:IssuesEvent/9738323631",
-        "published": "2019-06-01T00:08:08Z",
-        "updated": "2019-06-01T00:08:08Z",
+        "id": "tag:github.com,2008:IssuesEvent/10514322595",
+        "published": "2019-09-27T23:57:46Z",
+        "updated": "2019-09-27T23:57:46Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/Songhay.Feeds/issues/15"
+          "@href": "https://github.com/BryanWilhite/Blog/issues/8"
         },
         "title": {
           "@type": "html",
-          "#text": "BryanWilhite closed an issue in BryanWilhite/Songhay.Feeds"
+          "#text": "BryanWilhite closed an issue in BryanWilhite/Blog"
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -128,25 +124,24 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"issues_closed\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            closed\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Songhay.Feeds\" rel=\"noreferrer\">BryanWilhite/Songhay.Feeds</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-06-01T00:08:08Z\">Jun 1, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-closed closed d-inline-block mt-1 float-left\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"ERROR: cannot find codepen XML file\" class=\"text-gray-dark\" aria-label=\"ERROR: cannot find codepen XML file\" href=\"/BryanWilhite/Songhay.Feeds/issues/15\" rel=\"noreferrer\">ERROR: cannot find codepen XML file</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#15</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p><span class=\"pl-c1\">[05/31/2019 13:24:44 &gt; 270fc7: SYS INFO] Status changed to Initializing</span>\n<span class=\"pl-c1\">[05/31/2019 13:24:44 &gt; 270fc7: SYS INFO] Run script 'run.ps1' with script h…</span></p>\n          </div>\n\n          <div class=\"f6 text-gray mt-1\">\n            2 comments\n          </div>\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"issues_closed\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            closed\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Blog\" rel=\"noreferrer\">BryanWilhite/Blog</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-09-27T23:57:46Z\">Sep 27, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-closed closed d-inline-block mt-1 float-left\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"migrate existing entries (in repo) to `presentation/` image\" class=\"text-gray-dark\" aria-label=\"migrate existing entries (in repo) to `presentation/` image\" href=\"/BryanWilhite/Blog/issues/8\" rel=\"noreferrer\">migrate existing entries (in repo) to `presentation/` image</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#8</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/5226627/65793824-96b01700-e11b-11e9-9935-439df3577fb8.png\"></a></p>\n          </div>\n\n          <div class=\"f6 text-gray mt-1\">\n            2 comments\n          </div>\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:IssueCommentEvent/9738286328",
-        "published": "2019-05-31T23:53:31Z",
-        "updated": "2019-05-31T23:53:31Z",
+        "id": "tag:github.com,2008:PushEvent/10514032804",
+        "published": "2019-09-27T22:32:08Z",
+        "updated": "2019-09-27T22:32:08Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/Songhay.Feeds/issues/15#issuecomment-497892595"
+          "@href": "https://github.com/BryanWilhite/Blog/compare/1ec2325c87...bb289ab637"
         },
         "title": {
           "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/Songhay.Feeds#15"
+          "#text": "BryanWilhite pushed to master in BryanWilhite/Blog"
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -156,25 +151,24 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"ERROR: cannot find codepen XML file\" href=\"/BryanWilhite/Songhay.Feeds/issues/15#issuecomment-497892595\" rel=\"noreferrer\">BryanWilhite/Songhay.Feeds#15</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-31T23:53:31Z\">May 31, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"ERROR: cannot find codepen XML file\" class=\"link-gray\" href=\"/BryanWilhite/Songhay.Feeds/issues/15#issuecomment-497892595\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-31T23:53:31Z\">May 31, 2019</relative-time></a>\n      </div>\n        <p>error after last commit:\n<span class=\"pl-c1\">[05/31/2019 23:47:35 &gt; 270fc7: SYS INFO] Status changed to Initializing</span>\n<span class=\"pl-c1\">[05/31/2019 23:47:35 &gt; 270fc7: SYS INFO] Job direc…</span></p>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/Blog/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Blog\" rel=\"noreferrer\">BryanWilhite/Blog</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-09-27T22:32:08Z\">Sep 27, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/Blog/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/Blog/commit/bb289ab6377f28f559f7c0e1906b3113e9143568\" rel=\"noreferrer\">bb289ab</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"microscope\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f52c.png\">🔬</g-emoji> <g-emoji class=\"g-emoji\" alias=\"tractor\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f69c.png\">🚜</g-emoji> issue <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"499592082\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/Blog/issues/8\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/Blog/issues/8/hovercard\" href=\"https://github.com/BryanWilhite/Blog/issues/8\" rel=\"noreferrer\">#8</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:PushEvent/9738283649",
-        "published": "2019-05-31T23:52:26Z",
-        "updated": "2019-05-31T23:52:26Z",
+        "id": "tag:github.com,2008:IssueCommentEvent/10513886779",
+        "published": "2019-09-27T21:58:51Z",
+        "updated": "2019-09-27T21:58:51Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/Songhay.Feeds/compare/ccc096b0f1...5d18692915"
+          "@href": "https://github.com/BryanWilhite/Blog/issues/8#issuecomment-536109602"
         },
         "title": {
           "@type": "html",
-          "#text": "BryanWilhite pushed to master in BryanWilhite/Songhay.Feeds"
+          "#text": "BryanWilhite commented on issue BryanWilhite/Blog#8"
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -184,25 +178,24 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/Songhay.Feeds/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Songhay.Feeds\" rel=\"noreferrer\">BryanWilhite/Songhay.Feeds</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-05-31T23:52:26Z\">May 31, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/Songhay.Feeds/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/Songhay.Feeds/commit/5d186929157419274e757634f963be3b466db894\" rel=\"noreferrer\">5d18692</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"pencil2\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/270f.png\">✏️</g-emoji> <g-emoji class=\"g-emoji\" alias=\"snowflake\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2744.png\">❄️</g-emoji> issue <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"450827108\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/Songhay.Feeds/issues/15\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/Songhay.Feeds/issues/15/hovercard\" href=\"https://github.com/BryanWilhite/Songhay.Feeds/issues/15\" rel=\"noreferrer\">#15</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"migrate existing entries to presentation image\" href=\"/BryanWilhite/Blog/issues/8#issuecomment-536109602\" rel=\"noreferrer\">BryanWilhite/Blog#8</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-09-27T21:58:51Z\">Sep 27, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"migrate existing entries to presentation image\" class=\"link-gray\" href=\"/BryanWilhite/Blog/issues/8#issuecomment-536109602\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-09-27T21:58:51Z\">Sep 27, 2019</relative-time></a>\n      </div>\n        <p><span class=\"pl-c1\">----- Test Execution Summary -----</span> <span class=\"pl-c1\">Songhay.Publications.Tests.LegacyMigrationTests.ShouldMigrateLegacy:</span>\n<span class=\"pl-c1\"> Outcome: Passed</span>\n<span class=\"pl-c1\"> Standard Output Messages:</span>\n<span class=\"pl-c1\"> …</span></p>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:IssueCommentEvent/9738264679",
-        "published": "2019-05-31T23:45:06Z",
-        "updated": "2019-05-31T23:45:06Z",
+        "id": "tag:github.com,2008:PushEvent/10513862602",
+        "published": "2019-09-27T21:53:33Z",
+        "updated": "2019-09-27T21:53:33Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/Songhay.Feeds/issues/15#issuecomment-497891463"
+          "@href": "https://github.com/BryanWilhite/Blog/compare/31d955d784...1ec2325c87"
         },
         "title": {
           "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/Songhay.Feeds#15"
+          "#text": "BryanWilhite pushed to master in BryanWilhite/Blog"
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -212,17 +205,341 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"ERROR: cannot find codepen XML file\" href=\"/BryanWilhite/Songhay.Feeds/issues/15#issuecomment-497891463\" rel=\"noreferrer\">BryanWilhite/Songhay.Feeds#15</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-31T23:45:06Z\">May 31, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"ERROR: cannot find codepen XML file\" class=\"link-gray\" href=\"/BryanWilhite/Songhay.Feeds/issues/15#issuecomment-497891463\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-31T23:45:06Z\">May 31, 2019</relative-time></a>\n      </div>\n        <p>related issue: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"379043460\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/Songhay.Dashboard/issues/43\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/Songhay.Dashboard/issues/43/hovercard\" href=\"https://github.com/BryanWilhite/Songhay.Dashboard/issues/43\" rel=\"noreferrer\">BryanWilhite/Songhay.Dashboard#43</a></p>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/Blog/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Blog\" rel=\"noreferrer\">BryanWilhite/Blog</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-09-27T21:53:33Z\">Sep 27, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/Blog/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/Blog/commit/1ec2325c87e03f91eabf0fc4f37b7433083f8d98\" rel=\"noreferrer\">1ec2325</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"microscope\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f52c.png\">🔬</g-emoji> added ShouldMigrateLegacy, issue <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"499592082\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/Blog/issues/8\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/Blog/issues/8/hovercard\" href=\"https://github.com/BryanWilhite/Blog/issues/8\" rel=\"noreferrer\">#8</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:PushEvent/9738252163",
-        "published": "2019-05-31T23:40:27Z",
-        "updated": "2019-05-31T23:40:27Z",
+        "id": "tag:github.com,2008:IssueCommentEvent/10513857578",
+        "published": "2019-09-27T21:52:23Z",
+        "updated": "2019-09-27T21:52:23Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/Songhay.Dashboard/compare/3a167b5cae...7df175f0a9"
+          "@href": "https://github.com/BryanWilhite/Blog/issues/8#issuecomment-536108079"
+        },
+        "title": {
+          "@type": "html",
+          "#text": "BryanWilhite commented on issue BryanWilhite/Blog#8"
+        },
+        "author": {
+          "name": "BryanWilhite",
+          "uri": "https://github.com/BryanWilhite"
+        },
+        "media:thumbnail": {
+          "@height": "30",
+          "@width": "30",
+          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
+        },
+        "content": {
+          "@type": "html",
+          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"migrate existing entries to presentation image\" href=\"/BryanWilhite/Blog/issues/8#issuecomment-536108079\" rel=\"noreferrer\">BryanWilhite/Blog#8</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-09-27T21:52:23Z\">Sep 27, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"migrate existing entries to presentation image\" class=\"link-gray\" href=\"/BryanWilhite/Blog/issues/8#issuecomment-536108079\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-09-27T21:52:23Z\">Sep 27, 2019</relative-time></a>\n      </div>\n        <p><span class=\"pl-c1\">----- Test Execution Summary -----</span> <span class=\"pl-c1\">Songhay.Publications.Tests.LegacyMigrationTests.ShouldMigrateLegacy:</span>\n<span class=\"pl-c1\"> Outcome: Passed</span>\n<span class=\"pl-c1\"> Standard Output Messages:</span>\n<span class=\"pl-c1\"> …</span></p>\n    </div>\n  </div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "id": "tag:github.com,2008:PushEvent/10513128825",
+        "published": "2019-09-27T19:44:05Z",
+        "updated": "2019-09-27T19:44:05Z",
+        "link": {
+          "@type": "text/html",
+          "@rel": "alternate",
+          "@href": "https://github.com/BryanWilhite/Blog/compare/2826cb8ae7...31d955d784"
+        },
+        "title": {
+          "@type": "html",
+          "#text": "BryanWilhite pushed to master in BryanWilhite/Blog"
+        },
+        "author": {
+          "name": "BryanWilhite",
+          "uri": "https://github.com/BryanWilhite"
+        },
+        "media:thumbnail": {
+          "@height": "30",
+          "@width": "30",
+          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
+        },
+        "content": {
+          "@type": "html",
+          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/Blog/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Blog\" rel=\"noreferrer\">BryanWilhite/Blog</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-09-27T19:44:05Z\">Sep 27, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/Blog/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/Blog/commit/31d955d78470511874c012ababd6141ae183285a\" rel=\"noreferrer\">31d955d</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"tractor\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f69c.png\">🚜</g-emoji> <g-emoji class=\"g-emoji\" alias=\"truck\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f69a.png\">🚚</g-emoji> <span class=\"issue-keyword tooltipped tooltipped-se\" aria-label=\"This commit closes issue #9.\">resolves</span> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"499597167\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/Blog/issues/9\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/Blog/issues/9/hovercard\" href=\"https://github.com/BryanWilhite/Blog/issues/9\" rel=\"noreferrer\">#9</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "id": "tag:github.com,2008:IssuesEvent/10513128798",
+        "published": "2019-09-27T19:44:05Z",
+        "updated": "2019-09-27T19:44:05Z",
+        "link": {
+          "@type": "text/html",
+          "@rel": "alternate",
+          "@href": "https://github.com/BryanWilhite/Blog/issues/9"
+        },
+        "title": {
+          "@type": "html",
+          "#text": "BryanWilhite closed an issue in BryanWilhite/Blog"
+        },
+        "author": {
+          "name": "BryanWilhite",
+          "uri": "https://github.com/BryanWilhite"
+        },
+        "media:thumbnail": {
+          "@height": "30",
+          "@width": "30",
+          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
+        },
+        "content": {
+          "@type": "html",
+          "#text": "<div class=\"issues_closed\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            closed\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Blog\" rel=\"noreferrer\">BryanWilhite/Blog</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-09-27T19:44:05Z\">Sep 27, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-closed closed d-inline-block mt-1 float-left\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"build 11ty pipeline, based on `the-rasx-context`\" class=\"text-gray-dark\" aria-label=\"build 11ty pipeline, based on `the-rasx-context`\" href=\"/BryanWilhite/Blog/issues/9\" rel=\"noreferrer\">build 11ty pipeline, based on `the-rasx-context`</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#9</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/5226627/65794581-4b970380-e11d-11e9-9a33-3fcaa058bf08.png\"></a></p>\n          </div>\n\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "id": "tag:github.com,2008:IssuesEvent/10512906975",
+        "published": "2019-09-27T19:07:47Z",
+        "updated": "2019-09-27T19:07:47Z",
+        "link": {
+          "@type": "text/html",
+          "@rel": "alternate",
+          "@href": "https://github.com/BryanWilhite/Blog/issues/12"
+        },
+        "title": {
+          "@type": "html",
+          "#text": "BryanWilhite opened an issue in BryanWilhite/Blog"
+        },
+        "author": {
+          "name": "BryanWilhite",
+          "uri": "https://github.com/BryanWilhite"
+        },
+        "media:thumbnail": {
+          "@height": "30",
+          "@width": "30",
+          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
+        },
+        "content": {
+          "@type": "html",
+          "#text": "<div class=\"issues_opened\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            opened\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Blog\" rel=\"noreferrer\">BryanWilhite/Blog</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-09-27T19:07:47Z\">Sep 27, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-opened open d-inline-block mt-1 float-left\" viewBox=\"0 0 14 16\" version=\"1.1\" width=\"14\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"setup `songhay-index-day-path-blog` repo\" class=\"text-gray-dark\" aria-label=\"setup `songhay-index-day-path-blog` repo\" href=\"/BryanWilhite/Blog/issues/12\" rel=\"noreferrer\">setup `songhay-index-day-path-blog` repo</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#12</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p>this issue will explore the first time use of <a href=\"https://www.npmjs.com/package/@songhay/index\" rel=\"nofollow noreferrer\">https://www.npmjs.com/package/@songhay/index</a> applied to Day Path Blog\nwill <a href=\"https://lunrjs.com/\" rel=\"nofollow noreferrer\">lunr</a> be of use here and wi…</p>\n          </div>\n\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "id": "tag:github.com,2008:IssuesEvent/10512854284",
+        "published": "2019-09-27T18:59:30Z",
+        "updated": "2019-09-27T18:59:30Z",
+        "link": {
+          "@type": "text/html",
+          "@rel": "alternate",
+          "@href": "https://github.com/BryanWilhite/Blog/issues/11"
+        },
+        "title": {
+          "@type": "html",
+          "#text": "BryanWilhite opened an issue in BryanWilhite/Blog"
+        },
+        "author": {
+          "name": "BryanWilhite",
+          "uri": "https://github.com/BryanWilhite"
+        },
+        "media:thumbnail": {
+          "@height": "30",
+          "@width": "30",
+          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
+        },
+        "content": {
+          "@type": "html",
+          "#text": "<div class=\"issues_opened\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            opened\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Blog\" rel=\"noreferrer\">BryanWilhite/Blog</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-09-27T18:59:30Z\">Sep 27, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-opened open d-inline-block mt-1 float-left\" viewBox=\"0 0 14 16\" version=\"1.1\" width=\"14\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"setup `day-path-blog` repo\" class=\"text-gray-dark\" aria-label=\"setup `day-path-blog` repo\" href=\"/BryanWilhite/Blog/issues/11\" rel=\"noreferrer\">setup `day-path-blog` repo</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#11</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p>the 11ty output from <a href=\"https://github.com/BryanWilhite/Blog\" rel=\"noreferrer\">https://github.com/BryanWilhite/Blog</a> will point to this new repo</p>\n          </div>\n\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "id": "tag:github.com,2008:IssuesEvent/10512834768",
+        "published": "2019-09-27T18:56:26Z",
+        "updated": "2019-09-27T18:56:26Z",
+        "link": {
+          "@type": "text/html",
+          "@rel": "alternate",
+          "@href": "https://github.com/BryanWilhite/Blog/issues/10"
+        },
+        "title": {
+          "@type": "html",
+          "#text": "BryanWilhite opened an issue in BryanWilhite/Blog"
+        },
+        "author": {
+          "name": "BryanWilhite",
+          "uri": "https://github.com/BryanWilhite"
+        },
+        "media:thumbnail": {
+          "@height": "30",
+          "@width": "30",
+          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
+        },
+        "content": {
+          "@type": "html",
+          "#text": "<div class=\"issues_opened\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            opened\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Blog\" rel=\"noreferrer\">BryanWilhite/Blog</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-09-27T18:56:26Z\">Sep 27, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-opened open d-inline-block mt-1 float-left\" viewBox=\"0 0 14 16\" version=\"1.1\" width=\"14\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"migrate layouts and CSS over from `Songhay.Blog`\" class=\"text-gray-dark\" aria-label=\"migrate layouts and CSS over from `Songhay.Blog`\" href=\"/BryanWilhite/Blog/issues/10\" rel=\"noreferrer\">migrate layouts and CSS over from `Songhay.Blog`</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#10</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p><a href=\"https://github.com/BryanWilhite/Blog\" rel=\"noreferrer\">https://github.com/BryanWilhite/Blog</a></p>\n          </div>\n\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "id": "tag:github.com,2008:IssuesEvent/10512805751",
+        "published": "2019-09-27T18:51:56Z",
+        "updated": "2019-09-27T18:51:56Z",
+        "link": {
+          "@type": "text/html",
+          "@rel": "alternate",
+          "@href": "https://github.com/BryanWilhite/Blog/issues/9"
+        },
+        "title": {
+          "@type": "html",
+          "#text": "BryanWilhite opened an issue in BryanWilhite/Blog"
+        },
+        "author": {
+          "name": "BryanWilhite",
+          "uri": "https://github.com/BryanWilhite"
+        },
+        "media:thumbnail": {
+          "@height": "30",
+          "@width": "30",
+          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
+        },
+        "content": {
+          "@type": "html",
+          "#text": "<div class=\"issues_opened\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            opened\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Blog\" rel=\"noreferrer\">BryanWilhite/Blog</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-09-27T18:51:56Z\">Sep 27, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-opened open d-inline-block mt-1 float-left\" viewBox=\"0 0 14 16\" version=\"1.1\" width=\"14\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"build 11ty pipeline, based on `the-rasx-context`\" class=\"text-gray-dark\" aria-label=\"build 11ty pipeline, based on `the-rasx-context`\" href=\"/BryanWilhite/Blog/issues/9\" rel=\"noreferrer\">build 11ty pipeline, based on `the-rasx-context`</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#9</span>\n\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "id": "tag:github.com,2008:IssuesEvent/10512732537",
+        "published": "2019-09-27T18:40:29Z",
+        "updated": "2019-09-27T18:40:29Z",
+        "link": {
+          "@type": "text/html",
+          "@rel": "alternate",
+          "@href": "https://github.com/BryanWilhite/Blog/issues/8"
+        },
+        "title": {
+          "@type": "html",
+          "#text": "BryanWilhite opened an issue in BryanWilhite/Blog"
+        },
+        "author": {
+          "name": "BryanWilhite",
+          "uri": "https://github.com/BryanWilhite"
+        },
+        "media:thumbnail": {
+          "@height": "30",
+          "@width": "30",
+          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
+        },
+        "content": {
+          "@type": "html",
+          "#text": "<div class=\"issues_opened\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            opened\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Blog\" rel=\"noreferrer\">BryanWilhite/Blog</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-09-27T18:40:29Z\">Sep 27, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-opened open d-inline-block mt-1 float-left\" viewBox=\"0 0 14 16\" version=\"1.1\" width=\"14\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"migrate existing entries to presentation image\" class=\"text-gray-dark\" aria-label=\"migrate existing entries to presentation image\" href=\"/BryanWilhite/Blog/issues/8\" rel=\"noreferrer\">migrate existing entries to presentation image</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#8</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/5226627/65793824-96b01700-e11b-11e9-9935-439df3577fb8.png\"></a></p>\n          </div>\n\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "id": "tag:github.com,2008:IssuesEvent/10512712699",
+        "published": "2019-09-27T18:37:17Z",
+        "updated": "2019-09-27T18:37:17Z",
+        "link": {
+          "@type": "text/html",
+          "@rel": "alternate",
+          "@href": "https://github.com/BryanWilhite/Blog/issues/1"
+        },
+        "title": {
+          "@type": "html",
+          "#text": "BryanWilhite closed an issue in BryanWilhite/Blog"
+        },
+        "author": {
+          "name": "BryanWilhite",
+          "uri": "https://github.com/BryanWilhite"
+        },
+        "media:thumbnail": {
+          "@height": "30",
+          "@width": "30",
+          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
+        },
+        "content": {
+          "@type": "html",
+          "#text": "<div class=\"issues_closed\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            closed\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Blog\" rel=\"noreferrer\">BryanWilhite/Blog</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-09-27T18:37:17Z\">Sep 27, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-closed closed d-inline-block mt-1 float-left\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"transfer WordPress links to a Blog post\" class=\"text-gray-dark\" aria-label=\"transfer WordPress links to a Blog post\" href=\"/BryanWilhite/Blog/issues/1\" rel=\"noreferrer\">transfer WordPress links to a Blog post</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#1</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/5226627/46714269-6c660080-cc0f-11e8-8662-6d2d160a7db1.png\"></a>\n\n<a href=\"https://codex.wordpress.org/CSS\" rel=\"nofollow noreferrer\">https://codex.wordpress.org/CSS</a>\n<a href=\"https://wordpress.org/plugins/akismet/\" rel=\"nofollow noreferrer\">https://wordpress.org/plugins/akismet/</a>\n<a href=\"https://wordpress.org/plugins/google-sitemap-generator/\" rel=\"nofollow noreferrer\">https://wordpress.org/plugins/google-sitemap-generator/</a>\n<a href=\"https://wordpress.org/plugins/sociable/\" rel=\"nofollow noreferrer\">https://wordpress.…</a></p>\n          </div>\n\n          <div class=\"f6 text-gray mt-1\">\n            1 comment\n          </div>\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "id": "tag:github.com,2008:IssueCommentEvent/10512712685",
+        "published": "2019-09-27T18:37:17Z",
+        "updated": "2019-09-27T18:37:17Z",
+        "link": {
+          "@type": "text/html",
+          "@rel": "alternate",
+          "@href": "https://github.com/BryanWilhite/Blog/issues/1#issuecomment-536052722"
+        },
+        "title": {
+          "@type": "html",
+          "#text": "BryanWilhite commented on issue BryanWilhite/Blog#1"
+        },
+        "author": {
+          "name": "BryanWilhite",
+          "uri": "https://github.com/BryanWilhite"
+        },
+        "media:thumbnail": {
+          "@height": "30",
+          "@width": "30",
+          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
+        },
+        "content": {
+          "@type": "html",
+          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"transfer WordPress links to a Blog post\" href=\"/BryanWilhite/Blog/issues/1#issuecomment-536052722\" rel=\"noreferrer\">BryanWilhite/Blog#1</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-09-27T18:37:17Z\">Sep 27, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"transfer WordPress links to a Blog post\" class=\"link-gray\" href=\"/BryanWilhite/Blog/issues/1#issuecomment-536052722\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-09-27T18:37:17Z\">Sep 27, 2019</relative-time></a>\n      </div>\n        <p>the Studio will no longer invest in WordPress</p>\n    </div>\n  </div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "id": "tag:github.com,2008:IssuesEvent/10512705991",
+        "published": "2019-09-27T18:36:16Z",
+        "updated": "2019-09-27T18:36:16Z",
+        "link": {
+          "@type": "text/html",
+          "@rel": "alternate",
+          "@href": "https://github.com/BryanWilhite/Blog/issues/6"
+        },
+        "title": {
+          "@type": "html",
+          "#text": "BryanWilhite closed an issue in BryanWilhite/Blog"
+        },
+        "author": {
+          "name": "BryanWilhite",
+          "uri": "https://github.com/BryanWilhite"
+        },
+        "media:thumbnail": {
+          "@height": "30",
+          "@width": "30",
+          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
+        },
+        "content": {
+          "@type": "html",
+          "#text": "<div class=\"issues_closed\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            closed\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Blog\" rel=\"noreferrer\">BryanWilhite/Blog</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-09-27T18:36:16Z\">Sep 27, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-closed closed d-inline-block mt-1 float-left\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"turn this repo into an 11ty Blog and rename `Songhay.Blog` to `*.Index`?\" class=\"text-gray-dark\" aria-label=\"turn this repo into an 11ty Blog and rename `Songhay.Blog` to `*.Index`?\" href=\"/BryanWilhite/Blog/issues/6\" rel=\"noreferrer\">turn this repo into an 11ty Blog and rename `Songhay.Blog` to `*.Index`?</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#6</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p>am i going to admit to myself that Angular as Blog UI is overkill? am i going to reduce the concerns of <code>Songhay.Blog</code> to <code>Songhay.Blog.Index</code> (my Angu…</p>\n          </div>\n\n          <div class=\"f6 text-gray mt-1\">\n            1 comment\n          </div>\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "id": "tag:github.com,2008:IssueCommentEvent/10512705965",
+        "published": "2019-09-27T18:36:16Z",
+        "updated": "2019-09-27T18:36:16Z",
+        "link": {
+          "@type": "text/html",
+          "@rel": "alternate",
+          "@href": "https://github.com/BryanWilhite/Blog/issues/6#issuecomment-536052370"
+        },
+        "title": {
+          "@type": "html",
+          "#text": "BryanWilhite commented on issue BryanWilhite/Blog#6"
+        },
+        "author": {
+          "name": "BryanWilhite",
+          "uri": "https://github.com/BryanWilhite"
+        },
+        "media:thumbnail": {
+          "@height": "30",
+          "@width": "30",
+          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
+        },
+        "content": {
+          "@type": "html",
+          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"turn this repo into an 11ty Blog and rename `Songhay.Blog` to `*.Index`?\" href=\"/BryanWilhite/Blog/issues/6#issuecomment-536052370\" rel=\"noreferrer\">BryanWilhite/Blog#6</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-09-27T18:36:16Z\">Sep 27, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"turn this repo into an 11ty Blog and rename `Songhay.Blog` to `*.Index`?\" class=\"link-gray\" href=\"/BryanWilhite/Blog/issues/6#issuecomment-536052370\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-09-27T18:36:16Z\">Sep 27, 2019</relative-time></a>\n      </div>\n        <p>i have started <a href=\"https://github.com/BryanWilhite/Blog/projects/1\" rel=\"noreferrer\">https://github.com/BryanWilhite/Blog/projects/1</a> to address this issue and BTW the naming might be <code>Songhay.Index.Blog</code> instead of <code>Song…</code></p>\n    </div>\n  </div>\n</div>\n</div></div>"
+        }
+      },
+      {
+        "id": "tag:github.com,2008:PushEvent/10512461142",
+        "published": "2019-09-27T17:58:22Z",
+        "updated": "2019-09-27T17:58:22Z",
+        "link": {
+          "@type": "text/html",
+          "@rel": "alternate",
+          "@href": "https://github.com/BryanWilhite/Songhay.Dashboard/compare/6a12ff8bc6...38229d05d8"
         },
         "title": {
           "@type": "html",
@@ -230,7 +547,6 @@
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -240,25 +556,24 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/Songhay.Dashboard/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Songhay.Dashboard\" rel=\"noreferrer\">BryanWilhite/Songhay.Dashboard</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-05-31T23:40:27Z\">May 31, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/Songhay.Dashboard/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/Songhay.Dashboard/commit/7df175f0a97349777aca8a61f59833d9674213b8\" rel=\"noreferrer\">7df175f</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"hammer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f528.png\">🔨</g-emoji> <g-emoji class=\"g-emoji\" alias=\"snowflake\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2744.png\">❄️</g-emoji> <span class=\"issue-keyword tooltipped tooltipped-se\" aria-label=\"This commit closes issue #43.\">resolves</span> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"379043460\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/Songhay.Dashboard/issues/43\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/Songhay.Dashboard/issues/43/hovercard\" href=\"https://github.com/BryanWilhite/Songhay.Dashboard/issues/43\" rel=\"noreferrer\">#43</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/Songhay.Dashboard/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Songhay.Dashboard\" rel=\"noreferrer\">BryanWilhite/Songhay.Dashboard</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-09-27T17:58:22Z\">Sep 27, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/Songhay.Dashboard/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/Songhay.Dashboard/commit/38229d05d828fccc404de034fd1bbef921e0e186\" rel=\"noreferrer\">38229d0</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"lipstick\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f484.png\">💄</g-emoji> youTubeCssOptions\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:IssuesEvent/9738252154",
-        "published": "2019-05-31T23:40:27Z",
-        "updated": "2019-05-31T23:40:27Z",
+        "id": "tag:github.com,2008:PushEvent/10506254692",
+        "published": "2019-09-27T00:13:37Z",
+        "updated": "2019-09-27T00:13:37Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/Songhay.Dashboard/issues/43"
+          "@href": "https://github.com/BryanWilhite/Blog/compare/077bdf53de...2826cb8ae7"
         },
         "title": {
           "@type": "html",
-          "#text": "BryanWilhite closed an issue in BryanWilhite/Songhay.Dashboard"
+          "#text": "BryanWilhite pushed to master in BryanWilhite/Blog"
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -268,185 +583,17 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"issues_closed\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            closed\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Songhay.Dashboard\" rel=\"noreferrer\">BryanWilhite/Songhay.Dashboard</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-05-31T23:40:27Z\">May 31, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-closed closed d-inline-block mt-1 float-left\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"`window title cannot be longer than 1023 characters` error in run.ps1 script\" class=\"text-gray-dark\" aria-label=\"`window title cannot be longer than 1023 characters` error in run.ps1 script\" href=\"/BryanWilhite/Songhay.Dashboard/issues/43\" rel=\"noreferrer\">`window title cannot be longer than 1023 characters` error in run.ps1 script</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#43</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"276694066\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/projectkudu/kudu/issues/2635\" data-hovercard-type=\"issue\" data-hovercard-url=\"/projectkudu/kudu/issues/2635/hovercard\" href=\"https://github.com/projectkudu/kudu/issues/2635\" rel=\"noreferrer\">projectkudu/kudu#2635</a></p>\n          </div>\n\n          <div class=\"f6 text-gray mt-1\">\n            3 comments\n          </div>\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/Blog/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Blog\" rel=\"noreferrer\">BryanWilhite/Blog</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-09-27T00:13:37Z\">Sep 27, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/Blog/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/Blog/commit/2826cb8ae799ef7e46381cd57b76c9590710cb43\" rel=\"noreferrer\">2826cb8</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"tractor\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f69c.png\">🚜</g-emoji>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:IssueCommentEvent/9738244394",
-        "published": "2019-05-31T23:37:32Z",
-        "updated": "2019-05-31T23:37:32Z",
+        "id": "tag:github.com,2008:PushEvent/10506046195",
+        "published": "2019-09-26T23:19:36Z",
+        "updated": "2019-09-26T23:19:36Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/Songhay.Dashboard/issues/43#issuecomment-497890431"
-        },
-        "title": {
-          "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/Songhay.Dashboard#43"
-        },
-        "author": {
-          "name": "BryanWilhite",
-          "email": "",
-          "uri": "https://github.com/BryanWilhite"
-        },
-        "media:thumbnail": {
-          "@height": "30",
-          "@width": "30",
-          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
-        },
-        "content": {
-          "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"`window title cannot be longer than 1023 characters` error in run.ps1 script\" href=\"/BryanWilhite/Songhay.Dashboard/issues/43#issuecomment-497890431\" rel=\"noreferrer\">BryanWilhite/Songhay.Dashboard#43</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-31T23:37:32Z\">May 31, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"`window title cannot be longer than 1023 characters` error in run.ps1 script\" class=\"link-gray\" href=\"/BryanWilhite/Songhay.Dashboard/issues/43#issuecomment-497890431\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-31T23:37:32Z\">May 31, 2019</relative-time></a>\n      </div>\n        <p>appealing to fundamentals, i am seeing that my use of the call operator, <code>&amp;</code>, [<a href=\"https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_operators?view=powershell-6#call-operator-\" rel=\"nofollow noreferrer\">docs</a>] is misplaced as it is used for deriving commands from strings\n<g-emoji class=\"g-emoji\" alias=\"books\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png\">📚</g-emoji> <a href=\"https://social.technet.microsoft.com/wiki/contents/articles/7703.powershell-running-executables.aspx\" rel=\"nofollow noreferrer\">h…</a></p>\n    </div>\n  </div>\n</div>\n</div></div>"
-        }
-      },
-      {
-        "id": "tag:github.com,2008:IssueCommentEvent/9735287215",
-        "published": "2019-05-31T14:36:13Z",
-        "updated": "2019-05-31T14:36:13Z",
-        "link": {
-          "@type": "text/html",
-          "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/Songhay.Dashboard/issues/43#issuecomment-497731657"
-        },
-        "title": {
-          "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/Songhay.Dashboard#43"
-        },
-        "author": {
-          "name": "BryanWilhite",
-          "email": "",
-          "uri": "https://github.com/BryanWilhite"
-        },
-        "media:thumbnail": {
-          "@height": "30",
-          "@width": "30",
-          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
-        },
-        "content": {
-          "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"`window title cannot be longer than 1023 characters` error in run.ps1 script\" href=\"/BryanWilhite/Songhay.Dashboard/issues/43#issuecomment-497731657\" rel=\"noreferrer\">BryanWilhite/Songhay.Dashboard#43</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-31T14:36:13Z\">May 31, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"`window title cannot be longer than 1023 characters` error in run.ps1 script\" class=\"link-gray\" href=\"/BryanWilhite/Songhay.Dashboard/issues/43#issuecomment-497731657\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-31T14:36:13Z\">May 31, 2019</relative-time></a>\n      </div>\n        <p>actually, according to the kudu log there is no error:\n<span class=\"pl-c1\">[05/31/2019 13:34:47 &gt; 270fc7: SYS INFO] Status changed to Initializing</span>\n<span class=\"pl-c1\">[05/31/2019 13:34:47…</span></p>\n    </div>\n  </div>\n</div>\n</div></div>"
-        }
-      },
-      {
-        "id": "tag:github.com,2008:IssuesEvent/9735229853",
-        "published": "2019-05-31T14:28:37Z",
-        "updated": "2019-05-31T14:28:37Z",
-        "link": {
-          "@type": "text/html",
-          "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/Songhay.Feeds/issues/15"
-        },
-        "title": {
-          "@type": "html",
-          "#text": "BryanWilhite opened an issue in BryanWilhite/Songhay.Feeds"
-        },
-        "author": {
-          "name": "BryanWilhite",
-          "email": "",
-          "uri": "https://github.com/BryanWilhite"
-        },
-        "media:thumbnail": {
-          "@height": "30",
-          "@width": "30",
-          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
-        },
-        "content": {
-          "@type": "html",
-          "#text": "<div class=\"issues_opened\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            opened\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Songhay.Feeds\" rel=\"noreferrer\">BryanWilhite/Songhay.Feeds</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-05-31T14:28:37Z\">May 31, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-opened open d-inline-block mt-1 float-left\" viewBox=\"0 0 14 16\" version=\"1.1\" width=\"14\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"ERROR: cannot find codepen XML file\" class=\"text-gray-dark\" aria-label=\"ERROR: cannot find codepen XML file\" href=\"/BryanWilhite/Songhay.Feeds/issues/15\" rel=\"noreferrer\">ERROR: cannot find codepen XML file</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#15</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p><span class=\"pl-c1\">[05/31/2019 13:24:44 &gt; 270fc7: SYS INFO] Status changed to Initializing</span>\n<span class=\"pl-c1\">[05/31/2019 13:24:44 &gt; 270fc7: SYS INFO] Run script 'run.ps1' with script h…</span></p>\n          </div>\n\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
-        }
-      },
-      {
-        "id": "tag:github.com,2008:IssuesEvent/9735060525",
-        "published": "2019-05-31T14:05:50Z",
-        "updated": "2019-05-31T14:05:50Z",
-        "link": {
-          "@type": "text/html",
-          "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/Songhay.Feeds/issues/14"
-        },
-        "title": {
-          "@type": "html",
-          "#text": "BryanWilhite opened an issue in BryanWilhite/Songhay.Feeds"
-        },
-        "author": {
-          "name": "BryanWilhite",
-          "email": "",
-          "uri": "https://github.com/BryanWilhite"
-        },
-        "media:thumbnail": {
-          "@height": "30",
-          "@width": "30",
-          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
-        },
-        "content": {
-          "@type": "html",
-          "#text": "<div class=\"issues_opened\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            opened\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Songhay.Feeds\" rel=\"noreferrer\">BryanWilhite/Songhay.Feeds</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-05-31T14:05:50Z\">May 31, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-opened open d-inline-block mt-1 float-left\" viewBox=\"0 0 14 16\" version=\"1.1\" width=\"14\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"consider removing local filesystem IO dependency for serverless architecture\" class=\"text-gray-dark\" aria-label=\"consider removing local filesystem IO dependency for serverless architecture\" href=\"/BryanWilhite/Songhay.Feeds/issues/14\" rel=\"noreferrer\">consider removing local filesystem IO dependency for serverless architecture</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#14</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p>the activities defined in this repo depend on file IO: feeds are downloaded to the local file system; as of today in the cloud, this is the local f…</p>\n          </div>\n\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
-        }
-      },
-      {
-        "id": "tag:github.com,2008:PushEvent/9731158653",
-        "published": "2019-05-31T00:41:17Z",
-        "updated": "2019-05-31T00:41:17Z",
-        "link": {
-          "@type": "text/html",
-          "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/Songhay.Cloud.BlobStorage/compare/4febf26f9f...2caf632f19"
-        },
-        "title": {
-          "@type": "html",
-          "#text": "BryanWilhite pushed to master in BryanWilhite/Songhay.Cloud.BlobStorage"
-        },
-        "author": {
-          "name": "BryanWilhite",
-          "email": "",
-          "uri": "https://github.com/BryanWilhite"
-        },
-        "media:thumbnail": {
-          "@height": "30",
-          "@width": "30",
-          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
-        },
-        "content": {
-          "@type": "html",
-          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/Songhay.Cloud.BlobStorage/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/Songhay.Cloud.BlobStorage\" rel=\"noreferrer\">BryanWilhite/Songhay.Cloud.BlobStorage</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-05-31T00:41:17Z\">May 31, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>2 commits to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/Songhay.Cloud.BlobStorage/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/Songhay.Cloud.BlobStorage/commit/2caf632f1981e75a1caa8cf5365e3d2137b89ff8\" rel=\"noreferrer\">2caf632</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"package\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png\">📦</g-emoji> <g-emoji class=\"g-emoji\" alias=\"rocket\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f680.png\">🚀</g-emoji>\n                    </blockquote>\n                  </div>\n                </li>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/Songhay.Cloud.BlobStorage/commit/02981a64722cd57d6e6f00bdbf5e948d7d5b8c3f\" rel=\"noreferrer\">02981a6</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"package\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png\">📦</g-emoji> <g-emoji class=\"g-emoji\" alias=\"snowflake\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2744.png\">❄️</g-emoji> issue <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"319090828\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/Songhay.Cloud.BlobStorage/issues/2\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/Songhay.Cloud.BlobStorage/issues/2/hovercard\" href=\"https://github.com/BryanWilhite/Songhay.Cloud.BlobStorage/issues/2\" rel=\"noreferrer\">#2</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
-        }
-      },
-      {
-        "id": "tag:github.com,2008:IssueCommentEvent/9731040074",
-        "published": "2019-05-31T00:05:21Z",
-        "updated": "2019-05-31T00:05:21Z",
-        "link": {
-          "@type": "text/html",
-          "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/SonghayCore/issues/34#issuecomment-497528391"
-        },
-        "title": {
-          "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/SonghayCore#34"
-        },
-        "author": {
-          "name": "BryanWilhite",
-          "email": "",
-          "uri": "https://github.com/BryanWilhite"
-        },
-        "media:thumbnail": {
-          "@height": "30",
-          "@width": "30",
-          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
-        },
-        "content": {
-          "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"investigate a return to project-driven NuGet packing\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497528391\" rel=\"noreferrer\">BryanWilhite/SonghayCore#34</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-31T00:05:21Z\">May 31, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"investigate a return to project-driven NuGet packing\" class=\"link-gray\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497528391\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-31T00:05:21Z\">May 31, 2019</relative-time></a>\n      </div>\n        <p>i notice that xUnit multi-<code>Theory</code> tests with my <code>ProjectFileData</code> attribute fails with a complaint about incorrect arguments possibly after running th…</p>\n    </div>\n  </div>\n</div>\n</div></div>"
-        }
-      },
-      {
-        "id": "tag:github.com,2008:PushEvent/9731031161",
-        "published": "2019-05-31T00:02:45Z",
-        "updated": "2019-05-31T00:02:45Z",
-        "link": {
-          "@type": "text/html",
-          "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/SonghayCore/compare/4b1f04daf9...6b825cb289"
+          "@href": "https://github.com/BryanWilhite/SonghayCore/compare/73d80c75c7...51aa2ac599"
         },
         "title": {
           "@type": "html",
@@ -454,7 +601,6 @@
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -464,45 +610,17 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/SonghayCore\" rel=\"noreferrer\">BryanWilhite/SonghayCore</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-05-31T00:02:45Z\">May 31, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>2 commits to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/SonghayCore/commit/6b825cb2891038e9e5f8ada7e7c2cba01c245241\" rel=\"noreferrer\">6b825cb</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      Merge branch 'master' of <a href=\"https://github.com/BryanWilhite/SonghayCore\" rel=\"noreferrer\">https://github.com/BryanWilhite/SonghayCore</a>\n                    </blockquote>\n                  </div>\n                </li>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/SonghayCore/commit/71a6c1d9a11691ba0828234641211663d0c4439f\" rel=\"noreferrer\">71a6c1d</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"package\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png\">📦</g-emoji> <g-emoji class=\"g-emoji\" alias=\"rocket\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f680.png\">🚀</g-emoji> 3... 2... 1.... issue <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"446765110\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/SonghayCore/issues/34\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/SonghayCore/issues/34/hovercard\" href=\"https://github.com/BryanWilhite/SonghayCore/issues/34\" rel=\"noreferrer\">#34</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/SonghayCore\" rel=\"noreferrer\">BryanWilhite/SonghayCore</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-09-26T23:19:36Z\">Sep 26, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/SonghayCore/commit/51aa2ac599b1963de728c4b2a3bf49dcdeb2f03d\" rel=\"noreferrer\">51aa2ac</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"package\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png\">📦</g-emoji> <g-emoji class=\"g-emoji\" alias=\"rocket\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f680.png\">🚀</g-emoji> publications, <span class=\"issue-keyword tooltipped tooltipped-se\" aria-label=\"This commit closes issue #51.\">resolves</span> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"497400959\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/SonghayCore/issues/51\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/SonghayCore/issues/51/hovercard\" href=\"https://github.com/BryanWilhite/SonghayCore/issues/51\" rel=\"noreferrer\">#51</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:PushEvent/9731024070",
-        "published": "2019-05-31T00:00:49Z",
-        "updated": "2019-05-31T00:00:49Z",
+        "id": "tag:github.com,2008:IssuesEvent/10506046178",
+        "published": "2019-09-26T23:19:36Z",
+        "updated": "2019-09-26T23:19:36Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/SonghayCore/compare/b550b8e63a...4b1f04daf9"
-        },
-        "title": {
-          "@type": "html",
-          "#text": "BryanWilhite pushed to master in BryanWilhite/SonghayCore"
-        },
-        "author": {
-          "name": "BryanWilhite",
-          "email": "",
-          "uri": "https://github.com/BryanWilhite"
-        },
-        "media:thumbnail": {
-          "@height": "30",
-          "@width": "30",
-          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
-        },
-        "content": {
-          "@type": "html",
-          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/SonghayCore\" rel=\"noreferrer\">BryanWilhite/SonghayCore</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-05-31T00:00:49Z\">May 31, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>2 commits to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/SonghayCore/commit/4b1f04daf98727631f346756476cd85ede0b1796\" rel=\"noreferrer\">4b1f04d</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"package\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png\">📦</g-emoji> <g-emoji class=\"g-emoji\" alias=\"rocket\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f680.png\">🚀</g-emoji> 3... 2... 1.... issue <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"446275637\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/SonghayCore/issues/32\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/SonghayCore/issues/32/hovercard\" href=\"https://github.com/BryanWilhite/SonghayCore/issues/32\" rel=\"noreferrer\">#32</a>\n                    </blockquote>\n                  </div>\n                </li>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/SonghayCore/commit/0c7b632e6859fe98695afaf640d03c5adc48cac2\" rel=\"noreferrer\">0c7b632</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"package\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png\">📦</g-emoji> <g-emoji class=\"g-emoji\" alias=\"snowflake\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2744.png\">❄️</g-emoji> issue <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"446765110\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/SonghayCore/issues/34\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/SonghayCore/issues/34/hovercard\" href=\"https://github.com/BryanWilhite/SonghayCore/issues/34\" rel=\"noreferrer\">#34</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
-        }
-      },
-      {
-        "id": "tag:github.com,2008:IssuesEvent/9730562171",
-        "published": "2019-05-30T22:05:06Z",
-        "updated": "2019-05-30T22:05:06Z",
-        "link": {
-          "@type": "text/html",
-          "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/SonghayCore/issues/34"
+          "@href": "https://github.com/BryanWilhite/SonghayCore/issues/51"
         },
         "title": {
           "@type": "html",
@@ -510,7 +628,6 @@
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -520,25 +637,24 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"issues_closed\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            closed\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/SonghayCore\" rel=\"noreferrer\">BryanWilhite/SonghayCore</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-05-30T22:05:06Z\">May 30, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-closed closed d-inline-block mt-1 float-left\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"investigate a return to project-driven NuGet packing\" class=\"text-gray-dark\" aria-label=\"investigate a return to project-driven NuGet packing\" href=\"/BryanWilhite/SonghayCore/issues/34\" rel=\"noreferrer\">investigate a return to project-driven NuGet packing</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#34</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p>it is very, <em>very</em> possible that i am confusing NuGet packaging with <a href=\"https://docs.microsoft.com/en-us/dotnet/core/build/distribution-packaging\" rel=\"nofollow noreferrer\">.NET Core distribution packaging</a>\nnevertheless, the <code>*.nuspec</code> file data and the <code>*.…</code></p>\n          </div>\n\n          <div class=\"f6 text-gray mt-1\">\n            8 comments\n          </div>\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"issues_closed\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            closed\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/SonghayCore\" rel=\"noreferrer\">BryanWilhite/SonghayCore</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-09-26T23:19:36Z\">Sep 26, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-closed closed d-inline-block mt-1 float-left\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"add `Songhay.Publications` core &lt;= rasx() context\" class=\"text-gray-dark\" aria-label=\"add `Songhay.Publications` core &lt;= rasx() context\" href=\"/BryanWilhite/SonghayCore/issues/51\" rel=\"noreferrer\">add `Songhay.Publications` core &lt;= rasx() context</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#51</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p>migrate code from <em>the rasx() context</em> to start this off</p>\n          </div>\n\n          <div class=\"f6 text-gray mt-1\">\n            3 comments\n          </div>\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:IssueCommentEvent/9730562151",
-        "published": "2019-05-30T22:05:06Z",
-        "updated": "2019-05-30T22:05:06Z",
+        "id": "tag:github.com,2008:IssueCommentEvent/10506042347",
+        "published": "2019-09-26T23:18:36Z",
+        "updated": "2019-09-26T23:18:36Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/SonghayCore/issues/34#issuecomment-497502561"
+          "@href": "https://github.com/BryanWilhite/SonghayCore/issues/51#issuecomment-535720533"
         },
         "title": {
           "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/SonghayCore#34"
+          "#text": "BryanWilhite commented on issue BryanWilhite/SonghayCore#51"
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -548,45 +664,17 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"investigate a return to project-driven NuGet packing\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497502561\" rel=\"noreferrer\">BryanWilhite/SonghayCore#34</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-30T22:05:06Z\">May 30, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"investigate a return to project-driven NuGet packing\" class=\"link-gray\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497502561\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-30T22:05:06Z\">May 30, 2019</relative-time></a>\n      </div>\n        <p>after this <g-emoji class=\"g-emoji\" alias=\"rabbit\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f430.png\">🐰</g-emoji> <g-emoji class=\"g-emoji\" alias=\"hole\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f573.png\">🕳</g-emoji> drama, i can use the lessons here to pack going forward</p>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"add `Songhay.Publications` core &lt;= rasx() context\" href=\"/BryanWilhite/SonghayCore/issues/51#issuecomment-535720533\" rel=\"noreferrer\">BryanWilhite/SonghayCore#51</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-09-26T23:18:36Z\">Sep 26, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"add `Songhay.Publications` core &lt;= rasx() context\" class=\"link-gray\" href=\"/BryanWilhite/SonghayCore/issues/51#issuecomment-535720533\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-09-26T23:18:36Z\">Sep 26, 2019</relative-time></a>\n      </div>\n        <p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/5226627/65731122-48e2d280-e079-11e9-940d-4d4b4dbacef9.png\"></a></p>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:PushEvent/9730551515",
-        "published": "2019-05-30T22:02:54Z",
-        "updated": "2019-05-30T22:02:54Z",
+        "id": "tag:github.com,2008:PushEvent/10505897150",
+        "published": "2019-09-26T22:43:35Z",
+        "updated": "2019-09-26T22:43:35Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/SonghayCore/compare/c3eefcf00b...b550b8e63a"
-        },
-        "title": {
-          "@type": "html",
-          "#text": "BryanWilhite pushed to master in BryanWilhite/SonghayCore"
-        },
-        "author": {
-          "name": "BryanWilhite",
-          "email": "",
-          "uri": "https://github.com/BryanWilhite"
-        },
-        "media:thumbnail": {
-          "@height": "30",
-          "@width": "30",
-          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
-        },
-        "content": {
-          "@type": "html",
-          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/SonghayCore\" rel=\"noreferrer\">BryanWilhite/SonghayCore</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-05-30T22:02:54Z\">May 30, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/SonghayCore/commit/b550b8e63ae274277f6abbbe7ab45d18d931b743\" rel=\"noreferrer\">b550b8e</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"package\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png\">📦</g-emoji> <g-emoji class=\"g-emoji\" alias=\"rocket\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f680.png\">🚀</g-emoji> issue <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"446765110\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/SonghayCore/issues/34\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/SonghayCore/issues/34/hovercard\" href=\"https://github.com/BryanWilhite/SonghayCore/issues/34\" rel=\"noreferrer\">#34</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
-        }
-      },
-      {
-        "id": "tag:github.com,2008:PushEvent/9730402445",
-        "published": "2019-05-30T21:34:17Z",
-        "updated": "2019-05-30T21:34:17Z",
-        "link": {
-          "@type": "text/html",
-          "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/SonghayCore/compare/c65aa796c5...c3eefcf00b"
+          "@href": "https://github.com/BryanWilhite/SonghayCore/compare/5fd48f23e2...73d80c75c7"
         },
         "title": {
           "@type": "html",
@@ -594,7 +682,6 @@
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -604,129 +691,17 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/SonghayCore\" rel=\"noreferrer\">BryanWilhite/SonghayCore</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-05-30T21:34:17Z\">May 30, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/SonghayCore/commit/c3eefcf00be6b95fe51add2e2f12b0f57c5253dc\" rel=\"noreferrer\">c3eefcf</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"package\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png\">📦</g-emoji> <g-emoji class=\"g-emoji\" alias=\"snowflake\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2744.png\">❄️</g-emoji> issue <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"446765110\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/SonghayCore/issues/34\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/SonghayCore/issues/34/hovercard\" href=\"https://github.com/BryanWilhite/SonghayCore/issues/34\" rel=\"noreferrer\">#34</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/SonghayCore\" rel=\"noreferrer\">BryanWilhite/SonghayCore</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-09-26T22:43:35Z\">Sep 26, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>2 commits to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/SonghayCore/commit/73d80c75c70946416e7edf77e935c4d80ccbeaf4\" rel=\"noreferrer\">73d80c7</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"umbrella\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2614.png\">☔️</g-emoji> issue <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"497400959\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/SonghayCore/issues/51\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/SonghayCore/issues/51/hovercard\" href=\"https://github.com/BryanWilhite/SonghayCore/issues/51\" rel=\"noreferrer\">#51</a>\n                    </blockquote>\n                  </div>\n                </li>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/SonghayCore/commit/5d188d85ee648c6daf30cf756719ff78eb571313\" rel=\"noreferrer\">5d188d8</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"umbrella\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2614.png\">☔️</g-emoji> issue <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"497400959\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/SonghayCore/issues/51\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/SonghayCore/issues/51/hovercard\" href=\"https://github.com/BryanWilhite/SonghayCore/issues/51\" rel=\"noreferrer\">#51</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:IssueCommentEvent/9730348662",
-        "published": "2019-05-30T21:24:15Z",
-        "updated": "2019-05-30T21:24:15Z",
+        "id": "tag:github.com,2008:PushEvent/10504760067",
+        "published": "2019-09-26T19:37:08Z",
+        "updated": "2019-09-26T19:37:08Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/SonghayCore/issues/34#issuecomment-497491513"
-        },
-        "title": {
-          "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/SonghayCore#34"
-        },
-        "author": {
-          "name": "BryanWilhite",
-          "email": "",
-          "uri": "https://github.com/BryanWilhite"
-        },
-        "media:thumbnail": {
-          "@height": "30",
-          "@width": "30",
-          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
-        },
-        "content": {
-          "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"investigate a return to project-driven NuGet packing\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497491513\" rel=\"noreferrer\">BryanWilhite/SonghayCore#34</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-30T21:24:15Z\">May 30, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"investigate a return to project-driven NuGet packing\" class=\"link-gray\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497491513\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-30T21:24:15Z\">May 30, 2019</relative-time></a>\n      </div>\n        <p>okay <code>dotnet pack</code> is using this:\n<span class=\"pl-c1\">Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Core</span></p>\n    </div>\n  </div>\n</div>\n</div></div>"
-        }
-      },
-      {
-        "id": "tag:github.com,2008:IssueCommentEvent/9729766383",
-        "published": "2019-05-30T19:50:09Z",
-        "updated": "2019-05-30T19:50:09Z",
-        "link": {
-          "@type": "text/html",
-          "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/SonghayCore/issues/34#issuecomment-497461709"
-        },
-        "title": {
-          "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/SonghayCore#34"
-        },
-        "author": {
-          "name": "BryanWilhite",
-          "email": "",
-          "uri": "https://github.com/BryanWilhite"
-        },
-        "media:thumbnail": {
-          "@height": "30",
-          "@width": "30",
-          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
-        },
-        "content": {
-          "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"investigate a return to project-driven NuGet packing\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497461709\" rel=\"noreferrer\">BryanWilhite/SonghayCore#34</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-30T19:50:09Z\">May 30, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"investigate a return to project-driven NuGet packing\" class=\"link-gray\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497461709\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-30T19:50:09Z\">May 30, 2019</relative-time></a>\n      </div>\n        <p>ok the <code>dotnet pack</code> command is not NuGet.org-friendly by default; one way out of this problem is yet another <g-emoji class=\"g-emoji\" alias=\"rabbit\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f430.png\">🐰</g-emoji> <g-emoji class=\"g-emoji\" alias=\"hole\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f573.png\">🕳</g-emoji> <g-emoji class=\"g-emoji\" alias=\"point_down\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f447.png\">👇</g-emoji>\n\nwrite a test that will edit the <code>*…</code></p>\n    </div>\n  </div>\n</div>\n</div></div>"
-        }
-      },
-      {
-        "id": "tag:github.com,2008:IssueCommentEvent/9729558701",
-        "published": "2019-05-30T19:16:44Z",
-        "updated": "2019-05-30T19:16:44Z",
-        "link": {
-          "@type": "text/html",
-          "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/SonghayCore/issues/34#issuecomment-497451119"
-        },
-        "title": {
-          "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/SonghayCore#34"
-        },
-        "author": {
-          "name": "BryanWilhite",
-          "email": "",
-          "uri": "https://github.com/BryanWilhite"
-        },
-        "media:thumbnail": {
-          "@height": "30",
-          "@width": "30",
-          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
-        },
-        "content": {
-          "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"investigate a return to project-driven NuGet packing\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497451119\" rel=\"noreferrer\">BryanWilhite/SonghayCore#34</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-30T19:16:44Z\">May 30, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"investigate a return to project-driven NuGet packing\" class=\"link-gray\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497451119\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-30T19:16:44Z\">May 30, 2019</relative-time></a>\n      </div>\n        <p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/5226627/58658164-baca2b80-82d4-11e9-9e13-a9d86e9bfbbf.png\"></a>\n<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/5226627/58658186-c61d5700-82d4-11e9-9f54-1d2849f2bba6.png\"></a></p>\n    </div>\n  </div>\n</div>\n</div></div>"
-        }
-      },
-      {
-        "id": "tag:github.com,2008:IssueCommentEvent/9728750706",
-        "published": "2019-05-30T17:14:10Z",
-        "updated": "2019-05-30T17:14:10Z",
-        "link": {
-          "@type": "text/html",
-          "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/SonghayCore/issues/34#issuecomment-497408146"
-        },
-        "title": {
-          "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/SonghayCore#34"
-        },
-        "author": {
-          "name": "BryanWilhite",
-          "email": "",
-          "uri": "https://github.com/BryanWilhite"
-        },
-        "media:thumbnail": {
-          "@height": "30",
-          "@width": "30",
-          "@url": "https://avatars3.githubusercontent.com/u/5226627?s=30&v=4"
-        },
-        "content": {
-          "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"investigate a return to project-driven NuGet packing\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497408146\" rel=\"noreferrer\">BryanWilhite/SonghayCore#34</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-30T17:14:10Z\">May 30, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"investigate a return to project-driven NuGet packing\" class=\"link-gray\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497408146\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-30T17:14:10Z\">May 30, 2019</relative-time></a>\n      </div>\n        <p>tried this because of legends about undocumented elements:\n&lt;<span class=\"pl-ent\">PackageSummary</span>&gt;$(Description)&lt;/<span class=\"pl-ent\">PackageSummary</span>&gt;\nit did not work</p>\n    </div>\n  </div>\n</div>\n</div></div>"
-        }
-      },
-      {
-        "id": "tag:github.com,2008:PushEvent/9724151566",
-        "published": "2019-05-30T03:38:07Z",
-        "updated": "2019-05-30T03:38:07Z",
-        "link": {
-          "@type": "text/html",
-          "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/SonghayCore/compare/542afe5f8e...c65aa796c5"
+          "@href": "https://github.com/BryanWilhite/SonghayCore/compare/f10086b6e6...5fd48f23e2"
         },
         "title": {
           "@type": "html",
@@ -734,7 +709,6 @@
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -744,25 +718,24 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/SonghayCore\" rel=\"noreferrer\">BryanWilhite/SonghayCore</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-05-30T03:38:07Z\">May 30, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/SonghayCore/commit/c65aa796c572c5246cf772b47972829f710bf6ce\" rel=\"noreferrer\">c65aa79</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"snowflake\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2744.png\">❄️</g-emoji> <g-emoji class=\"g-emoji\" alias=\"package\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png\">📦</g-emoji> issue <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"446765110\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/SonghayCore/issues/34\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/SonghayCore/issues/34/hovercard\" href=\"https://github.com/BryanWilhite/SonghayCore/issues/34\" rel=\"noreferrer\">#34</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/SonghayCore\" rel=\"noreferrer\">BryanWilhite/SonghayCore</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-09-26T19:37:08Z\">Sep 26, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/SonghayCore/commit/5fd48f23e249fcd0f86baff75eb264f21d45b8ba\" rel=\"noreferrer\">5fd48f2</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"package\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png\">📦</g-emoji> <g-emoji class=\"g-emoji\" alias=\"rocket\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f680.png\">🚀</g-emoji>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:IssueCommentEvent/9723939198",
-        "published": "2019-05-30T02:37:48Z",
-        "updated": "2019-05-30T02:37:48Z",
+        "id": "tag:github.com,2008:IssuesEvent/10504588683",
+        "published": "2019-09-26T19:12:49Z",
+        "updated": "2019-09-26T19:12:49Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/SonghayCore/issues/34#issuecomment-497179604"
+          "@href": "https://github.com/BryanWilhite/SonghayCore/issues/53"
         },
         "title": {
           "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/SonghayCore#34"
+          "#text": "BryanWilhite opened an issue in BryanWilhite/SonghayCore"
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -772,17 +745,17 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"investigate a return to project-driven NuGet packing\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497179604\" rel=\"noreferrer\">BryanWilhite/SonghayCore#34</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-30T02:37:48Z\">May 30, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"investigate a return to project-driven NuGet packing\" class=\"link-gray\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497179604\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-30T02:37:48Z\">May 30, 2019</relative-time></a>\n      </div>\n        <p>issues:\n\n<code>&lt;IncludeSource&gt;true&lt;/IncludeSource&gt;</code> [<a href=\"https://docs.microsoft.com/en-us/dotnet/core/tools/csproj#includesource\" rel=\"nofollow noreferrer\">docs</a>] behaves as if <code>&lt;IncludeSymbols&gt;true&lt;/IncludeSymbols&gt;</code>\n<code>--include-source</code> CLI option behaves as if <code>&lt;…</code></p>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"issues_opened\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            opened\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/SonghayCore\" rel=\"noreferrer\">BryanWilhite/SonghayCore</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-09-26T19:12:49Z\">Sep 26, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-opened open d-inline-block mt-1 float-left\" viewBox=\"0 0 14 16\" version=\"1.1\" width=\"14\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"investigate `Songhay.Tests.Orderers.TestCaseOrdererTest.LastTest` failure\" class=\"text-gray-dark\" aria-label=\"investigate `Songhay.Tests.Orderers.TestCaseOrdererTest.LastTest` failure\" href=\"/BryanWilhite/SonghayCore/issues/53\" rel=\"noreferrer\">investigate `Songhay.Tests.Orderers.TestCaseOrdererTest.LastTest` failure</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#53</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p><span class=\"pl-c1\">Songhay.Tests.Orderers.TestCaseOrdererTest.LastTest</span>\n<span class=\"pl-c1\"> Source: TestCaseOrdererTest.cs line: 18</span>\n<span class=\"pl-c1\"> Duration: 7 ms</span> <span class=\"pl-c1\"> Message: </span>\n<span class=\"pl-c1\"> Assert.Equal() Failure</span>\n<span class=\"pl-c1\"> Ex…</span></p>\n          </div>\n\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:PushEvent/9723536281",
-        "published": "2019-05-30T00:43:25Z",
-        "updated": "2019-05-30T00:43:25Z",
+        "id": "tag:github.com,2008:PushEvent/10504575113",
+        "published": "2019-09-26T19:10:48Z",
+        "updated": "2019-09-26T19:10:48Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/SonghayCore/compare/9223176570...542afe5f8e"
+          "@href": "https://github.com/BryanWilhite/SonghayCore/compare/665d5e6286...f10086b6e6"
         },
         "title": {
           "@type": "html",
@@ -790,7 +763,6 @@
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -800,25 +772,24 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/SonghayCore\" rel=\"noreferrer\">BryanWilhite/SonghayCore</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-05-30T00:43:25Z\">May 30, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/SonghayCore/commit/542afe5f8eee0eb5adc2ef87cd3a9069466fac3d\" rel=\"noreferrer\">542afe5</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"snowflake\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2744.png\">❄️</g-emoji> issue <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"446765110\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/SonghayCore/issues/34\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/SonghayCore/issues/34/hovercard\" href=\"https://github.com/BryanWilhite/SonghayCore/issues/34\" rel=\"noreferrer\">#34</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/SonghayCore\" rel=\"noreferrer\">BryanWilhite/SonghayCore</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-09-26T19:10:48Z\">Sep 26, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/SonghayCore/commit/f10086b6e6f6abe3fb5328cf58f85f97151611ac\" rel=\"noreferrer\">f10086b</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"hammer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f528.png\">🔨</g-emoji> <g-emoji class=\"g-emoji\" alias=\"umbrella\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2614.png\">☔️</g-emoji> <span class=\"issue-keyword tooltipped tooltipped-se\" aria-label=\"This commit closes issue #52.\">resolves</span> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"497986295\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/SonghayCore/issues/52\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/SonghayCore/issues/52/hovercard\" href=\"https://github.com/BryanWilhite/SonghayCore/issues/52\" rel=\"noreferrer\">#52</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:IssueCommentEvent/9723351607",
-        "published": "2019-05-29T23:50:18Z",
-        "updated": "2019-05-29T23:50:18Z",
+        "id": "tag:github.com,2008:IssuesEvent/10504575066",
+        "published": "2019-09-26T19:10:48Z",
+        "updated": "2019-09-26T19:10:48Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/SonghayCore/issues/34#issuecomment-497148863"
+          "@href": "https://github.com/BryanWilhite/SonghayCore/issues/52"
         },
         "title": {
           "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/SonghayCore#34"
+          "#text": "BryanWilhite closed an issue in BryanWilhite/SonghayCore"
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -828,25 +799,24 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"investigate a return to project-driven NuGet packing\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497148863\" rel=\"noreferrer\">BryanWilhite/SonghayCore#34</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-29T23:50:18Z\">May 29, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"investigate a return to project-driven NuGet packing\" class=\"link-gray\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497148863\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-29T23:50:18Z\">May 29, 2019</relative-time></a>\n      </div>\n        <p>this is the <code>*.nuspec</code> file:\n&lt;?<span class=\"pl-ent\">xml</span><span class=\"pl-e\"> version</span>=<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>1.0<span class=\"pl-pds\">\"</span></span>?&gt;\n&lt;<span class=\"pl-ent\">package</span> &gt; &lt;<span class=\"pl-ent\">metadata</span>&gt; &lt;<span class=\"pl-ent\">id</span>&gt;SonghayCore.xUnit&lt;/<span class=\"pl-ent\">id</span>&gt; &lt;<span class=\"pl-ent\">version</span>&gt;3.0.2&lt;/<span class=\"pl-ent\">version</span>&gt; &lt;<span class=\"pl-ent\">title</span>&gt;Songhay Core Test…</p>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"issues_closed\"><div class=\"body\"><!-- issues -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n            \n            closed\n            an issue in\n            <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/SonghayCore\" rel=\"noreferrer\">BryanWilhite/SonghayCore</a>\n          <span class=\"f6 text-gray-light no-wrap ml-1\">\n            <relative-time datetime=\"2019-09-26T19:10:48Z\">Sep 26, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"Box p-3 wb-break-all\">\n      <svg height=\"16\" aria-label=\"Issue\" class=\"octicon octicon-issue-closed closed d-inline-block mt-1 float-left\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" role=\"img\"><path fill-rule=\"evenodd\" d=\"M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z\"></path></svg>\n      <div class=\"ml-4\">\n        <span class=\"f4 lh-condensed text-bold text-gray-dark\">\n          <a title=\"convert `IsNullOrEmpty` to `IsNullOrWhitespace`\" class=\"text-gray-dark\" aria-label=\"convert `IsNullOrEmpty` to `IsNullOrWhitespace`\" href=\"/BryanWilhite/SonghayCore/issues/52\" rel=\"noreferrer\">convert `IsNullOrEmpty` to `IsNullOrWhitespace`</a>\n        </span>\n        <span class=\"f4 text-gray-light ml-1\">#52</span>\n          <div class=\"dashboard-break-word lh-condensed mb-2 mt-1\">\n            <p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/5226627/65559706-8b2cd800-def0-11e9-9db5-323feb33b792.png\"></a>\n<a href=\"https://docs.microsoft.com/en-us/dotnet/api/system.string.isnullorwhitespace?view=netstandard-2.0\" rel=\"nofollow noreferrer\">https://docs.microsoft.com/en-us/dotnet/api/system.string.isnullorwhitespace?view=netstandard-2.0</a>\nthis convenience method appeared in .NET Framewo…</p>\n          </div>\n\n      </div>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       },
       {
-        "id": "tag:github.com,2008:IssueCommentEvent/9723024459",
-        "published": "2019-05-29T22:27:28Z",
-        "updated": "2019-05-29T22:27:28Z",
+        "id": "tag:github.com,2008:PushEvent/10504511882",
+        "published": "2019-09-26T19:01:49Z",
+        "updated": "2019-09-26T19:01:49Z",
         "link": {
           "@type": "text/html",
           "@rel": "alternate",
-          "@href": "https://github.com/BryanWilhite/SonghayCore/issues/34#issuecomment-497131523"
+          "@href": "https://github.com/BryanWilhite/SonghayCore/compare/c7f99e742b...665d5e6286"
         },
         "title": {
           "@type": "html",
-          "#text": "BryanWilhite commented on issue BryanWilhite/SonghayCore#34"
+          "#text": "BryanWilhite pushed to master in BryanWilhite/SonghayCore"
         },
         "author": {
           "name": "BryanWilhite",
-          "email": "",
           "uri": "https://github.com/BryanWilhite"
         },
         "media:thumbnail": {
@@ -856,7 +826,7 @@
         },
         "content": {
           "@type": "html",
-          "#text": "<div class=\"issues_comment\"><div class=\"body\">\n<!-- issue_comment -->\n<div class=\"d-flex border-bottom border-gray py-3\">\n    <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n      <div class=\"d-flex flex-items-baseline mb-2\">\n        <div>\n          <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n          \n          commented on\n          issue\n          <a class=\"link-gray-dark text-bold\" title=\"investigate a return to project-driven NuGet packing\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497131523\" rel=\"noreferrer\">BryanWilhite/SonghayCore#34</a>\n          <span class=\"f6 text-gray-light ml-1\">\n            <relative-time datetime=\"2019-05-29T22:27:28Z\">May 29, 2019</relative-time>\n          </span>\n        </div>\n      </div>\n    <div class=\"message markdown-body Box p-3 wb-break-all\">\n      <div class=\"f6 mb-1\">\n        <a title=\"investigate a return to project-driven NuGet packing\" class=\"link-gray\" href=\"/BryanWilhite/SonghayCore/issues/34#issuecomment-497131523\" rel=\"noreferrer\"><img class=\"avatar mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"> <span class=\"link-gray-dark text-bold\">BryanWilhite</span> commented <relative-time datetime=\"2019-05-29T22:27:28Z\">May 29, 2019</relative-time></a>\n      </div>\n        <p>the big news <g-emoji class=\"g-emoji\" alias=\"newspaper\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4f0.png\">📰</g-emoji> (for me):\n\n.NET Standard and .NET Core libraries are expected to be distributed as NuGet packages. This is in fact how all of the .N…</p>\n    </div>\n  </div>\n</div>\n</div></div>"
+          "#text": "<div class=\"push\"><div class=\"body\"><!-- push -->\n<div class=\"d-flex border-bottom py-3\">\n  <span class=\"mr-3\"><a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"avatar\" src=\"https://avatars0.githubusercontent.com/u/5226627?s=64&amp;v=4\" width=\"32\" height=\"32\" alt=\"@BryanWilhite\"></a></span>\n  <div class=\"d-flex flex-column width-full\">\n    <div>\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\">BryanWilhite</a>\n      \n      pushed to\n\n        <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n        in\n\n      <a class=\"link-gray-dark no-underline text-bold wb-break-all d-inline-block\" href=\"/BryanWilhite/SonghayCore\" rel=\"noreferrer\">BryanWilhite/SonghayCore</a>\n      <span class=\"f6 text-gray-light no-wrap ml-1\">\n        <relative-time datetime=\"2019-09-26T19:01:49Z\">Sep 26, 2019</relative-time>\n      </span>\n\n        <div class=\"Box p-3 mt-2\">\n          <span>1 commit to</span>\n          <a class=\"branch-name\" href=\"/BryanWilhite/SonghayCore/tree/master\" rel=\"noreferrer\">master</a>\n\n          <div class=\"commits pusher-is-only-committer\">\n            <ul>\n                <li class=\"d-flex flex-items-baseline\">\n                  <span title=\"BryanWilhite\">\n                    <a class=\"d-inline-block\" href=\"/BryanWilhite\" rel=\"noreferrer\"><img class=\"mr-1\" src=\"https://avatars3.githubusercontent.com/u/5226627?s=32&amp;v=4\" width=\"16\" height=\"16\" alt=\"@BryanWilhite\"></a>\n                  </span>\n                  <code><a class=\"mr-1\" href=\"/BryanWilhite/SonghayCore/commit/665d5e628695f5bc2a670596b99e71d70dee7705\" rel=\"noreferrer\">665d5e6</a></code>\n                  <div class=\"dashboard-break-word lh-condensed\">\n                    <blockquote>\n                      <g-emoji class=\"g-emoji\" alias=\"hammer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f528.png\">🔨</g-emoji> <span class=\"issue-keyword tooltipped tooltipped-se\" aria-label=\"This commit closes issue #48.\">resolves</span> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"480287343\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/BryanWilhite/SonghayCore/issues/48\" data-hovercard-type=\"issue\" data-hovercard-url=\"/BryanWilhite/SonghayCore/issues/48/hovercard\" href=\"https://github.com/BryanWilhite/SonghayCore/issues/48\" rel=\"noreferrer\">#48</a>\n                    </blockquote>\n                  </div>\n                </li>\n\n\n            </ul>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>\n</div></div>"
         }
       }
     ]
