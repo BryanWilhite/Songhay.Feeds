@@ -5,7 +5,7 @@ variables:
   RepoName: 'Songhay.Feeds'
 
 trigger:
-  batch: false
+  batch: 'false'
   branches:
     include:
     - master
