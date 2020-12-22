@@ -1,87 +1,152 @@
-<rss version="2.0">
-  <channel><pubDate>Sun, 22 Sep 2019 18:04:27 GMT</pubDate>
-<title>&gt;DayPath_</title>
-<description>The technical journey of @BryanWilhite.</description>
-<copyright>Bryan Wilhite, Songhay System 2019</copyright>
-<link>http://songhayblog.azurewebsites.net/</link>
-<item>
-  <title>studio status report: 2019-09</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-09</link>
-  <description>month-9 has been about actually using @songhay/player-video-you-tubeThe NPM package @songhay/player-video-you-tube is installed and compiling into the build for SonghaySystem.com.👏 (BTW: it was editorial error to mention @songhay/index for the last few ...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">studio-status-report-2019-09</guid>
-  <pubDate>Sun, 22 Sep 2019 18:03:05 GMT</pubDate>
-</item>
-<item>
-  <title>studio status report: 2019-08</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-08</link>
-  <description>month-7 was about moving the kinté space Blog into an 11ty pipeline11ty pipeline for kintespace.com Blog. I am almost certain that end-of-month-8 or early month 9 will see the re-launch of the kintespace.com Blog without WordPress! Success here will make...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">studio-status-report-2019-08</guid>
-  <pubDate>Sun, 25 Aug 2019 04:16:23 GMT</pubDate>
-</item>
-<item>
-  <title>studio status report: 2019-07</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-07</link>
-  <description>month-6 was about switching to Hyper-V, being 134% behind and 11tyMy studio notes on setting up Ubuntu on Hyper-V boil down to this:Install OS (minimal install) from *.ISO on Generation 2 VM without RemoteFX 3D Video Adapter (with Checkpoints Disabled)Co...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">studio-status-report-2019-07</guid>
-  <pubDate>Mon, 22 Jul 2019 18:54:32 GMT</pubDate>
-</item>
-<item>
-  <title>flippant remarks about DGML and Visual Studio code visualization</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/flippant-remarks-about-dgml-and-visual-studio-code-visualization</link>
-  <description>In 2008, Cameron Skinner of Microsoft wrote, “Introduction to Directed Graph Markup Language (DGML).” In the comments of this post, Chris Lovett is mentioned as an architect working on DGML and Sadi Khan as a Program Manager. Lovett developed DgmlPowerTo...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">flippant-remarks-about-dgml-and-visual-studio-code-visualization</guid>
-  <pubDate>Mon, 22 Jul 2019 18:51:53 GMT</pubDate>
-</item>
-<item>
-  <title>studio status report: 2019-06</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-06</link>
-  <description>I missed last month 😒🤷‍️😁month-4 was all about upgrading SonghayCore 🐰🕳I have started using GitHub projects to batch issues together to mark a NuGet release. My first project, version 3.1.3 release, records the miserable but compelling details aroun...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">studio-status-report-2019-06</guid>
-  <pubDate>Thu, 06 Jun 2019 18:35:09 GMT</pubDate>
-</item>
-<item>
-  <title>studio status report: 2019-04</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-04</link>
-  <description>getting this Index App into songhay-ng-workspaceThis month saw the archiving of angular.io-index-app [GitHub] because it is being moved to songhay-ng-workspace. This was quite a forehead slapping moment and should be reflected in this month’s version of ...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">studio-status-report-2019-04</guid>
-  <pubDate>Sun, 21 Apr 2019 03:09:16 GMT</pubDate>
-</item>
-<item>
-  <title>studio status report: 2019-03</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-03</link>
-  <description>excited about Songhay System being on NPMThe 20-month siege to obtain the fundamental ability to share/reuse code in Javascript framework developed by one of the wealthiest companies in the world is finally over. Now the Songhay studio can steam ahead wi...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">studio-status-report-2019-03</guid>
-  <pubDate>Sat, 23 Mar 2019 03:10:57 GMT</pubDate>
-</item>
-<item>
-  <title>flippant remarks about BehaviorSubject</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/flippant-remarks-about-behaviorsubject</link>
-  <description>It feels like BehaviorSubject was built to make observable store services possible. BehaviorSubject is at the heart of the possibility of never needing a large/complex package like Redux—ever. In “State management in Angular with observable store service...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">flippant-remarks-about-behaviorsubject</guid>
-  <pubDate>Tue, 26 Feb 2019 02:57:33 GMT</pubDate>
-</item>
-<item>
-  <title>studio status report: 2019-02</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-02</link>
-  <description>One “pure” NPM package and two Angular packagesAfter another miserable, 20-day siege, these are the repositories I have committed to that develop Javascript code reuse in the Songhay Studio:songhay-core [GitHub]songhay-ng-workspace [GitHub]Here is a sele...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">studio-status-report-2019-02</guid>
-  <pubDate>Tue, 26 Feb 2019 02:52:45 GMT</pubDate>
-</item>
-<item>
-  <title>studio status report: 2019-01</title>
-  <link>http://songhayblog.azurewebsites.net/blog/entry/studio-status-report-2019-01</link>
-  <description>the day job brings some new Angular research topicsDo rxjs observables invoke for every subscriber? The answer to this question (at work) looks like it’s yes which means HttpClient.post() will invoke post() for every subscriber. This default behavior is ...</description>
-  <author>rasx@songhaysystem.com</author>
-  <guid isPermaLink="false">studio-status-report-2019-01</guid>
-  <pubDate>Mon, 28 Jan 2019 23:01:04 GMT</pubDate>
-</item></channel>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="en-US" xml:base="http://songhayblog.azurewebsites.net/entry/feed.xml">
+    <channel>
+        <title>Day Path</title>
+        <description>a technical Blog ✒ for my little studio</description>
+
+        <link>http://songhayblog.azurewebsites.net/</link>
+        <atom:link href="http://songhayblog.azurewebsites.net/entry/feed.xml" rel="self" type="application/rss+xml" /><pubDate>Sat, 28 Nov 2020 19:32:01 -0800</pubDate>
+        <lastBuildDate>Sun, 17 Nov 2019 11:58:54 -0800</lastBuildDate>
+        <item>
+            <title>studio status report: 2020-11</title>
+            <link>http://songhayblog.azurewebsites.net/entry/2020-11-28-studio-status-report-2020-11</link>
+            <description>
+                month 11 of 2020 was about squeezing very little schedule progress between day-job pressures The ‘schedule progress’ (see “development schedule” below) was miniscule but progress toward being modern and professional about Web design and development is sig…
+            </description>
+            <author>bryan.wilhite@gmail.com(Bryan Wilhite)</author>
+            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/entry/2020-11-28-studio-status-report-2020-11</guid>
+            <pubDate>Sat, 28 Nov 2020 19:32:01 -0800</pubDate>
+        </item>
+        <item>
+            <title>studio status report: 2020-10</title>
+            <link>http://songhayblog.azurewebsites.net/entry/2020-10-30-studio-status-report-2020-10</link>
+            <description>
+                month 10 of 2020 was about making Jupyter notes and reviving Node.js-based repositories I spent a lot of time this month documenting things about Studio machines that most pros would memorize. For every studio machine, there is now a notebook about key sh…
+            </description>
+            <author>bryan.wilhite@gmail.com(Bryan Wilhite)</author>
+            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/entry/2020-10-30-studio-status-report-2020-10</guid>
+            <pubDate>Fri, 30 Oct 2020 17:49:49 -0700</pubDate>
+        </item>
+        <item>
+            <title>A Return to Progressive Enhancement with LitHtml and `11ty` (@eleven_ty)</title>
+            <link>http://songhayblog.azurewebsites.net/entry/2020-10-30-a-return-to-progressive-enhancement-with-lithtml-and-11ty-eleven-ty</link>
+            <description>
+                Who is old enough to remember what progressive enhancement is? This term is a relic from the Web 1.0 days, ending about 16 years ago. Web 1.0 will forever be marginalized by the billions made from Web 2.0 and beyond. Post-Web-1.0 is about loading a near-i…
+            </description>
+            <author>bryan.wilhite@gmail.com(Bryan Wilhite)</author>
+            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/entry/2020-10-30-a-return-to-progressive-enhancement-with-lithtml-and-11ty-eleven-ty</guid>
+            <pubDate>Fri, 30 Oct 2020 17:47:44 -0700</pubDate>
+        </item>
+        <item>
+            <title>studio status report: 2020-09</title>
+            <link>http://songhayblog.azurewebsites.net/entry/2020-09-29-studio-status-report-2020-09</link>
+            <description>
+                month 9 of 2020 was about exploding into the world of Python It is a misunderstanding to assume that the inclusion of Python in my studio is about learning a new programming language for the sake of some kind of polyglot discipline. In my studio, Python i…
+            </description>
+            <author>bryan.wilhite@gmail.com(Bryan Wilhite)</author>
+            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/entry/2020-09-29-studio-status-report-2020-09</guid>
+            <pubDate>Tue, 29 Sep 2020 09:34:36 -0700</pubDate>
+        </item>
+        <item>
+            <title>studio status report: 2020-08</title>
+            <link>http://songhayblog.azurewebsites.net/entry/2020-08-30-studio-status-report-2020-08</link>
+            <description>
+                month 8 of 2020 has been about defining types for the b-roll player stills API, slowly At the beginning of month 8, I published “Flippant Remarks about Responsive Images” where I ask myself, What about all of those DTOs? The Songhay.Player.Models work tha…
+            </description>
+            <author>bryan.wilhite@gmail.com(Bryan Wilhite)</author>
+            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/entry/2020-08-30-studio-status-report-2020-08</guid>
+            <pubDate>Sun, 30 Aug 2020 15:33:04 -0700</pubDate>
+        </item>
+        <item>
+            <title>strongly disagree: final remarks for the Google Candidate Experience Survey</title>
+            <link>http://songhayblog.azurewebsites.net/entry/2020-08-21-strongly-disagree-final-remarks-for-the-google-candidate-experience-survey</link>
+            <description>
+                Google is a capitalist organization of maximum liberty. It can do whatever it wants until the money runs out—and letting Google-amounts of money run out would be quite insane or an extinction-level event. Google sent me an email invitation to their Google…
+            </description>
+            <author>bryan.wilhite@gmail.com(Bryan Wilhite)</author>
+            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/entry/2020-08-21-strongly-disagree-final-remarks-for-the-google-candidate-experience-survey</guid>
+            <pubDate>Fri, 21 Aug 2020 21:38:16 -0700</pubDate>
+        </item>
+        <item>
+            <title>Flippant Remarks about Responsive Images</title>
+            <link>http://songhayblog.azurewebsites.net/entry/2020-08-04-flippant-remarks-about-responsive-images</link>
+            <description>
+                Self-identifying 10x developer, Ire Aderinokun (@ireaderinokun) was one of earliest writers on the subject of responsive images that addressed its combinatorial complexities in an actionable way. In 2016, with “Responsive Images—The srcset and sizes Attri…
+            </description>
+            <author>bryan.wilhite@gmail.com(Bryan Wilhite)</author>
+            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/entry/2020-08-04-flippant-remarks-about-responsive-images</guid>
+            <pubDate>Tue, 04 Aug 2020 20:32:39 -0700</pubDate>
+        </item>
+        <item>
+            <title>studio status report: 2020-07</title>
+            <link>http://songhayblog.azurewebsites.net/entry/2020-07-24-studio-status-report-2020-07</link>
+            <description>
+                month 7 of 2020 has been about building the lunr experience into the rasx() context The lunr index UX is now a fact of life in the Songhay Studio. The Blog-entry index for the rasx() context is so large that a 1000-entry partition threshold has to added i…
+            </description>
+            <author>bryan.wilhite@gmail.com(Bryan Wilhite)</author>
+            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/entry/2020-07-24-studio-status-report-2020-07</guid>
+            <pubDate>Fri, 24 Jul 2020 11:16:45 -0700</pubDate>
+        </item>
+        <item>
+            <title>studio status report: 2020-06</title>
+            <link>http://songhayblog.azurewebsites.net/entry/2020-06-23-studio-status-report-2020-06</link>
+            <description>
+                month 6 of 2020 was about recuperation and promotion “A Return to Progressive Enhancement with LitHtml and 11ty (@eleven_ty)” marks my debut into the latest fashion trend of technical blogging from at least three years ago. My Medium.com post speaks for i…
+            </description>
+            <author>bryan.wilhite@gmail.com(Bryan Wilhite)</author>
+            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/entry/2020-06-23-studio-status-report-2020-06</guid>
+            <pubDate>Tue, 23 Jun 2020 16:15:58 -0700</pubDate>
+        </item>
+        <item>
+            <title>my blogging workflow for 2020 is all about `11ty` (eleventy)</title>
+            <link>http://songhayblog.azurewebsites.net/entry/2020-06-11-my-blogging-workflow-for-2020-is-all-about-11ty-eleventy</link>
+            <description>
+                As of this writing, my Blogging workflow looks like this: authoring workflow Above we see the author (me ✍🏾) generating Markdown in one repository and using 11ty.dev (eleventy) to write files in another. These are the authoring repo and the Presentation …
+            </description>
+            <author>bryan.wilhite@gmail.com(Bryan Wilhite)</author>
+            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/entry/2020-06-11-my-blogging-workflow-for-2020-is-all-about-11ty-eleventy</guid>
+            <pubDate>Thu, 11 Jun 2020 13:39:15 -0700</pubDate>
+        </item>
+        <item>
+            <title>studio status report: 2020-05</title>
+            <link>http://songhayblog.azurewebsites.net/entry/2020-05-30-studio-status-report-2020-05</link>
+            <description>
+                month 5 of 2020 was about building my first Web Component The lunr index experience should totally depend on a Web Component @songhay/input-autocomplete 📦 [npm], released hours before this writing. The GitHub project contains issues that go into copious �
+            </description>
+            <author>bryan.wilhite@gmail.com(Bryan Wilhite)</author>
+            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/entry/2020-05-30-studio-status-report-2020-05</guid>
+            <pubDate>Sat, 30 May 2020 20:38:08 -0700</pubDate>
+        </item>
+        <item>
+            <title>studio status report: 2020-04</title>
+            <link>http://songhayblog.azurewebsites.net/entry/2020-04-29-studio-status-report-2020-04</link>
+            <description>
+                month 4 of 2020 was about really understanding why the lunr index issue is still open Issue #25 for this Blog is still open. But this is great because I had to formally research the subject of Web Components and finally, finally learn how use webpack dire…
+            </description>
+            <author>bryan.wilhite@gmail.com(Bryan Wilhite)</author>
+            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/entry/2020-04-29-studio-status-report-2020-04</guid>
+            <pubDate>Wed, 29 Apr 2020 09:52:35 -0700</pubDate>
+        </item>
+        <item>
+            <title>studio status report: 2020-03</title>
+            <link>http://songhayblog.azurewebsites.net/entry/2020-03-26-studio-status-report-2020-03</link>
+            <description>
+                month 3 of 2020 is about a deep dive into re-factoring for the cloud Last month I called this a “O(n) problem” which I now realize is the same thing as saying it is a time complexity problem. This has not been a time complexity problem. It has been more o…
+            </description>
+            <author>bryan.wilhite@gmail.com(Bryan Wilhite)</author>
+            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/entry/2020-03-26-studio-status-report-2020-03</guid>
+            <pubDate>Thu, 26 Mar 2020 11:00:20 -0700</pubDate>
+        </item>
+        <item>
+            <title>“40 Most Popular Fonts of 2019” and other tweeted links…</title>
+            <link>http://songhayblog.azurewebsites.net/entry/2020-03-09-40-most-popular-fonts-of-2019-and-other-tweeted-links</link>
+            <description>
+                40 Most Popular Fonts of 2019 https://design.tutsplus.com/articles/40-most-popular-fonts-of-2019--cms-34190 https://twitter.com/MediaLoot/status/1206289832907100161/photo/1
+The new @blender_org Blender update is here! Can&#39;t wait to take the new features f…
+            </description>
+            <author>bryan.wilhite@gmail.com(Bryan Wilhite)</author>
+            <guid isPermaLink="true">http://songhayblog.azurewebsites.net/entry/2020-03-09-40-most-popular-fonts-of-2019-and-other-tweeted-links</guid>
+            <pubDate>Mon, 09 Mar 2020 11:00:28 -0700</pubDate>
+        </item>
+    </channel>
 </rss>

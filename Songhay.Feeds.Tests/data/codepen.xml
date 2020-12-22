@@ -8,7 +8,7 @@ version="2.0">
 
   <channel>
 
-    <title> CodePens from Bryan Wilhite</title>
+    <title>Pen CodePens from Bryan Wilhite</title>
 
     <link>https://codepen.io/rasx/public</link>
 
@@ -18,7 +18,7 @@ version="2.0">
 
     <dc:creator>nospam@codepen.io</dc:creator>
 
-    <dc:rights>Copyright 2018</dc:rights>
+    <dc:rights>Copyright 2020</dc:rights>
 
       <dc:date>
         2018-09-04T05:03:45-07:00
@@ -162,40 +162,6 @@ version="2.0">
 
       <item>
 
-  <title>YouTube Data API video presentation</title>
-
-  <link>https://codepen.io/rasx/pen/JbXjmM</link>
-  <guid>https://codepen.io/rasx/pen/JbXjmM</guid>
-
-  <dc:creator>Bryan Wilhite</dc:creator>
-
-  <description>
-    <![CDATA[
-    <p>
-      <a href="https://codepen.io/rasx/pen/JbXjmM"><img width="1024" height="600" src="https://codepen.io/rasx/pen/JbXjmM/image/large.png"></a>
-    </p>
-    <p>
-      <a href="https://codepen.io/rasx/pen/JbXjmM">See the Code</a> -
-      <a href="https://codepen.io/rasx/full/JbXjmM">See it Full Page</a> -
-      <a href="https://codepen.io/rasx/details/JbXjmM">See Details</a>
-    </p>
-    <p>
-      video presentation for YouTube for kintespace.com
-    </p>
-    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
-    ]]>
-  </description>
-
-  <dc:subject>YouTube Data API video presentation</dc:subject>
-
-  <dc:date>
-    2017-01-03T21:01:09-07:00
-  </dc:date>
-
-</item>
-
-      <item>
-
   <title>CodePen Logo in external SVG</title>
 
   <link>https://codepen.io/rasx/pen/GNVZvO</link>
@@ -270,56 +236,22 @@ https://www.idrsolutions.com/online-pdf-to-svg-converter/
 
       <item>
 
-  <title>YouTube Data API Responsive Angular Directive</title>
+  <title>Songhay Studio: Day Path Index Layout with Grouping</title>
 
-  <link>https://codepen.io/rasx/pen/gMpGWN</link>
-  <guid>https://codepen.io/rasx/pen/gMpGWN</guid>
-
-  <dc:creator>Bryan Wilhite</dc:creator>
-
-  <description>
-    <![CDATA[
-    <p>
-      <a href="https://codepen.io/rasx/pen/gMpGWN"><img width="1024" height="600" src="https://codepen.io/rasx/pen/gMpGWN/image/large.png"></a>
-    </p>
-    <p>
-      <a href="https://codepen.io/rasx/pen/gMpGWN">See the Code</a> -
-      <a href="https://codepen.io/rasx/full/gMpGWN">See it Full Page</a> -
-      <a href="https://codepen.io/rasx/details/gMpGWN">See Details</a>
-    </p>
-    <p>
-      using YouTube Data API JSON parsed and stored on Azure, served via ASP.NET Web API
-    </p>
-    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
-    ]]>
-  </description>
-
-  <dc:subject>YouTube Data API Responsive Angular Directive</dc:subject>
-
-  <dc:date>
-    2016-12-02T03:51:57-07:00
-  </dc:date>
-
-</item>
-
-      <item>
-
-  <title>b-roll progressive audio presentation API</title>
-
-  <link>https://codepen.io/rasx/pen/XXWWLz</link>
-  <guid>https://codepen.io/rasx/pen/XXWWLz</guid>
+  <link>https://codepen.io/rasx/pen/rVMJVW</link>
+  <guid>https://codepen.io/rasx/pen/rVMJVW</guid>
 
   <dc:creator>Bryan Wilhite</dc:creator>
 
   <description>
     <![CDATA[
     <p>
-      <a href="https://codepen.io/rasx/pen/XXWWLz"><img width="1024" height="600" src="https://codepen.io/rasx/pen/XXWWLz/image/large.png"></a>
+      <a href="https://codepen.io/rasx/pen/rVMJVW"><img width="1024" height="600" src="https://codepen.io/rasx/pen/rVMJVW/image/large.png"></a>
     </p>
     <p>
-      <a href="https://codepen.io/rasx/pen/XXWWLz">See the Code</a> -
-      <a href="https://codepen.io/rasx/full/XXWWLz">See it Full Page</a> -
-      <a href="https://codepen.io/rasx/details/XXWWLz">See Details</a>
+      <a href="https://codepen.io/rasx/pen/rVMJVW">See the Code</a> -
+      <a href="https://codepen.io/rasx/full/rVMJVW">See it Full Page</a> -
+      <a href="https://codepen.io/rasx/details/rVMJVW">See Details</a>
     </p>
     <p>
       
@@ -328,44 +260,112 @@ https://www.idrsolutions.com/online-pdf-to-svg-converter/
     ]]>
   </description>
 
-  <dc:subject>b-roll progressive audio presentation API</dc:subject>
+  <dc:subject>Songhay Studio: Day Path Index Layout with Grouping</dc:subject>
 
   <dc:date>
-    2016-09-30T01:11:02-07:00
+    2016-08-19T20:52:10-07:00
   </dc:date>
 
 </item>
 
       <item>
 
-  <title>Angular UI: pagination</title>
+  <title>Angular JS 1.x `providers`</title>
 
-  <link>https://codepen.io/rasx/pen/xGadEB</link>
-  <guid>https://codepen.io/rasx/pen/xGadEB</guid>
+  <link>https://codepen.io/rasx/pen/qZeaGz</link>
+  <guid>https://codepen.io/rasx/pen/qZeaGz</guid>
 
   <dc:creator>Bryan Wilhite</dc:creator>
 
   <description>
     <![CDATA[
     <p>
-      <a href="https://codepen.io/rasx/pen/xGadEB"><img width="1024" height="600" src="https://codepen.io/rasx/pen/xGadEB/image/large.png"></a>
+      <a href="https://codepen.io/rasx/pen/qZeaGz"><img width="1024" height="600" src="https://codepen.io/rasx/pen/qZeaGz/image/large.png"></a>
     </p>
     <p>
-      <a href="https://codepen.io/rasx/pen/xGadEB">See the Code</a> -
-      <a href="https://codepen.io/rasx/full/xGadEB">See it Full Page</a> -
-      <a href="https://codepen.io/rasx/details/xGadEB">See Details</a>
+      <a href="https://codepen.io/rasx/pen/qZeaGz">See the Code</a> -
+      <a href="https://codepen.io/rasx/full/qZeaGz">See it Full Page</a> -
+      <a href="https://codepen.io/rasx/details/qZeaGz">See Details</a>
     </p>
     <p>
-      https://github.com/angular-ui/bootstrap/tree/master/src/pagination/docs
+      http://www.learn-angular.org/#!/lessons/the-provider-recipe
     </p>
     <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
     ]]>
   </description>
 
-  <dc:subject>Angular UI: pagination</dc:subject>
+  <dc:subject>Angular JS 1.x `providers`</dc:subject>
 
   <dc:date>
-    2016-09-04T19:05:35-07:00
+    2016-05-27T23:09:43-07:00
+  </dc:date>
+
+</item>
+
+      <item>
+
+  <title>Angular JS 1.4.x `decorators`</title>
+
+  <link>https://codepen.io/rasx/pen/XdvYJy</link>
+  <guid>https://codepen.io/rasx/pen/XdvYJy</guid>
+
+  <dc:creator>Bryan Wilhite</dc:creator>
+
+  <description>
+    <![CDATA[
+    <p>
+      <a href="https://codepen.io/rasx/pen/XdvYJy"><img width="1024" height="600" src="https://codepen.io/rasx/pen/XdvYJy/image/large.png"></a>
+    </p>
+    <p>
+      <a href="https://codepen.io/rasx/pen/XdvYJy">See the Code</a> -
+      <a href="https://codepen.io/rasx/full/XdvYJy">See it Full Page</a> -
+      <a href="https://codepen.io/rasx/details/XdvYJy">See Details</a>
+    </p>
+    <p>
+      http://www.bennadel.com/blog/2870-using-module-decorator-in-angularjs-1-4.htm
+    </p>
+    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
+    ]]>
+  </description>
+
+  <dc:subject>Angular JS 1.4.x `decorators`</dc:subject>
+
+  <dc:date>
+    2016-05-24T03:23:35-07:00
+  </dc:date>
+
+</item>
+
+      <item>
+
+  <title>Songhay Studio: Day Path Index Layout</title>
+
+  <link>https://codepen.io/rasx/pen/raVaxL</link>
+  <guid>https://codepen.io/rasx/pen/raVaxL</guid>
+
+  <dc:creator>Bryan Wilhite</dc:creator>
+
+  <description>
+    <![CDATA[
+    <p>
+      <a href="https://codepen.io/rasx/pen/raVaxL"><img width="1024" height="600" src="https://codepen.io/rasx/pen/raVaxL/image/large.png"></a>
+    </p>
+    <p>
+      <a href="https://codepen.io/rasx/pen/raVaxL">See the Code</a> -
+      <a href="https://codepen.io/rasx/full/raVaxL">See it Full Page</a> -
+      <a href="https://codepen.io/rasx/details/raVaxL">See Details</a>
+    </p>
+    <p>
+      sample for menu: http://www.tutorialrepublic.com/codelab.php?topic=bootstrap&amp;file=static-navbar
+    </p>
+    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
+    ]]>
+  </description>
+
+  <dc:subject>Songhay Studio: Day Path Index Layout</dc:subject>
+
+  <dc:date>
+    2016-04-10T02:50:45-07:00
   </dc:date>
 
 </item>
