@@ -4,8 +4,11 @@
         {
             "label": "build",
             "command": "dotnet",
-            "type": "process",
-            "args": ["build", "${workspaceFolder}/Songhay.Feeds.sln"],
+            "type": "shell",
+            "args": [
+                "build",
+                "${workspaceFolder}/Songhay.Feeds.sln"
+            ],
             "problemMatcher": "$msCompile"
         },
         {
@@ -15,6 +18,20 @@
             "args": [
                 "test",
                 "${workspaceFolder}/Songhay.Feeds.Tests/Songhay.Feeds.Tests.csproj",
+                "--logger:trx",
+                "--results-directory:${workspaceFolder}/TestResults",
+                "--verbosity:normal"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "test [Songhay.Feeds.Tests, filtered by selected text]",
+            "command": "dotnet",
+            "type": "shell",
+            "args": [
+                "test",
+                "${workspaceFolder}/Songhay.Feeds.Tests/Songhay.Feeds.Tests.csproj",
+                "--filter:${selectedText}",
                 "--logger:trx",
                 "--results-directory:${workspaceFolder}/TestResults",
                 "--verbosity:normal"
