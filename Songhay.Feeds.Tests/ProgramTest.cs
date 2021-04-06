@@ -10,7 +10,7 @@ namespace Songhay.Feeds.Tests
         public ProgramTest(ITestOutputHelper helper)
         {
             this._testOutputHelper = helper;
-            this._projectPath = FrameworkAssemblyUtility.GetPathFromAssembly(this.GetType().Assembly, "../../../");
+            this._projectPath = ProgramAssemblyUtility.GetPathFromAssembly(this.GetType().Assembly, "../../../");
         }
 
         [Trait("Category", "Integration")]

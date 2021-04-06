@@ -20,9 +20,10 @@ resources:
 
 steps:
 - task: DotNetCoreInstaller@0
-  displayName: 'Use .NET Core SDK 2.2.402'
+  displayName: 'Use .NET Core SDK 5.x'
   inputs:
-    version: 2.2.402
+    packageType: sdk
+    version: 5.x
 
 - task: DotNetCoreCLI@2
   displayName: 'dotnet restore'
