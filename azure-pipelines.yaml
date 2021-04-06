@@ -19,7 +19,7 @@ resources:
 - repo: self
 
 steps:
-- task: DotNetCoreInstaller@0
+- task: UseDotNet@2
   displayName: 'Use .NET Core SDK 5.x'
   inputs:
     packageType: sdk
