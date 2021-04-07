@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Songhay.Diagnostics;
 using Songhay.Extensions;
-using Songhay.Feeds.Activities.Extensions;
+using Songhay.Feeds.Extensions;
 using Songhay.Feeds.Models;
 using Songhay.Models;
 using System;

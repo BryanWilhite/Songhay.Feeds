@@ -3,7 +3,7 @@ using Songhay.Feeds.Models;
 using Songhay.Models;
 using System.IO;
 
-namespace Songhay.Feeds.Activities.Extensions
+namespace Songhay.Feeds.Extensions
 {
     /// <summary>
     /// Extension of <see cref="FeedsMetadata"/>

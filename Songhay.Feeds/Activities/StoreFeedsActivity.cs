@@ -3,7 +3,7 @@ using Microsoft.WindowsAzure.Storage;
 using Songhay.Cloud.BlobStorage.Extensions;
 using Songhay.Diagnostics;
 using Songhay.Extensions;
-using Songhay.Feeds.Activities.Extensions;
+using Songhay.Feeds.Extensions;
 using Songhay.Feeds.Models;
 using Songhay.Models;
 using System.Diagnostics;

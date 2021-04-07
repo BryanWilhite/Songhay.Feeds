@@ -2,7 +2,7 @@
 using Songhay.Feeds.Models;
 using System;
 
-namespace Songhay.Feeds.Activities.Extensions
+namespace Songhay.Feeds.Extensions
 {
     /// <summary>
     /// Extensions of <see cref="IConfigurationRoot"/>

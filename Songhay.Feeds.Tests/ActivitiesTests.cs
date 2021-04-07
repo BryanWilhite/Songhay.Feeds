@@ -5,7 +5,7 @@ using System.Linq;
 using Songhay.Cloud.BlobStorage.Extensions;
 using Songhay.Extensions;
 using Songhay.Feeds.Activities;
-using Songhay.Feeds.Activities.Extensions;
+using Songhay.Feeds.Extensions;
 using Songhay.Feeds.Shell;
 using Songhay.Feeds.Tests.Extensions;
 using Songhay.Models;
