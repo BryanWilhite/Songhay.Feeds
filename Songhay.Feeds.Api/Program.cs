@@ -1,11 +1,28 @@
-using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Scalar.AspNetCore;
 
+using Songhay.Extensions;
+using Songhay.Feeds.Api.Models;
+using Songhay.Models;
+using Songhay.Web;
+using Songhay.Web.Extensions;
 using Songhay.Web.Handlers;
 using Songhay.Web.HealthChecks;
 using Songhay.Web.Models;
 
+ProgramMetadata? programMetadata = ProgramMetadataUtility
+    .GetProgramMetadataFromEnvironment();
+ArgumentNullException.ThrowIfNull(programMetadata);
+
 WebApplicationBuilder builder = WebApplication.CreateSlimBuilder(args);
+
+RestApiMetadata restApiMetadataForThisApp = programMetadata
+    .ToRestApiMetadata(ProgramConstants.DepKeyForThisApp);
+RestApiMetadata restApiMetadataForWasabi = programMetadata
+    .ToRestApiMetadata(ProgramConstants.DepKeyForWasabi);
+
+builder.Services
+    .AddKeyedSingleton(ProgramConstants.DepKeyForThisApp, restApiMetadataForThisApp)
+    .AddKeyedSingleton(ProgramConstants.DepKeyForWasabi, restApiMetadataForWasabi);
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
@@ -15,10 +32,10 @@ builder.Services
     .AddScheme<ApiKeyAuthenticationOptions, ApiKeyAuthenticationHandler>(
         ApiKeyAuthenticationOptions.DefaultScheme, _ => { });
 
-builder.Services.AddAuthorization();
-builder.Services.AddOutputCache();
-
-builder.Services.AddHealthChecks()
+builder.Services
+    .AddAuthorization()
+    .AddOutputCache()
+    .AddHealthChecks()
     .AddApplicationLifecycleHealthCheck(
         tags: [HealthCheckConstants.Ready]
     )
@@ -36,25 +53,19 @@ if (app.Environment.IsDevelopment())
     app.MapScalarApiReference();
 }
 
-// Readiness: run only checks tagged "ready"
 app
     .MapHealthChecks(
         $"api/{HealthCheckConstants.ReadinessRoute}",
-        new HealthCheckOptions
-        {
-            Predicate = check => check.Tags.Contains(HealthCheckConstants.Ready),
-            AllowCachingResponses = true
-        })
+        HealthCheckUtility
+            .GetHealthCheckOptionsWithFiltering(cr => cr.Tags.Contains(HealthCheckConstants.Ready))
+            .WithClientCachingAllowed())
         .CacheOutput(policy => policy.Expire(TimeSpan.FromSeconds(5)))
         .RequireAuthorization();
 
-// Liveness: run NO checks. A 200 just means the process can serve a request.
 app
     .MapHealthChecks(
         $"/{HealthCheckConstants.LivenessRoute}",
-        new HealthCheckOptions
-        {
-            Predicate = _ => false
-        });
+        HealthCheckUtility
+            .GetHealthCheckOptionsForZeroChecks());
 
 app.Run();
