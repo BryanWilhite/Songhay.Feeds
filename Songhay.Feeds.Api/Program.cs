@@ -1,48 +1,60 @@
-using System.Text.Json.Serialization;
-using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Scalar.AspNetCore;
 
-var builder = WebApplication.CreateSlimBuilder(args);
+using Songhay.Web.Handlers;
+using Songhay.Web.HealthChecks;
+using Songhay.Web.Models;
 
-builder.Services.ConfigureHttpJsonOptions(options =>
-{
-    options.SerializerOptions.TypeInfoResolverChain.Insert(0, AppJsonSerializerContext.Default);
-});
+WebApplicationBuilder builder = WebApplication.CreateSlimBuilder(args);
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
-var app = builder.Build();
+builder.Services
+    .AddAuthentication(ApiKeyAuthenticationOptions.DefaultScheme)
+    .AddScheme<ApiKeyAuthenticationOptions, ApiKeyAuthenticationHandler>(
+        ApiKeyAuthenticationOptions.DefaultScheme, _ => { });
+
+builder.Services.AddAuthorization();
+builder.Services.AddOutputCache();
+
+builder.Services.AddHealthChecks()
+    .AddApplicationLifecycleHealthCheck(
+        tags: [HealthCheckConstants.Ready]
+    )
+    .AddResourceUtilizationHealthCheck()
+    .AddCheck<UriHealthCheck>(
+        name: UriHealthCheck.Name,
+        tags: [HealthCheckConstants.Ready]
+    );
+
+WebApplication app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.MapScalarApiReference();
 }
 
-Todo[] sampleTodos =
-[
-    new(1, "Walk the dog"),
-    new(2, "Do the dishes", DateOnly.FromDateTime(DateTime.Now)),
-    new(3, "Do the laundry", DateOnly.FromDateTime(DateTime.Now.AddDays(1))),
-    new(4, "Clean the bathroom"),
-    new(5, "Clean the car", DateOnly.FromDateTime(DateTime.Now.AddDays(2)))
-];
+// Readiness: run only checks tagged "ready"
+app
+    .MapHealthChecks(
+        $"api/{HealthCheckConstants.ReadinessRoute}",
+        new HealthCheckOptions
+        {
+            Predicate = check => check.Tags.Contains(HealthCheckConstants.Ready),
+            AllowCachingResponses = true
+        })
+        .CacheOutput(policy => policy.Expire(TimeSpan.FromSeconds(5)))
+        .RequireAuthorization();
 
-var todosApi = app.MapGroup("/todos");
-todosApi.MapGet("/", () => sampleTodos)
-        .WithName("GetTodos");
-
-todosApi.MapGet("/{id}", Results<Ok<Todo>, NotFound> (int id) =>
-    sampleTodos.FirstOrDefault(a => a.Id == id) is { } todo
-        ? TypedResults.Ok(todo)
-        : TypedResults.NotFound())
-    .WithName("GetTodoById");
+// Liveness: run NO checks. A 200 just means the process can serve a request.
+app
+    .MapHealthChecks(
+        $"/{HealthCheckConstants.LivenessRoute}",
+        new HealthCheckOptions
+        {
+            Predicate = _ => false
+        });
 
 app.Run();
-
-public record Todo(int Id, string? Title, DateOnly? DueBy = null, bool IsComplete = false);
-
-[JsonSerializable(typeof(Todo[]))]
-internal partial class AppJsonSerializerContext : JsonSerializerContext
-{
-
-}
