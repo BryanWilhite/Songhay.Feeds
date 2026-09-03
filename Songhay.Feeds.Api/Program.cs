@@ -16,12 +16,12 @@ ArgumentNullException.ThrowIfNull(programMetadata);
 WebApplicationBuilder builder = WebApplication.CreateSlimBuilder(args);
 
 RestApiMetadata restApiMetadataForThisApp = programMetadata
-    .ToRestApiMetadata(ProgramConstants.DepKeyForThisApp);
+    .ToRestApiMetadata(ApiKeyConstants.DepKeyForRestApiMetadata);
 RestApiMetadata restApiMetadataForWasabi = programMetadata
     .ToRestApiMetadata(ProgramConstants.DepKeyForWasabi);
 
 builder.Services
-    .AddKeyedSingleton(ProgramConstants.DepKeyForThisApp, restApiMetadataForThisApp)
+    .AddKeyedSingleton(ApiKeyConstants.DepKeyForRestApiMetadata, restApiMetadataForThisApp)
     .AddKeyedSingleton(ProgramConstants.DepKeyForWasabi, restApiMetadataForWasabi);
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
@@ -53,19 +53,17 @@ if (app.Environment.IsDevelopment())
     app.MapScalarApiReference();
 }
 
-app
-    .MapHealthChecks(
-        $"api/{HealthCheckConstants.ReadinessRoute}",
-        HealthCheckUtility
-            .GetHealthCheckOptionsWithFiltering(cr => cr.Tags.Contains(HealthCheckConstants.Ready))
-            .WithClientCachingAllowed())
-        .CacheOutput(policy => policy.Expire(TimeSpan.FromSeconds(5)))
-        .RequireAuthorization();
+app.MapHealthChecks(
+    $"api/{HealthCheckConstants.ReadinessRoute}",
+    HealthCheckUtility
+        .GetHealthCheckOptionsWithFiltering(cr => cr.Tags.Contains(HealthCheckConstants.Ready))
+        .WithClientCachingAllowed())
+    .CacheOutput(policy => policy.Expire(TimeSpan.FromSeconds(5)))
+    .RequireAuthorization();
 
-app
-    .MapHealthChecks(
-        $"/{HealthCheckConstants.LivenessRoute}",
-        HealthCheckUtility
-            .GetHealthCheckOptionsForZeroChecks());
+app.MapHealthChecks(
+    $"/{HealthCheckConstants.LivenessRoute}",
+    HealthCheckUtility
+        .GetHealthCheckOptionsForZeroChecks());
 
 app.Run();

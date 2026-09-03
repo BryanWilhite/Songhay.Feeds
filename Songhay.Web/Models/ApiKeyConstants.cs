@@ -10,5 +10,5 @@ public static class ApiKeyConstants
     /// A constant for keyed DI to inject an instance
     /// of <see cref="RestApiMetadata"/>.
     /// </summary>
-    public const string DIKeyForRestApiMetadata = "api-key-rest-api-metadata";
+    public const string DepKeyForRestApiMetadata = "rx-api-key-rest-api-metadata";
 }
