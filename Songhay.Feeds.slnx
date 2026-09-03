@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Songhay.Feeds.Api/Songhay.Feeds.Api.csproj"/>
+  <Project Path="Songhay.Web/Songhay.Web.csproj"/>
+</Solution>
