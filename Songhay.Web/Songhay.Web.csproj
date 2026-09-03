@@ -10,4 +10,8 @@
         <FrameworkReference Include="Microsoft.AspNetCore.App" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="SonghayCore" Version="10.0.2" />
+    </ItemGroup>
+
 </Project>
