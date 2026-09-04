@@ -3,6 +3,8 @@ using Scalar.AspNetCore;
 using Songhay.Extensions;
 using Songhay.Feeds.Api.Models;
 using Songhay.Models;
+using Songhay.S3.Extensions;
+using Songhay.S3.Hosting;
 using Songhay.Web;
 using Songhay.Web.Extensions;
 using Songhay.Web.Handlers;
@@ -22,7 +24,8 @@ RestApiMetadata restApiMetadataForWasabi = programMetadata
 
 builder.Services
     .AddKeyedSingleton(ApiKeyConstants.DepKeyForRestApiMetadata, restApiMetadataForThisApp)
-    .AddKeyedSingleton(ProgramConstants.DepKeyForWasabi, restApiMetadataForWasabi);
+    .AddKeyedSingleton(ProgramConstants.DepKeyForWasabi, restApiMetadataForWasabi)
+    .AddS3HostedServiceDependencies<AmazonS3Service>();
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
