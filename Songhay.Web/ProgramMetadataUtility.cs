@@ -1,6 +1,7 @@
 using System.Text.Json;
 
 using Songhay.Models;
+using Songhay.Web.SerializerContexts;
 
 namespace Songhay.Web;
 
@@ -19,7 +20,8 @@ public static class ProgramMetadataUtility
 
         if (!string.IsNullOrWhiteSpace(json))
         {
-            return JsonSerializer.Deserialize<ProgramMetadata>(json);
+            return JsonSerializer
+                .Deserialize<ProgramMetadata>(json, GetJsonDeserializerOptions());
         }
 
         string? path = Environment.GetEnvironmentVariable("SONGHAY_APP_SETTINGS_PATH");
@@ -31,6 +33,16 @@ public static class ProgramMetadataUtility
 
         json = File.ReadAllText(path);
 
-        return JsonSerializer.Deserialize<ProgramMetadata>(json);
+        return JsonSerializer
+            .Deserialize<ProgramMetadata>(json, GetJsonDeserializerOptions());
+    }
+
+    public static JsonSerializerOptions GetJsonDeserializerOptions()
+    {
+        JsonSerializerOptions options = new();
+
+        options.TypeInfoResolverChain.Add(ProgramMetadataSerializerContext.Default);
+
+        return options;
     }
 }
