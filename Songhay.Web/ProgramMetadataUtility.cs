@@ -37,6 +37,13 @@ public static class ProgramMetadataUtility
             .Deserialize<ProgramMetadata>(json, GetJsonDeserializerOptions());
     }
 
+    /// <summary>
+    /// Returns <see cref="JsonSerializerOptions"/>
+    /// for <see cref="ProgramMetadata"/>
+    /// with explicit serializer context(s)
+    /// for AOT compiled apps.
+    /// </summary>
+    /// <returns></returns>
     public static JsonSerializerOptions GetJsonDeserializerOptions()
     {
         JsonSerializerOptions options = new();
