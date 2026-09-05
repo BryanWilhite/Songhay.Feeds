@@ -1,10 +1,9 @@
 using Scalar.AspNetCore;
 
 using Songhay.Extensions;
-using Songhay.Feeds.Models;
 using Songhay.Models;
 using Songhay.S3.Extensions;
-using Songhay.S3.Hosting;
+using Songhay.S3.Models;
 using Songhay.Web;
 using Songhay.Web.Extensions;
 using Songhay.Web.Handlers;
@@ -17,15 +16,17 @@ ArgumentNullException.ThrowIfNull(programMetadata);
 
 WebApplicationBuilder builder = WebApplication.CreateSlimBuilder(args);
 
-RestApiMetadata restApiMetadataForThisApp = programMetadata
-    .ToRestApiMetadata(ApiKeyConstants.DepKeyForRestApiMetadata);
-RestApiMetadata restApiMetadataForWasabi = programMetadata
-    .ToRestApiMetadata(FeedsConstants.DepKeyForWasabi);
+RestApiMetadata restApiMetadata = programMetadata
+    .ToRestApiMetadata("songhay-feeds-api");
+
+ApiUriSet uriHealthCheckSet = restApiMetadata
+    .ToApiUriSetFromClaimSetByPrefix("feed-");
 
 builder.Services
-    .AddKeyedSingleton(ApiKeyConstants.DepKeyForRestApiMetadata, restApiMetadataForThisApp)
-    .AddKeyedSingleton(FeedsConstants.DepKeyForWasabi, restApiMetadataForWasabi)
-    .AddS3HostedServiceDependencies<AmazonS3Service>();
+    .AddSingleton(programMetadata)
+    .AddSingleton(uriHealthCheckSet)
+    .AddRestApiMetadataForApiKey(restApiMetadata)
+    .AddActivityGroup<AmazonS3ActivityGroup>();
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();

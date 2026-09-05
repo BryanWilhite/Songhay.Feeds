@@ -5,7 +5,6 @@ namespace Songhay.Web.Models;
 /// </summary>
 public static class ApiKeyConstants
 {
-
     /// <summary>
     /// A constant for keyed DI to inject an instance
     /// of <see cref="RestApiMetadata"/>.
