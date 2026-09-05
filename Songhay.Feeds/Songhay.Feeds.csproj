@@ -10,4 +10,8 @@
     <PackageReference Include="SonghayCore.S3" Version="10.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Songhay.Web\Songhay.Web.csproj" />
+  </ItemGroup>
+
 </Project>
