@@ -12,12 +12,13 @@ using Songhay.Web.Models;
 
 ProgramMetadata? programMetadata = ProgramMetadataUtility
     .GetProgramMetadataFromEnvironment();
-ArgumentNullException.ThrowIfNull(programMetadata);
+
+programMetadata.EnsureProgramMetadata();
 
 WebApplicationBuilder builder = WebApplication.CreateSlimBuilder(args);
 
 RestApiMetadata restApiMetadata = programMetadata
-    .ToRestApiMetadata("songhay-feeds-api");
+    .ToRestApiMetadata("SonghayFeedsApi");
 
 ApiUriSet uriHealthCheckSet = restApiMetadata
     .ToApiUriSetFromClaimSetByPrefix("feed-");
