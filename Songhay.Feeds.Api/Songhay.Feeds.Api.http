@@ -1,10 +1,12 @@
 @Api_HostAddress = https://localhost:5078
 
 ### liveliness check:
+# @no-reject-unauthorized
 GET {{Api_HostAddress}}/health/live
 Accept: application/json
 
 ### readiness check:
+# @no-reject-unauthorized
 GET {{Api_HostAddress}}/api/health/ready
 Accept: application/json
-X-API-Key: 123
+X-API-Key: {{ApiKeyDev}}
