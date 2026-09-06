@@ -17,6 +17,8 @@ programMetadata.EnsureProgramMetadata();
 
 WebApplicationBuilder builder = WebApplication.CreateSlimBuilder(args);
 
+builder.WebHost.UseKestrelHttpsConfiguration();
+
 RestApiMetadata restApiMetadata = programMetadata
     .ToRestApiMetadata("SonghayFeedsApi");
 
@@ -57,6 +59,8 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
     app.MapScalarApiReference();
 }
+
+app.UseHttpsRedirection();
 
 app.MapHealthChecks(
     $"api/{HealthCheckConstants.ReadinessRoute}",
