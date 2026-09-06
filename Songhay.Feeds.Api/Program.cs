@@ -26,6 +26,7 @@ ApiUriSet uriHealthCheckSet = restApiMetadata
     .ToApiUriSetFromClaimSetByPrefix("feed-");
 
 builder.Services
+    .AddHttpClient()
     .AddSingleton(programMetadata)
     .AddSingleton(uriHealthCheckSet)
     .AddRestApiMetadataForApiKey(restApiMetadata)
