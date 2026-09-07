@@ -10,3 +10,13 @@ Accept: application/json
 GET {{Api_HostAddress}}/api/health/ready
 Accept: application/json
 X-API-Key: {{ApiKeyDev}}
+
+### Open API:
+# @no-reject-unauthorized
+GET {{Api_HostAddress}}/openapi/v1.json
+Accept: application/json
+X-API-Key: {{ApiKeyDev}}
+
+### Scalar:
+# @no-reject-unauthorized
+{{Api_HostAddress}}/scalar/v1
