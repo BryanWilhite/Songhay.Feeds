@@ -46,7 +46,9 @@ public class FeedDownloadActivity(
 
             logger.LogDebug("Saving {Name} ({Uri})...", feed.Key, feed.Value);
 
-            var (setKey, bucketMetaKey, bucketKey) = restApiMetadata.ToS3BucketTuplesFromClaimSet();
+            var (setKey, bucketMetaKey, bucketKey) = restApiMetadata
+                .ToS3BucketTuplesFromClaimSet(feed.Key);
+
             const string contentMimeType = MimeTypes.ApplicationXml;
 
             await amazonS3ActivityGroup

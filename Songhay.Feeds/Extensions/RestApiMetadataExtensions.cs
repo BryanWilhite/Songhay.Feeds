@@ -13,8 +13,16 @@ namespace Songhay.Feeds.Extensions;
 /// </remarks>
 public static class RestApiMetadataExtensions
 {
-    public static (string? setKey, string? bucketMetaKey, string? bucketKey) ToS3BucketTuplesFromClaimSet(this RestApiMetadata restApiMetadata)
+    /// <summary>
+    /// Transforms the <see cref="RestApiMetadata.ClaimsSet"/>
+    /// into a tuple for <see cref="FeedDownloadActivity"/>
+    /// </summary>
+    /// <param name="restApiMetadata">the <see cref="RestApiMetadata"/></param>
+    /// <param name="feedKey">a dictionary key from <see cref="ApiUriSet"/> used to derive the S3 bucket key</param>
+    public static (string? setKey, string? bucketMetaKey, string? bucketKey) ToS3BucketTuplesFromClaimSet(this RestApiMetadata restApiMetadata, string? feedKey)
     {
+        const string feedKeyPrefix = "feed-";
+
         string? setKey = restApiMetadata
             .ClaimsSet.TryGetValueWithKey("s3-set-key");
         string? bucketMetaKey = restApiMetadata
@@ -22,6 +30,6 @@ public static class RestApiMetadataExtensions
         string? bucketKey = restApiMetadata
             .ClaimsSet.TryGetValueWithKey("s3-bucket-key");
 
-        return (setKey, bucketMetaKey, bucketKey);
+        return (setKey, bucketMetaKey, $"{bucketKey}/{feedKey?.Replace(feedKeyPrefix, string.Empty)}");
     }
 }
