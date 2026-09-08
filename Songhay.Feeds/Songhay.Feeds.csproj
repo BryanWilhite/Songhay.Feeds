@@ -1,17 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+    <PropertyGroup>
+        <AssemblyVersion>10.0.0</AssemblyVersion>
 
-  <ItemGroup>
-    <PackageReference Include="SonghayCore.S3" Version="10.0.3" />
-  </ItemGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Songhay.Web\Songhay.Web.csproj" />
-  </ItemGroup>
+        <Title>Songhay Feeds</Title>
+        <Description>Studio syndication feeds aggregator.</Description>
+        <Authors>Bryan D. Wilhite</Authors>
+        <Copyright>(c) 2026 Bryan D. Wilhite</Copyright>
+        <Company>Songhay System</Company>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="SonghayCore.S3" Version="10.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Songhay.Web\Songhay.Web.csproj" />
+    </ItemGroup>
 
 </Project>
