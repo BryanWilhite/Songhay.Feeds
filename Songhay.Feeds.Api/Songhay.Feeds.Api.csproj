@@ -17,7 +17,6 @@
         <Company>Songhay System</Company>
 
         <ContainerImageTag>10.0.0</ContainerImageTag>
-        <ContainerRegistry>ghcr.io</ContainerRegistry>
         <ContainerRepository>BryanWilhite/Songhay.Feeds</ContainerRepository>
         <LocalRegistry>Podman</LocalRegistry>
     </PropertyGroup>

@@ -36,7 +36,7 @@
             }
         },
         {
-            "label": "dotnet publish to container [Songhay.Feeds.Api, linux-x64]",
+            "label": "dotnet publish container to local registry [Songhay.Feeds.Api, linux-x64]",
             "command": "dotnet",
             "type": "shell",
             "args": [
@@ -47,6 +47,23 @@
                 "--arch",
                 "x64",
                 "/t:PublishContainer"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "dotnet publish container to remote registry [Songhay.Feeds.Api, linux-x64]",
+            "command": "dotnet",
+            "type": "shell",
+            "args": [
+                "publish",
+                "${workspaceFolder}/Songhay.Feeds.Api/Songhay.Feeds.Api.csproj",
+                "--os",
+                "linux",
+                "--arch",
+                "x64",
+                "/t:PublishContainer",
+                "-p",
+                "ContainerRegistry=ghcr.io"
             ],
             "problemMatcher": "$msCompile"
         },
