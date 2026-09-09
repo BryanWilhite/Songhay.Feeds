@@ -22,8 +22,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ContainerEnvironmentVariable Include="ASPNETCORE_ENVIRONMENT" Value="Development" />
-        <ContainerEnvironmentVariable Include="DOTNET_ENVIRONMENT" Value="Development" />
+        <ContainerEnvironmentVariable Include="ASPNETCORE_ENVIRONMENT" Value="Production" />
+        <ContainerEnvironmentVariable Include="DOTNET_ENVIRONMENT" Value="Production" />
         <ContainerEnvironmentVariable Include="HTTP_PORTS" Value="8080" />
         <ContainerEnvironmentVariable Include="SONGHAY_APP_SETTINGS" Value="{}" />
     </ItemGroup>
