@@ -2,19 +2,6 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "bash: login_to_ghcr",
-            "command": "bash",
-            "args": [
-                "../Songhay.Shell/linux/AnyShell/sh/login_to_ghcr.sh"
-            ],
-            "isBackground": false,
-            "options": {
-                "cwd": "${workspaceRoot}"
-            },
-            "type": "shell",
-            "problemMatcher": []
-        },
-        {
             "label": "dotnet build",
             "command": "dotnet",
             "type": "shell",
