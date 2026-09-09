@@ -67,7 +67,6 @@ builder.Services
     .AddApplicationLifecycleHealthCheck(
         tags: [HealthCheckConstants.Ready]
     )
-    .AddResourceUtilizationHealthCheck()
     .AddCheck<UriHealthCheck>(
         name: UriHealthCheck.Name,
         tags: [HealthCheckConstants.Ready]

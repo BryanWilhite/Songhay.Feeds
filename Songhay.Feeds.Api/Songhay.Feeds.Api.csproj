@@ -22,19 +22,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ContainerEnvironmentVariable Include="ASPNETCORE_ENVIRONMENT" Value="Production" />
-        <ContainerEnvironmentVariable Include="DOTNET_ENVIRONMENT" Value="Production" />
+        <ContainerEnvironmentVariable Include="ASPNETCORE_ENVIRONMENT" Value="Development" />
+        <ContainerEnvironmentVariable Include="DOTNET_ENVIRONMENT" Value="Development" />
         <ContainerEnvironmentVariable Include="HTTP_PORTS" Value="8080" />
         <ContainerEnvironmentVariable Include="SONGHAY_APP_SETTINGS" Value="{}" />
     </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.11" />
-        <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.Common"
-            Version="10.9.0" />
-        <PackageReference
-            Include="Microsoft.Extensions.Diagnostics.HealthChecks.ResourceUtilization"
-            Version="10.9.0" />
+        <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.Common" Version="10.9.0" />
+        <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.ResourceUtilization" Version="10.9.0" />
         <PackageReference Include="Quartz" Version="4.0.0" />
         <PackageReference Include="Scalar.AspNetCore" Version="2.17.2" />
     </ItemGroup>
