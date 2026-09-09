@@ -42,10 +42,6 @@
             "args": [
                 "publish",
                 "${workspaceFolder}/Songhay.Feeds.Api/Songhay.Feeds.Api.csproj",
-                "--os",
-                "linux",
-                "--arch",
-                "x64",
                 "/t:PublishContainer"
             ],
             "problemMatcher": "$msCompile"
@@ -57,10 +53,6 @@
             "args": [
                 "publish",
                 "${workspaceFolder}/Songhay.Feeds.Api/Songhay.Feeds.Api.csproj",
-                "--os",
-                "linux",
-                "--arch",
-                "x64",
                 "/t:PublishContainer",
                 "-p",
                 "ContainerRegistry=ghcr.io"
