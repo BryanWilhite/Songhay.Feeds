@@ -1,13 +1,25 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <DefineConstants>TRACE</DefineConstants>
-    <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
+    <PropertyGroup>
+        <Version>10.0.0</Version>
 
-  <ItemGroup>
-    <PackageReference Include="Songhay.Cloud.BlobStorage" Version="5.0.0" />
-    <PackageReference Include="SonghayCore" Version="5.2.2" />
-  </ItemGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <Title>Songhay Feeds</Title>
+        <Description>Studio syndication feeds aggregator.</Description>
+        <Authors>Bryan D. Wilhite</Authors>
+        <Copyright>(c) 2026 Bryan D. Wilhite</Copyright>
+        <Company>Songhay System</Company>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Songhay.Web\Songhay.Web.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SonghayCore.S3" Version="10.1.0" />
+    </ItemGroup>
 
 </Project>

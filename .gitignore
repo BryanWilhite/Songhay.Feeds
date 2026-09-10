@@ -5,6 +5,7 @@
 
 # Songhay System settings
 app-settings.*.json
+http-client.private.env.json
 
 # User-specific files
 *.suo

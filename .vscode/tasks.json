@@ -2,30 +2,85 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "dotnet build",
             "command": "dotnet",
             "type": "shell",
             "args": [
                 "build",
-                "${workspaceFolder}/Songhay.Feeds.sln"
             ],
-            "problemMatcher": "$msCompile"
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$msCompile",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
         },
         {
-            "label": "test [Songhay.Feeds.Tests]",
+            "label": "dotnet build [Release]",
             "command": "dotnet",
             "type": "shell",
             "args": [
-                "test",
-                "${workspaceFolder}/Songhay.Feeds.Tests/Songhay.Feeds.Tests.csproj",
-                "--logger:trx",
-                "--results-directory:${workspaceFolder}/TestResults",
-                "--verbosity:normal"
+                "build",
+                "--configuration",
+                "Release"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$msCompile",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
+        },
+        {
+            "label": "dotnet publish container to local registry [Songhay.Feeds.Api, linux-x64]",
+            "command": "dotnet",
+            "type": "shell",
+            "args": [
+                "publish",
+                "${workspaceFolder}/Songhay.Feeds.Api/Songhay.Feeds.Api.csproj",
+                "--os",
+                "linux",
+                "--arch",
+                "x64",
+                "/t:PublishContainer"
             ],
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "test [Songhay.Feeds.Tests, filtered by selected text]",
+            "label": "dotnet publish container to remote registry [Songhay.Feeds.Api, linux-x64]",
+            "command": "dotnet",
+            "type": "shell",
+            "args": [
+                "publish",
+                "${workspaceFolder}/Songhay.Feeds.Api/Songhay.Feeds.Api.csproj",
+                "--os",
+                "linux",
+                "--arch",
+                "x64",
+                "/t:PublishContainer",
+                "-p",
+                "ContainerRegistry=ghcr.io"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "dotnet run [Songhay.Feeds.Api]",
+            "command": "dotnet",
+            "type": "shell",
+            "args": [
+                "run"
+            ],
+            "problemMatcher": "$msCompile",
+            "options": {
+                "cwd": "${workspaceFolder}/Songhay.Feeds.Api"
+            }
+        },
+        {
+            "label": "dotnet test [Songhay.Feeds.Tests, filtered by selected text]",
             "command": "dotnet",
             "type": "shell",
             "args": [
@@ -37,6 +92,45 @@
                 "--verbosity:normal"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "solution [clean test output folder]",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/TestResults"
+            },
+            "linux": {
+                "command": "rm",
+                "args": [
+                    "--verbose",
+                    "*.trx"
+                ]
+            },
+            "windows": {
+                "command": "Remove-Item",
+                "args": [
+                    "-Path",
+                    "*.trx",
+                    "-Verbose"
+                ]
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "solution [remove all bin/ and obj folders]",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "linux": {
+                "command": "rm",
+                "args": ["-r", "*/*{bin,obj}", "--verbose"]
+            },
+            "windows": {
+                "command": "Remove-Item",
+                "args": ["-Path", "???TODO", "-Verbose"]
+            },
+            "problemMatcher": []
         }
     ]
 }
