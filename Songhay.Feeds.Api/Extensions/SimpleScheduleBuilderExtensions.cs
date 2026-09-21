@@ -26,7 +26,7 @@ public static class SimpleScheduleBuilderExtensions
         const string claimSetKey = "quartz-schedule-mode";
         const string testing = "testing";
 
-        string? actual = restApiMetadata.ClaimsSet.TryGetValueWithKey(claimSetKey);
+        string? actual = restApiMetadata.ClaimsSet.GetValueWithKey(claimSetKey);
         bool isTesting = testing.Equals(actual);
         if (isTesting)
         {

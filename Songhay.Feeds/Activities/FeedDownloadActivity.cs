@@ -5,19 +5,18 @@ using Songhay.Abstractions;
 using Songhay.Feeds.Extensions;
 using Songhay.Models;
 using Songhay.S3.Activities;
-using Songhay.Web.Models;
 
 namespace Songhay.Feeds.Activities;
 
 public class FeedDownloadActivity(
-        IActivityKeyedTaskGroup amazonS3ActivityGroup,
+        IActivityKeyedTaskGroup<EndpointResult> amazonS3ActivityGroup,
         ApiUriSet feedsSet,
         [FromKeyedServices(ApiKeyConstants.DepKeyForRestApiMetadata)] RestApiMetadata restApiMetadata,
         IHttpClientFactory httpClientFactory,
         ILogger<FeedDownloadActivity> logger
     ) : IActivityTask
 {
-    public async Task StartAsync()
+    public async Task StartAsync(CancellationToken cancellationToken)
     {
         logger.LogInformation("Loading feeds information...");
 
@@ -42,7 +41,7 @@ public class FeedDownloadActivity(
                 continue;
             }
 
-            string content = await response.Content.ReadAsStringAsync();
+            string content = await response.Content.ReadAsStringAsync(cancellationToken);
 
             logger.LogDebug("Saving {Name} ({Uri})...", feed.Key, feed.Value);
 
@@ -52,7 +51,7 @@ public class FeedDownloadActivity(
             const string contentMimeType = MimeTypes.ApplicationXml;
 
             await amazonS3ActivityGroup
-                .InvokeActivityAsync(nameof(AmazonS3UploadStringActivity),
+                .InvokeActivityAsync(nameof(AmazonS3UploadStringActivity), cancellationToken,
                     setKey, bucketMetaKey, bucketKey, content, contentMimeType
                 );
         }

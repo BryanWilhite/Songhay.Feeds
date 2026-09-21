@@ -1,6 +1,7 @@
 using Quartz;
 using Scalar.AspNetCore;
 
+using Songhay;
 using Songhay.Abstractions;
 using Songhay.Extensions;
 using Songhay.Feeds.Activities;
@@ -37,7 +38,7 @@ builder.Services
     .AddSingleton(programMetadata)
     .AddSingleton(uriHealthCheckSet)
     .AddRestApiMetadataForApiKey(restApiMetadata)
-    .AddActivityGroup<AmazonS3ActivityGroup>()
+    .AddActivityKeyedTaskGroup<AmazonS3ActivityGroup>()
     .AddKeyedTransient<IActivityTask, FeedDownloadActivity>(nameof(FeedDownloadActivity))
     .AddKeyedTransient<IJob, FeedDownloadJob>(nameof(FeedDownloadJob))
     .AddQuartz(qBuilder =>

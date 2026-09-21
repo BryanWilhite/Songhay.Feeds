@@ -12,7 +12,7 @@ public sealed class FeedDownloadJob(
 {
     public async ValueTask Execute(IJobExecutionContext context, CancellationToken cancellationToken = default)
     {
-        await activity.StartAsync();
+        await activity.StartAsync(cancellationToken);
 
         await Task.CompletedTask;
     }

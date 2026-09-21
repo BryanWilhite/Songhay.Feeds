@@ -1,4 +1,5 @@
 using Songhay.Extensions;
+using Songhay.Feeds.Activities;
 using Songhay.Models;
 
 namespace Songhay.Feeds.Extensions;
@@ -24,11 +25,11 @@ public static class RestApiMetadataExtensions
         const string feedKeyPrefix = "feed-";
 
         string? setKey = restApiMetadata
-            .ClaimsSet.TryGetValueWithKey("s3-set-key");
+            .ClaimsSet.GetValueWithKey("s3-set-key");
         string? bucketMetaKey = restApiMetadata
-            .ClaimsSet.TryGetValueWithKey("s3-bucket-meta-key");
+            .ClaimsSet.GetValueWithKey("s3-bucket-meta-key");
         string? bucketKey = restApiMetadata
-            .ClaimsSet.TryGetValueWithKey("s3-bucket-key");
+            .ClaimsSet.GetValueWithKey("s3-bucket-key");
 
         return (setKey, bucketMetaKey, $"{bucketKey}/{feedKey?.Replace(feedKeyPrefix, string.Empty)}");
     }
