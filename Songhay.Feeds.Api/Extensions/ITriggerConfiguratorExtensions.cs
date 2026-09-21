@@ -7,6 +7,7 @@ namespace Songhay.Feeds.Api.Extensions;
 /// <summary>
 /// Extensions of <see cref="ITriggerConfigurator"/>
 /// </summary>
+// ReSharper disable once InconsistentNaming
 public static class ITriggerConfiguratorExtensions
 {
     public static ITriggerConfigurator WithConfiguredSchedule(this ITriggerConfigurator configurator, RestApiMetadata restApiMetadata)
