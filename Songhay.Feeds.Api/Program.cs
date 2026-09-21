@@ -49,7 +49,7 @@ builder.Services
         qBuilder.AddTrigger(options => options
             .ForJob(key)
             .WithIdentity($"{nameof(FeedDownloadJob)}TriggerKey")
-            .WithSimpleSchedule(schedule => schedule.WithConventions(restApiMetadata)));
+            .WithConfiguredSchedule(restApiMetadata));
     })
     .AddQuartzHostedService(options => options.WaitForJobsToComplete = true);
 
