@@ -13,7 +13,7 @@ public static class ITriggerConfiguratorExtensions
     public static ITriggerConfigurator WithConfiguredSchedule(this ITriggerConfigurator configurator, RestApiMetadata restApiMetadata)
     {
         const string claimSetKey = "quartz-schedule-mode";
-        const string claimSetChronExpressionKey = "quartz-cron-expression";
+        const string claimSetTimeOnlyExpressionKey = "quartz-time-only-expression";
         const string testing = "testing";
 
         string? actual = restApiMetadata.ClaimsSet.GetValueWithKey(claimSetKey);
@@ -30,14 +30,19 @@ public static class ITriggerConfiguratorExtensions
             return configurator;
         }
 
-        string? cronExpression = restApiMetadata
-            .ClaimsSet.GetValueWithKey(claimSetChronExpressionKey);
+        string? timeOnlyExpression = restApiMetadata
+            .ClaimsSet.GetValueWithKey(claimSetTimeOnlyExpressionKey);
 
-        if (string.IsNullOrWhiteSpace(cronExpression)) return configurator;
+        if (string.IsNullOrWhiteSpace(timeOnlyExpression))
+        {
+            return configurator;
+        }
 
-        configurator.WithCronSchedule(cronExpression,
-            builder => builder
-                .WithMisfireInstruction(CronTriggerMisfireInstruction.IgnoreMisfires));
+        configurator.WithDailyTimeIntervalSchedule(builder =>
+            builder
+                .OnMondayThroughFriday()
+                .StartingDailyAt(TimeOnly.Parse(timeOnlyExpression))
+                .WithMisfireInstruction(DailyTimeIntervalTriggerMisfireInstruction.DoNothing));
 
         return configurator;
     }
