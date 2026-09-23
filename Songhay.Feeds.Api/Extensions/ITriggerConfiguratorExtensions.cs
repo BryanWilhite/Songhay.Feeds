@@ -42,6 +42,7 @@ public static class ITriggerConfiguratorExtensions
             builder
                 .OnMondayThroughFriday()
                 .StartingDailyAt(TimeOnly.Parse(timeOnlyExpression))
+                .WithInterval(1, IntervalUnit.Day)
                 .WithMisfireInstruction(DailyTimeIntervalTriggerMisfireInstruction.DoNothing));
 
         return configurator;
